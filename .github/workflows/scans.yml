@@ -48,14 +48,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: init
-        uses: "SocialGouv/dashlord-actions/init@v1"
+        uses: "gufmar/dashlord-actions/init@v1"
         with:
           url: ${{ github.event.inputs.url }}
           tool: ${{ github.event.inputs.tool }}
         # to create missing entries in updown.io
       - id: updown-init
         if: ${{ matrix.sites.tools.updownio }}
-        uses: "SocialGouv/dashlord-actions/updown-init@v1"
+        uses: "gufmar/dashlord-actions/updown-init@v1"
         env:
           UPDOWNIO_API_KEY: ${{ secrets.UPDOWNIO_API_KEY }}
   scans:
