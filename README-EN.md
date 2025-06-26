@@ -1,6 +1,6 @@
 # DashLord
 
-Dashboard for technical best practices
+Dashboard for technical best practices (original [French](README.md) readme)
 
 Examples :
 
