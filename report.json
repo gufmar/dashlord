@@ -113,13 +113,13 @@
         "testsQuantity": 10,
         "responseHeaders": {
           "accept-ranges": "bytes",
-          "age": "20038",
+          "age": "26456",
           "cache-control": "public,max-age=0,must-revalidate",
           "cache-status": "\"Netlify Edge\"; hit",
           "content-length": "9702",
           "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org;",
           "content-type": "text/html; charset=UTF-8",
-          "date": "Thu, 26 Jun 2025 08:43:35 GMT",
+          "date": "Thu, 26 Jun 2025 09:37:05 GMT",
           "etag": "\"d4ee5d72613d2c455c86722e155e522c-ssl-df\"",
           "feature-policy": "geolocation 'none'; microphone 'none';",
           "referrer-policy": "no-referrer-when-downgrade",
@@ -127,7 +127,7 @@
           "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
           "vary": "Accept-Encoding",
           "x-frame-options": "DENY",
-          "x-nf-request-id": "01JYNPG5Y1RTJVHQPPKE5GC221",
+          "x-nf-request-id": "01JYNSJ4Y24J5NSBET68840G67",
           "x-xss-protection": "1; mode=block",
           "connection": "close"
         }
@@ -807,21 +807,21 @@
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "+20057 seconds from localtime"
+        "finding": "+83 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "1750927434"
+        "finding": "1750930641"
       },
       {
         "id": "HTTP_headerAge",
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "20057 seconds"
+        "finding": "83 seconds"
       },
       {
         "id": "HSTS_time",
@@ -1412,7 +1412,7 @@
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "42"
+        "finding": "39"
       }
     ],
     "thirdparties": {
@@ -1427,7 +1427,7 @@
         },
         {
           "type": "google tag manager",
-          "url": "https://www.googletagmanager.com/gtag/js?id=G-LGRGXBVYMC&cx=c&gtm=45Xe56o1v848553843za200&tag_exp=101509157~103116026~103200004~103233427~103308216~103308218~103351869~103351871~104684204~104684207~104718208~104784387~104784389",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-LGRGXBVYMC&cx=c&gtm=45Xe56o1v848553843za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684204~104684207~104718208~104784387~104784389",
           "details": {
             "id": "google tag manager",
             "message": "Use hosted Matomo instance"
@@ -1435,7 +1435,7 @@
         },
         {
           "type": "google analytics",
-          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LGRGXBVYMC&gtm=45je56o1v887638641z8848553843za200zb848553843&_p=1750926746289&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~103308216~103308218~103351869~103351871~104684204~104684207~104718208~104784387~104784389&cid=1919626999.1750926747&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B137.0.7151.119%7CNot%252FA)Brand%3B24.0.0.0&uamb=0&uam=&uap=Linux&uapv=6.11.0&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1750926746&sct=1&seg=0&dl=https%3A%2F%2Fcardano.org%2F&dt=Home%20%7C%20cardano.org%20%7C%20Cardano&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=537",
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LGRGXBVYMC&gtm=45je56o1v887638641z8848553843za200zb848553843&_p=1750929997180&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104784387~104784389&cid=1056791914.1750929999&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B137.0.7151.119%7CNot%252FA)Brand%3B24.0.0.0&uamb=0&uam=&uap=Linux&uapv=6.11.0&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1750929999&sct=1&seg=0&dl=https%3A%2F%2Fcardano.org%2F&dt=Home%20%7C%20cardano.org%20%7C%20Cardano&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2362",
           "details": {
             "id": "google analytics",
             "message": "Use hosted Matomo instance"
@@ -1445,10 +1445,10 @@
       "cookies": [
         {
           "name": "_ga",
-          "value": "GA1.1.1919626999.1750926747",
+          "value": "GA1.1.1056791914.1750929999",
           "domain": ".cardano.org",
           "path": "/",
-          "expires": 1785486746.704124,
+          "expires": 1785489999.320914,
           "size": 30,
           "httpOnly": false,
           "secure": false,
@@ -1459,10 +1459,10 @@
         },
         {
           "name": "_ga_LGRGXBVYMC",
-          "value": "GS2.1.s1750926746$o1$g0$t1750926746$j60$l0$h0",
+          "value": "GS2.1.s1750929999$o1$g0$t1750929999$j60$l0$h0",
           "domain": ".cardano.org",
           "path": "/",
-          "expires": 1785486746.703638,
+          "expires": 1785489999.320617,
           "size": 59,
           "httpOnly": false,
           "secure": false,
@@ -1474,14 +1474,14 @@
       ],
       "headers": {
         "accept-ranges": "bytes",
-        "age": "19369",
+        "age": "25828",
         "cache-control": "public,max-age=0,must-revalidate",
         "cache-status": "\"Netlify Edge\"; hit",
         "content-encoding": "br",
         "content-length": "9702",
         "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org;",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Thu, 26 Jun 2025 08:32:26 GMT",
+        "date": "Thu, 26 Jun 2025 09:26:37 GMT",
         "etag": "\"d4ee5d72613d2c455c86722e155e522c-ssl-df\"",
         "feature-policy": "geolocation 'none'; microphone 'none';",
         "referrer-policy": "no-referrer-when-downgrade",
@@ -1489,7 +1489,7 @@
         "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
         "vary": "Accept-Encoding",
         "x-frame-options": "DENY",
-        "x-nf-request-id": "01JYNNVRMNJNDRWWVGR2ZYQCTW",
+        "x-nf-request-id": "01JYNRYZBBBEA3P4CJC6ZGT9F6",
         "x-xss-protection": "1; mode=block"
       },
       "endpoints": [
@@ -1549,7 +1549,7 @@
         },
         {
           "hostname": "www.googletagmanager.com",
-          "ip": "142.250.191.200",
+          "ip": "142.251.167.97",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1603,7 +1603,7 @@
         },
         {
           "hostname": "www.google-analytics.com",
-          "ip": "172.217.2.46",
+          "ip": "142.251.163.113",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1973,7 +1973,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.16.1",
-      "@generated": "Thu, 26 Jun 2025 08:42:54",
+      "@generated": "Thu, 26 Jun 2025 09:36:22",
       "site": [
         {
           "@name": "https://cardano.org",
@@ -2152,7 +2152,7 @@
       {
         "requestedUrl": "https://cardano.org/",
         "finalUrl": "https://cardano.org/",
-        "fetchTime": "2025-06-26T08:43:08.705Z",
+        "fetchTime": "2025-06-26T09:36:38.091Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -2163,7 +2163,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.61
+            "score": 0.62
           },
           "accessibility": {
             "title": "Accessibility",
@@ -2205,7 +2205,7 @@
               "navigation"
             ],
             "id": "pwa",
-            "score": 0.3
+            "score": 0.2
           }
         },
         "audits": {
@@ -2215,53 +2215,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 8893,
+            "numericValue": 8874,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 1227,
-                  "firstMeaningfulPaint": 1227,
-                  "largestContentfulPaint": 12046,
-                  "interactive": 8893,
-                  "speedIndex": 1227,
-                  "totalBlockingTime": 320,
-                  "maxPotentialFID": 251,
+                  "firstContentfulPaint": 1804,
+                  "firstMeaningfulPaint": 1804,
+                  "largestContentfulPaint": 12071,
+                  "interactive": 8874,
+                  "speedIndex": 1804,
+                  "totalBlockingTime": 272,
+                  "maxPotentialFID": 216,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 1092837145,
+                  "observedTimeOriginTs": 2293116727,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 1092837145,
-                  "observedFirstPaint": 224,
-                  "observedFirstPaintTs": 1093060996,
-                  "observedFirstContentfulPaint": 224,
-                  "observedFirstContentfulPaintTs": 1093060996,
-                  "observedFirstContentfulPaintAllFrames": 224,
-                  "observedFirstContentfulPaintAllFramesTs": 1093060996,
-                  "observedFirstMeaningfulPaint": 224,
-                  "observedFirstMeaningfulPaintTs": 1093060996,
-                  "observedLargestContentfulPaint": 640,
-                  "observedLargestContentfulPaintTs": 1093477226,
-                  "observedLargestContentfulPaintAllFrames": 640,
-                  "observedLargestContentfulPaintAllFramesTs": 1093477226,
-                  "observedTraceEnd": 2924,
-                  "observedTraceEndTs": 1095761093,
-                  "observedLoad": 503,
-                  "observedLoadTs": 1093340196,
-                  "observedDomContentLoaded": 332,
-                  "observedDomContentLoadedTs": 1093169218,
+                  "observedNavigationStartTs": 2293116727,
+                  "observedFirstPaint": 194,
+                  "observedFirstPaintTs": 2293311185,
+                  "observedFirstContentfulPaint": 194,
+                  "observedFirstContentfulPaintTs": 2293311185,
+                  "observedFirstContentfulPaintAllFrames": 194,
+                  "observedFirstContentfulPaintAllFramesTs": 2293311185,
+                  "observedFirstMeaningfulPaint": 194,
+                  "observedFirstMeaningfulPaintTs": 2293311185,
+                  "observedLargestContentfulPaint": 452,
+                  "observedLargestContentfulPaintTs": 2293568412,
+                  "observedLargestContentfulPaintAllFrames": 452,
+                  "observedLargestContentfulPaintAllFramesTs": 2293568412,
+                  "observedTraceEnd": 2753,
+                  "observedTraceEndTs": 2295869894,
+                  "observedLoad": 433,
+                  "observedLoadTs": 2293549950,
+                  "observedDomContentLoaded": 139,
+                  "observedDomContentLoadedTs": 2293256109,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 224,
-                  "observedFirstVisualChangeTs": 1093061145,
-                  "observedLastVisualChange": 640,
-                  "observedLastVisualChangeTs": 1093477145,
-                  "observedSpeedIndex": 414,
-                  "observedSpeedIndexTs": 1093251167
+                  "observedFirstVisualChange": 194,
+                  "observedFirstVisualChangeTs": 2293310727,
+                  "observedLastVisualChange": 1044,
+                  "observedLastVisualChangeTs": 2294160727,
+                  "observedSpeedIndex": 310,
+                  "observedSpeedIndexTs": 2293426595
                 },
                 {
                   "lcpInvalidated": false
@@ -2283,18 +2283,18 @@
                   "numScripts": 10,
                   "numStylesheets": 1,
                   "numFonts": 1,
-                  "numTasks": 1200,
-                  "numTasksOver10ms": 9,
+                  "numTasks": 1078,
+                  "numTasksOver10ms": 10,
                   "numTasksOver25ms": 4,
                   "numTasksOver50ms": 1,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 1.9560000000000004,
-                  "throughput": 102231969.9612463,
-                  "maxRtt": 2.096,
-                  "maxServerLatency": 25.79000000000001,
-                  "totalByteWeight": 1971079,
-                  "totalTaskTime": 409.4419999999984,
+                  "rtt": 1.6399999999999988,
+                  "throughput": 167062331.02508622,
+                  "maxRtt": 2.4769999999999994,
+                  "maxServerLatency": 15.104000000000001,
+                  "totalByteWeight": 1970190,
+                  "totalTaskTime": 414.1489999999979,
                   "mainDocumentTransferSize": 10832
                 }
               ]
@@ -2317,7 +2317,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://cardano.org",
-        "size": 2407.66,
+        "size": 2408.32,
         "nodes": 553,
         "requests": 113,
         "grade": "D",
@@ -2325,7 +2325,7 @@
         "ges": 2.14,
         "water": 3.21,
         "ecoindex_version": "5.4.2",
-        "date": "2025-06-26 08:33:19.648103",
+        "date": "2025-06-26 09:27:32.499353",
         "page_type": null
       }
     ],
@@ -2345,7 +2345,7 @@
       "trackersCount": 3,
       "zapCount": 12,
       "zapGrade": "F",
-      "lighthouse_performance": 0.61,
+      "lighthouse_performance": 0.62,
       "lighthouse_performanceGrade": "C",
       "lighthouse_accessibility": 0.97,
       "lighthouse_accessibilityGrade": "A",
@@ -2353,7 +2353,7 @@
       "lighthouse_best-practicesGrade": "A",
       "lighthouse_seo": 1,
       "lighthouse_seoGrade": "A",
-      "lighthouse_pwa": 0.3,
+      "lighthouse_pwa": 0.2,
       "lighthouse_pwaGrade": "E",
       "declaration-a11y": "F",
       "ecoindexGrade": "D",
@@ -2797,13 +2797,13 @@
         "testsQuantity": 10,
         "responseHeaders": {
           "accept-ranges": "bytes",
-          "age": "32119",
+          "age": "310",
           "cache-control": "public,max-age=0,must-revalidate",
           "cache-status": "\"Netlify Edge\"; hit",
           "content-length": "4625",
           "content-security-policy": "default-src 'self'; script-src 'self' 'blob:' 'unsafe-inline' https://cardano.org https://developers.cardano.org https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://developers.cardano.org https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com; style-src 'self' 'unsafe-inline'; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://*.algolianet.com https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com;",
           "content-type": "text/html; charset=UTF-8",
-          "date": "Thu, 26 Jun 2025 08:38:11 GMT",
+          "date": "Thu, 26 Jun 2025 09:31:23 GMT",
           "etag": "\"45e26c666f7c22fc981e5855daf924de-ssl-df\"",
           "feature-policy": "geolocation 'none'; microphone 'none';",
           "referrer-policy": "no-referrer-when-downgrade",
@@ -2811,7 +2811,7 @@
           "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
           "vary": "Accept-Encoding",
           "x-frame-options": "DENY",
-          "x-nf-request-id": "01JYNP6A3P75JHSHEPP17TVQN3",
+          "x-nf-request-id": "01JYNS7PS0CMY6H8XF2PJK7MHF",
           "x-xss-protection": "1; mode=block",
           "connection": "close"
         }
@@ -3485,21 +3485,21 @@
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "+313 seconds from localtime"
+        "finding": "+253 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "1750927110"
+        "finding": "1750930299"
       },
       {
         "id": "HTTP_headerAge",
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "313 seconds"
+        "finding": "253 seconds"
       },
       {
         "id": "HSTS_time",
@@ -4090,7 +4090,7 @@
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "42"
+        "finding": "38"
       }
     ],
     "thirdparties": {
@@ -4105,7 +4105,7 @@
         },
         {
           "type": "google tag manager",
-          "url": "https://www.googletagmanager.com/gtag/js?id=G-V21Z77TQ3Q&cx=c&gtm=45Xe56o1v848106172za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684204~104684207~104718208~104784387~104784389~104784694",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-V21Z77TQ3Q&cx=c&gtm=45Xe56o1h1v848106172za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104573694~104684208~104684211~104718208~104784387~104784389",
           "details": {
             "id": "google tag manager",
             "message": "Use hosted Matomo instance"
@@ -4113,7 +4113,7 @@
         },
         {
           "type": "google analytics",
-          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V21Z77TQ3Q&gtm=45je56o1v886082997z8848106172za200zb848106172&_p=1750926746841&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104784387~104784389&cid=1432263834.1750926747&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B137.0.7151.119%7CNot%252FA)Brand%3B24.0.0.0&uamb=0&uam=&uap=Linux&uapv=6.11.0&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1750926747&sct=1&seg=0&dl=https%3A%2F%2Fdevelopers.cardano.org%2F&dt=Cardano%20Developer%20Portal&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=527",
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V21Z77TQ3Q&gtm=45je56o1h1v886082997z8848106172za200zb848106172&_p=1750929996377&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~103308213~103308215~103351869~103351871~104684208~104684211~104718208~104784387~104784389&cid=170096845.1750929997&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B137.0.7151.119%7CNot%252FA)Brand%3B24.0.0.0&uamb=0&uam=&uap=Linux&uapv=6.11.0&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1750929996&sct=1&seg=0&dl=https%3A%2F%2Fdevelopers.cardano.org%2F&dt=Cardano%20Developer%20Portal&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=513",
           "details": {
             "id": "google analytics",
             "message": "Use hosted Matomo instance"
@@ -4123,11 +4123,11 @@
       "cookies": [
         {
           "name": "_ga",
-          "value": "GA1.1.1432263834.1750926747",
+          "value": "GA1.1.170096845.1750929997",
           "domain": ".cardano.org",
           "path": "/",
-          "expires": 1785486747.098055,
-          "size": 30,
+          "expires": 1785489996.674682,
+          "size": 29,
           "httpOnly": false,
           "secure": false,
           "session": false,
@@ -4137,10 +4137,10 @@
         },
         {
           "name": "_ga_V21Z77TQ3Q",
-          "value": "GS2.1.s1750926747$o1$g0$t1750926747$j60$l0$h0",
+          "value": "GS2.1.s1750929996$o1$g0$t1750929996$j60$l0$h0",
           "domain": ".cardano.org",
           "path": "/",
-          "expires": 1785486747.097688,
+          "expires": 1785489996.674358,
           "size": 59,
           "httpOnly": false,
           "secure": false,
@@ -4152,14 +4152,14 @@
       ],
       "headers": {
         "accept-ranges": "bytes",
-        "age": "31774",
+        "age": "23",
         "cache-control": "public,max-age=0,must-revalidate",
         "cache-status": "\"Netlify Edge\"; hit",
         "content-encoding": "br",
         "content-length": "4625",
         "content-security-policy": "default-src 'self'; script-src 'self' 'blob:' 'unsafe-inline' https://cardano.org https://developers.cardano.org https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://developers.cardano.org https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com; style-src 'self' 'unsafe-inline'; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://*.algolianet.com https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com;",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Thu, 26 Jun 2025 08:32:26 GMT",
+        "date": "Thu, 26 Jun 2025 09:26:36 GMT",
         "etag": "\"45e26c666f7c22fc981e5855daf924de-ssl-df\"",
         "feature-policy": "geolocation 'none'; microphone 'none';",
         "referrer-policy": "no-referrer-when-downgrade",
@@ -4167,7 +4167,7 @@
         "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
         "vary": "Accept-Encoding",
         "x-frame-options": "DENY",
-        "x-nf-request-id": "01JYNNVS5Z84ZAT4HGWZ90WZRE",
+        "x-nf-request-id": "01JYNRYYJ97BCS53QKKCM5988M",
         "x-xss-protection": "1; mode=block"
       },
       "endpoints": [
@@ -4227,7 +4227,7 @@
         },
         {
           "hostname": "www.googletagmanager.com",
-          "ip": "142.250.190.104",
+          "ip": "172.253.63.97",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4281,7 +4281,7 @@
         },
         {
           "hostname": "www.google-analytics.com",
-          "ip": "142.250.191.142",
+          "ip": "216.239.36.178",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4313,9 +4313,9 @@
             },
             "location": {
               "accuracy_radius": 1000,
-              "latitude": 37.751,
-              "longitude": -97.822,
-              "time_zone": "America/Chicago"
+              "latitude": 34.0544,
+              "longitude": -118.244,
+              "time_zone": "America/Los_Angeles"
             },
             "registered_country": {
               "geoname_id": 6252001,
@@ -4330,7 +4330,23 @@
                 "ru": "США",
                 "zh-CN": "美国"
               }
-            }
+            },
+            "subdivisions": [
+              {
+                "geoname_id": 5332921,
+                "iso_code": "CA",
+                "names": {
+                  "de": "Kalifornien",
+                  "en": "California",
+                  "es": "California",
+                  "fr": "Californie",
+                  "ja": "カリフォルニア州",
+                  "pt-BR": "Califórnia",
+                  "ru": "Калифорния",
+                  "zh-CN": "加州"
+                }
+              }
+            ]
           }
         }
       ]
@@ -4569,7 +4585,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.16.1",
-      "@generated": "Thu, 26 Jun 2025 08:37:30",
+      "@generated": "Thu, 26 Jun 2025 09:30:41",
       "site": [
         {
           "@name": "https://developers.cardano.org",
@@ -4755,7 +4771,7 @@
       {
         "requestedUrl": "https://developers.cardano.org/",
         "finalUrl": "https://developers.cardano.org/",
-        "fetchTime": "2025-06-26T08:37:46.059Z",
+        "fetchTime": "2025-06-26T09:30:56.486Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -4766,7 +4782,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.84
+            "score": 0.77
           },
           "accessibility": {
             "title": "Accessibility",
@@ -4818,53 +4834,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 4352,
+            "numericValue": 4248,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 1080,
-                  "firstMeaningfulPaint": 1080,
-                  "largestContentfulPaint": 3649,
-                  "interactive": 4352,
-                  "speedIndex": 1080,
-                  "totalBlockingTime": 222,
-                  "maxPotentialFID": 310,
+                  "firstContentfulPaint": 1055,
+                  "firstMeaningfulPaint": 1055,
+                  "largestContentfulPaint": 3415,
+                  "interactive": 4248,
+                  "speedIndex": 1055,
+                  "totalBlockingTime": 511,
+                  "maxPotentialFID": 370,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 408590492,
+                  "observedTimeOriginTs": 323794137,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 408590492,
-                  "observedFirstPaint": 213,
-                  "observedFirstPaintTs": 408803987,
-                  "observedFirstContentfulPaint": 213,
-                  "observedFirstContentfulPaintTs": 408803987,
-                  "observedFirstContentfulPaintAllFrames": 213,
-                  "observedFirstContentfulPaintAllFramesTs": 408803987,
-                  "observedFirstMeaningfulPaint": 213,
-                  "observedFirstMeaningfulPaintTs": 408803987,
-                  "observedLargestContentfulPaint": 280,
-                  "observedLargestContentfulPaintTs": 408870215,
-                  "observedLargestContentfulPaintAllFrames": 280,
-                  "observedLargestContentfulPaintAllFramesTs": 408870215,
-                  "observedTraceEnd": 2791,
-                  "observedTraceEndTs": 411381979,
-                  "observedLoad": 444,
-                  "observedLoadTs": 409034863,
-                  "observedDomContentLoaded": 307,
-                  "observedDomContentLoadedTs": 408897868,
+                  "observedNavigationStartTs": 323794137,
+                  "observedFirstPaint": 263,
+                  "observedFirstPaintTs": 324056956,
+                  "observedFirstContentfulPaint": 263,
+                  "observedFirstContentfulPaintTs": 324056956,
+                  "observedFirstContentfulPaintAllFrames": 263,
+                  "observedFirstContentfulPaintAllFramesTs": 324056956,
+                  "observedFirstMeaningfulPaint": 263,
+                  "observedFirstMeaningfulPaintTs": 324056956,
+                  "observedLargestContentfulPaint": 263,
+                  "observedLargestContentfulPaintTs": 324056956,
+                  "observedLargestContentfulPaintAllFrames": 263,
+                  "observedLargestContentfulPaintAllFramesTs": 324056956,
+                  "observedTraceEnd": 2736,
+                  "observedTraceEndTs": 326529883,
+                  "observedLoad": 404,
+                  "observedLoadTs": 324197722,
+                  "observedDomContentLoaded": 187,
+                  "observedDomContentLoadedTs": 323981239,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 213,
-                  "observedFirstVisualChangeTs": 408803492,
-                  "observedLastVisualChange": 795,
-                  "observedLastVisualChangeTs": 409385492,
-                  "observedSpeedIndex": 283,
-                  "observedSpeedIndexTs": 408873098
+                  "observedFirstVisualChange": 263,
+                  "observedFirstVisualChangeTs": 324057137,
+                  "observedLastVisualChange": 816,
+                  "observedLastVisualChangeTs": 324610137,
+                  "observedSpeedIndex": 300,
+                  "observedSpeedIndexTs": 324094266
                 },
                 {
                   "lcpInvalidated": false
@@ -4886,19 +4902,19 @@
                   "numScripts": 6,
                   "numStylesheets": 1,
                   "numFonts": 0,
-                  "numTasks": 724,
-                  "numTasksOver10ms": 5,
-                  "numTasksOver25ms": 2,
+                  "numTasks": 704,
+                  "numTasksOver10ms": 8,
+                  "numTasksOver25ms": 4,
                   "numTasksOver50ms": 1,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 2.005,
-                  "throughput": 41838818.86932042,
-                  "maxRtt": 2.6110000000000007,
-                  "maxServerLatency": 26.71,
-                  "totalByteWeight": 581486,
-                  "totalTaskTime": 301.91799999999944,
-                  "mainDocumentTransferSize": 5584
+                  "rtt": 2.306000000000001,
+                  "throughput": 80084927.44657472,
+                  "maxRtt": 7.337,
+                  "maxServerLatency": 11.825999999999997,
+                  "totalByteWeight": 581430,
+                  "totalTaskTime": 375.45999999999935,
+                  "mainDocumentTransferSize": 5583
                 }
               ]
             }
@@ -4920,7 +4936,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://developers.cardano.org",
-        "size": 852.932,
+        "size": 852.953,
         "nodes": 420,
         "requests": 49,
         "grade": "C",
@@ -4928,7 +4944,7 @@
         "ges": 1.66,
         "water": 2.49,
         "ecoindex_version": "5.4.2",
-        "date": "2025-06-26 08:33:16.673944",
+        "date": "2025-06-26 09:27:25.431217",
         "page_type": null
       }
     ],
@@ -4948,8 +4964,8 @@
       "trackersCount": 3,
       "zapCount": 13,
       "zapGrade": "F",
-      "lighthouse_performance": 0.84,
-      "lighthouse_performanceGrade": "A",
+      "lighthouse_performance": 0.77,
+      "lighthouse_performanceGrade": "B",
       "lighthouse_accessibility": 0.96,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 0.92,
@@ -7417,14 +7433,14 @@
           "cache-control": "private,no-cache,no-store,max-age=0,must-revalidate",
           "cache-status": "\"Netlify Durable\"; fwd=bypass, \"Netlify Edge\"; fwd=miss",
           "content-type": "text/html; charset=utf-8",
-          "date": "Thu, 26 Jun 2025 08:37:27 GMT",
+          "date": "Thu, 26 Jun 2025 09:31:26 GMT",
           "link": "</_next/static/media/54d279905dfc6637-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\"",
           "netlify-vary": "query=__nextDataReq|_rsc,header=x-nextjs-data|x-next-debug-logging|next-router-prefetch|next-router-segment-prefetch|next-router-state-tree|next-url|rsc|accept-encoding,cookie=__prerender_bypass|__next_preview_data",
           "server": "Netlify",
           "strict-transport-security": "max-age=31536000",
           "vary": "RSC,Next-Router-State-Tree,Next-Router-Prefetch,Next-Router-Segment-Prefetch,Accept-Encoding",
           "x-content-type-options": "nosniff",
-          "x-nf-request-id": "01JYNP4YEPC2MS2WFXHHHKE7K0",
+          "x-nf-request-id": "01JYNS7T8B68BRFV2W7NERQP85",
           "x-powered-by": "Next.js",
           "connection": "close",
           "transfer-encoding": "chunked"
@@ -8042,7 +8058,7 @@
         "ip": "cips.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "1750927066"
+        "finding": "1750930305"
       },
       {
         "id": "HTTP_headerAge",
@@ -8626,19 +8642,19 @@
       "trackers": [],
       "cookies": [],
       "headers": {
-        "age": "1",
+        "age": "0",
         "cache-control": "private,no-cache,no-store,max-age=0,must-revalidate",
         "cache-status": "\"Netlify Durable\"; fwd=bypass\n\"Netlify Edge\"; fwd=miss",
         "content-encoding": "br",
         "content-type": "text/html; charset=utf-8",
-        "date": "Thu, 26 Jun 2025 08:32:29 GMT",
+        "date": "Thu, 26 Jun 2025 09:26:40 GMT",
         "link": "</_next/static/media/54d279905dfc6637-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\"",
         "netlify-vary": "query=__nextDataReq|_rsc,header=x-nextjs-data|x-next-debug-logging|next-router-prefetch|next-router-segment-prefetch|next-router-state-tree|next-url|rsc|accept-encoding,cookie=__prerender_bypass|__next_preview_data",
         "server": "Netlify",
         "strict-transport-security": "max-age=31536000",
         "vary": "RSC,Next-Router-State-Tree,Next-Router-Prefetch,Next-Router-Segment-Prefetch,Accept-Encoding",
         "x-content-type-options": "nosniff",
-        "x-nf-request-id": "01JYNNVVA3KHVVY5YWBBS45JXD",
+        "x-nf-request-id": "01JYNRZ24CAK3WDTQQVZKSB22M",
         "x-powered-by": "Next.js"
       },
       "endpoints": [
@@ -8852,7 +8868,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.16.1",
-      "@generated": "Thu, 26 Jun 2025 08:36:42",
+      "@generated": "Thu, 26 Jun 2025 09:30:46",
       "site": [
         {
           "@name": "https://cips.cardano.org",
@@ -9031,7 +9047,7 @@
       {
         "requestedUrl": "https://cips.cardano.org/",
         "finalUrl": "https://cips.cardano.org/",
-        "fetchTime": "2025-06-26T08:36:58.093Z",
+        "fetchTime": "2025-06-26T09:31:00.853Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -9094,53 +9110,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 7253,
+            "numericValue": 7268,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 929,
-                  "firstMeaningfulPaint": 929,
-                  "largestContentfulPaint": 1229,
-                  "interactive": 7253,
-                  "speedIndex": 1041,
-                  "totalBlockingTime": 406,
-                  "maxPotentialFID": 399,
+                  "firstContentfulPaint": 942,
+                  "firstMeaningfulPaint": 942,
+                  "largestContentfulPaint": 1842,
+                  "interactive": 7268,
+                  "speedIndex": 942,
+                  "totalBlockingTime": 408,
+                  "maxPotentialFID": 401,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 359612129,
+                  "observedTimeOriginTs": 517038982,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 359612129,
-                  "observedFirstPaint": 484,
-                  "observedFirstPaintTs": 360096223,
-                  "observedFirstContentfulPaint": 484,
-                  "observedFirstContentfulPaintTs": 360096223,
-                  "observedFirstContentfulPaintAllFrames": 484,
-                  "observedFirstContentfulPaintAllFramesTs": 360096223,
-                  "observedFirstMeaningfulPaint": 484,
-                  "observedFirstMeaningfulPaintTs": 360096223,
-                  "observedLargestContentfulPaint": 484,
-                  "observedLargestContentfulPaintTs": 360096223,
-                  "observedLargestContentfulPaintAllFrames": 484,
-                  "observedLargestContentfulPaintAllFramesTs": 360096223,
-                  "observedTraceEnd": 3140,
-                  "observedTraceEndTs": 362751741,
-                  "observedLoad": 693,
-                  "observedLoadTs": 360305355,
-                  "observedDomContentLoaded": 474,
-                  "observedDomContentLoadedTs": 360085696,
+                  "observedNavigationStartTs": 517038982,
+                  "observedFirstPaint": 382,
+                  "observedFirstPaintTs": 517420572,
+                  "observedFirstContentfulPaint": 382,
+                  "observedFirstContentfulPaintTs": 517420572,
+                  "observedFirstContentfulPaintAllFrames": 382,
+                  "observedFirstContentfulPaintAllFramesTs": 517420572,
+                  "observedFirstMeaningfulPaint": 382,
+                  "observedFirstMeaningfulPaintTs": 517420572,
+                  "observedLargestContentfulPaint": 382,
+                  "observedLargestContentfulPaintTs": 517420572,
+                  "observedLargestContentfulPaintAllFrames": 382,
+                  "observedLargestContentfulPaintAllFramesTs": 517420572,
+                  "observedTraceEnd": 3003,
+                  "observedTraceEndTs": 520042162,
+                  "observedLoad": 562,
+                  "observedLoadTs": 517600706,
+                  "observedDomContentLoaded": 324,
+                  "observedDomContentLoadedTs": 517362950,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 484,
-                  "observedFirstVisualChangeTs": 360096129,
-                  "observedLastVisualChange": 484,
-                  "observedLastVisualChangeTs": 360096129,
-                  "observedSpeedIndex": 487,
-                  "observedSpeedIndexTs": 360099058
+                  "observedFirstVisualChange": 381,
+                  "observedFirstVisualChangeTs": 517419982,
+                  "observedLastVisualChange": 381,
+                  "observedLastVisualChangeTs": 517419982,
+                  "observedSpeedIndex": 385,
+                  "observedSpeedIndexTs": 517423878
                 },
                 {
                   "lcpInvalidated": false
@@ -9162,19 +9178,19 @@
                   "numScripts": 11,
                   "numStylesheets": 2,
                   "numFonts": 1,
-                  "numTasks": 379,
-                  "numTasksOver10ms": 7,
+                  "numTasks": 349,
+                  "numTasksOver10ms": 8,
                   "numTasksOver25ms": 3,
                   "numTasksOver50ms": 1,
-                  "numTasksOver100ms": 0,
+                  "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
-                  "rtt": 2.1850000000000005,
-                  "throughput": 63471311.363697305,
-                  "maxRtt": 2.1850000000000005,
-                  "maxServerLatency": 29.348,
-                  "totalByteWeight": 1164286,
-                  "totalTaskTime": 328.818,
-                  "mainDocumentTransferSize": 12336
+                  "rtt": 2.131999999999991,
+                  "throughput": 69619872.48874441,
+                  "maxRtt": 2.131999999999991,
+                  "maxServerLatency": 42.315000000000005,
+                  "totalByteWeight": 1157500,
+                  "totalTaskTime": 343.311,
+                  "mainDocumentTransferSize": 12315
                 }
               ]
             }
@@ -9196,15 +9212,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://cips.cardano.org",
-        "size": 1587.061,
-        "nodes": 707,
+        "size": 1579.154,
+        "nodes": 704,
         "requests": 43,
         "grade": "D",
         "score": 54,
         "ges": 1.92,
         "water": 2.88,
         "ecoindex_version": "5.4.2",
-        "date": "2025-06-26 08:33:17.509319",
+        "date": "2025-06-26 09:27:29.565458",
         "page_type": null
       }
     ],
@@ -9236,6 +9252,1596 @@
       "lighthouse_pwaGrade": "E",
       "declaration-a11y": "F",
       "ecoindexGrade": "D",
+      "dsfrGrade": "F"
+    }
+  },
+  {
+    "404": [],
+    "url": "https://data.cardano.org",
+    "http": {
+      "scan": {
+        "algorithmVersion": 4,
+        "grade": "D",
+        "error": null,
+        "score": 30,
+        "statusCode": 200,
+        "testsFailed": 4,
+        "testsPassed": 6,
+        "testsQuantity": 10,
+        "responseHeaders": {
+          "content-length": "301",
+          "content-type": "text/html",
+          "connection": "close"
+        }
+      },
+      "tests": {
+        "content-security-policy": {
+          "expectation": "csp-implemented-with-no-unsafe",
+          "pass": false,
+          "result": "csp-not-implemented",
+          "scoreModifier": -25,
+          "data": null,
+          "http": false,
+          "meta": false,
+          "policy": null,
+          "numPolicies": 0
+        },
+        "cookies": {
+          "expectation": "cookies-secure-with-httponly-sessions",
+          "pass": true,
+          "result": "cookies-not-found",
+          "scoreModifier": 0,
+          "data": null,
+          "sameSite": false
+        },
+        "cross-origin-resource-sharing": {
+          "expectation": "cross-origin-resource-sharing-not-implemented",
+          "pass": true,
+          "result": "cross-origin-resource-sharing-not-implemented",
+          "scoreModifier": 0,
+          "data": null
+        },
+        "redirection": {
+          "expectation": "redirection-to-https",
+          "pass": true,
+          "result": "redirection-to-https",
+          "scoreModifier": 0,
+          "destination": "https://data.cardano.org/",
+          "redirects": true,
+          "route": [
+            "http://data.cardano.org/",
+            "https://data.cardano.org/"
+          ],
+          "statusCode": 200
+        },
+        "referrer-policy": {
+          "expectation": "referrer-policy-private",
+          "pass": true,
+          "result": "referrer-policy-not-implemented",
+          "scoreModifier": 0,
+          "data": null,
+          "http": false,
+          "meta": false
+        },
+        "strict-transport-security": {
+          "expectation": "hsts-implemented-max-age-at-least-six-months",
+          "pass": false,
+          "result": "hsts-not-implemented",
+          "scoreModifier": -20,
+          "data": null,
+          "includeSubDomains": false,
+          "maxAge": null,
+          "preload": false,
+          "preloaded": false
+        },
+        "subresource-integrity": {
+          "expectation": "sri-implemented-and-external-scripts-loaded-securely",
+          "pass": true,
+          "result": "sri-not-implemented-but-no-scripts-loaded",
+          "scoreModifier": 0,
+          "data": {}
+        },
+        "x-content-type-options": {
+          "expectation": "x-content-type-options-nosniff",
+          "pass": false,
+          "result": "x-content-type-options-not-implemented",
+          "scoreModifier": -5,
+          "data": null
+        },
+        "x-frame-options": {
+          "expectation": "x-frame-options-sameorigin-or-deny",
+          "pass": false,
+          "result": "x-frame-options-not-implemented",
+          "scoreModifier": -20,
+          "data": null
+        },
+        "cross-origin-resource-policy": {
+          "expectation": "corp-implemented-with-same-site",
+          "pass": true,
+          "result": "corp-not-implemented",
+          "scoreModifier": 0,
+          "data": null,
+          "http": false,
+          "meta": false
+        }
+      }
+    },
+    "updownio": null,
+    "nmap": null,
+    "dependabot": null,
+    "codescan": null,
+    "testssl": [
+      {
+        "id": "service",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "HTTP"
+      },
+      {
+        "id": "pre_128cipher",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No 128 cipher limit bug"
+      },
+      {
+        "id": "SSLv2",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "not offered"
+      },
+      {
+        "id": "SSLv3",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "not offered"
+      },
+      {
+        "id": "TLS1",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not offered"
+      },
+      {
+        "id": "TLS1_1",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not offered"
+      },
+      {
+        "id": "TLS1_2",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered"
+      },
+      {
+        "id": "TLS1_3",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered with final"
+      },
+      {
+        "id": "ALPN_HTTP2",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "h2"
+      },
+      {
+        "id": "ALPN",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "http/1.1"
+      },
+      {
+        "id": "cipherlist_NULL",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_aNULL",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_EXPORT",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_LOW",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_3DES_IDEA",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "cwe": "CWE-310",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_OBSOLETED",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "LOW",
+        "cwe": "CWE-310",
+        "finding": "offered"
+      },
+      {
+        "id": "cipherlist_STRONG_NOFS",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_STRONG_FS",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered"
+      },
+      {
+        "id": "cipher_order-tls1_2",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "server"
+      },
+      {
+        "id": "cipherorder_TLSv1_2",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "ECDHE-ECDSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "cipher_order",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "server"
+      },
+      {
+        "id": "FS",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered"
+      },
+      {
+        "id": "FS_ciphers",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA384 ECDHE-ECDSA-AES256-SHA"
+      },
+      {
+        "id": "FS_ECDHE_curves",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "prime256v1"
+      },
+      {
+        "id": "TLS_extensions",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "'server name/#0' 'max fragment length/#1' 'supported_groups/#10' 'EC point formats/#11' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
+      },
+      {
+        "id": "TLS_session_ticket",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "valid for 7200 seconds only (<daily)"
+      },
+      {
+        "id": "SSL_sessionID_support",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "yes"
+      },
+      {
+        "id": "sessionresumption_ticket",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "supported"
+      },
+      {
+        "id": "sessionresumption_ID",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "supported"
+      },
+      {
+        "id": "TLS_timestamp",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "random"
+      },
+      {
+        "id": "certificate_compression",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "none"
+      },
+      {
+        "id": "clientAuth",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "none"
+      },
+      {
+        "id": "cert_numbers",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "1"
+      },
+      {
+        "id": "cert_signatureAlgorithm",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "ECDSA with SHA384"
+      },
+      {
+        "id": "cert_keySize",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "EC 256 bits (curve P-256)"
+      },
+      {
+        "id": "cert_keyUsage",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "Digital Signature"
+      },
+      {
+        "id": "cert_extKeyUsage",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLS Web Server Authentication, TLS Web Client Authentication"
+      },
+      {
+        "id": "cert_serialNumber",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "0575A0401E85E1D5E0815431A60C11CE1243"
+      },
+      {
+        "id": "cert_serialNumberLen",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "18"
+      },
+      {
+        "id": "cert_fingerprintSHA1",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "5F70769EEF91095832593F10AB6C4120850396D5"
+      },
+      {
+        "id": "cert_fingerprintSHA256",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "81564086F916E4F4C4C218C1F97668588EC7984D5762A79F65F6B5E1FE5808E0"
+      },
+      {
+        "id": "cert",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "-----BEGIN CERTIFICATE-----\nMIIDvjCCA0SgAwIBAgISBXWgQB6F4dXggVQxpgwRzhJDMAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFNjAeFw0yNTA0MjgwNzIzNDNaFw0yNTA3MjcwNzIzNDJaMBoxGDAWBgNVBAMTD2hleS5jYXJkYW5vLm9yZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABCMhmzxLoN3qoWIsEjRX7EubtRaX+ae3aPwrnDnTU5gxoRP5nkxPB4jpO+UKW2hfmsntdm39AyUFwLwL/Am6VS2jggJQMIICTDAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFIEfNscEcZmKqf0Vi27lCA7gFR+8MB8GA1UdIwQYMBaAFJMnRpgDqVFojpjWxEJI2yO/WJTSMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL2U2Lm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vZTYuaS5sZW5jci5vcmcvMCwGA1UdEQQlMCOCEGRhdGEuY2FyZGFuby5vcmeCD2hleS5jYXJkYW5vLm9yZzATBgNVHSAEDDAKMAgGBmeBDAECATAtBgNVHR8EJjAkMCKgIKAehhxodHRwOi8vZTYuYy5sZW5jci5vcmcvNjguY3JsMIIBAgYKKwYBBAHWeQIEAgSB8wSB8ADuAHUApELFBklgYVSPD9TqnPt6LSZFTYepfy/fRVn2J086hFQAAAGWe31UggAABAMARjBEAiA76cdVy9GDBwBIUYE8CJxi4KD0wW2gcogN7ISgNxokbwIgfMTkgRnAvKUd7QGmjX/5OQW7Eo90cXTPpQWzaY9PW5kAdQDM+w9qhXEJZf6Vm1PO6bJ8IumFXA2XjbapflTA/kwNsAAAAZZ7fVSNAAAEAwBGMEQCIDKd8fM77J/tG85M6NmvvCW5xmSUf8AaZPxaxPcheMgYAiAgGekr4bYo2jyklBo0hrKg9oWHxZtUw462XGTnl3ygfjAKBggqhkjOPQQDAwNoADBlAjEAxRfnf6XOZexau1Gjixi+Q6Guk+ryvkIpb72DRJIc+JaZdJEqy/vJR3yfEAquzrQfAjBCmGYWzvvL0SH1Wa8CJ1iNwUC+haLY8oMl8YwOkpZkOGOMy6+YEunNpF9Jex2pkJE=\n-----END CERTIFICATE-----"
+      },
+      {
+        "id": "cert_commonName",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "hey.cardano.org"
+      },
+      {
+        "id": "cert_commonName_wo_SNI",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "hey.cardano.org"
+      },
+      {
+        "id": "cert_subjectAltName",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "data.cardano.org hey.cardano.org"
+      },
+      {
+        "id": "cert_trust",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "Ok via SAN (same w/o SNI)"
+      },
+      {
+        "id": "cert_chain_of_trust",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "passed."
+      },
+      {
+        "id": "cert_certificatePolicies_EV",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "no"
+      },
+      {
+        "id": "cert_expirationStatus",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "30 >= 30 days"
+      },
+      {
+        "id": "cert_notBefore",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "2025-04-28 07:23"
+      },
+      {
+        "id": "cert_notAfter",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "2025-07-27 07:23"
+      },
+      {
+        "id": "cert_extlifeSpan",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "certificate has no extended life time according to browser forum"
+      },
+      {
+        "id": "cert_eTLS",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not present"
+      },
+      {
+        "id": "cert_crlDistributionPoints",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "http://e6.c.lencr.org/68.crl"
+      },
+      {
+        "id": "cert_ocspURL",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "http://e6.o.lencr.org"
+      },
+      {
+        "id": "OCSP_stapling",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "LOW",
+        "finding": "not offered"
+      },
+      {
+        "id": "cert_mustStapleExtension",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "--"
+      },
+      {
+        "id": "DNS_CAArecord",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "LOW",
+        "finding": "--"
+      },
+      {
+        "id": "certificate_transparency",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "yes (certificate extension)"
+      },
+      {
+        "id": "certs_countServer",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "2"
+      },
+      {
+        "id": "certs_list_ordering_problem",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "no"
+      },
+      {
+        "id": "cert_caIssuers",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "E6 (Let's Encrypt from US)"
+      },
+      {
+        "id": "intermediate_cert <#1>",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "-----BEGIN CERTIFICATE-----\nMIIEVzCCAj+gAwIBAgIRALBXPpFzlydw27SHyzpFKzgwDQYJKoZIhvcNAQELBQAwTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjQwMzEzMDAwMDAwWhcNMjcwMzEyMjM1OTU5WjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5jcnlwdDELMAkGA1UEAxMCRTYwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAATZ8Z5Gh/ghcWCoJuuj+rnq2h25EqfUJtlRFLFhfHWWvyILOR/VvtEKRqotPEoJhC6+QJVV6RlAN2Z17TJOdwRJ+HB7wxjnzvdxEP6sdNgA1O1tHHMWMxCcOrLqbGL0vbijgfgwgfUwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBSTJ0aYA6lRaI6Y1sRCSNsjv1iU0jAfBgNVHSMEGDAWgBR5tFnme7bl5AFzgAiIyBpY9umbbjAyBggrBgEFBQcBAQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly94MS5pLmxlbmNyLm9yZy8wEwYDVR0gBAwwCjAIBgZngQwBAgEwJwYDVR0fBCAwHjAcoBqgGIYWaHR0cDovL3gxLmMubGVuY3Iub3JnLzANBgkqhkiG9w0BAQsFAAOCAgEAfYt7SiA1sgWGCIpunk46r4AExIRcMxkKgUhNlrrv1B21hOaXN/5miE+LOTbrcmU/M9yvC6MVY730GNFoL8IhJ8j8vrOLpMY22OP6baS1k9YMrtDTlwJHoGby04ThTUeBDksS9RiuHvicZqBedQdIF65pZuhpeDcGBcLiYasQr/EO5gxxtLyTmgsHSOVSBcFOn9lgv7LECPq9i7mfH3mpxgrRKSxHpOoZ0KXMcB+hHuvlklHntvcI0mMMQ0mhYj6qtMFStkF1RpCG3IPdIwpVCQqu8GV7s8ubknRzs+3C/Bm19RFOoiPpDkwvyNfvmQ14XkyqqKK5oZ8zhD32kFRQkxa8uZSuh4aTImFxknu39waBxIRXE4jKxlAmQc4QjFZoq1KmQqQg0J/1JF8RlFvJas1VcjLvYlvUB2t6npO6oQjB3l+PNf0DpQH7iUx3Wz5AjQCi6L25FjyE06q6BZ/QlmtYdl/8ZYao4SRqPEs/6cAiF+Qf5zg2UkaWtDphl1LKMuTNLotvsX99HP69V2faNyegodQ0LyTApr/vT01YPE46vNsDLgK+4cL6TrzC/a4WcmF5SRJ938zrv/duJHLXQIku5v0+EwOy59Hdm0PT/Er/84dDV0CSjdR/2XuZM3kpysSKLgD1cKiDA+IRguODCxfO9cyYIg46v9mFmBvyH04=\n-----END CERTIFICATE-----"
+      },
+      {
+        "id": "intermediate_cert_fingerprintSHA256 <#1>",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "76E9E288AAFC0E37F4390CBF946AAD997D5C1C901B3CE513D3D8FADBABE2AB85"
+      },
+      {
+        "id": "intermediate_cert_notBefore <#1>",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "2024-03-13 00:00"
+      },
+      {
+        "id": "intermediate_cert_notAfter <#1>",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "2027-03-12 23:59"
+      },
+      {
+        "id": "intermediate_cert_expiration <#1>",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "ok > 40 days"
+      },
+      {
+        "id": "intermediate_cert_chain <#1>",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "E6 <-- ISRG Root X1"
+      },
+      {
+        "id": "intermediate_cert_badOCSP",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "intermediate certificate(s) is/are ok"
+      },
+      {
+        "id": "HTTP_status_code",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "200 OK ('/')"
+      },
+      {
+        "id": "HTTP_clock_skew",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "Got no HTTP time, maybe try different URL?"
+      },
+      {
+        "id": "HSTS",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "LOW",
+        "finding": "not offered"
+      },
+      {
+        "id": "HPKP",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No support for HTTP Public Key Pinning"
+      },
+      {
+        "id": "banner_server",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No Server banner line in header, interesting!"
+      },
+      {
+        "id": "banner_application",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No application banner found"
+      },
+      {
+        "id": "cookie_count",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "0 at '/'"
+      },
+      {
+        "id": "security_headers",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "MEDIUM",
+        "finding": "--"
+      },
+      {
+        "id": "banner_reverseproxy",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "cwe": "CWE-200",
+        "finding": "--"
+      },
+      {
+        "id": "heartbleed",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2014-0160",
+        "cwe": "CWE-119",
+        "finding": "not vulnerable, no heartbeat extension"
+      },
+      {
+        "id": "CCS",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2014-0224",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "ticketbleed",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2016-9244",
+        "cwe": "CWE-200",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "ROBOT",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+        "cwe": "CWE-203",
+        "finding": "not vulnerable, no RSA key transport cipher"
+      },
+      {
+        "id": "secure_renego",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-310",
+        "finding": "supported"
+      },
+      {
+        "id": "secure_client_renego",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2011-1473",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "CRIME_TLS",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2012-4929",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "BREACH",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2013-3587",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
+      },
+      {
+        "id": "POODLE_SSL",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2014-3566",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable, no SSLv3"
+      },
+      {
+        "id": "fallback_SCSV",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "no protocol below TLS 1.2 offered"
+      },
+      {
+        "id": "SWEET32",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2016-2183 CVE-2016-6329",
+        "cwe": "CWE-327",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "FREAK",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2015-0204",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "DROWN",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2016-0800 CVE-2016-0703",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable on this host and port"
+      },
+      {
+        "id": "DROWN_hint",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "cve": "CVE-2016-0800 CVE-2016-0703",
+        "cwe": "CWE-310",
+        "finding": "no RSA certificate, can't be used with SSLv2 elsewhere"
+      },
+      {
+        "id": "LOGJAM",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2015-4000",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable, no DH EXPORT ciphers,"
+      },
+      {
+        "id": "LOGJAM-common_primes",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2015-4000",
+        "cwe": "CWE-310",
+        "finding": "no DH key with <= TLS 1.2"
+      },
+      {
+        "id": "BEAST",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2011-3389",
+        "cwe": "CWE-20",
+        "finding": "not vulnerable, no SSL3 or TLS1"
+      },
+      {
+        "id": "LUCKY13",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "LOW",
+        "cve": "CVE-2013-0169",
+        "cwe": "CWE-310",
+        "finding": "potentially vulnerable, uses TLS CBC ciphers"
+      },
+      {
+        "id": "winshock",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2014-6321",
+        "cwe": "CWE-94",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "RC4",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2013-2566 CVE-2015-2808",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "clientsimulation-android_70",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "clientsimulation-android_81",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "clientsimulation-android_90",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-android_X",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-android_11_12",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-android_13_14",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-android_15",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-chrome_101_win10",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-chromium_137_win11",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-firefox_100_win10",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-firefox_137_win11",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-ie_8_win7",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No connection"
+      },
+      {
+        "id": "clientsimulation-ie_11_win7",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "clientsimulation-ie_11_win81",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "clientsimulation-ie_11_winphone81",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "clientsimulation-ie_11_win10",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "clientsimulation-edge_15_win10",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "clientsimulation-edge_101_win10_21h2",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-edge_133_win11_23h2",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-safari_184_ios_184",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-safari_154_osx_1231",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-safari_184_osx_154",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-java_7u25",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No connection"
+      },
+      {
+        "id": "clientsimulation-java_80442",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-java_1102",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-java_1703",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-java_2106",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-go_1178",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-libressl_336",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
+      },
+      {
+        "id": "clientsimulation-openssl_102e",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "clientsimulation-openssl_111d",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-openssl_315",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-openssl_350",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-apple_mail_16_0",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-ECDSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "clientsimulation-thunderbird_91_9",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "rating_spec",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+      },
+      {
+        "id": "rating_doc",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+      },
+      {
+        "id": "protocol_support_score",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "100"
+      },
+      {
+        "id": "protocol_support_score_weighted",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "30"
+      },
+      {
+        "id": "key_exchange_score",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "100"
+      },
+      {
+        "id": "key_exchange_score_weighted",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "30"
+      },
+      {
+        "id": "cipher_strength_score",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "60"
+      },
+      {
+        "id": "cipher_strength_score_weighted",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "24"
+      },
+      {
+        "id": "final_score",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "84"
+      },
+      {
+        "id": "overall_grade",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "OK",
+        "finding": "A"
+      },
+      {
+        "id": "grade_cap_reason_1",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "Grade capped to A. HSTS is not offered"
+      },
+      {
+        "id": "scanTime",
+        "ip": "data.cardano.org/52.211.238.28",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "51"
+      }
+    ],
+    "thirdparties": {
+      "trackers": [],
+      "cookies": [],
+      "headers": {
+        "content-length": "301",
+        "content-type": "text/html"
+      },
+      "endpoints": [
+        {
+          "hostname": "data.cardano.org",
+          "ip": "52.211.238.28",
+          "geoip": {
+            "city": {
+              "geoname_id": 2964574,
+              "names": {
+                "de": "Dublin",
+                "en": "Dublin",
+                "es": "Dublín",
+                "fr": "Dublin",
+                "ja": "ダブリン",
+                "pt-BR": "Dublin",
+                "ru": "Дублин",
+                "zh-CN": "都柏林"
+              }
+            },
+            "continent": {
+              "code": "EU",
+              "geoname_id": 6255148,
+              "names": {
+                "de": "Europa",
+                "en": "Europe",
+                "es": "Europa",
+                "fr": "Europe",
+                "ja": "ヨーロッパ",
+                "pt-BR": "Europa",
+                "ru": "Европа",
+                "zh-CN": "欧洲"
+              }
+            },
+            "country": {
+              "geoname_id": 2963597,
+              "is_in_european_union": true,
+              "iso_code": "IE",
+              "names": {
+                "de": "Irland",
+                "en": "Ireland",
+                "es": "Irlanda",
+                "fr": "Irlande",
+                "ja": "アイルランド",
+                "pt-BR": "Irlanda",
+                "ru": "Ирландия",
+                "zh-CN": "爱尔兰"
+              }
+            },
+            "location": {
+              "accuracy_radius": 200,
+              "latitude": 53.3382,
+              "longitude": -6.2591,
+              "time_zone": "Europe/Dublin"
+            },
+            "postal": {
+              "code": "D02"
+            },
+            "registered_country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            },
+            "subdivisions": [
+              {
+                "geoname_id": 7521314,
+                "iso_code": "L",
+                "names": {
+                  "en": "Leinster",
+                  "fr": "Leinster",
+                  "ja": "レンスター",
+                  "ru": "Ленстер"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "wappalyzer": {
+      "urls": {
+        "https://data.cardano.org/": {
+          "status": 200
+        }
+      },
+      "technologies": []
+    },
+    "zap": {
+      "@programName": "ZAP",
+      "@version": "2.16.1",
+      "@generated": "Thu, 26 Jun 2025 09:45:18",
+      "site": [
+        {
+          "@name": "https://data.cardano.org",
+          "@host": "data.cardano.org",
+          "@port": "443",
+          "@ssl": "true",
+          "alerts": [
+            {
+              "name": "Content Security Policy (CSP) Header Not Set",
+              "riskcode": "2",
+              "confidence": "3",
+              "riskdesc": "Medium (High)",
+              "desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>"
+            },
+            {
+              "name": "Missing Anti-clickjacking Header",
+              "riskcode": "2",
+              "confidence": "2",
+              "riskdesc": "Medium (Medium)",
+              "desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>"
+            },
+            {
+              "name": "Insufficient Site Isolation Against Spectre Vulnerability",
+              "riskcode": "1",
+              "confidence": "2",
+              "riskdesc": "Low (Medium)",
+              "desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>"
+            },
+            {
+              "name": "Permissions Policy Header Not Set",
+              "riskcode": "1",
+              "confidence": "2",
+              "riskdesc": "Low (Medium)",
+              "desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>"
+            },
+            {
+              "name": "Strict-Transport-Security Header Not Set",
+              "riskcode": "1",
+              "confidence": "3",
+              "riskdesc": "Low (High)",
+              "desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>"
+            },
+            {
+              "name": "X-Content-Type-Options Header Missing",
+              "riskcode": "1",
+              "confidence": "2",
+              "riskdesc": "Low (Medium)",
+              "desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>"
+            },
+            {
+              "name": "Re-examine Cache-control Directives",
+              "riskcode": "0",
+              "confidence": "1",
+              "riskdesc": "Informational (Low)",
+              "desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>"
+            },
+            {
+              "name": "Sec-Fetch-Dest Header is Missing",
+              "riskcode": "0",
+              "confidence": "3",
+              "riskdesc": "Informational (High)",
+              "desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>"
+            },
+            {
+              "name": "Sec-Fetch-Mode Header is Missing",
+              "riskcode": "0",
+              "confidence": "3",
+              "riskdesc": "Informational (High)",
+              "desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>"
+            },
+            {
+              "name": "Sec-Fetch-Site Header is Missing",
+              "riskcode": "0",
+              "confidence": "3",
+              "riskdesc": "Informational (High)",
+              "desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>"
+            },
+            {
+              "name": "Sec-Fetch-User Header is Missing",
+              "riskcode": "0",
+              "confidence": "3",
+              "riskdesc": "Informational (High)",
+              "desc": "<p>Specifies if a navigation request was initiated by a user.</p>"
+            },
+            {
+              "name": "Storable and Cacheable Content",
+              "riskcode": "0",
+              "confidence": "2",
+              "riskdesc": "Informational (Medium)",
+              "desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>"
+            }
+          ]
+        }
+      ],
+      "sequences": []
+    },
+    "nuclei": [],
+    "lhr": [
+      {
+        "requestedUrl": "https://data.cardano.org/",
+        "finalUrl": "https://data.cardano.org/",
+        "fetchTime": "2025-06-26T09:45:34.423Z",
+        "runWarnings": [],
+        "categories": {
+          "performance": {
+            "title": "Performance",
+            "supportedModes": [
+              "navigation",
+              "timespan",
+              "snapshot"
+            ],
+            "id": "performance",
+            "score": 1
+          },
+          "accessibility": {
+            "title": "Accessibility",
+            "description": "These checks highlight opportunities to [improve the accessibility of your web app](https://developers.google.com/web/fundamentals/accessibility). Only a subset of accessibility issues can be automatically detected so manual testing is also encouraged.",
+            "manualDescription": "These items address areas which an automated testing tool cannot cover. Learn more in our guide on [conducting an accessibility review](https://developers.google.com/web/fundamentals/accessibility/how-to-review).",
+            "supportedModes": [
+              "navigation",
+              "snapshot"
+            ],
+            "id": "accessibility",
+            "score": 0.86
+          },
+          "best-practices": {
+            "title": "Best Practices",
+            "supportedModes": [
+              "navigation",
+              "timespan",
+              "snapshot"
+            ],
+            "id": "best-practices",
+            "score": 0.75
+          },
+          "seo": {
+            "title": "SEO",
+            "description": "These checks ensure that your page is following basic search engine optimization advice. There are many additional factors Lighthouse does not score here that may affect your search ranking, including performance on [Core Web Vitals](https://web.dev/learn-web-vitals/). [Learn more](https://support.google.com/webmasters/answer/35769).",
+            "manualDescription": "Run these additional validators on your site to check additional SEO best practices.",
+            "supportedModes": [
+              "navigation",
+              "snapshot"
+            ],
+            "id": "seo",
+            "score": 0.64
+          },
+          "pwa": {
+            "title": "PWA",
+            "description": "These checks validate the aspects of a Progressive Web App. [Learn more](https://developers.google.com/web/progressive-web-apps/checklist).",
+            "manualDescription": "These checks are required by the baseline [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist) but are not automatically checked by Lighthouse. They do not affect your score but it's important that you verify them manually.",
+            "supportedModes": [
+              "navigation"
+            ],
+            "id": "pwa",
+            "score": 0
+          }
+        },
+        "audits": {
+          "metrics": {
+            "id": "metrics",
+            "title": "Metrics",
+            "description": "Collects all available metrics.",
+            "score": null,
+            "scoreDisplayMode": "informative",
+            "numericValue": 847,
+            "numericUnit": "millisecond",
+            "details": {
+              "type": "debugdata",
+              "items": [
+                {
+                  "firstContentfulPaint": 835,
+                  "firstMeaningfulPaint": 835,
+                  "largestContentfulPaint": 835,
+                  "interactive": 847,
+                  "speedIndex": 835,
+                  "totalBlockingTime": 0,
+                  "maxPotentialFID": 79,
+                  "cumulativeLayoutShift": 0,
+                  "cumulativeLayoutShiftMainFrame": 0,
+                  "totalCumulativeLayoutShift": 0,
+                  "observedTimeOrigin": 0,
+                  "observedTimeOriginTs": 212490370,
+                  "observedNavigationStart": 0,
+                  "observedNavigationStartTs": 212490370,
+                  "observedFirstPaint": 298,
+                  "observedFirstPaintTs": 212788737,
+                  "observedFirstContentfulPaint": 298,
+                  "observedFirstContentfulPaintTs": 212788737,
+                  "observedFirstContentfulPaintAllFrames": 298,
+                  "observedFirstContentfulPaintAllFramesTs": 212788737,
+                  "observedFirstMeaningfulPaint": 298,
+                  "observedFirstMeaningfulPaintTs": 212788737,
+                  "observedLargestContentfulPaint": 298,
+                  "observedLargestContentfulPaintTs": 212788737,
+                  "observedLargestContentfulPaintAllFrames": 298,
+                  "observedLargestContentfulPaintAllFramesTs": 212788737,
+                  "observedTraceEnd": 2680,
+                  "observedTraceEndTs": 215170481,
+                  "observedLoad": 280,
+                  "observedLoadTs": 212770228,
+                  "observedDomContentLoaded": 279,
+                  "observedDomContentLoadedTs": 212769772,
+                  "observedCumulativeLayoutShift": 0,
+                  "observedCumulativeLayoutShiftMainFrame": 0,
+                  "observedTotalCumulativeLayoutShift": 0,
+                  "observedFirstVisualChange": 298,
+                  "observedFirstVisualChangeTs": 212788370,
+                  "observedLastVisualChange": 298,
+                  "observedLastVisualChangeTs": 212788370,
+                  "observedSpeedIndex": 299,
+                  "observedSpeedIndexTs": 212788917
+                },
+                {
+                  "lcpInvalidated": false
+                }
+              ]
+            }
+          },
+          "diagnostics": {
+            "id": "diagnostics",
+            "title": "Diagnostics",
+            "description": "Collection of useful page vitals.",
+            "score": null,
+            "scoreDisplayMode": "informative",
+            "details": {
+              "type": "debugdata",
+              "items": [
+                {
+                  "numRequests": 2,
+                  "numScripts": 0,
+                  "numStylesheets": 0,
+                  "numFonts": 0,
+                  "numTasks": 89,
+                  "numTasksOver10ms": 1,
+                  "numTasksOver25ms": 0,
+                  "numTasksOver50ms": 0,
+                  "numTasksOver100ms": 0,
+                  "numTasksOver500ms": 0,
+                  "rtt": 77.035,
+                  "throughput": 6624078.6241501495,
+                  "maxRtt": 77.035,
+                  "maxServerLatency": 0,
+                  "totalByteWeight": 451,
+                  "totalTaskTime": 52.726000000000006,
+                  "mainDocumentTransferSize": 337
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "screenshot": true,
+    "stats": null,
+    "github_repository": null,
+    "budget_page": null,
+    "declaration-a11y": {
+      "mention": null
+    },
+    "declaration-rgpd": null,
+    "betagouv": null,
+    "ecoindex": [
+      {
+        "width": 1920,
+        "height": 1080,
+        "url": "https://data.cardano.org",
+        "size": 0.801,
+        "nodes": 7,
+        "requests": 2,
+        "grade": "A",
+        "score": 97,
+        "ges": 1.06,
+        "water": 1.59,
+        "ecoindex_version": "5.4.2",
+        "date": "2025-06-26 09:43:56.331347",
+        "page_type": null
+      }
+    ],
+    "sonarcloud": null,
+    "dsfr": {
+      "detected": false
+    },
+    "summary": {
+      "404": "A+",
+      "httpGrade": "D",
+      "testsslExpireSoon": false,
+      "testsslExpireDate": "2025-07-27T07:23:00.000Z",
+      "testsslGrade": "A",
+      "cookiesGrade": "A",
+      "cookiesCount": 0,
+      "trackersGrade": "A",
+      "trackersCount": 0,
+      "zapCount": 6,
+      "zapGrade": "D",
+      "lighthouse_performance": 1,
+      "lighthouse_performanceGrade": "A",
+      "lighthouse_accessibility": 0.86,
+      "lighthouse_accessibilityGrade": "A",
+      "lighthouse_best-practices": 0.75,
+      "lighthouse_best-practicesGrade": "B",
+      "lighthouse_seo": 0.64,
+      "lighthouse_seoGrade": "C",
+      "lighthouse_pwa": 0,
+      "lighthouse_pwaGrade": "F",
+      "declaration-a11y": "F",
+      "ecoindexGrade": "A",
       "dsfrGrade": "F"
     }
   }
