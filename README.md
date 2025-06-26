@@ -1,6 +1,6 @@
 # DashLord
 
-Tableau de bord des bonnes pratiques techniques    ([english version](README-EN.md))
+Tableau de bord des bonnes pratiques techniques    ([english](README-EN.md) readme)
 
 Exemples :
 
