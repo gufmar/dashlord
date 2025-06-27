@@ -19,9 +19,9 @@
 <span style="font-weight:bold;">#####################################################################</span>
 
   Using <i>OpenSSL 1.0.2-bad (Mar 28 2025)</i>  [~183 ciphers]
-  on pkrvmxyh4eaekms:/home/testssl/bin/openssl.Linux.x86_64
+  on pkrvmbietmlfzoi:/home/testssl/bin/openssl.Linux.x86_64
 
-<span style="color:white;background-color:black;"> Start 2025-06-26 09:46:06        --&gt;&gt; 52.211.238.28:443 (data.cardano.org) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2025-06-27 15:09:24        --&gt;&gt; 52.211.238.28:443 (data.cardano.org) &lt;&lt;--</span>
 
  rDNS (52.211.238.28):   ec2-52-211-238-28.eu-west-1.compute.amazonaws.com.
  Service detected:       HTTP
@@ -95,19 +95,19 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>EC <span style="color:#008817;">256</span> bits (curve P-256)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication, TLS Web Client Authentication
-<span style="font-weight:bold;"> Serial                       </span>0575A0401E85E1D5E0815431A60C11CE1243 (OK: length 18)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 5F70769EEF91095832593F10AB6C4120850396D5
-                              SHA256 81564086F916E4F4C4C218C1F97668588EC7984D5762A79F65F6B5E1FE5808E0
+<span style="font-weight:bold;"> Serial                       </span>06DD2126CB1663468A59A63AD59C9B4D9819 (OK: length 18)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 2BA6858AB69A289058708E345DF1AFC30A054074
+                              SHA256 58AABBDEA8F5FDCA127882A0B99DA44807C3C6BCEC0B6567E571C32A508D7A70
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>hey.cardano.org </i>
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>data.cardano.org hey.cardano.org </i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN</span> (same w/o SNI)
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">30 &gt;= 30 days</span> (2025-04-28 07:23 --&gt; 2025-07-27 07:23)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">89 &gt;= 30 days</span> (2025-06-27 07:23 --&gt; 2025-09-25 07:23)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
-<span style="font-weight:bold;"> Certificate Revocation List  </span>http://e6.c.lencr.org/68.crl
-<span style="font-weight:bold;"> OCSP URI                     </span>http://e6.o.lencr.org
-<span style="font-weight:bold;"> OCSP stapling                </span><span style="color:#a86437;">not offered</span>
+<span style="font-weight:bold;"> Certificate Revocation List  </span>http://e6.c.lencr.org/26.crl
+<span style="font-weight:bold;"> OCSP URI                     </span>--
+<span style="font-weight:bold;"> OCSP stapling                </span>not offered
 <span style="font-weight:bold;"> OCSP must staple extension   </span>--
 <span style="font-weight:bold;"> DNS CAA RR</span> (experimental)    <span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> Certificate Transparency     </span><span style="color:#008817;">yes</span> (certificate extension)
@@ -121,12 +121,17 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 
 <span style="font-weight:bold;"> HTTP Status Code           </span>  200 OK
 <span style="font-weight:bold;"> HTTP clock skew              </span>Got no HTTP time, maybe try different URL?
-<span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#a86437;">not offered</span>
+<span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#008817;">365 days</span>=31536000 s<span style="color:#008817;">, includeSubDomains</span>
 <span style="font-weight:bold;"> Public Key Pinning           </span>--
 <span style="font-weight:bold;"> Server banner                </span>(no &quot;Server&quot; line in header, interesting!)
 <span style="font-weight:bold;"> Application banner           </span>--
 <span style="font-weight:bold;"> Cookie(s)                    </span>(none issued at &quot;/&quot;)
-<span style="font-weight:bold;"> Security headers             </span><span style="color:#c05600;">--</span>
+<span style="font-weight:bold;"> Security headers             </span><span style="color:#008817;">X-Frame-Options</span>: SAMEORIGIN
+                              <span style="color:#008817;">X-Content-Type-Options</span>: nosniff
+                              <span style="color:#008817;">Content-Security-Policy</span>: default-src &apos;self&apos;
+                              <span style="color:#008817;">Permissions-Policy</span>: geolocation=(), microphone=()
+                              Permissions-Policy: geolocation=(), microphone=()
+                              Referrer-Policy: strict-origin-when-cross-origin
 <span style="font-weight:bold;"> Reverse Proxy banner         </span>--
 
 
@@ -202,10 +207,9 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Key Exchange </span>    (weighted)  100 (30)
 <span style="font-weight:bold;"> Cipher Strength </span> (weighted)  60 (24)
 <span style="font-weight:bold;"> Final Score                  </span>84
-<span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A</span>
-<span style="font-weight:bold;"> Grade cap reasons            </span>Grade capped to A. HSTS is not offered
+<span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A+</span>
 
-<span style="color:white;background-color:black;"> Done 2025-06-26 09:46:55 [  51s] --&gt;&gt; 52.211.238.28:443 (data.cardano.org) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2025-06-27 15:10:18 [  55s] --&gt;&gt; 52.211.238.28:443 (data.cardano.org) &lt;&lt;--</span>
 
 
 </pre>
