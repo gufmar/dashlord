@@ -2,8 +2,14 @@
   "trackers": [],
   "cookies": [],
   "headers": {
-    "content-length": "301",
-    "content-type": "text/html"
+    "content-length": "49",
+    "content-security-policy": "default-src 'self'",
+    "content-type": "text/html",
+    "permissions-policy": "geolocation=(), microphone=()",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN"
   },
   "endpoints": [
     {
