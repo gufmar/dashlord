@@ -18,7 +18,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LGRGXBVYMC&gtm=45je56p1v887638641z8848553843za200zb848553843&_p=1751160011545&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~103308216~103308218~103351869~103351871~104684208~104684211~104718208~104784387~104784389&cid=1093028324.1751160012&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.49&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1751160011&sct=1&seg=0&dl=https%3A%2F%2Fcardano.org%2F&dt=Home%20%7C%20cardano.org%20%7C%20Cardano&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=603",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LGRGXBVYMC&gtm=45je56p1v887638641z8848553843za200zb848553843&_p=1751278737290&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~103308216~103308218~103351869~103351871~104684208~104684211~104718208~104784387~104784389&cid=747259237.1751278740&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.49&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1751278740&sct=1&seg=0&dl=https%3A%2F%2Fcardano.org%2F&dt=Home%20%7C%20cardano.org%20%7C%20Cardano&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2996",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -28,11 +28,11 @@
   "cookies": [
     {
       "name": "_ga",
-      "value": "GA1.1.1093028324.1751160012",
+      "value": "GA1.1.747259237.1751278740",
       "domain": ".cardano.org",
       "path": "/",
-      "expires": 1785720011.91755,
-      "size": 30,
+      "expires": 1785838740.105994,
+      "size": 29,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -42,10 +42,10 @@
     },
     {
       "name": "_ga_LGRGXBVYMC",
-      "value": "GS2.1.s1751160011$o1$g0$t1751160011$j60$l0$h0",
+      "value": "GS2.1.s1751278740$o1$g0$t1751278740$j60$l0$h0",
       "domain": ".cardano.org",
       "path": "/",
-      "expires": 1785720011.917288,
+      "expires": 1785838740.105665,
       "size": 59,
       "httpOnly": false,
       "secure": false,
@@ -57,14 +57,14 @@
   ],
   "headers": {
     "accept-ranges": "bytes",
-    "age": "178440",
+    "age": "99739",
     "cache-control": "public,max-age=0,must-revalidate",
     "cache-status": "\"Netlify Edge\"; hit",
     "content-encoding": "br",
     "content-length": "9702",
     "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org;",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 29 Jun 2025 01:20:11 GMT",
+    "date": "Mon, 30 Jun 2025 10:18:57 GMT",
     "etag": "\"cba5c179273c89b9d1d202d7035cad59-ssl-df\"",
     "feature-policy": "geolocation 'none'; microphone 'none';",
     "referrer-policy": "no-referrer-when-downgrade",
@@ -72,7 +72,7 @@
     "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
     "vary": "Accept-Encoding",
     "x-frame-options": "DENY",
-    "x-nf-request-id": "01JYWMAER6X14APXECWGCRBDNR",
+    "x-nf-request-id": "01JZ05HNVSY2BXMJ931DA18CGD",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
@@ -132,7 +132,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.251.111.97",
+      "ip": "142.250.189.232",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -186,7 +186,7 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "64.233.180.102",
+      "ip": "216.239.36.178",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -218,9 +218,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 34.0544,
+          "longitude": -118.244,
+          "time_zone": "America/Los_Angeles"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -235,7 +235,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5332921,
+            "iso_code": "CA",
+            "names": {
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
+            }
+          }
+        ]
       }
     }
   ]
