@@ -353,7 +353,7 @@
               "ip"           : "developers.cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "74 >= 30 days"
+              "finding"      : "67 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,21 +507,21 @@
               "ip"           : "developers.cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+313 seconds from localtime"
+              "finding"      : "+79031 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "developers.cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1751765095"
+              "finding"      : "1752370068"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "developers.cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "313 seconds"
+              "finding"      : "79031 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1042,7 +1042,7 @@
               "ip"           : "developers.cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009r from 2025-05-16)"
           }
 ,         {
               "id"           : "rating_doc",
@@ -1112,6 +1112,6 @@
               "ip"           : "developers.cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "39"
+              "finding"      : "38"
           }
 ]
