@@ -10,7 +10,7 @@
     },
     {
       "type": "google tag manager",
-      "url": "https://www.googletagmanager.com/gtag/js?id=G-LGRGXBVYMC&cx=c&gtm=45Xe5711h2v848553843za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104839054~104839056~104885889~104885891~104908318~104908320",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-LGRGXBVYMC&cx=c&gtm=45Xe5791v848553843za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104908318~104908320~104909302~104909304~104935091~104935093",
       "details": {
         "id": "google tag manager",
         "message": "Use hosted Matomo instance"
@@ -18,7 +18,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LGRGXBVYMC&gtm=45je5711h2v887638641z8848553843za200zb848553843&_p=1751764736239&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104718208~104839054~104839056~104885889~104885891~104908318~104908320&cid=1589688367.1751764737&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.92&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1751764736&sct=1&seg=0&dl=https%3A%2F%2Fcardano.org%2F&dt=Home%20%7C%20cardano.org%20%7C%20Cardano&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=529",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LGRGXBVYMC&gtm=45je5791v887638641z8848553843za200zb848553843&_p=1752369676436&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104684208~104684211~104908321~104908323~104909302~104909304~104935091~104935093&cid=1905996221.1752369677&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Not)A%253BBrand%3B8.0.0.0%7CChromium%3B138.0.7204.94&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1752369676&sct=1&seg=0&dl=https%3A%2F%2Fcardano.org%2F&dt=Home%20%7C%20cardano.org%20%7C%20Cardano&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=700",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -28,10 +28,10 @@
   "cookies": [
     {
       "name": "_ga",
-      "value": "GA1.1.1589688367.1751764737",
+      "value": "GA1.1.1905996221.1752369677",
       "domain": ".cardano.org",
       "path": "/",
-      "expires": 1786324736.552477,
+      "expires": 1786929676.849195,
       "size": 30,
       "httpOnly": false,
       "secure": false,
@@ -42,10 +42,10 @@
     },
     {
       "name": "_ga_LGRGXBVYMC",
-      "value": "GS2.1.s1751764736$o1$g0$t1751764736$j60$l0$h0",
+      "value": "GS2.1.s1752369676$o1$g0$t1752369676$j60$l0$h0",
       "domain": ".cardano.org",
       "path": "/",
-      "expires": 1786324736.552066,
+      "expires": 1786929676.848839,
       "size": 59,
       "httpOnly": false,
       "secure": false,
@@ -57,22 +57,22 @@
   ],
   "headers": {
     "accept-ranges": "bytes",
-    "age": "20434",
+    "age": "36579",
     "cache-control": "public,max-age=0,must-revalidate",
     "cache-status": "\"Netlify Edge\"; hit",
     "content-encoding": "br",
-    "content-length": "9736",
-    "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com https://ipfs.io; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io;",
+    "content-length": "9734",
+    "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com https://img.youtube.com https://ipfs.io; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io;",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 06 Jul 2025 01:18:56 GMT",
-    "etag": "\"e86fdae0485fff43a4fbe2a4306ac16c-ssl-df\"",
+    "date": "Sun, 13 Jul 2025 01:21:16 GMT",
+    "etag": "\"c2917b1121f41b07eb18becb90922d08-ssl-df\"",
     "feature-policy": "geolocation 'none'; microphone 'none';",
     "referrer-policy": "no-referrer-when-downgrade",
     "server": "Netlify",
     "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
     "vary": "Accept-Encoding",
     "x-frame-options": "DENY",
-    "x-nf-request-id": "01JZEN166Z71JZ0GDM6AR2D38X",
+    "x-nf-request-id": "01K00NYG3VBFRJNGFRG6JK772A",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
@@ -132,7 +132,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "172.253.62.97",
+      "ip": "172.217.5.8",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -186,7 +186,7 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "172.253.122.101",
+      "ip": "172.217.4.46",
       "geoip": {
         "continent": {
           "code": "NA",
