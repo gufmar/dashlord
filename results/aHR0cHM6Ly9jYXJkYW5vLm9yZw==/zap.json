@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.16.1",
-	"@generated": "Sun, 13 Jul 2025 01:31:29",
+	"@generated": "Sun, 20 Jul 2025 01:34:31",
 	"site":[ 
 		{
 			"@name": "https://cardano.org",
@@ -20,7 +20,7 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "165",
+							"id": "168",
 							"uri": "https://cardano.org/crewardcalculator/_next/static/chunks/main-dfb077c8afae29b4.js",
 							"method": "GET",
 							"param": "",
@@ -35,7 +35,7 @@
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "2746"
+					"sourceid": "2748"
 				},
 				{
 					"pluginid": "10055",
@@ -48,7 +48,7 @@
 					"desc": "<p>The Content Security Policy fails to define one of the directives that has no fallback. Missing/excluding them is the same as allowing anything.</p>",
 					"instances":[ 
 						{
-							"id": "3",
+							"id": "6",
 							"uri": "https://cardano.org",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -57,8 +57,17 @@
 							"otherinfo": "The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src."
 						},
 						{
-							"id": "6",
+							"id": "13",
 							"uri": "https://cardano.org/",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com https://img.youtube.com https://ipfs.io; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io;",
+							"otherinfo": "The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src."
+						},
+						{
+							"id": "0",
+							"uri": "https://cardano.org/robots.txt",
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
@@ -66,13 +75,13 @@
 							"otherinfo": "The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src."
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src.</p>",
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10055",
@@ -85,7 +94,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "11",
+							"id": "9",
 							"uri": "https://cardano.org",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -94,8 +103,17 @@
 							"otherinfo": "script-src includes unsafe-eval."
 						},
 						{
-							"id": "17",
+							"id": "18",
 							"uri": "https://cardano.org/",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com https://img.youtube.com https://ipfs.io; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io;",
+							"otherinfo": "script-src includes unsafe-eval."
+						},
+						{
+							"id": "3",
+							"uri": "https://cardano.org/robots.txt",
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
@@ -103,7 +121,7 @@
 							"otherinfo": "script-src includes unsafe-eval."
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>script-src includes unsafe-eval.</p>",
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
@@ -122,7 +140,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "4",
+							"id": "7",
 							"uri": "https://cardano.org",
 							"method": "GET",
 							"param": "Content-Security-Policy",
@@ -131,8 +149,17 @@
 							"otherinfo": "script-src includes unsafe-inline."
 						},
 						{
-							"id": "12",
+							"id": "14",
 							"uri": "https://cardano.org/",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com https://img.youtube.com https://ipfs.io; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io;",
+							"otherinfo": "script-src includes unsafe-inline."
+						},
+						{
+							"id": "1",
+							"uri": "https://cardano.org/robots.txt",
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
@@ -140,13 +167,13 @@
 							"otherinfo": "script-src includes unsafe-inline."
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>script-src includes unsafe-inline.</p>",
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10055",
@@ -168,8 +195,17 @@
 							"otherinfo": "style-src includes unsafe-inline."
 						},
 						{
-							"id": "13",
+							"id": "17",
 							"uri": "https://cardano.org/",
+							"method": "GET",
+							"param": "Content-Security-Policy",
+							"attack": "",
+							"evidence": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com https://img.youtube.com https://ipfs.io; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io;",
+							"otherinfo": "style-src includes unsafe-inline."
+						},
+						{
+							"id": "2",
+							"uri": "https://cardano.org/robots.txt",
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
@@ -177,13 +213,13 @@
 							"otherinfo": "style-src includes unsafe-inline."
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "<p>style-src includes unsafe-inline.</p>",
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90003",
@@ -196,7 +232,7 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "67",
+							"id": "66",
 							"uri": "https://cardano.org",
 							"method": "GET",
 							"param": "",
@@ -205,7 +241,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "64",
+							"id": "69",
 							"uri": "https://cardano.org/",
 							"method": "GET",
 							"param": "",
@@ -214,16 +250,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "132",
-							"uri": "https://cardano.org/calculator/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "115",
+							"id": "126",
 							"uri": "https://cardano.org/common-scams/",
 							"method": "GET",
 							"param": "",
@@ -232,7 +259,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "125",
+							"id": "123",
 							"uri": "https://cardano.org/discover-cardano/",
 							"method": "GET",
 							"param": "",
@@ -241,7 +268,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "105",
+							"id": "107",
 							"uri": "https://cardano.org/docs/",
 							"method": "GET",
 							"param": "",
@@ -250,8 +277,26 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "91",
+							"id": "103",
 							"uri": "https://cardano.org/entities/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "141",
+							"uri": "https://cardano.org/insights/supply/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "140",
+							"uri": "https://cardano.org/insights/template/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -268,16 +313,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "134",
-							"uri": "https://cardano.org/stake-pool-delegation/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "116",
+							"id": "125",
 							"uri": "https://cardano.org/what-is-ada/",
 							"method": "GET",
 							"param": "",
@@ -286,7 +322,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "130",
+							"id": "135",
 							"uri": "https://cardano.org/where-to-get-ada/",
 							"method": "GET",
 							"param": "",
@@ -301,7 +337,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10003",
@@ -314,7 +350,7 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "161",
+							"id": "164",
 							"uri": "https://cardano.org/archive/code.jquery.com/jquery-1.12.4.js",
 							"method": "GET",
 							"param": "",
@@ -323,7 +359,7 @@
 							"otherinfo": "The identified library jquery, version 1.12.4 is vulnerable.\nCVE-2020-11023\nCVE-2020-11022\nCVE-2015-9251\nCVE-2019-11358\nhttps://github.com/jquery/jquery/issues/2432\nhttp://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/\nhttp://research.insecurelabs.org/jquery/test/\nhttps://blog.jquery.com/2019/04/10/jquery-3-4-0-released/\nhttps://nvd.nist.gov/vuln/detail/CVE-2019-11358\nhttps://github.com/advisories/GHSA-rmxg-73gg-4p98\nhttps://nvd.nist.gov/vuln/detail/CVE-2015-9251\nhttps://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b\nhttps://github.com/jquery/jquery.com/issues/162\nhttps://bugs.jquery.com/ticket/11974\nhttps://blog.jquery.com/2020/04/10/jquery-3-5-0-released/\n"
 						},
 						{
-							"id": "162",
+							"id": "165",
 							"uri": "https://cardano.org/archive/code.jquery.com/ui/1.12.1/jquery-ui.js",
 							"method": "GET",
 							"param": "",
@@ -338,7 +374,7 @@
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "2603"
+					"sourceid": "2680"
 				},
 				{
 					"pluginid": "10017",
@@ -351,7 +387,7 @@
 					"desc": "<p>The page includes one or more script files from a third-party domain.</p>",
 					"instances":[ 
 						{
-							"id": "16",
+							"id": "11",
 							"uri": "https://cardano.org",
 							"method": "GET",
 							"param": "https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7",
@@ -360,7 +396,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "21",
+							"id": "22",
 							"uri": "https://cardano.org/",
 							"method": "GET",
 							"param": "https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7",
@@ -369,16 +405,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "128",
-							"uri": "https://cardano.org/calculator/",
-							"method": "GET",
-							"param": "https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7",
-							"attack": "",
-							"evidence": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "110",
+							"id": "118",
 							"uri": "https://cardano.org/common-scams/",
 							"method": "GET",
 							"param": "https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7",
@@ -387,7 +414,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "120",
+							"id": "112",
 							"uri": "https://cardano.org/discover-cardano/",
 							"method": "GET",
 							"param": "https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7",
@@ -396,7 +423,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "88",
+							"id": "93",
 							"uri": "https://cardano.org/docs/",
 							"method": "GET",
 							"param": "https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7",
@@ -405,7 +432,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
+							"id": "84",
 							"uri": "https://cardano.org/entities/",
 							"method": "GET",
 							"param": "https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7",
@@ -414,7 +441,25 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "36",
+							"id": "137",
+							"uri": "https://cardano.org/insights/supply/",
+							"method": "GET",
+							"param": "https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7",
+							"attack": "",
+							"evidence": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "136",
+							"uri": "https://cardano.org/insights/template/",
+							"method": "GET",
+							"param": "https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7",
+							"attack": "",
+							"evidence": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"id": "5",
 							"uri": "https://cardano.org/robots.txt",
 							"method": "GET",
 							"param": "https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7",
@@ -423,16 +468,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "131",
-							"uri": "https://cardano.org/stake-pool-delegation/",
-							"method": "GET",
-							"param": "https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7",
-							"attack": "",
-							"evidence": "<script async src=\"https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"id": "108",
+							"id": "115",
 							"uri": "https://cardano.org/what-is-ada/",
 							"method": "GET",
 							"param": "https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7",
@@ -441,7 +477,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "118",
+							"id": "128",
 							"uri": "https://cardano.org/where-to-get-ada/",
 							"method": "GET",
 							"param": "https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7",
@@ -456,7 +492,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10063",
@@ -469,7 +505,7 @@
 					"desc": "<p>The header has now been renamed to Permissions-Policy.</p>",
 					"instances":[ 
 						{
-							"id": "55",
+							"id": "54",
 							"uri": "https://cardano.org",
 							"method": "GET",
 							"param": "",
@@ -478,7 +514,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "48",
+							"id": "43",
 							"uri": "https://cardano.org/",
 							"method": "GET",
 							"param": "",
@@ -487,7 +523,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "106",
+							"id": "114",
 							"uri": "https://cardano.org/assets/js/runtime~main.cb672e9f.js",
 							"method": "GET",
 							"param": "",
@@ -496,7 +532,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "113",
+							"id": "124",
 							"uri": "https://cardano.org/common-scams/",
 							"method": "GET",
 							"param": "",
@@ -505,7 +541,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "123",
+							"id": "120",
 							"uri": "https://cardano.org/discover-cardano/",
 							"method": "GET",
 							"param": "",
@@ -514,7 +550,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "102",
+							"id": "104",
 							"uri": "https://cardano.org/docs/",
 							"method": "GET",
 							"param": "",
@@ -523,7 +559,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "89",
+							"id": "96",
 							"uri": "https://cardano.org/entities/",
 							"method": "GET",
 							"param": "",
@@ -532,7 +568,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "50",
+							"id": "52",
 							"uri": "https://cardano.org/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -541,7 +577,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "83",
+							"id": "87",
 							"uri": "https://cardano.org/scripts/deactivateServiceWorker.js",
 							"method": "GET",
 							"param": "",
@@ -550,7 +586,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "114",
+							"id": "122",
 							"uri": "https://cardano.org/what-is-ada/",
 							"method": "GET",
 							"param": "",
@@ -559,7 +595,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "124",
+							"id": "133",
 							"uri": "https://cardano.org/where-to-get-ada/",
 							"method": "GET",
 							"param": "",
@@ -574,7 +610,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy</p><p>https://scotthelme.co.uk/goodbye-feature-policy-and-hello-permissions-policy/</p>",
 					"cweid": "16",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90004",
@@ -587,7 +623,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "58",
+							"id": "55",
 							"uri": "https://cardano.org",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -596,7 +632,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "49",
+							"id": "44",
 							"uri": "https://cardano.org/",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -605,7 +641,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
+							"id": "78",
 							"uri": "https://cardano.org/sitemap.xml",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -614,7 +650,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "59",
+							"id": "56",
 							"uri": "https://cardano.org",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -623,7 +659,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "51",
+							"id": "46",
 							"uri": "https://cardano.org/",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -632,7 +668,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "75",
+							"id": "79",
 							"uri": "https://cardano.org/sitemap.xml",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -641,7 +677,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
+							"id": "57",
 							"uri": "https://cardano.org",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -650,7 +686,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "52",
+							"id": "48",
 							"uri": "https://cardano.org/",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -659,7 +695,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
+							"id": "80",
 							"uri": "https://cardano.org/sitemap.xml",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -687,7 +723,7 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "136",
+							"id": "131",
 							"uri": "https://cardano.org/assets/js/main.6ba29592.js",
 							"method": "GET",
 							"param": "",
@@ -696,7 +732,7 @@
 							"otherinfo": "1516328368, which evaluates to: 2018-01-19 02:19:28."
 						},
 						{
-							"id": "163",
+							"id": "166",
 							"uri": "https://cardano.org/crewardcalculator/_next/static/chunks/main-dfb077c8afae29b4.js",
 							"method": "GET",
 							"param": "",
@@ -711,7 +747,7 @@
 					"reference": "<p>https://cwe.mitre.org/data/definitions/200.html</p>",
 					"cweid": "497",
 					"wascid": "13",
-					"sourceid": "546"
+					"sourceid": "535"
 				},
 				{
 					"pluginid": "10021",
@@ -724,7 +760,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "44",
+							"id": "32",
 							"uri": "https://cardano.org",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -733,7 +769,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "41",
+							"id": "33",
 							"uri": "https://cardano.org/",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -742,16 +778,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "95",
-							"uri": "https://cardano.org/assets/js/runtime~main.cb672e9f.js",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "100",
+							"id": "102",
 							"uri": "https://cardano.org/docs/",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -760,7 +787,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "86",
+							"id": "94",
 							"uri": "https://cardano.org/entities/",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -769,7 +796,16 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "99",
+							"id": "106",
+							"uri": "https://cardano.org/img/cardano-logo-blue.svg",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "108",
 							"uri": "https://cardano.org/img/cardano-logo-white.svg",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -778,7 +814,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "78",
+							"id": "83",
 							"uri": "https://cardano.org/img/favicon.ico",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -787,7 +823,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "104",
+							"id": "97",
 							"uri": "https://cardano.org/news/atom.xml",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -805,7 +841,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "82",
+							"id": "86",
 							"uri": "https://cardano.org/scripts/deactivateServiceWorker.js",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -814,7 +850,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "73",
+							"id": "77",
 							"uri": "https://cardano.org/sitemap.xml",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -842,7 +878,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "158",
+							"id": "161",
 							"uri": "https://cardano.org/archive/static.iohk.io/adasale/",
 							"method": "GET",
 							"param": "",
@@ -851,7 +887,7 @@
 							"otherinfo": "\uFFFD\uFFFDg\uFFFD\uFFFD\"\uFFFD\uFFFDi\uFFFD\uFFFD^i\uFFFD\uFFFDtHld\uFFFD\ng\uFFFD\uFFFDL\uFFFD\uFFFD\\x0007\uFFFD*\uFFFD\\x0003F\uFFFD"
 						},
 						{
-							"id": "127",
+							"id": "110",
 							"uri": "https://cardano.org/assets/css/styles.e2af0904.css",
 							"method": "GET",
 							"param": "",
@@ -869,7 +905,7 @@
 							"otherinfo": "\uFFFD\u6737\uFFFD\uFFFD\\x0010\\x0013\uFFFD\\x0008\uFFFD\uFFFD0\uFFFDL@\uFFFD0\uFFFD\uFFFD,O\uFFFD\uFFFD"
 						},
 						{
-							"id": "140",
+							"id": "143",
 							"uri": "https://cardano.org/genesis/",
 							"method": "GET",
 							"param": "",
@@ -878,7 +914,7 @@
 							"otherinfo": "\uFFFDw\uFFFD\uFFFD\uFFFD]\uFFFD\uFFFD,\uFFFDr\uFFFDS\uFFFD\uFFFD\\x001ca_6\uFFFD,\u05DA\uFFFDp\uFFFD;\uFFFD0\uFFFD\\x001c\\x0016\uFFFD7o"
 						},
 						{
-							"id": "146",
+							"id": "149",
 							"uri": "https://cardano.org/img/logos/cardanofoundation-white.svg",
 							"method": "GET",
 							"param": "",
@@ -887,7 +923,7 @@
 							"otherinfo": "\uFFFD\uFFFD?M\\x001f\uFFFD\uFFFDMD@\uFFFDIQ\uFFFD\uFFFDM5\uFFFD\uFFFD8\uFFFD4\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "145",
+							"id": "148",
 							"uri": "https://cardano.org/img/wallets/eternl-ada.svg",
 							"method": "GET",
 							"param": "",
@@ -896,7 +932,7 @@
 							"otherinfo": "\uFFFDPNG\r\n\\x001a\n\\x0000\\x0000\\x0000\rIHDR\\x0000\\x0000\\x00000\\x0000\\x0000\\x00000\\x0008\\x0006\\x0000\\x0000\\x0000W\\x0002\uFFFD\uFFFD\\x0000\\x0000\\x0000\\x0001sRGB\\x0000\uFFFD\uFFFD\\x001c\uFFFD\\x0000\\x0000\\x0000DeXIfMM\\x0000*\\x0000\\x0000\\x0000\\x0008\\x0000\\x0001\uFFFDi\\x0000\\x0004\\x0000\\x0000\\x0000\\x0001\\x0000\\x0000\\x0000\\x001a\\x0000\\x0000\\x0000\\x0000\\x0000\\x0003\uFFFD\\x0001\\x0000\\x0003\\x0000\\x0000\\x0000\\x0001\\x0000\\x0001\\x0000\\x0000\uFFFD\\x0002\\x0000\\x0004\\x0000\\x0000\\x0000\\x0001\\x0000\\x0000\\x00000\uFFFD\\x0003\\x0000\\x0004\\x0000\\x0000\\x0000\\x0001\\x0000\\x0000\\x00000\\x0000\\x0000\\x0000\\x0000\uFFFD7l\\x000c\\x0000\\x0000\\x0002\uFFFDIDATh\\x0005\uFFFD?k\\x0014A\\x0018\uFFFDw%\uFFFD\uFFFDH\\x0014RF\\x001b\uFFFDh\n\uFFFD\uFFFD*Ig\uFFFD\\x0007\uFFFD\\x0013\\x000b\uFFFD\uFFFDh\\x00130]\uFFFDU\uFFFD\uFFFD\uFFFDO\\x0019\\x0005\uFFFD\\x0000\uFFFDY%\uFFFD\uFFFD\uFFFD\\x0010D\uFFFD4\\x0011\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDg\uFFFD;\uFFFD\uFFFD\uFFFD7{;\uFFFD\uFFFDC\uE147\uFFFDygg\uFFFDyf\u0799\u075B\uFFFD41\uFFFD\uFFFDj\uFFFD\uFFFD}\\x0001\uFFFD\\x0003S`?HA\uFFFD\u05A2\uFFFD\\x001f\uFFFD=x\\x0001\uFFFD\uFFFDi\uFFFD\uFFFD5\uFFFD >\\x000e\\x001e\uFFFDm\uFFFD4\\x0013\uFFFD%0\uFFFDSA\uFFFDW\u0258$\uFFFD\r8\uFFFD\uFFFD\\x0006\uFFFD\uFFFD\uFFFD\uFFFD4\uFFFD\uFFFDQ\uFFFD2\\x0001\uFFFD\\x001f\uFFFD\uFFFD3h:yq\uFFFD\uFFFD\\x0002\uFFFD\uFFFDX\u07D3%\uFFFD\uFFFD6\uFFFDX\u020B\uFFFD\\x0018\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD?\uFFFD\uFFFD\\x0015\u8211\uFFFDc\n\uFFFDE\uFFFD\\x0016hR\uFFFDi\uFFFD\uFFFD\uFFFD\uFFFD:\\x0010G\uFFFD\uFFFDg6A\uFFFDM`\uFFFD\"\u03BDn\uFFFD\uFFFD\uFFFDp\\x0018\\x0005\uFFFD\\x0016A|w%`\uFFFD\uFFFD\\\uFFFD7p\uFFFD\u0382\uFFFDDX<\uFFFD$`\\x0003\uFFFDv\uFFFDS\uFFFD)W\\x0008\uFFFDwI\uFFFD\uFFFDR\uFFFD\uFFFD%\uFFFD\uFFFD;\uFFFD\u0440\uFFFDVI\uFFFDFF\\O;mNX\\x0014kb\\x001d\\x0001\uFFFDr\u0285r`\uFFFD\uFFFDt*39\uFFFD\tp\u02B2\\x0004\uFFFD%\uFFFD\uFFFD[\uFFFDd\uFFFDw\uFFFDQ\uFFFDK\uFFFDj\uFFFD\uFFFD3\uFFFD\uFFFDa2\uFFFD \uFFFD\u05FE\uFFFD/\"\uFFFDY\u00C0\uFFFDE\\x0004\\x000c\uFFFD\uFFFD\uFFFD|\uFFFD\\x0002\uFFFD'\uFFFD\uFFFD?\uFFFD\uA177\uFFFD\uFFFD\uFFFD\uFFFDY\uFFFD@\uFFFDcU\\x0014B@R\uFFFDA\uFFFDD\\x0019_\uFFFD!4\\x0014Pf\uFFFDC\uFFFD\r2\\x0007\\\"\uFFFD\uFFFD\\x001f\uFFFD;\uFFFD\uFFFD\\x000b\uFFFD/3\uFFFD^\uFFFD<_\uFFFD\\x0000\\x001a>\\x0006\uFFFD\\x001f!>\uFFFD\uFFFD\uFFFD\uFFFDi\uFFFD\\x001d\uFFFD\\x0001\uFFFD[jtF?\\x0002U\uFFFD\\x0001\uFFFD\uFFFD+1\\x0010\uFFFD}\uFFFDV\"\uFFFD\\x0015\uFFFD/\uFFFD\uFFFD\uFFFDE\\x001fBC\\x0001eC\uFFFDl\uFFFD s\uFFFD\uFFFD{\uFFFD,\uFFFDn\uFFFD\"_\uFFFD!BH\uFFFD\uFFFD\uFFFD!A\uFFFD\uFFFDv\uFFFD\uFFFD\uFFFD\t!\uFFFDG\\x0013\uFFFDf\uFFFD*\\x0001\\x001b\uFFFD\uFFFDe\uFFFD\\x0017\\x0019\\x0001m\uFFFD]\uFFFD\uFFFDJy\uFFFDBZ\\x0019\uFFFD;Py\n*\uFFFDZ\uFFFD\uFFFD\uFFFD' ;zr+i/o\uFFFD\uFFFD\\x000bu\uFFFD\uFFFDI!d}8\\x001d\uFFFD\uFFFD\uFFFDG{\uFFFD\uFFFDt\uFFFDw\uFFFD\\x0007\\x001c\uFFFD\\x001a\\x0001\\x001d\"\uFFFDv\\x0002\uFFFD\\x00021?\uFFFDS\\x001a8\uFFFD\uFFFD\uFFFD\\x001a8\uFFFD$\uFFFD\uFFFD\uFFFD\uFFFD\\x0006\\x000f\uFFFD\\x0001\uFFFD\uFFFD2\uFFFD\uFFFD~\\\uFFFD\uFFFD^\uFFFD|3Y\u0168\uFFFD\\x000fb\uFFFDg\"\uFFFD\uFFFDl\uFFFD\uFFFD}\uFFFD\uFFFD\uFFFD\uFFFD\\x00151\uFFFD\uFFFD\uFFFDT5\uFFFD\uFFFD\uFFFDx\\x0012\uFFFD\uFFFD\uFFFD\uFFFD}\\x0013\uFFFD\uFFFDBZK\uFFFDCPw\uFFFD\uFFFDdO\\x0013\uFFFD\uFFFD@1\uFFFD\uFFFD'\uFFFD\\x0012\uFFFD\u02C1\uFFFD\uFFFD\uFFFD\uFFFD6\\x0000\uFFFD\\x001a\uFFFD\uFFFD0.\uFFFD\uFFFD\\x0000\\x0000\\x0000\\x0000IEND\uFFFDB`\uFFFD"
 						},
 						{
-							"id": "143",
+							"id": "146",
 							"uri": "https://cardano.org/img/wallets/typhon-ada.svg",
 							"method": "GET",
 							"param": "",
@@ -905,7 +941,7 @@
 							"otherinfo": "\uFFFDPNG\r\n\\x001a\n\\x0000\\x0000\\x0000\rIHDR\\x0000\\x0000\\x0000:\\x0000\\x0000\\x0000+\\x0008\\x0000\\x0000\\x0000\\x0000\\x000cZ\uFFFD\uFFFD\\x0000\\x0000\\x00008eXIfMM\\x0000*\\x0000\\x0000\\x0000\\x0008\\x0000\\x0001\uFFFDi\\x0000\\x0004\\x0000\\x0000\\x0000\\x0001\\x0000\\x0000\\x0000\\x001a\\x0000\\x0000\\x0000\\x0000\\x0000\\x0002\uFFFD\\x0002\\x0000\\x0004\\x0000\\x0000\\x0000\\x0001\\x0000\\x0000\\x0000:\uFFFD\\x0003\\x0000\\x0004\\x0000\\x0000\\x0000\\x0001\\x0000\\x0000\\x0000+\\x0000\\x0000\\x0000\\x0000\uFFFD\uFFFD7\uFFFD\\x0000\\x0000\\x0000VIDATH\rc`\\x0018\\x0008\uFFFD\uFFFD\uFFFDL[o\uFFFD1\uFFFD\uFFFD\\x0013\uFFFDmT+Qa7\\x001aL\uFFFD\uFFFD\uFFFD\\x0016\\x0002\uFFFDI\\x0002-@\uFFFDsG\uFFFD\t{\uFFFD\uFFFD\uFFFD\uFFFD\\x0006\\x0013Z\uFFFD`\uFFFD\\x0006\\x0013\uFFFDpA\\x0013\\x001dr\uFFFD\uFFFD\uFFFD\\x0003\uFFFD\\x0007\uFFFDr\uFFFDe\uFFFD@\uFFFDZ4uo\uFFFD\\x0002\\x0000\\x001f\uFFFD\\x0007\uFFFD]\uFFFDC\uFFFD\\x0000\\x0000\\x0000\\x0000IEND\uFFFDB`\uFFFD"
 						},
 						{
-							"id": "144",
+							"id": "147",
 							"uri": "https://cardano.org/img/wallets/vespr-ada.svg",
 							"method": "GET",
 							"param": "",
@@ -914,7 +950,7 @@
 							"otherinfo": "\uFFFDPNG\r\n\\x001a\n\\x0000\\x0000\\x0000\rIHDR\\x0000\\x0000\\x0000C\\x0000\\x0000\\x00008\\x0008\\x0000\\x0000\\x0000\\x0000\uFFFDD\\x001a\uFFFD\\x0000\\x0000\\x00008eXIfMM\\x0000*\\x0000\\x0000\\x0000\\x0008\\x0000\\x0001\uFFFDi\\x0000\\x0004\\x0000\\x0000\\x0000\\x0001\\x0000\\x0000\\x0000\\x001a\\x0000\\x0000\\x0000\\x0000\\x0000\\x0002\uFFFD\\x0002\\x0000\\x0004\\x0000\\x0000\\x0000\\x0001\\x0000\\x0000\\x0000C\uFFFD\\x0003\\x0000\\x0004\\x0000\\x0000\\x0000\\x0001\\x0000\\x0000\\x00008\\x0000\\x0000\\x0000\\x0000\uFFFD\uFFFD\uFFFD\\x0000\\x0000\\x0000\\x0000eIDATH\rcd\uFFFD\uFFFD\uFFFD0\\x0006\uFFFD\uFFFD\uFFFD2&\\x0012u`S>j\\x0006j\uFFFD\uFFFD\uFFFD\uFFFDhx\uFFFD\uFFFD\\x0000*o4}\uFFFD\uFFFD\\x0007j\\x0008\uFFFD\uFFFDF\uFFFD\uFFFDhx\uFFFD\uFFFD\\x0000*o4}\uFFFD\uFFFD\\x0007j\\x0008\uFFFD\uFFFD>X\uFFFDF\uFFFD\uFFFD\uFFFDHc\uFFFD\uFFFD\uFFFD0c\\x0002iZ\uFFFD\uFFFD\u07053G\\x0019\uFFFD!0\\x001a\\x0002#*\\x0004\\x0000G\uFFFD\\x0007\uFFFD/\uFFFD+\uFFFD\\x0000\\x0000\\x0000\\x0000IEND\uFFFDB`\uFFFD"
 						},
 						{
-							"id": "148",
+							"id": "153",
 							"uri": "https://cardano.org/news/2021-12-20-december-developer-portal/",
 							"method": "GET",
 							"param": "",
@@ -923,7 +959,7 @@
 							"otherinfo": "\uFFFDPNG\r\n\\x001a\n\\x0000\\x0000\\x0000\rIHDR\\x0000\\x0000\\x0001\uFFFD\\x0000\\x0000\\x0000n\\x0008\\x0003\\x0000\\x0000\\x0000\uFFFD\uFFFD\uFFFD\uFFFD\\x0000\\x0000\\x0000\\x0003sBIT\\x0008\\x0008\\x0008\uFFFD\uFFFDO\uFFFD\\x0000\\x0000\\x00006PLTE\uFFFD\\x0000:\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0000'\uFFFD\uFFFD\uFFFD\uFFFD1V\uFFFD\uFFFD\uFFFD\uFFFD\\x00006\uFFFD\\x0000/\uFFFDFe\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDu\uFFFD\uFFFD\\x0016G\uFFFDXv\uFFFDg\uFFFD\uFFFD\uFFFD\\x0011\\x0000\\x0000\\x000fBIDATx\uFFFD\uFFFD]\uFFFD\uFFFD\uFFFD\uFFFD\\x0012u\\x0001\\x0013\\x0014\uFFFD\uFFFD\uFFFD\u0641`\\x000b \u042A\uFFFD\uFFFD\uFFFD|>\uFFFD\uFFFD9]U\uFFFD\uFFFD\\b%0\uFFFDW\uFFFDC\uFFFD}z\\x0000\r\n\uFFFD\uFFFD\u01E0Q\uFFFD\\x00184*\\x001f\uFFFDF\uFFFDc\u0428|\\x000c\\x001a\uFFFD\uFFFDA\uFFFD\uFFFD1hT>\\x0006\uFFFD\uFFFD\u01E0Q\uFFFD\\x00184*\\x001f\uFFFDF\uFFFDc\u0428|\\x000c\\x001a\uFFFD\uFFFDA\uFFFD\uFFFD1hT>\\x0006\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDT\uFFFDa\uFFFD5\uFFFDa\uFFFD\uFFFD\uFFFDi\uFFFD\uFFFD\uFFFD\uFFFDR\r\uFFFD\uFFFD4\uFFFDd\uFFFD}\\x001c\uFFFD\\x001b\\x0006\uFFFD\uFFFD[\uFFFDP\uFFFD\uFFFDs\uFFFDR\uFFFD\uFFFDCtB\uFFFD\uFFFDhl~\\x001f.\uFFFD\uFFFDZ\\x001e1\uFFFD\uFFFDN!\uFFFD462\uFFFD\\x000cWT\uFFFD;+h\\x000ct\uFFFDnSo\\x001be\uFFFD\\x000fP\uFFFDr\uFFFD\uFFFDD\\x0002d\uFFFD\uFFFDq\uFFFD\rw\uFFFDQ\uFFFD6yM$H\uFFFD\u0474\uFFFD\uFFFD\uFFFDB\uFFFD2\uFFFD3\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD6\uFFFDAS\uFFFD\uFFFD\uFFFD\uFFFD\\x000e\\x001c\uFFFD\uFFFD\u5DC0\uFFFDr(\uFFFD\u05BA\uFFFD\uFFFD\uFFFD=\uFFFD\\x0006\\x001a\\x0014\uFFFD\u00CD\uFFFD\uFFFDB6.\uFFFD\\x0003\\x0004\uFFFDKG3Y\uFFFDW\uFFFD\uFFFDc\uFFFD\\x0002%\uFFFD|\uFFFD0)*\uFFFD\uFFFD\\x0010\uFFFD\uFFFD\uFFFDY5n\\x0006\u07F3\uFFFDK*g\uFFFD\uFFFDa\uFFFD\uFFFD\u05F8\uFFFD~\\x0014\uFFFD\uFFFD\\x001e\uFFFD\uFFFDUh\uFFFDc\uFFFD-\uFFFD\uFFFD\uFFFD\uFFFD\\\uFFFD\uFFFD\u0291\uFFFDt\uFFFD\uFFFD\uFFFD\uFFFD*~\uFFFD<\uFFFD\uFFFDj\uFFFD\\x001c\uFFFDJ)>\uFFFD\uFFFD\u0627\uFFFD\\x0018\uFFFDva.\\x001b{\\x000f\uFFFD\uFFFD\uFFFD\"O!\uFFFDr\uFFFDH\\x001e\\x0018\u0121&\uFFFD\uFFFD\\x0007\uFFFDv\uFFFDu G\uFFFDC\uFFFDC\uFFFD}^k\uFFFD\\x001e\uFFFD\\x0000\uFFFD\uFFFD{`\uFFFD\uFFFDb\uFFFD<h\uFFFD\\x0013\uFFFD\uFFFDPU\uFFFDh'\uFFFD\u06CE\uFFFD\\x001a!\\x0014\uFFFD7\\x000c\uFFFD\\x000b6\uFFFDd\uFFFD\\x0017\uFFFD)\uFFFD}(\\x0015\uFFFD\uFFFDR9\uFFFD\uFFFD\u054F\uFFFD\uFFFD|\uFFFD\uFFFD\u0149\uFFFD3+\\x000c\\A\uFFFD'\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0007_.\uFFFDj\uFFFD9\uFFFDZ\uFFFD\uFFFD\uFFFD\uFFFD{m\u02BB\\x001b\uFFFD'\uD8EE\uDF4Cc\u05284d\uFFFD\\x001a\uFFFD\uFFFD\uFFFD\\x0017\uFFFD\uFFFD\\x0007\uFFFD\uFFFDRYK\\x000e\uFFFDC\uFFFDi\uFFFD\uFFFDZB\uFFFDnu\uFFFD\uFFFD\uFFFD\u04B6\u05A9\uFFFD\\nyc\uFFFD(\u0107\\x001c\uFFFD/\uFFFD\u029AP\uFFFD\uFFFD\uFFFDRk\uFFFD\uFFFD\uFFFDa\uFFFD\uFFFD\uFFFD$\uFFFD\uFFFD\uFFFD\uFFFD{Ae)\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u0EE5\uFFFD\uFFFD\uFFFD1<\uFFFDl~]\uFFFD\uFFFDu\uFFFD'\\x0013w\uFFFD2\uFFFDc\uFFFD\uFFFDM\uFFFD\u03848\uFFFD\uFFFDb\uFFFD/b\u0247a\\x001d.\uFFFD[\uFFFD\uFFFDR\uFFFDi\uFFFDQ*M\uFFFD\u06FA\uFFFDr\uFFFD0\uFFFD\uFFFD=\t\uFFFD5\uFFFD\u0188\uFFFD6\uFFFDF\uFFFD\r5\r{-\\x001byD\uFFFD\uFFFD\\x0010\uFFFDJ1\\x0001v\uFFFD\uFFFD\uFFFD\uFFFDA.\uFFFD\uFFFD|:\uFFFD\\x0008\\x0000\uFFFD\uFFFDq\u07BB\uFFFDD5\uFFFD\uFFFDx\uFFFD&F\uFFFDFr\uFFFD\uFFFDp\n\\x0008a\uFFFD8\uFFFD\uFFFD&\\x0013R\uFFFD\uFFFD\\x0013c\uFFFD4]\uFFFD\uFFFD0\uFFFDS\uFFFD\uFFFD\uFFFD\uFFFDy\uFFFD}\\x001c\uFFFD\uFFFD|B\uFFFD\\x0003\uFFFDs\uFFFD=\\x001d\uFFFD3\uFFFD\uFFFD\uFFFD\uFFFDO\uFFFD\uFFFD\uFFFD\uFFFD$p(\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDs\uFFFDay\\x001e\uFFFD\uFFFDW{*uW\uFFFD\uFFFD\uFFFDx?#2\\x0013\uFFFD\u05A2\uFFFD,\\x0014\uFFFD\uFFFD\uFFFDa\uFFFD\uFFFD3\uFFFDIB\uFFFD\uFFFD,\uFFFD\u01F7\uFFFD9\uFFFD\\x0017\uFFFD\uFFFD\uFFFD\uFFFDB\r\uFFFD\uFFFDQ\uFFFDqn\uFFFD9[H%?Mj\u04C6\uFFFD\uFFFD|!\uFFFD\uFFFD!\uFFFD#\uFFFDk\uFFFDtd1\uFFFD\uFFFD\uFFFD\uFFFD\\x0003\uFFFD\u0294\u7121h\\x0006G\uFFFDp\uFFFD\uFFFDT\\x0015\uFFFDG\\x001c\n\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDs\uFFFDs\\x0019\uFFFD=h\uFFFD,\uFFFD\uFFFD\uFFFD,\uFFFD\\x001a\\x0018\uFFFD\uFFFD-\uFFFDf'$\\x0011a\uFFFD\uFFFD\uFFFD\u04AEy\uFFFD\uFFFDe\uFFFD\uFFFDZ\uFFFD=W\uFFFDCV\uFFFDT\uFFFD=\uFFFD`X\uFFFDk\uFFFD1\u06F9T\uFFFD\uFFFD\uFFFD\uFFFD\u0375\uFFFDXe\uFFFD\\x0016\uFFFD\uFFFD\uFFFD\uFFFD-\\x0010\uFFFDA\uFFFDJ~&j\uFFFD\\x001d\uFFFD7S&*T\u0582J3\uFFFD\\x001c\uFFFD]\uFFFD\uFFFD\uFFFD\uFFFDjp\uFFFDN\uFFFD)\uFFFD4'W\\x0014T\uFFFD3\uFFFD\uFFFD#\uFFFD\uFFFD\uFFFD\\x0015\uFFFD\uFFFDep\uFFFDQw0D\uFFFD\uFFFD\\x0006:\uFFFD\uFFFD\u028C\uFFFDH\uFFFD\\x0017/\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u01C9T\uFFFD)\uFFFD!\uFFFD\uFFFD\uFFFDX\uFFFD*\uFFFD\uFFFD\uFFFD\uFFFD\\x0002\uFFFD,\\x0019\uFFFDJ5g\u0730s\uFFFD\uFFFD\uFFFD\\x00148\\x0001e\uFFFD\\x001d\\x000c\uFFFD\uFFFD\u0103\\x001b\uFFFDT\uDA25\uDC43\\x0011\u0588\uFFFD^\uFFFDG\uFFFD\u029C\\x0014\uFFFD\uFFFDv\u02ED\uFFFDT\uFFFDbl718\uFFFDJq\\x001a[`\uFFFD\uFFFD\u05D1\t\uFFFD=\\x000b\uFFFD*\\x0014\uFFFD&\\zn\uFFFD\\x0015n\\x001cQ=dR\t\u0780\uFFFD/h\uFFFD\uFFFD\uFFFDt9\uFFFD_<\\x0019N*Ww\uFFFD{2\uFFFD\u0535^\uFFFD\uFFFD/\uFFFDJ\uFFFDQy\uFFFDT\n1r\\x00033p\uFFFDR\uFFFD_\uFFFD\uFFFD@\u050B\uFFFD\uFFFD%\\x0014<\\x0004\\x0012\uFFFD\uFFFDDS\\x00193\\x0016q\uFFFD!=`\uFFFD\\x0012^C\uFFFD^\uFFFD\uFFFD\\x0012\u02AF\uFFFDy\uFFFD\uFFFDY:.\uFFFDl\uFFFD?\uFFFD\uFFFD\u0736\uFFFD\uFFFDF\uFFFD\uFFFD\uE762\uFFFDWl\uFFFD\t\uFFFDm\\x000crS\uFFFD\\x0004o@t\u06E2\uFFFD?\uFFFD\uFFFD\uFFFD4\uFFFD\uFFFD\uFFFD(\uFFFD\uFFFD\uFFFD\uFFFD\\x000c\uFFFD\uFFFD}B'\uFFFD\uFFFD[h\uFFFDJ\uFFFD\uFFFD\uFFFD8V3\uFFFD\uFFFD,\uFFFDyI\uFFFD,3\uFFFD\\x0017\uFFFDLA\uFFFD\uFFFD\uFFFD\u06B5A'\\x001b\uFFFD\uFFFD@\\x001a'\uFFFDK\uFFFD|\uFFFD\uFFFD\\x0018IP\\x001dFP\uFFFD/2\\x0019(w\\x0019\\\uFFFD\uFFFD\uFFFDb\\x001eU\rv\uFFFD.^\uFFFDU:\uFFFD\\x000fnv\uFFFD\\x001c\uFFFD\\x0016\uFFFDH\uFFFD\uFFFD\uFFFD\uFFFD\\x001cR\uFFFD\uFFFD\uFFFD\\x000e+j\uFFFD+\uFFFD\uFFFD\uFFFDLj\uFFFD\\x0008\uFFFD\uFFFD\uFFFDoX\uFFFD@\uFFFD\uFFFDl\uFFFD\uFFFD\\x0004k\uFFFDv%\uFFFD-7\\x000f\uFFFDzI\uFFFDQYXA\uFFFDW\uFFFD$\uFFFD\t\u056C\uFFFD\uFFFD7\\x0003\uFFFD\uFFFDx\uFFFDJ\uFFFD\uFFFD\n\uFFFD<P\uFFFD\uFFFD%\uFFFD\\x000e\uFFFD\\\uFFFD\uFFFDzb\uFFFD\\x001c\uFFFD\uFFFD\\x0014\uFFFD1\\x0004\uFFFDf\uFFFD9\u05B8\u0384\uFFFD[\uFFFDd$:\uFFFDZ\uFFFD0y\uFFFDT\uFFFD\nE\uFFFD2\uFFFD3\u00F7\uFFFD\uFFFD\uFFFD\\x0015\uFFFD\uFFFD\\x000c\uFFFD\uFFFD\\x000bVt\uFFFD\uFFFD\uFFFD\\x001f\uFFFDFe\uFFFD\uFFFD%&\\x001d\uFFFD\\x0018\uFFFDg\uFFFD\\x001dL\uFFFD\uFFFD8R\\x001b(5*U\\B/\uFFFD4\uFFFD-\uFFFD\n\uFFFD\uFFFDp\uFFFD\uFFFD{\uFFFD!\uFFFD\\x001b\uFFFD56\uFFFD^*\\x0013k\\x0005\\z\uFFFDv\\x0012\uFFFDd\\x0004\uFFFD\uFFFD{\uFFFD_\uFFFDyX\\x000e\uFFFD\uFFFDT*\uFFFD\uFFFD\u0726\\x0010\uFFFDC\uFFFD\uFFFDk{\n\uFFFD8NO\\x001c\uFFFD\uFFFD\uFFFD\uFFFD\u01B9\t\\x0015*9\uFFFD\uFFFDj\uFFFD\\x000c\uFFFD+\uDB2C\uDE26\u01D9\uFFFD\uFFFD\uFFFD\uFFFD|OH\uFFFDZ\uFFFD\uFFFDY\uFFFDE\uFFFD\uFFFDD\\x0006_\uFFFD\\x0008\u0224\uFFFD$\\x0014rTf\\x001e\uFFFDu\uFFFDl\uFFFD\u0154\uFFFD\uFFFDv\\x0012\uFFFDd\uFFFD\\x0005\uFFFDg\uFFFD-yN\\x0017\\x0012R)\uFFFDJ\uFFFD\\x0007\uFFFD\uFFFD\\x001c\uFFFDa\uFFFD\uFFFDG\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u072B\uFFFD\uFFFD\u071E\uFFFDJ\uFFFD\uFFFDvH\uFFFD\\x0005,\\x0010\\x000e\\x0008\uFFFD\uFFFD\uFFFDFe\uFFFDD\uFFFD\uFFFD\t~\uFFFD\\x0011\uFFFDQ\uFFFD\uFFFD\u02E8\\x000c\\x001a\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFDs{2C\\x000fq\uFFFD[>V\\x001df\u0453]\uFFFD\uFFFD\n\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u056E\\x00004\uFFFD\uFFFDVZ\uFFFD\uFFFD\uFFFD\uFFFDm\\x001a\uFFFD7O\uFFFD\uFFFD~\\x0003E\uFFFDkx\uFFFD|,}\uFFFD\uFFFD_\uFFFDT\uFFFD\uFFFD\uFFFD\uFFFD@\uFFFD(\uFFFD\u0498_\uFFFDN\uFFFD\uFFFD2\u88A9\\x000c\\x0019x\uFFFD\\x0014P1\uFFFDV\uFFFD2t\uFFFDtW\\x0014\u02A21d\uFFFD:,=a\\x001c\uFFFDN\uFFFD\uFFFD\uFFFDv\uFFFD:\uFFFD\\x0012o\\x001b\uFFFD\uFFFD\uFFFD2^8\uFFFD/\uFFFD`]l\uFFFD\uFFFD\uFFFDZ\uFFFD\uFFFDd\uFFFDP\uFFFDR\uFFFD\\x0007rTb\uFFFD\uFFFDPYd`\uFFFD+*s[y\uFFFD)^\uFFFD\\x0014^\uFFFDR\uFFFD\uFFFD\uFFFDw\nbhy\\x0016\\x0017eT.\uFFFD\uFFFD\\x0013\\x0002\uFFFD\uFFFD\uFFFD\uFFFD+p\\x0006\uFFFD\uFFFD\uFFFD\\x0012\uFFFD:E*!0\uFFFD\uFFFD)\uFFFD2\\x0003W\uFFFD\uFFFD/wBg\\x0011\uFFFDX*\uFFFD\uFFFD\u0169\\x0010Z\uFFFD==\\x0015\uFFFD*)=}\uFFFDa\uFFFD\uFFFDE&\\x0016KGP\uFFFD/\uFFFD\uFFFD<\u061B\uFFFD\uFFFD2\uFFFDM\uFFFD?\uFFFD\uFFFDb\uFFFD\uFFFD\uFFFD\uFFFD\u07C0\uFFFDA\uFFFD\uFFFD\u07B3\uFFFD%\n\uFFFD\\[1\uFFFD\uFFFD\uFFFD\u0F63\uFFFD#\uFFFD\uFFFD\u0569\uFFFDj\uFFFDH\uFFFDX\\x001c(\uFFFD\uFFFDs\uFFFD\u8F14\uFFFD\"\u0284\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD]g\uFFFD\\x0017k\uFFFD%\uFFFD\uFFFD_He\u018D\uFFFD\\x0017\uFFFD\\x0015XG\uFFFD\uFFFD\uFFFD\uFFFD!P\u035C\uFFFDJ\\\uFFFDv[D\uFFFD\uFFFD\uFFFD\u7062\\x0012-\\x0003X\uFFFD\uFFFDz\uFFFDl,<+-\uFFFD\uFFFDE\uEA74WT\uFFFD4K\uFFFD\uFFFDJ\uFFFDu\uFFFDd\\x0012\\x0007\uFFFD\uFFFD\uFFFDR\uFFFD\uFFFD\uFFFDa\uFFFDL}\\x001c\uFFFD\\x0008c+U\uFFFD\\x0017i\uFFFDDz1\uFFFDP\uFFFD\\x00080\uFFFDn\uFFFD|^v\uFFFD(\uFFFD\\x001e\uFFFDVA\uFFFD\u04A0\uFFFD\uFFFD[c\uFFFD\\x001b\uFFFD\uFFFD0D\uFFFD\uFFFD\u047BT^,\uFFFD\uFFFD\\x0004*\uFFFD\uFFFD\\x00074om\uFFFDU\uFFFD;)\uFFFD;e+\uFFFD/}\uFFFDB\\x0002^\\x0012\uFFFD\uFFFD\uFFFD\uFFFDEK\uFFFDg{\uFFFD\u0089\uFFFD\uFFFD`OyA%\uFFFD\uFFFD\\x001d\uFFFD]L3\uFFFD\uFFFD\uFFFD[\uFFFD\\x001cl\uFFFD\uFFFD\u04B5\uFFFD\\x001aE%\uFFFDb/`g\uFFFD\uFFFDE\u066D\uFFFD\uFFFD\\x0003#q\uFFFD\\x0005\uFFFD/2w{\uFFFD f\uFFFDy\uFFFD9\uFFFD\\x0013\uFFFDa\uFFFD*\uFFFD\uFFFD?d0\uFFFD\uFFFD\uFFFD\uFFFDnO\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD} \\x0007\uFFFD@\\x001eW\u02AB`\uFFFD \uFFFD8\u07B9\uFFFD\\x001aQ\uFFFD\\x000e#\u0425\\x0011\uFFFDbL\u07D6\uFFFD\uFFFD\uFFFDJ\uFFFD{t0\uFFFD\uFFFDR\uFFFD\uFFFDs\\x0017\uFFFD\uFFFDL\\x0007#6\\x0000\\x0019\uFFFD\uFFFD\uFFFD\uFFFD-6\\x0000\uFFFD\\x0011\uFFFD\uFFFDt4d\uFFFD\uFFFD2@\uFFFD\uFFFD'\uFFFD\uFFFD\tAr\\x001f\\x0001\\x000eL\uFFFDg\uFFFDc\uFFFD9\uFFFD\u051B'\uFFFDF%\\x0011X\uFFFD\uFFFD\t\uFFFD\uFFFD\\x001bI%X'w\\x0002\uFFFD=\uFFFD\uFFFD&\uFFFD*!*\uFFFDRK\uFFFD\uFFFD8\u0631\uFFFDU\uFFFDp\uFFFD`=wd\uFFFD\\x0000\uCB1F0\uFFFDD\\x0013\\;\uFFFD\uFFFDR\\x0004\uFFFD\\x00069Z\rW\uFFFD=\uFFFD(\r\\x001e`\uFFFD\\x0019\uFFFD\uFFFD\uFFFD\uFFFD.\uFFFD\uFFFD\\x0002\uFFFD<\uFFFD\uFFFD\uFFFD\\x001aY\uFFFDT\u0528|e.\uFFFDM\uFFFD\\x0014\uFFFD\\x0000\uFFFD\uFFFDH\\x0011\uFFFD\uFFFD\uFFFD\uFFFD7*\uFFFDD\uFFFD\\x0008\uFFFDh\uFFFDt\uFFFD\uFFFD\uFFFDX\uFFFD\uFFFD\uFFFD\uFFFD]\uFFFDQd\uFFFD\uFFFD\uFFFD\uFFFD\\x001b\uFFFD\uFFFDN\uFFFD\uFFFD6\uFFFD\uFFFD\uFFFD\uFFFDi\uFFFD\uFFFD$WsU\uFFFDcWE\uFFFDh\uFFFDL\uFFFD)\uFFFD\uFFFD\\x001aL\r%\uFFFD~\uFFFD]oUF\\x000f\uFFFD\uFFFD%\uFFFD\uFFFD\uFFFD4\uFFFDZ\uFFFD\u0182\\x0011(\uCAA06ub\uFFFD\uFFFD`\t\uFFFD}<\uFFFD\uFFFD$9q\uFFFD*m\uFFFD[\uFFFD\\x0017E\uFFFD\uFFFD\u0551\uFFFDO\uFFFDc\n9\uFFFDn'\uFFFDW\uFFFD [\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD3\uFFFD\\x001aq\uFFFD\uFFFD\u017F\uFFFDg\\x000b\uFFFDA\u04AF\uFFFDk\uFFFDB\uFFFD\uFFFD>\uFFFDu:\uFFFD\uFFFD\uFFFD\\x0016\uFFFD\uFFFDH\uFEE9\uFFFD3K\uFFFD\uFFFD\\x0005\uFFFD\\x0012s\uFFFDK\uFFFDzbHp\uFFFD\\x0003T\uFFFD\uFFFDnU_\uFFFD\uFFFD\uFFFDeD\uFFFD\\x0005\uFFFD\uFFFD\\x0015\uFFFDs\uFFFD\uFFFD\u02B0\uFFFD\u0147)[\uFFFD\uFFFD\uFFFD\uFFFD\u026Es\uFFFD\uFFFDvFc\uFFFD\uFFFDB~9\uFFFD\uFFFD\u00DA\uFFFD\uFFFD''R\uFFFDh\u05FE\\x000f\\x0004!]\uFFFD's\\x001c&lY\uFFFD\uFFFDt\uFFFD\uFFFD\uFFFDr\\x0014g\uFFFDT\uFFFDF\uFFFD\uFFFD\uFFFDrHo\uFFFD\uFFFD\uFFFD\uFFFDT\\x0016\uFFFD\\x0003'\uFFFD%\uFFFD\uFFFD\uFFFD\\x0019\"\uFFFD6\uFFFD\u04D3\\x0013\\x001d%\uFFFD>\uFFFD\\x0005\uFFFD\uFFFD\uFFFD\\x000f\uFFFD\\x00012#\uFFFD?\t\uFFFD\uFFFDa\uFFFD\uFFFDg\u0562\uFFFD\uFFFD=@\uFFFD\u0337m3\uFFFD\\\uFFFD\\x001b\uFFFD\u00B0\uFFFDl\uFFFD\uFFFD\uFFFDK\uFFFD\\x0019I\uFFFD\uFFFD\uFFFDq\uFFFD\uFFFD6p\uFFFDRj\uFFFD\\x001b\uFFFD?1\uFFFDT\uFFFD\\x001cY\uFFFD/\uFFFDBZ*MqO0:B\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD2\uFFFDf\uFFFD\uFFFD\"Ov\uFFFDVajB\uFFFD\\x0003UK\uFFFD<\uFFFD$\uFFFDq\uFFFDA\uFFFDR\uFFFDg\uFFFD\uFFFDK\uFFFDtl.\uFFFD\uFFFDdW^\uFFFD<X\uBE48P\u0351\uFFFD6!$\uFFFDp\uFFFD\\x0008\uFFFDiC\uFFFD\\x000e\uFFFD\\x0002\uFFFDm\\x0013\uFFFDt{\uFFFD:\\x0010\uFFFD\uFFFD\uFFFDzln\uFFFD83\\x0017va\uFFFDN#\uFFFD\\x0017-\u038AT\uFFFD;\\x000fx\u04E0dl6\uFFFD\uFFFDF*S\uFFFDh\uFFFDB\\x001e\uFFFD\\x0014g\\x001e\uFFFD\uFFFD^\uFFFDE\uFFFD\uFFFD :&\t\uFFFD\\x001a\uFFFDP\uFFFD\uFFFD\uFFFDg\uFFFD\uFFFD\uFFFD\\x0018\uFFFD{\uFFFD\uFFFDv\uFFFD\uFFFD\uFFFD]zTTd\uFFFD\uFFFD>7\\x0011y\\x001d\\x0017?\uFFFD\\x001d\\x0003-v(\\x0014\uFFFDR\uFFFD\uFFFD.\uFFFD\\x000c\uFFFDV\\x00129\uFFFD;\\x000ez\uFFFDe\uFFFD,&\uFFFD&\uFFFD\uFFFD^\uFFFD\uFFFDO[\\x0007\uFFFD\uFFFDk*\\x0013\uFFFD\uFFFD\\x0000\uFFFD\uFFFD\\x001aA\uFFFD&$\uFFFDB\\x0019\uFFFD&\uFFFD\uFFFD#\uFFFD4\uFFFDQT\uFFFDu{.y[\u050A=\"\u0350JpT\uFFFDXph\uFFFD\u0297\\x000b\uFFFD0\uFFFD\uFFFDH\uFFFD\u05C8\uFFFD\uFFFD\uFFFD\uFFFD$\uFFFD\uFFFD\uFFFDvF\uFFFD)\uFFFD\uFFFDd[\uFFFD,\uFFFD\uFFFD\uFFFD/\uFFFD\uFFFDK\uFFFD\uFFFD\\x0016\uFFFD\uFFFDV\uFFFDjF\uFFFDfF%\uFFFD\u0774]\uFFFD\uFFFD9gX\uFFFD\uFFFD#Z({\uFFFD\uFFFDcE\uFFFD\uFFFD\uFFFD\\x001e>4\uFFFD`\u030F\u029A\uFFFD\uFFFD9Vn\uFFFD>\\x001es.\uFFFD\\x001aB[\uFFFD\uFFFD\uFFFD\\x001cl\\x000f\uFFFD\u0344r\uFFFD\uFFFDH\uFFFDP4l\uFFFD\\x0013SO<\uFFFDrB\\d\\x000f\uFFFD\\x001e\uFFFDz\uFFFD\\x000f\uFFFD\uFFFD\u0584\uFFFD\"i\n\uFFFD\uFFFD\uFFFD2\uFFFD\\x0003T\uFFFD\u0731Z\uFFFD\uFFFD\uFFFD\uFFFD\\x000f\uFFFD/\uFFFD\u014FE(\uFFFD}p\uFFFD\uFFFDkob\\x0012\uFFFD0bo\uFFFD\uFFFD\uFFFD\uFFFD\u0307\uFFFD\uFFFD\\x0014k\uFFFD\uFFFDL\uFFFD\uFFFDy\uFFFD>\\x001d}Z\uFFFD\\x001f\u06E2\uFFFD\uFFFDmE*aL|=v\uFFFD\uFFFDTj\uFFFD\uFFFD0NZ\uFFFD\uFFFD\u0296\uFFFD\\x001eS\uFFFDW\uFFFDY\uFFFD\uFFFD\u033B\uFFFD{\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDr\uFFFD\uFFFD\uFFFDp\uFFFD\uFFFD\\x0015\uFFFD1\\x0016\uFFFD\uFFFDo8\uFFFD\uFFFDJ\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\"\uFFFD=\\x0013a\uFFFD\uFFFD4j\\x0001k^Y/\uFFFD\uFFFD\\x0004\u8751\uFFFD\\x0008\uFFFDjE\uFFFDq\\x0019\uFFFD\uFFFDD\uFFFDe\uFFFDD\uFFFDR\uFFFD\uFFFD\uFFFDL\\x000e\uFFFD\\x0016T\uFFFD\uFFFD\\x001bB.\uFFFD\uFFFD7\uFFFD\uFFFD\r\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0017N\uFFFDj\uFFFD(\u017C.>\uFFFD4:AJ\uFFFDd\uFFFD\uFFFDR\uFFFD$A\uFFFD\u025F\uFFFDT\uFFFD\uFFFD+R\uFFFDQ\\x0018\uFFFDhN(\uFFFD`t\uFFFD\uFFFD\u00DF\uFFFDH\uFFFDDI\uFFFD\uFFFD\u078BVT\uFFFD}\\x001e\\x001f\uFFFD\uFFFD?\uFFFD%\u0122\uFFFD\uFFFDT\\x001bR\uFFFD\\x0003\uFFFD_qY\uFFFD/\uFFFD4\\x001e'\uFFFDKz\uFFFD\uFFFD)C\uFFFD\uFFFDA\uFFFD\\x0007=\u01BB=\\x0008\uFFFD\uFFFDg\uFFFD\uFFFD_\uFFFDw?t\uFFFD\uFFFDw0\uFFFD\u0257\\x0011\uFFFD\uFFFD\u035F\uFFFD>\uFFFDS{\\x0005\\x001a\uFFFD$\\x0011\uFFFD}\\x001a\\x001c\uFFFD\uFFFD\u0173^\\x0007\uFFFD\uFFFD\uFFFD\uFFFDB\uFFFD\uFFFD\\x0011ap\uFFFD\uFFFD\uFFFD\uFFFD\u07A0g\uFFFD\\x001b\uFFFD\uFFFDZ\\x0000\uFFFD\uFFFDV\uFFFD\\x0001,\uFFFD\t\uFFFD\uFFFDs\uFFFD\uFFFDa\uFFFD\\x0004\\x0015*\\x0015qN\uFFFD$R\uFFFD\uFFFDGj\uFFFD\uFFFD 5a\uFFFDP\uFFFD\\x001a\uFFFDM1Gz\uFFFD\uFFFD\uFFFD\u04F8\uFFFD\uFFFD\uFFFD\u5A3D\\x0001\\x0016\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\r\\x001f\uFFFD\uFFFD\uFFFD\\x000cgE2ux\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u04F8\uFFFDN.\uFFFD\u0395\uFFFDf\uFFFD\\x001c\uFFFD\uFFFD*\uFFFD\"\\x001a>\uFFFD\uFFFDo\uFFFD\uFFFD\uFFFD\uFFFD3\uFFFD\\x0006\uFFFDCzG\uFFFD\uFFFD+\uFFFD\uFFFD4\uFFFDJ\\x0018\uFFFD\uFFFD\u0734\\x001b\uFFFDyS\uFFFD\u07C9\uFFFD\uFFFDlc\uFFFDK\u047E \uFFFD1hT>\\x0006\uFFFD\uFFFD\u01E0Q\uFFFD\\x00184*\\x001f\uFFFDF\uFFFDc\u0428|\\x000c\\x001a\uFFFD\uFFFDA\uFFFD\uFFFD1hT>\\x0006\uFFFD\uFFFD\u01E0Q\uFFFD\\x00184*\\x001f\uFFFDF\uFFFDc\u0428|\\x000c\\x001a\uFFFD\uFFFDA\uFFFD\uFFFD1hT>\\x0006\uFFFD\uFFFD\u01E0Q\uFFFD\\x00184*\\x001f\uFFFDF\uFFFDc\u0428|\\x000c\\x001a\uFFFD\uFFFDA\uFFFD\uFFFD1\uFFFD\\x0007b\uFFFD\uFFFD)H&\uFFFD\uFFFD\\x0000\\x0000\\x0000\\x0000IEND\uFFFDB`\uFFFD"
 						},
 						{
-							"id": "150",
+							"id": "151",
 							"uri": "https://cardano.org/news/2022-01-24-january-developer-portal/",
 							"method": "GET",
 							"param": "",
@@ -932,7 +968,7 @@
 							"otherinfo": "RIFFj\\x0019\\x0000\\x0000WEBPVP8L]\\x0019\\x0000\\x0000/\uFFFD@>\\x0010Ua\uFFFD\uFFFDm\uFFFD\\x001c7?\uFFFD\\x0001\uFFFD\uFFFD\uFFFD\uFFFDn5I\r\\x001a\\x0010K\uFFFDffffffff\uFFFD\uFFFD\u030Cf\uFFFD03u\uFFFD\uFFFD/<\uFFFD\uFFFDn\uFFFDp\uFFFDR\uFFFDS\uFFFD\uFFFDd\uFFFD^\uFFFD\uFFFD)\uFFFDaL\uFFFD\\x00013\u02252\uFFFD\uFFFD\uFFFD\\x0007\uFFFDd\uFFFD\\x0017\uFFFDiH\uFFFD|fK\uFFFD\uFFFD.lf/C\\x0006\uFFFDUa\uFFFD#\r,\uFFFD\\x001cUW\uFFFD\\x0013s\uFFFD\uFFFD\uFFFD\uFFFD$\uFFFD\uFFFD\uFFFDT=eX\\x0006\uFFFD\\x0014\uFFFD*\uFFFD\\x000cr\uFFFDT\\x0006}\uFFFDJe\\x0008\uFFFD\\x0017f\uFFFD.lf[f\uFFFD*\uFFFD\\x001d\uFFFD2\uFFFDJ\uFFFDWI)K\uFFFD{\uFFFD\\x000cS\\x001df0C81\uFFFD\uFFFD\uFFFD\uFFFDI\uFFFD\uFFFDf*\uFFFDa\uFFFD\r\uFFFDI\\x0013\uFFFD\u02282\uFFFDrVaflS\uFFFD\uFFFD\\x001aX\uFFFD\uFFFDq\uFFFD\uFFFD\uFFFD\u031C!S8y\raZ1\uFFFD\uFFFD\u0330t\uFFFD\\x0019\uFFFDf\uFFFDpm{\\x0019\uFFFD\u06B6m\u06F6m\u06F6m\uFFFD\uFFFD\uFFFD\uFFFDi\uFFFD6h\uFFFD\uFFFD\uFFFDn\uFFFD?wB\\x0012$\u0666m\uFFFD\uFFFD\uFFFD<\\}]?\uFFFD3\u06F6\uFFFD1\uFFFDm\u06F6m\u06F6m\uFFFD6nM\\x0000\uFFFD\uFFFDn/\uFFFD\r\uFFFD\uFFFDZf\uFFFD\\x001c'\\x0008,\uFFFD\uFFFD\u81AB\uFFFDx'g6\u0699-\uFFFD\uFFFDu\\x000e\u261D\uFFFDfk\\x001e\\x0019\uFFFD{;\uFFFD\uFFFDN\uFFFD2\uFFFD\uFFFD:pDob=\u02BF\uFFFD\uFFFD\uFFFD?\uFFFDU\uFFFD\\x000fsl\\x001f9\uFFFD\uFFFD}\uFFFDk(9\\x000c,\uFFFDd~\uFFFD\uFFFDb\uFFFD\u0679\u0362\uFFFD\uFFFD\uFFFD\t\\\uFFFD\uFFFDQt\u0324\uFFFD\uFFFD\uFFFD\uFFFD \\x0016\\x0018\uFFFD\\x000e\uFFFD\uFFFD`\\x000b\\x000fm\uFFFDC\uFFFD\uFFFD\uFFFDh\uFFFD\uFFFD]\uFFFDM\uFFFD\\x001c\u02A9F-!G\uFFFD\uFFFD\uFFFD\\x001f\uFFFD\uFFFDb\uFFFD\uFFFD\uFFFDy\r\uFFFD\uFFFD\uFFFD\uFFFD&\uFFFD\\x000c\uFFFD\uFFFD\uFFFD)\uFFFDc\uFFFD@\t.\uFFFD\uFFFD\uFFFD\uFFFDeP\\x0007tp\uFFFD\uFFFD|\uFFFD\uFFFD\uFFFD\uFFFDQ\uFFFDj\uFFFD\"G\uFFFDK\uFFFD\u0643\\x000e\uFFFD\uFFFD\uFFFD]\uFFFD^;\uFFFD\uFFFD\uFFFDp\uFFFD\\x0013\\x001f`\uFFFDm\uFFFD\uFFFDM\\x001b\uFFFD%Z\uFFFD\"4\\x0007Wn\uFFFDmX\uFFFD\u047CBc\uFFFD8\u0273\u059D\uFFFD\uFFFD\u050D\uFFFD\uFFFD\\x0004g\uFFFD\uFFFD>[\uFFFD\uFFFD\uFFFD\u045B\uFFFD4*b-\uFFFD\uFFFD]M\uFFFDAK\uFFFD\\x0019w.\uFFFD\uFFFDwW&t\uCBA4\uFFFDAL\uFFFD\uFFFD\\x000b6\u6CD9\"\uFFFD\\x001c^\u0257\uFFFD\uFFFD\\x0016\uFFFDG\u02A6\uFFFD\u07D5\t\\7WR^\uFFFD^_\\x000f\uFFFD\\x0008\r\uFFFD|9\uFFFD\uFFFD\uFFFDxZpG\u02A12\uFFFD\\x0006w\uFFFD\uFFFD \uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0014\uFFFD\uFFFD\uFFFD;\uFFFD\uFFFD\uFFFD8c\uFFFD2\uFFFD\uFFFD\u03D48A\uFFFD3\uFFFDhP\\x0007m\uFFFDW\uFFFD\uFFFD^\u0219u\uFFFD\uFFFD\uFFFD<U\uFFFDK}\uFFFD\uFFFDQv\uFFFDt\uFFFD\\x000e\\x001e[(\uFFFD-\u02FE\u06DC?.O\\x0012[\uFFFDXq#;\uFFFD\uFFFD\"\uFFFD\uFFFD\uFFFD\uFFFD|8}\uFFFD\\x001d-\uFFFD%\uFFFD\uFFFD~\u03AC\uFFFDA\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD?\uFFFD>U\uFFFD\uFFFD\\x001bBN\uFFFD\uFFFD\\x0013\\x00068\uFFFDA#\uFFFDP\u0274\uFFFDt\\x0010\\x0017\u0536\uFFFDB.\uFFFD\uA488\\x0013\\x0006:\uFFFD\uFFFD:\uFFFDg\uFFFD\uFFFDj.\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDB\\x0016\uFFFD\r|\uFFFD\uFFFD\uFFFD\uFFFDJ\uFFFD\uFFFD\u0417>\uFFFD\uFFFD%\uFFFD\uFFFD.\uFFFD\uFFFD^\uFFFD0SI6\uFFFD\u9393\u050D\uFFFDV\uFFFD\u0195T\\x0018\u0511\uFFFD\u037FT\uFFFD\uFFFD\uFFFD5p9\uFFFD\u056C\uFFFD2v\\x0014k\uFFFD\uFFFD\uFFFD1\u07E8\uFFFDov>\uFFFD\u062C\\x0007R\uFFFD\\x0012:\\x0016'\uFFFD\uFFFD\\x0016^P\u02775/6\uFFFDj)j\uFFFD\\x0017'7\\hP\uFFFD,T\\x0006Z\\x000c\uFFFD\\x001b.\uFFFD\r\u0269n\u0691T&FN;\uFFFD\uFFFD+-\uFFFD}\uFFFD4|\uFFFD\uFFFD\uFFFDQ\u0668Mw\uFFFD\u02D6\uFFFD\uFFFD\uFFFD\u0551\uFFFD\uFFFD\uFFFD\uFFFD2\uFFFD\uFFFD\\x0012\uFFFDV\uFFFDh\uFFFD\\x0015\uFFFDR\\x000c\uA405\uFFFDL\uFFFD\\x000c=Pr\uFFFD/KI(\uFFFD\uFFFDsf\uFFFDm\uFFFDK*C\uFFFDVSFY'\\x0001q}\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDA\u030B\uFFFD#\uFFFD\uFFFDfh\uFFFD2\uFFFD<\uFFFDkC[\uFFFD^\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD-\\x0014+\uFFFD\u05C4\uFFFD*\uFFFD\uFFFD]\uFFFD9\uFFFD~\uFFFDT\uFFFDFV\uFFFDN\uFFFDJd\uFFFD\\x001c\uFFFD\\x000c*s\uFFFD\uFFFD\uFFFD\uFFFD1!\uFFFD\uFFFD\\x0016\uFFFD\\x0011X\uFFFD\uCD4C\uFFFD\\x0001\uFFFDTB#r\uFFFDT\\x0016?~\uFFFD\uFFFD\"\\x0010\uFFFD\uFFFD\uFFFDDe\uFFFD\uFFFD\uFFFDp*r\uFFFDqn1*\uFFFD\uFFFD=\\x0006Zz8T\uFFFD\uFFFDr\\x001d<\uFFFD2\uFFFDZ\uFFFDq\uFFFDA\uFFFD/\\x0010\u048AK\uFFFD\uFFFDRY\uFFFD\uFFFD\uFFFDk@F\uFFFDNH\\x0017\uFFFD\uFFFD\u01BC\uFFFD2\uFFFDJ\\x0017\u06B4\\x0003\uFFFD$*b&\r\uFFFD\uFFFD\uFFFD\uFFFD\\x0016\uFFFD\u018A\\x001b \uFFFD\rW\uFFFD2<\uFFFD}\"\uFFFD\\x001d\\x0017\uFFFD\uFFFD)\uFFFD\uFFFD\\x0003w\\x0004\uFFFD\uFFFD\\x000c\\x001d<\uFFFD2=\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDFT\uFFFDT\uFFFD\uFFFD>B\uFFFD\uFFFD\uFFFD\uFFFDoP\u01E9\uFFFDO^r\uFFFD/\uFFFDU\uFFFDg[\uFFFD\uFFFD\uFFFD\uFFFD6\uFFFDZD\uFFFD)\\x001a\\x001c\uFFFD\\x001c\uFFFD\uFFFD3/\uFFFD>\\x0005\uFFFDh\uFFFD\uFFFD\uFFFD\uFFFDK\uFFFDGe\uFFFD\uFFFD\uFFFD\uFFFD)\u03DC\uFFFD\\x00123i\\x001cLep\uFFFD\uFFFD\uFFFDH<P\uFFFD\\x000e\\x001eR\\x00058\uFFFD\uFFFDQ\uFFFD(\uFFFD\uFFFD\uFFFD\\x0006u\uFFFD*\u00AF\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFDVS\\x0006\uFFFD_\uFFFD~j\uFFFD7h\uFFFD\\x0010\uFFFD]hG\uFFFDy\uFFFDD[\uFFFD*\uFFFD>\\\uFFFD\uFFFD\\x0012[\\x0016;\uFFFD\uFFFD*\uFFFD\uFFFDLl\uFFFD\\x0005\u0572\uB2A3\\x0018fV\\x0012\\x0016'>\uFFFD\uFFFDW\\x0015!\uFFFD\uFFFD\"\\x001b\uFFFD*\uFFFD{p%\uFFFD\\x0002\uFFFD\\x001bx\uFFFD\uFFFDY\uFFFD0\r\uFFFD\u0335\\x000b\uFFFD\uFFFD\uFFFD\\x0015G1VS\\x001a\uFFFD\uFFFD\\x0018\uFFFD\uFFFD+\uFFFDPr\u0698\uFFFDTq\uFFFD\uFFFD\\x001dg\\x000b$\uFFFDe\uFFFD\uFFFD\uFFFD\uFFFD\\x0002\uFFFD\uFFFD\uFFFD\uFFFDI\\x0018\u03AC\uFFFDE\uFFFDX\uFFFDYOA\u010E\uFFFDl\uFFFDS\uFFFDH\\x001fq\uFFFD\\x0002h\uFFFD'\uFFFD\\x0018\uFFFD2\uFFFDP\uFFFD\uFFFD\uFFFD\uFFFDs\uFFFD\uFFFD\uFFFDJ%x\uFFFD\uFFFD\uFFFDZ\uFFFDm'\uFFFDQ\uFFFDZ\uFFFD\uFFFDjm\uFFFD\\h\uFFFD\uFFFD)\uFFFD\uFFFD\uFFFD\\x0019O\uFFFD<\uFFFD\uFFFDR\\x0005;\uFFFDx\uFFFD7?\\x0015jJFsf\uFFFDx\uFFFD\\x001b\uFFFD\uFFFD\uFFFD6U\uFFFDE\uFFFD\uFFFD\uFFFDf4e\uFFFDm\uFFFD\uFFFD8A\uFFFD\\x000e\uFFFDP\uFFFD[\uFFFDo\uFFFD9\uFFFDA\uFFFD\uFFFD\u045C\uFFFD@\uFFFD\uFFFDwwT\uFFFD\uFFFD]\uFFFD\uFFFD\uFFFD+'\uFFFDMS>\uFFFD3\uFFFD\uFFFDQ\"\u06EA\uFFFD\uFFFD\\x0002\uFFFDjb\uFFFD\uFFFDM\u0324I\uFFFD\uFFFD\\x001f%\uFFFD\\x000e\uFFFD\uFFFD&\uFFFD\uFFFD\uFFFD\uFFFD~\uFFFDT:w\uFFFD\\x000f\uFFFDw\uFFFD/\uFFFD2\uFFFD\uFFFDA\uFFFD\u0700\uFFFDz.\uFFFDpnEhc\uFFFD\uFFFD\uFFFD?\uFFFD^\uFFFD\\x0001@\uFFFDfk\uFFFD\uFFFD8\\x0008\uFFFD81\\x0013\uFFFD0\uFFFD#J\uFFFDEI-\uFFFD\t\uFFFD\\x001b\\x0010\u05E7\uFFFD4K\uFFFD\uFFFDJp\uFFFD|o\uFFFD\\x0014\uFFFD\uFFFD\u01A0Q\\x0002\\x0000@\\x0008C\\\uFFFD;\uFFFD\uFFFD=\uFFFD\uFFFD\\x0018\uFFFD\\x0002\uFFFDhF\\x0000\uFFFD\uFFFD\\x0002\\x0005\uFFFD\\x001b\u07E3\uFFFD?i\uFFFD[\uFFFD\uFFFD_\uFFFD\uFFFD'\uFFFD\uFFFD\\x001e:\uFFFD\uFFFDn\uFFFDdw\\x0017\uFFFD\uFFFD3\u065B\uFFFD\uFFFD\uFFFDx\uFFFD?\uFFFD\\x001e\\x000f\uFFFDg\uFFFD\uFFFD\uFFFD`z9\uFFFD^\r\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDz1\uFFFD\uFFFD\uFFFDt\\x0008=\\x001a\u03BE\uFFFDf\\x001f&\uFFFDWS\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFD\uFFFDNo\uFFFD\uFFFD\\x0007h\uFFFD\\x0019Zt\uFFFD\uFFFD<\uFFFD\uFFFD\\x001f)\uFFFDB\u0468\uFFFDV\\x0002\\x0000\uFFFD!\uFFFD\u03BE}\uFFFD\\x0014\uFFFD\uFFFD[\\x0007\uFFFD\uFFFD\uFFFD\\x0008\\x0000)\\x0018\uFFFD\u0421\uFFFD\uFFFDi\uFFFD}\uFFFDt\uFFFDNng7\uFFFD\uFFFD\uFFFDS\uFFFD\uFFFD\\x0008z\u06D7\uFFFD\uFFFD\uFFFD\\x0001\uFFFD\uFFFD\uFFFD\uFFFDp\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDr\uFFFD\\x001d\u066F\uFFFD|\uFFFD\uFFFD\uFFFDl\\x0006?\u04E1\uFFFD\uFFFD\uFFFD\"\\x001b\uFFFD\uFFFD\\x000f\uFFFD\\x000e\uFFFD\n\\x0000\uFFFD\uFFFD\uFFFD\uFFFD~\uFFFD\u0319\uFFFD\uFFFD\uFFFD;\uFFFD\uFFFD\\x0008\uFFFD\uFFFDQ\\x0010\uFFFD\uFFFDZr\uFFFD\uFFFDnu\uFFFD\uFFFD\u04BB>\uFFFD\uFFFD\uFFFD\"\\x000c\u063F.Ll5]_M\uFFFD\uFFFDp\uFFFD\uFFFDUB\uFFFD\uFFFD\\x0014\uFFFD0\uFFFD\uFFFD\uFFFDY;\\x001f\u057Bd0\uFFFD\uFFFD\\x0014\uFFFD\\x000c@sf$\uFFFD\uFFFD\uFFFD\\x0017\uFFFD\uFFFD\\x0004\uFFFDX\uFFFD\uFFFDM\uFFFD7\uFFFD\\x0008;\uFFFD\u05A8\"\\x000f\uFFFD\u07EE$]Wg\uFFFD\u042AK\uFFFD\u0418\uFFFD3\\x0018\\x0000C\\x0006-\uFFFD\uFFFD>q\uFFFDi\uFFFDh @t@\uFFFD}\uFFFD5\\x0017\uFFFD\uFFFD\\x001a\\x0016\uFFFDo\uFFFD9\u0436\uFFFD\\x0008\r\uFFFD\uFFFD=\uFFFDA'v\uFFFD\uFFFD;\u053BH\uFFFDV\\x0000\uFFFD\uFFFDp\\x000f\uFFFD\uFFFD\\x0013\\x00071\uFFFD\uFFFD\uFFFD\\x0001D\uFFFD9\uFFFD\uFFFD\\x001f'E\uFFFD\\x0003\u810A\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDG\uFFFD\uFFFD\u02FCW\uFFFD\\x0018\r\\x0008\\x0013\\x001fu\\x0014\\x0013|\\x0010\u07F3\uFFFD\uFFFD\uFFFD\uFFFD\\x0008\u0414\r\uFFFD\uFFFD.w{\\x0011=\\x001f\uFFFD\\x0001u@E\uFFFDi\uFFFDS\uFFFD\uFFFD:>\uFFFD\uFFFD\\x001a\\x0005\\x00080\uFFFD\uFFFD\uFFFD\uFFFDq\\x001b\uFFFDJ\uFFFDC\uFFFD\uFFFD\\x0008DT{\uFFFD\uFFFD\uFFFD\u013E\uFFFDa\uFFFD;\uFFFDJa\uFFFD~\uFFFDd/\uFFFD3\uFFFD\uFFFD\\x0019\uFFFD\\x0006DT!\\x000fd\u0734\uFFFDh\\x0019\uFFFD\uFFFDe\uFFFD\uFFFD\uFFFD[\uFFFDy\uFFFD*\uFFFD\uFFFD{0\uFFFD\uFFFD\uFFFD\uFFFD1[\uFFFD\uFFFD\uFFFD:\uFFFD)F%pmz}U,\\x0004r\uFFFDY\uFFFD\uFFFD\uFFFD\u06239\uFFFDg\\x000fL\uFFFD\uFFFD\\x0006\uFFFD\uFFFD\uFFFDs\uFFFD1\uFFFD\\x0001\\x0011\uFFFD^_\\x0019\uFFFD1G\\x0013\"\n\\x0002zMiUZw\uFFFD>\uFFFD7\uFFFD\\x0012\\x001d\uFFFDk\uFFFD\\x0003\uFFFD\uFFFD\\x0001\\x0013E\uFFFD\uFFFD\\x0018\uFFFD<T\uFFFD\\x000c\uFFFD\u055Ek\uFFFD}\uFFFDI\uFFFD\uFFFD\\x0003m\u01EC\uFFFD\uFFFD\uFFFD&='%\\x0001\\x0011\uFFFD\uFFFD1\uFFFD\uFFFDj\uFFFD\uFFFD\\x000b\uFFFD\uFFFDh\uFFFD\\x001b\uFFFD\uFFFD\uFFFDBU\uFFFD\uFFFD~Z\uFFFD\uFFFDOW\u02BD\uFFFD\uFFFD\uFFFDf\uFFFD;\uFFFD\uFFFD\uFFFD\\x0017:\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDn5\uFFFD@\uFFFD\\x0011`\\x0012\uFFFD\uFFFD\uFFFD\uFFFD3\uFFFD\uFFFD0\uFFFD)\uFFFD\uFFFD\\x0008O\uFFFD\u03EE\u057B\uFFFDQ|\uFFFD\u0D26>a5a\uFFFD\uFFFD\uFFFDd\\x001b\uFFFD&\uFFFDv\\x0012\uFFFD7\uFFFD\uFFFD:\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[4\uFFFD1\uFFFDE#>\uFFFD\uFFFDo\uFFFDS\\x00153X}\uFFFDcNSt\uFFFD\uFFFD&\uFFFDI5\uFFFD\uFFFD\uFFFD\uFFFD!\uFFFD9\uFFFD&?\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFDn\uFFFD\uFFFD\uFFFDXW-\\x0013+7u\uFFFD\uFFFDTU-w7\uFFFDR\\x0003\\x0013\\dV\uFFFDY'Mhd\uFFFDIU\uFFFD\\x0006\uFFFD\uFFFD-/\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD~\\x0019\uFFFD\uFFFD\uFFFD\\x001dQ B#\\x0000\uFFFD\\x0001\uFFFD\uFFFDX\uFFFDr0@\uFFFD_\\x001dQi\uFFFD\uFFFD\uFFFDY\uFFFD=\uFFFD\uFFFD\u0767q\uFFFD0\uFFFDI0\uFFFDz\uFFFD\\x0011\uFFFD\uFFFD\\h'oZx\uFFFD\uFFFD>[G\uFFFD\\x000e\uFFFD^A\uFFFD\uFFFD2\uFFFD\uFFFD\uFFFDF\uFFFD\uFFFD\u04D6\uFFFD\\x001cK}\\x000b\uFFFD\\x0019\uFFFD\uFFFD\\x0000\\x0000a\uFFFD\n\uFFFD\\x0011\\x0002\\x0000,}\uFFFD\uFFFD\\x001f\uFFFD\uFFFDo\uFFFD;\uFFFDXe\uFFFD\uFFFDPX\\x0018\uFFFD\uFFFD\\x0008\\x0013\\x001a\uFFFD\uFFFD\u05B6\uFFFD\uFFFDU|\u03FB\\x0018\uFFFDROl\uFFFD\\x001d\uFFFD\uFFFD\uFFFD5\uFFFD+E}5\\x0000 \uFFFD\uFFFD\uFFFD\\x0011\\x0000\uFFFD#sc\uFFFD0\uFFFD\uFFFD\r\uFFFD\\x001f\\x0002x\\x001b\uFFFD\uFFFD\n\uFFFDX|\uFFFD\u02EBq\\x0005\uFFFD\u0174]\uFFFD\uFFFDn\uFFFD\uFFFD\\x001b\uFFFD\uFFFD\uFFFD\uFFFD\\x0019\\x0000aT\uFFFD\\x0000Xs\uFFFD:\uFFFD\\x001bH\uFFFD\\x0011\\x00134.\uFFFD\uFFFDx\r!s\uFFFD\uFFFD(\u02BA\uFFFD\\x0006|g\uFFFDV\\x0000\uFFFD(2\\x0019\\x0001\\x0012Q\uFFFD\uFFFD\uFFFD{\uFFFD=\uFFFD\uFFFD\\x0000\\x0003\\x0010\uFFFDm\u018B\\x0016\uFFFDv\uFFFD\uFFFD6PD\uFFFD\uFFFD\\x0004\uFFFD\uFFFDP\uFFFDk\\x0005`\\x0014\uFFFD\\x0004H\uFFFD\uFFFD?\u0750\\x0006\uFFFDUTP\uFFFDl\uFFFD\uFFFDyJd\uFFFD\uFFFD\uFFFD\\x0006\\x0012\u00B6\uFFFD1\uFFFD\uFFFD\uFFFD\uFFFD\\x0001\\x0018E7#\uFFFD\uFFFD\uFFFD\uFFFD\\x0004\uFFFDp.\uFFFD\\x000fE\uFFFD\uFFFD\uFFFD\uFFFD\\x0003\u0147\uFFFD\uFFFD\uFFFDr\\x001d\uFFFDG\uFFFD\u07B1\\\n\uFFFD\uFFFD\uFFFD\\x0001\uFFFD#\uFFFDE\\x000bn3\uFFFD+@@\uFFFD\uFFFD=\uFFFD\uFFFD\\x0016\uFFFD\uFFFD\uFFFDb\\x001a\\x0002\uFFFDJ&\\x0001\uFFFD9\uFFFD\uFFFDt\u0127\\x001d\uFFFD'\\x00071\uFFFD\uFFFDn*\\x0005\\x0008\uFFFDX\uFFFD|w\uFFFD\uFFFDK\uFFFD\\x00187\u20E6\uFFFD\uFFFDn\uFFFD7\uFFFDJ.\uFFFD\uFFFD\\x001a\uFFFD\uFFFD+\uFFFD\uFFFD\\x0018'p\uFFFDtpGt}\uFFFD\uFFFDJ/\uFFFD\u052F\\x0016\uFFFD\\x000en\\x001f\\x000f\uFFFD\\x001e(\uFFFD\uFFFD|\\x0014\u077Bk\\x0012\uFFFD\uFFFD0\uFFFD\\x0010\uFFFD\uFFFDcG\uFFFD\\x0018\u01CA\uFFFD3\uFFFD\uFFFD\uFFFDk\uFFFDR\uFFFD\uFFFD\uFFFD\uFFFD0n\"b\uFFFD\uFFFDJ\uFFFD0v\uFFFD}5e\uFFFD9\uFFFD>\uFFFD [I\\x0007\uFFFD\uFFFD*3\\x001a#]x\uFFFD\uFFFDDC\uFFFDh\rj\uFFFDR\uFFFD\uFFFD\uFFFDJ\uFFFDY\r\uFFFDR\uFFFD\uFFFD\uFFFD\uFFFD\rBm\uFFFDRK=ow\uFFFD\\x0016\uFFFD\uFFFDF\uFFFDR<P\uFFFD \uFFFD\\x0016\uFFFD\\x001b:\uFFFD\uFFFD\uFFFDr\uFFFD\\x0000\uFFFD\uFFFDba\\x0004\\x0000\uFFFD\uFFFD\\x0008\\x0000\\x0010&\\x0012\uFFFD\\x0010\u033B\uFFFD\uFFFDL\uFFFDxc\uFFFD7\uFFFD\uFFFDu01\\x0010\uFFFD;\uFFFDs8\uFFFD\uFFFD\\r\\x0016`\uFFFD`\uFFFDe\u027Fy\uFFFD\uFFFDU\uFFFD@\\x0019\\x0011\uFFFD@\uFFFDrx\\x001dA\uFFFD\u04D6\uFFFD\u0217P\uFFFDY\uFFFD_\uFFFD}F\uFFFDky\uFFFD\\x001a\uFFFD\uFFFD\\x0018\uFFFD|\uFFFD\uFFFDy\uFFFDdiG\uFFFD\uFFFDe\uFFFD\uFFFDG\uFFFD\\x0000H\uFFFD\uFFFDb4i\uFFFDm\uFFFDw}\uFFFD\uFFFD\\x001d\uFFFD(\uFFFD\uFFFD\uFFFDx\uFFFD\uFFFDH\uFFFDY\uFFFDE\u0512\uFFFD\uFFFD\uFFFDYH\uFFFD^\uFFFD\uFFFD\uFFFD\uFFFD\\x0017\uFFFD\uFFFD&\uFFFD\uFFFD4P5\uFFFD?\\x0004G\uFFFD\uFFFD\uFFFD\uFFFDR\uFFFD64\uFFFDgE0\uFFFD\uFFFD\uFFFD\u04ED2@\uFFFDv\uFFFD\uFFFD\uFFFD\uFFFD\\x0008\uFFFD\uFFFDa\uFFFDF.\uFFFDP\t_T\uFFFD7:\uFFFD|\uFFFD\uFFFD\uFFFDD\uFFFD\uFFFDg\\x0016\\x001a)\uFFFD\u0765\\x0004\uFFFD\u0186ud7\uFFFD\\x001c\uFFFD\\x000f\uFFFD\uFFFD<sQ\uFFFD\r}\uFFFD\uFFFD'\uFFFDb\uFFFD\\x0015\\x001a\uFFFD\\x000e\uFFFD\uFFFD6Q\uFFFD\uFFFD\uFFFD[\uFFFDY\\x001b\u0541\uFFFD\\x0008\uFFFDx \uFFFD`\\x001e\uFFFD\\x000fC;\uFFFD\uFFFD:\\x0018/\\x0005\uFFFD'P\uFFFD\uFFFD\\x0002\uFFFD\\x0011\\x0011\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD5OxK\uFFFDTD\uFFFD/X\uFFFDq`+\uFFFD\uFFFD\\x000b\uFFFD\u0639\uFFFD>\uFFFD>\\x000b\uFFFDj\\x0001L\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001f\\x0011\\x0006+\uFFFD\uFFFD35\uFFFD\uFFFD\twd\uFFFDSW}\uFFFD,\\x001d lYv\uFFFD;\uFFFD\"r\uFFFD\\f\uFFFD\uFFFDNM\\x001c\uFFFD)r3t\\x001d\uFFFD\uFFFD\uFFFD\uFFFD.\uFFFD\\x0003\uFFFD\uFFFD\\x0013s0\uFFFD\uFFFD\uFFFDU.\uFFFD\uFFFDM\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001f\uFFFD`\uFFFD\uFFFD\uFFFD\uFFFD;-\uFFFD\\x0015\u027C|N\uFFFD\uFFFD\\x0003t\\x0019\uFFFD?[p \uFFFD?TN\\x0003\uFFFD\\x0001W\uFFFD\uFFFD:\uFFFDM\uFFFD\uFFFDB\uFFFDu\uFFFD\\x001a\uFFFDHGw\u00CD\uFFFDyw\uFFFDl0\\x001b\\x000c\uFFFD\uFFFD\\x0014)\uFFFD\uFFFDV\uFFFD\\x001d\\x0017Gk\uFFFD\\x000c\uFFFD\uFFFD<\uFFFD\\0C\uFFFDQ\uFFFD\\x000b~\uFFFD\uFFFD\uFFFD\uFFFD\u071D\uFFFDz\uFFFD\\x00197\uFFFD\uFFFD(_\\x001ea?\uFFFD\uFFFD\uFFFD\uFFFD\\x001c3\uFFFD\u055C\uFFFD\uFFFD\uFFFD\\x0007\uFFFDl\uFFFD\\x0008x\uFFFD\uFFFD\uFFFD\u0156\uFFFD\uFFFD\uFFFD\\\\x0005)\uFFFD\uFFFD\uFFFD\uFFFDd\\x0013\uFFFD\\x0019\uFFFD.\uFFFDN~C\\x0017em;\\x0001\\x0017\uFFFD\uFFFD\\x0001w\uFFFDs\uFFFD\\\uFFFD\\x0000\uFFFD\\x0018\r\uFFFD\uFFFD\uFFFD\\x001f\\x0010F\uFFFD\uFFFD\uFFFD\uFFFD\\x0004|\\x0019w4\uFFFD*\\x000e2\uFFFDM\\x0010fP\\x001fl\uFFFDc\uFFFDQ\u04B7\uFFFD>\uFFFDD\r\uFFFD\uFFFDH\uFFFD\uFFFD\u88F4OG(\uFFFD\uFFFD\uFFFD\\x0013\uFFFD\uFFFD \uFFFDQ\uFFFD,0\uFFFD}x\uFFFD>\uFFFDuNBy%W\uFFFD\uFFFD\\x0007[\uFFFD\\x0005+\\x0015\uFFFD\uFFFD4\uFFFD~b\uFFFD|\uFFFD\uFFFD/i\uFFFD|\uFFFDF\uFFFDt\\x0019\uFFFD\t\uFFFD\uFFFD#!\uFFFDg2\uFFFD>\\x0007\\x0018\uFFFD\uFFFD\uFFFDw\uFFFD2\uFFFD=\uFFFD1\\x0001\uFFFD\\x0011\uFFFD\\x001c\uFFFD\uFFFD\uFFFD\uFFFDd\uFFFD\uFFFDd\uFFFD\\x0016\uFFFDe\uFFFDr\uFFFD\\x0005\uFFFDFI\uFFFD\uFFFD\uFFFD\uFFFD\\x0001^\\x0004N}r\uFFFD%\uFFFDw\\x0012u\uFFFD{?\uFFFD0/\\x0002FsI\uFFFD\\x0019\uFFFD#j\uFFFD\uFFFD\u0505S{Y8\uFFFDw\uFFFD\\x0012\uFFFD7\uFFFD\uFFFDxa\\x001a_\uFFFDL\uFFFDP\uFFFD\uFFFD\uFFFDWLO\\x0005G\t\uFFFD\uFFFD5\uFFFD\uFFFD3\uFFFD9\uFFFD\uFFFD\uFFFD[\u0344Q\\x00012\\x0012\uFFFD\uFFFD\\x0013\uFFFD\uFFFDZ\uFFFD3\uFFFDq=\u07585B\\x0005\u01FE\uFFFD\\x000e&\uFFFDm\\x0015\\x0011\uFFFD\uFFFD9\uFFFD\uFFFDK\uFFFD\uFFFD20\uFFFD\uFFFD\uFFFDR\\x0002\uFFFDZP#\uFFFD\uFFFD@\\x0019\uFFFDV\uFFFDJ\uFFFDP^\uFFFD\uFFFD\\x000c\uFFFD'\uFFFDm\t\uFFFD\uFFFD\uFFFD;\uFFFD\uFFFDR`h\uFFFDL\uFFFD\uFFFD]x\uFFFD\uFFFD\uFFFDJ-\uFFFDq6\\x0014\uFFFD\uFFFD\"\uFFFDq\uFFFDm\uFFFDRK=\uFFFD\uFFFD\uFFFDR\uFFFD\uFFFD\uFFFDNm\uFFFD\uFFFD,\n\\x0001\u06DC\uFFFDV\uFFFD]\uFFFD\uFFFD\u04B0\uFFFD\uFFFD4e\uFFFD\uFFFD\\x000c\uFFFDEg\uFFFDeU\uFFFD\uFFFD{\u0150)V\\\uFFFDq\uFFFD(j\u489B\uFFFD\uFFFD\\x0014m\u05A2\\x001b\uFFFD]c\uFFFD\uFFFDq\uFFFD\uFFFD\\x001d\u047D\\\uFFFDLz\uFFFDP\uFFFD*\uFFFD\"\u01C3\uFFFDG\\x0017\\x0017]@u 9\uFFFD\uFFFD\\x0014U\uFFFD\\x0019\u053E\uFFFD\uFFFD`\uFFFD\\x001d\uFFFD\\x000c\u0469\uFFFD\u05D870`R\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDI&\uFFFD%a\uFFFD\uFFFDj\uFFFDS\uFFFDzcU\uFFFD\\x0006`\uFFFD\uFFFD\uFFFD}\uFFFDV\uFFFDL\\x0015\uFFFD\uFFFDB\uFFFD{\uFFFDx\uFFFD\uFFFDT\uFFFD?,p\uFFFD\uFFFD0\\x0011\\x0006\\x0004u\\x0004\uFFFD\\x0011,r\uFFFD\\x0017\uFFFDU\u0567\uFFFD\\x0008\uFFFD\uFFFDi\uFFFDG\uFFFD\uFFFD\\x0017\uFFFD\uFFFD]\uFFFD\\x001bsz\\x0000\uFFFD*\\x0002\uFFFD\uFFFDJ\uFFFDX}\uFFFDG\\x0012\uFFFDr(\uFFFD\uFFFD'\uFFFDl\uFFFDN\uFFFD>[\uFFFD\\x0008UU\\x0003\uFFFD\uFFFD;[{\uFFFD\uFFFDJ\uFFFD\\x00010\uFFFD0\\x0002$K\u045B{\uFFFD>/4@\uFFFDV\\x0014kn\uFFFDM\uFFFD\\x0013\u078C\uFFFD\\x000cUUM\u0666\u0795\uFFFD\uFFFD\uFFFD\\x001d\uFFFD @\\x0018\\x001a\\x0018\\x0000\uFFFDo\uFFFD\uFFFD\uFFFD\uFFFDL\uFFFD\uFFFD\u02BD\\x0018\uFFFD\uFFFDa/\uFFFD\\x0015\uFFFD\\x0012\u03E6\uFFFD\uFFFDd()n\uFFFDXR93\uFFFD\\x0004\uFFFD1\uFFFD0\\x0002\uFFFD\"j~\uFFFD\uFFFD\\x001b\uFFFD\uFFFD\\x0017\\x001a\uFFFD\uFFFD+\uFFFD\\x00107\uFFFD\uFFFD\u0543\\x0014C\uFFFD\uFFFD\\x0001\uFFFD\uFFFD\uFFFD\\\uFFFD<\uFFFD\uFFFDbr_\r\\x0000\\x0008cBb\uFFFD\\x0000\\x0010\uFFFD\\x001c\uFFFD\uFFFD\uFFFD\uFFFD=\uFFFD\uFFFDm\"\uFFFDI\uFFFD_\\x000c#}\\x0010\uFFFD\uFFFD#\uFFFD\uFFFD*\uFFFD\\x000b\uFFFD\uFFFD\uFFFD\uFFFD&\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFD\uFFFD\uFFFD2\\x0000\\x0000B\\x0018c\uFFFD0\uFFFD\\x0008\\x0001\\x0000`~\\x0003M^\uFFFD\u05DFkM\\x0013\\x0018\uFFFDB\uFFFDL\uFFFD@\uFFFD\uFFFDWx;\uFFFD\uFFFDW\uFFFD+4\uFFFD1\u07EA\\x0002\\x0005\uFFFDu\uFFFD\\\\x0006\uFFFDrw\uFFFDC:\uFFFD\uFFFD\uFFFD\u06E1\uFFFD\\x001a\uFFFD\uFFFD\uFFFD\nd\uFFFD\uFFFD\\x0018#F2\uFFFD\uFFFD\uFFFDc\uFFFD)\uFFFD]\uFFFD\uFFFDn\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD1\\x0013XM\uFFFDr\\x0003UA\uFFFD=WF\uFFFD\uFFFD\uFFFD8\uFFFD6k\uFFFD\uFFFD({\uFFFDt\uFFFD[\uFFFDI8\u079B\uFFFD$\u02FF\uFFFD:kYM\uFFFD'\uFFFD\uFFFD5\uFFFD\uFFFD\\x0013wh/7\uFFFD1/\uFFFDw\uFFFD\uFFFD^\uFFFD\uFFFDw\uFFFD\uFFFDa\uFFFD\\x0016\uFFFD.\uFFFD\u0730\\x0000U\uFFFDy2\uFFFD\uFFFD\uFFFDo\\x0014\uFFFD\uFFFD\uFFFD,\uFFFD\\x0011\uFFFD]\uFFFD:+\\x0017\\x001ce\uFFFD\uFFFD\uFFFD\uFFFD4\uFFFD\uFFFD\n\r\uFFFD\uFFFD+x\uFFFD\uFFFD\uFFFD\u01C0\n_\uFFFD\u03EE\uFFFD;\uFFFD \uFFFD\\x0008\uFFFDRJ`\uFFFD\uFFFD:\u07CC\\x0007\uFFFD\\x0001)K\uFFFD\\x001cg]J\uFFFD\\x0008`T\uFFFD\\x000e\uFFFD\\x0014l\uFFFD\\x0003\uFFFD\uFFFD\uFFFDR\\x0006,\uFFFD\uFFFDub\\x0007[L-Mi\uFFFD>\uFFFD{\uFFFD\\x0002\uFFFD\uFFFD\\x000cy c\\x0012\uFFFDv\uFFFD\uFFFD&\\x000eJ)\\x0003:\uFFFD\uFFFD{\uFFFDU\uFFFD_\\x0017$&\uFFFD\uFFFD\uFFFD\uFFFD-\uFFFD5P\\x0002\uFFFD\uFFFD\uFFFDr\uFFFD\u0558a9\uFFFD\u98A1\uFFFD2\uFFFDQw\uFFFD\uFFFDS\uFFFD\uFFFDB\\x0003\uFFFD\"u\uFFFDS\uFFFD\uFFFDT\uFFFD\\x0004\\x0018\\x0015\uFFFDC:\r\\x001b\uFFFDK\uFFFDDD)e\\x0000u\uFFFD~\uFFFD\\x001f\uFFFD\uFFFD\uFFFD\uFFFDP\\x0017\uFFFD\uFFFD\uFFFDj\uFFFD!V\uFFFD\uFFFD\n\uFFFDQQ\\x0007\uFFFD\uFFFD\\x0012\uFFFD\\x0012:\uFFFDj\uFFFD\uFFFD\\x0000\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFDb\uFFFD&T\uFFFD\uFFFD\uFFFDj\uFFFDt\uFFFD3\uFFFD%\uFFFD\uFFFD\uFFFDI\uFFFD\u060D\u00CE|\uFFFD\uFFFD(\uFFFD\\x000c\uFFFD\uFFFD\uFFFD\u037C\uFFFD\uFFFDf\\j(j\uFFFD\\x000cp\uFFFDG\uFFFDY\uFFFD\\x0006\u02800\uFFFDB\\x00071\\x0019\uFFFD\uFFFD\\x001dg\u0618/(\uFFFD\uFFFD\\x0000\uFFFD\uFFFD\uFFFDl\uFFFD=\u033B?\uFFFD:\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\\uFFFD\uFFFDe.\uFFFD\uFFFD0\uFFFD\uFFFD`w\uFFFD\uFFFD2\uFFFD5\uFFFD\uFFFD\\x0001Txf\\x0000$\uFFFD\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFDkq;\uFFFDK\uFFFDx\uFFFD,5\uFFFD\uCEF8\uFFFD6\uFFFD\uFFFDo\uFFFD\uFFFD\uFFFD\\x0000\\x0008\uFFFD\\x0008=\uFFFD2K\\x0006\uFFFD`g\uFFFDAC\uFFFD\uFFFD\\x000c\uFFFDX\uFFFD8s\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u044C3_o\uFFFDI8\uFFFD\uFFFD\uFFFD'\uFFFD\uFFFD\uFFFD\\x001c\uFFFDY/\uFFFD7\uFFFD\uFFFDR\\x0000\uFFFD(b\uFFFD\uFFFDb\\x001f\uFFFD\t\uFFFDu\uFFFD\\x00185^2\\x0002\\x00004KT\\\uFFFD#\uFFFD\uFFFDS\uFFFD\uFFFD\\x0003\uFFFD\uFFFD\\x0005+\uFFFD\uFFFD(F3\uFFFDr\uFFFD\uFFFD:O\uFFFD\uFFFD(\uFFFD) 0l\uFFFD\uFFFDw8\uFFFD\uFFFD\uFFFD\uFFFD\\x000f\uFFFD\uFFFDa\uFFFD~\uFFFD\\x001a\uFFFD\\x000f\uFFFD \\x0003\\x0000\uFFFD(\uFFFD\uFFFD\\x001d'\\x0008\uFFFDY;\uFFFD)\uFFFD$o\\x0019\\x0001\\x0000`ZD\uFFFD\uFFFD\uFFFD\\i\rW\uFFFD\uFFFD\uFFFDq\uFFFD\uFFFDW\uFFFD\uFFFD\uFFFD\uFFFDcLnr\uFFFD\uFFFD\\x000b\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDk\uFFFDk&y$3(;_\uFFFD\uFFFD~\uFFFD\\x0000\\x0000a\uFFFD\"<F:\uFFFD\uFFFD|\uFFFD\uFFFDqNE\\x00083\uFFFD1B\\x0008\\x0000\\x000c\\x0006\uFFFD\\x001f\uFFFD`\\x0000\uFFFD\\x0010\uFFFD\\x0018\uFFFD\uFFFD`7\uFFFD\uFFFD9\uFFFD[;\uFFFDS\n\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x000b|\uF804\uFFFD\uFFFD,0\uFFFD\uFFFD\uFFFD\uFFFDY%\uFFFD\uFFFDD\uFFFD\uFFFD\\x001b\uFFFD\u033Ai\uFFFDG\uFFFD\\x001ds\\x001c\uFFFD\uFFFD+\uFFFD|\uFFFDT\uFFFD\\x0015v\uFFFD\uFFFD5\uFFFD\uFFFDm\\x0006s\\x001e7\uFFFD/\uFFFDt\uFFFD\uFFFD;\uFFFD\\x0019M\uFFFDh\uFFFD\uFFFD<\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD7\uFFFD)\\x0019\u0359\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD^_V2\u04CD\uFFFD{\uFFFD\uFFFDl~\uFFFD\uFFFD\\x001d\uFFFD\\x000c\uFFFD\\z\uFFFD\uFFFDy*\uFFFD\uFFFD\\$_x\uFFFD\uFFFDJ%\uFFFDh0\uFFFDot\uFFFDJ%F\uFFFD\uFFFD\uFFFD\uFFFD]\uFFFD\uFFFD#\uFFFD8e\uFFFDq\uFFFD\uFFFD\\x0008,\uFFFD#\uFFFD(\uFFFDh\uFFFD\uFFFD#\u0102,\uFFFDf\uFFFDQ\uFFFD\u0518\uFFFD2\n\\x0003\\x000f`\\x001d\uFFFDc\\x001d\\x0003\uFFFD\\x0002\uFFFD\uFFFD-hJCs\\x0014c[}I\\x0011\n\uFFFD\\x001bx\uFFFDUi\\x0018\u0519k\uFFFD\uFFFD\\x001d\uFFFD:\uFFFD\uFFFD:\\x001e\\x0013\\x000b\uFFFD\uFFFD\uFFFD\uFFFD\\x0010\uFFFD\uFFFD\uFFFD,\uFFFDU\uFFFD\\x0014!\uFFFD\uFFFD\uFFFD\uFFFDJ\uFFFD-\uFFFD\uFFFDMX\uFFFDO\uFFFDq\uFFFD\uFFFD\uFFFD\\x0004\\x000b\u0745\uFFFD\tQ\n!.\uFFFD5\\x0016|\uFFFDh&\uFFFD)\\x0003\uFFFDA\u0328\uFFFDO\uFFFD\uFFFD\uFFFD\uFFFD\u07192\uFFFD\uFFFD\uFFFD\uFFFDb,\uFFFD\\x0011SH\t\\x0014\uFFFD6,\uFFFD\uFFFD\t\uFFFD\uFFFD\uFFFDX\uFFFDMx\uFFFD~\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001c\uFFFD\uFFFD\u01BFR\u0142\uFFFDS0\uFFFDH\uFFFDF\uFFFD\\x001d\uFFFD\uFFFD\\S\uFFFDK\\x0006,\uFFFDD\uFFFD\uFFFD>\uFFFD*\uFFFD~~\uFFFDX\uFFFD%\uFFFD\\x0004\\x001a\uFFFD)9gP'\uFFFD\t\uFFFD\uFFFD\\x001b\uFFFD\uFFFD7\\x001d\u070A\\x001d\uFFFD`\uFFFD\\x0007\uFFFD#\uFFFD\uFFFDq#\uFFFDX\uFFFD\uFFFDX\\x0007\uFFFD\uFFFD\\x000e\uFFFD\uFFFD\uFFFD\"\uFFFDB7\\ek^\u0271\uFFFD\uFFFD\uFFFDH\\x001cV\u0324a\uFFFD\uFFFD\uFFFD7\\x001c\\x0016\\x001ap\uFFFD\uFFFDH\\x0017\u06ACJ\uFFFDU\uFFFD\u05F4\uFFFD\uFFFD\u0128l\uFFFDy\\x00113i\uFFFDQ^\u065A\uFFFD1\uFFFD\uFFFD\uFFFD\uFFFD 1:\uFFFDz\uFFFD\uFFFD\u03C1\u02E9kY\uFFFD\uFFFD\uFFFD\\x0012\\x0018\uFFFD\uFFFD\uFFFD\uFFFD\u0717O'\uFFFD\uFFFD1j\uFFFDH\uFFFD^\u07D4K\uFFFD\uFFFD\uFFFDt\uFFFD\uFFFD\\x0011\\x001a\uFFFDqy\uFFFD|\uFFFD\\x0018\uFFFD%\uFFFD~\uFFFD\uFFFD&\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDcc4/`\uFFFD\uFFFDr\uFFFD\uFFFD\t\\x001d3Fu\uFFFDK:'\uFFFD/R\uFFFDD\u03AC\uFFFDE\\x001dF\uFFFD\uC3B5\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDXq\uFFFD&?S1\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDr\uFFFD\\c\t\uFFFD\\x0008\uFFFD\uFFFD\uFFFD\uFFFD}\uFFFD!\uFFFD$dI\uFFFD|;F\uFFFD\uFFFD\\x001a\\x0017\uFFFD\uFFFD\uFFFD<\uFFFD#\uFFFD\uFFFD\uFFFD\uFFFD\\x00145X\n;\uFFFDC<h\uFFFD\\x0016\uFFFDa)\uFFFD\uFFFDs\\x001b\\x0005\uFFFD\uFFFD\\x0004\uFFFD\uFFFDQ\uFFFD\uFFFD\uFFFD\\x0017#w\\x0014#\\x0013\uFFFDf,\uFFFD\uFFFD~\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDj\uFFFDA\uFFFD\uFFFDK\uFFFD\u07587*\uFFFD\uFFFD8\uFFFD\uFFFD#\uFFFDB\u4D2F\\x0007KmC>;\uFFFDk\uFFFD\\x00169`\uFFFD\uFFFDn\\x0003KpB\uFFFDz\uFFFD\uFFFD\uFFFDR\uFFFD\uFFFD\u0289\\x000f\uFFFD\r,\uFFFD\uFFFDx$\uFFFD\uFFFD(z\uFFFD\uFFFDkGY\uFFFD\uFFFDPb\u026EoA\uFFFDJ*\\x001f~\uFFFD\\x0015-\uFFFDkPG^\uFFFD\uFFFDE-\uFFFD\uFFFD\\x001fw\uFFFD\uFFFDk7K\uFFFDY\\x00077\uFFFD$\uFFFDe\u0112\\x001f'\uFFFDs\\x0014C\n\uFFFD\uFFFD\uFFFD\\\uFFFD\\x000f\u05C3\uFFFD`\u02EE\uFFFD\uFFFD\uFFFD G1L\\x0007\\x000f\uFFFD\uFFFDb\uFFFD\uFFFD\u0107^M\uFFFDX&V\\r\\x0018\uFFFD\u0107g7K\uFFFD9{\u0787\uFFFD\\x0018\uFFFD\u0216^\uFFFD\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFDw\uFFFD\uFFFDw\uFFFD\uFFFDK9\uFFFD\u0710Xn&\uFFFD,\uFFFDg'wU\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD/\\x0012\uFFFD\\x0016,K\uFFFDS\u043B\uFFFD\uFFFD\uFFFDcA\uFFFD\uFFFD\uFFFD\uFFFDuG\uFFFD}\u00B2u\\x0015O\uFFFD\uFFFD\uFFFD\uFFFD\n/\uFFFD\uFFFD\uFFFD^MS\uFFFD(X\uFFFD\u05BB\uFFFD\uFFFD@)\uFFFD|\uFFFD^_\rAO\uFFFDW8\uFFFD\uFFFD\uFFFD\uFFFD\\x0000,\uFFFD[~E$\uFFFD\uFFFD\uFFFDq\uFFFD \uFFFD\uFFFDZ\\x0010J\uFFFD\uFFFD\\x0019\uFFFD\uFFFD\uFFFD\u0630\\n\uFFFDe9tWR\uFFFDez}!\u070C\\x0002sx%_6\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD9\uFFFDe\\x0012\uFFFD\uFFFD\uFFFD\u03AC\uFFFD}\uFFFD!\uFFFD\uFFFD&&\uFFFD?\uFFFD\\x0008\uFFFD\uFFFD\uFFFDI\uFFFD\uFFFDW\uFFFD\uFFFD\uFFFD1o\uFFFD\uFFFD\uFFFD\uFFFDcrb\\x0003\uFFFDZ\\x00077\uFFFD\uFFFDb0\\x0007W\uFFFD\u05C57\\x0019\uFFFD\uFFFDW,\uFFFD7\uFFFDc\uFFFD@\\x0017\u06AA\uFFFD\uFFFD\uFFFD\uFFFD\\x001d\\x001b\uFFFD)\uFFFD&\\x0014-S\uFFFDHO\uFFFD\\x001c\\x0017\uFFFD\uFFFDA\uFFFD\u0638\uFFFDNX\\x0011\uFFFD\uFFFD\\x001c?\uFFFD\uFFFD&Va\uFFFDt\uFFFD\\x000c\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDAf\uFFFDq\uFFFDQsP\uFFFD/T3\u00E1V8\uFFFDk\uFFFD\uFFFD\uFFFD~\u059C\\x001eV\uFFFDm<#\\x001b\uFFFD\u0170\u0178~\uFFFD;Ju\uFFFD\r\\x001cE'g6\u0285\uFFFD\uFFFD\uFFFD\uFFFD\\x000e\uFFFDP\uFFFD\uDBE8\uDF79\uFFFD%\\x0006\uFFFD~Rv\uFFFD\\x000e\uFFFD[\uFFFDWR\u05A4\uFFFD\uFFFDK^mJO\uFFFD\\x0005K\uFFFD\uFFFD~\uFFFDLn\uFFFD\\x000f\uFFFDR,\uFFFD\\x0000"
 						},
 						{
-							"id": "159",
+							"id": "162",
 							"uri": "https://cardano.org/news/page/23/",
 							"method": "GET",
 							"param": "",
@@ -941,7 +977,7 @@
 							"otherinfo": "RIFFj\\x0019\\x0000\\x0000WEBPVP8L]\\x0019\\x0000\\x0000/\uFFFD@>\\x0010Ua\uFFFD\uFFFDm\uFFFD\\x001c7?\uFFFD\\x0001\uFFFD\uFFFD\uFFFD\uFFFDn5I\r\\x001a\\x0010K\uFFFDffffffff\uFFFD\uFFFD\u030Cf\uFFFD03u\uFFFD\uFFFD/<\uFFFD\uFFFDn\uFFFDp\uFFFDR\uFFFDS\uFFFD\uFFFDd\uFFFD^\uFFFD\uFFFD)\uFFFDaL\uFFFD\\x00013\u02252\uFFFD\uFFFD\uFFFD\\x0007\uFFFDd\uFFFD\\x0017\uFFFDiH\uFFFD|fK\uFFFD\uFFFD.lf/C\\x0006\uFFFDUa\uFFFD#\r,\uFFFD\\x001cUW\uFFFD\\x0013s\uFFFD\uFFFD\uFFFD\uFFFD$\uFFFD\uFFFD\uFFFDT=eX\\x0006\uFFFD\\x0014\uFFFD*\uFFFD\\x000cr\uFFFDT\\x0006}\uFFFDJe\\x0008\uFFFD\\x0017f\uFFFD.lf[f\uFFFD*\uFFFD\\x001d\uFFFD2\uFFFDJ\uFFFDWI)K\uFFFD{\uFFFD\\x000cS\\x001df0C81\uFFFD\uFFFD\uFFFD\uFFFDI\uFFFD\uFFFDf*\uFFFDa\uFFFD\r\uFFFDI\\x0013\uFFFD\u02282\uFFFDrVaflS\uFFFD\uFFFD\\x001aX\uFFFD\uFFFDq\uFFFD\uFFFD\uFFFD\u031C!S8y\raZ1\uFFFD\uFFFD\u0330t\uFFFD\\x0019\uFFFDf\uFFFDpm{\\x0019\uFFFD\u06B6m\u06F6m\u06F6m\uFFFD\uFFFD\uFFFD\uFFFDi\uFFFD6h\uFFFD\uFFFD\uFFFDn\uFFFD?wB\\x0012$\u0666m\uFFFD\uFFFD\uFFFD<\\}]?\uFFFD3\u06F6\uFFFD1\uFFFDm\u06F6m\u06F6m\uFFFD6nM\\x0000\uFFFD\uFFFDn/\uFFFD\r\uFFFD\uFFFDZf\uFFFD\\x001c'\\x0008,\uFFFD\uFFFD\u81AB\uFFFDx'g6\u0699-\uFFFD\uFFFDu\\x000e\u261D\uFFFDfk\\x001e\\x0019\uFFFD{;\uFFFD\uFFFDN\uFFFD2\uFFFD\uFFFD:pDob=\u02BF\uFFFD\uFFFD\uFFFD?\uFFFDU\uFFFD\\x000fsl\\x001f9\uFFFD\uFFFD}\uFFFDk(9\\x000c,\uFFFDd~\uFFFD\uFFFDb\uFFFD\u0679\u0362\uFFFD\uFFFD\uFFFD\t\\\uFFFD\uFFFDQt\u0324\uFFFD\uFFFD\uFFFD\uFFFD \\x0016\\x0018\uFFFD\\x000e\uFFFD\uFFFD`\\x000b\\x000fm\uFFFDC\uFFFD\uFFFD\uFFFDh\uFFFD\uFFFD]\uFFFDM\uFFFD\\x001c\u02A9F-!G\uFFFD\uFFFD\uFFFD\\x001f\uFFFD\uFFFDb\uFFFD\uFFFD\uFFFDy\r\uFFFD\uFFFD\uFFFD\uFFFD&\uFFFD\\x000c\uFFFD\uFFFD\uFFFD)\uFFFDc\uFFFD@\t.\uFFFD\uFFFD\uFFFD\uFFFDeP\\x0007tp\uFFFD\uFFFD|\uFFFD\uFFFD\uFFFD\uFFFDQ\uFFFDj\uFFFD\"G\uFFFDK\uFFFD\u0643\\x000e\uFFFD\uFFFD\uFFFD]\uFFFD^;\uFFFD\uFFFD\uFFFDp\uFFFD\\x0013\\x001f`\uFFFDm\uFFFD\uFFFDM\\x001b\uFFFD%Z\uFFFD\"4\\x0007Wn\uFFFDmX\uFFFD\u047CBc\uFFFD8\u0273\u059D\uFFFD\uFFFD\u050D\uFFFD\uFFFD\\x0004g\uFFFD\uFFFD>[\uFFFD\uFFFD\uFFFD\u045B\uFFFD4*b-\uFFFD\uFFFD]M\uFFFDAK\uFFFD\\x0019w.\uFFFD\uFFFDwW&t\uCBA4\uFFFDAL\uFFFD\uFFFD\\x000b6\u6CD9\"\uFFFD\\x001c^\u0257\uFFFD\uFFFD\\x0016\uFFFDG\u02A6\uFFFD\u07D5\t\\7WR^\uFFFD^_\\x000f\uFFFD\\x0008\r\uFFFD|9\uFFFD\uFFFD\uFFFDxZpG\u02A12\uFFFD\\x0006w\uFFFD\uFFFD \uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0014\uFFFD\uFFFD\uFFFD;\uFFFD\uFFFD\uFFFD8c\uFFFD2\uFFFD\uFFFD\u03D48A\uFFFD3\uFFFDhP\\x0007m\uFFFDW\uFFFD\uFFFD^\u0219u\uFFFD\uFFFD\uFFFD<U\uFFFDK}\uFFFD\uFFFDQv\uFFFDt\uFFFD\\x000e\\x001e[(\uFFFD-\u02FE\u06DC?.O\\x0012[\uFFFDXq#;\uFFFD\uFFFD\"\uFFFD\uFFFD\uFFFD\uFFFD|8}\uFFFD\\x001d-\uFFFD%\uFFFD\uFFFD~\u03AC\uFFFDA\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD?\uFFFD>U\uFFFD\uFFFD\\x001bBN\uFFFD\uFFFD\\x0013\\x00068\uFFFDA#\uFFFDP\u0274\uFFFDt\\x0010\\x0017\u0536\uFFFDB.\uFFFD\uA488\\x0013\\x0006:\uFFFD\uFFFD:\uFFFDg\uFFFD\uFFFDj.\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDB\\x0016\uFFFD\r|\uFFFD\uFFFD\uFFFD\uFFFDJ\uFFFD\uFFFD\u0417>\uFFFD\uFFFD%\uFFFD\uFFFD.\uFFFD\uFFFD^\uFFFD0SI6\uFFFD\u9393\u050D\uFFFDV\uFFFD\u0195T\\x0018\u0511\uFFFD\u037FT\uFFFD\uFFFD\uFFFD5p9\uFFFD\u056C\uFFFD2v\\x0014k\uFFFD\uFFFD\uFFFD1\u07E8\uFFFDov>\uFFFD\u062C\\x0007R\uFFFD\\x0012:\\x0016'\uFFFD\uFFFD\\x0016^P\u02775/6\uFFFDj)j\uFFFD\\x0017'7\\hP\uFFFD,T\\x0006Z\\x000c\uFFFD\\x001b.\uFFFD\r\u0269n\u0691T&FN;\uFFFD\uFFFD+-\uFFFD}\uFFFD4|\uFFFD\uFFFD\uFFFDQ\u0668Mw\uFFFD\u02D6\uFFFD\uFFFD\uFFFD\u0551\uFFFD\uFFFD\uFFFD\uFFFD2\uFFFD\uFFFD\\x0012\uFFFDV\uFFFDh\uFFFD\\x0015\uFFFDR\\x000c\uA405\uFFFDL\uFFFD\\x000c=Pr\uFFFD/KI(\uFFFD\uFFFDsf\uFFFDm\uFFFDK*C\uFFFDVSFY'\\x0001q}\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDA\u030B\uFFFD#\uFFFD\uFFFDfh\uFFFD2\uFFFD<\uFFFDkC[\uFFFD^\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD-\\x0014+\uFFFD\u05C4\uFFFD*\uFFFD\uFFFD]\uFFFD9\uFFFD~\uFFFDT\uFFFDFV\uFFFDN\uFFFDJd\uFFFD\\x001c\uFFFD\\x000c*s\uFFFD\uFFFD\uFFFD\uFFFD1!\uFFFD\uFFFD\\x0016\uFFFD\\x0011X\uFFFD\uCD4C\uFFFD\\x0001\uFFFDTB#r\uFFFDT\\x0016?~\uFFFD\uFFFD\"\\x0010\uFFFD\uFFFD\uFFFDDe\uFFFD\uFFFD\uFFFDp*r\uFFFDqn1*\uFFFD\uFFFD=\\x0006Zz8T\uFFFD\uFFFDr\\x001d<\uFFFD2\uFFFDZ\uFFFDq\uFFFDA\uFFFD/\\x0010\u048AK\uFFFD\uFFFDRY\uFFFD\uFFFD\uFFFDk@F\uFFFDNH\\x0017\uFFFD\uFFFD\u01BC\uFFFD2\uFFFDJ\\x0017\u06B4\\x0003\uFFFD$*b&\r\uFFFD\uFFFD\uFFFD\uFFFD\\x0016\uFFFD\u018A\\x001b \uFFFD\rW\uFFFD2<\uFFFD}\"\uFFFD\\x001d\\x0017\uFFFD\uFFFD)\uFFFD\uFFFD\\x0003w\\x0004\uFFFD\uFFFD\\x000c\\x001d<\uFFFD2=\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDFT\uFFFDT\uFFFD\uFFFD>B\uFFFD\uFFFD\uFFFD\uFFFDoP\u01E9\uFFFDO^r\uFFFD/\uFFFDU\uFFFDg[\uFFFD\uFFFD\uFFFD\uFFFD6\uFFFDZD\uFFFD)\\x001a\\x001c\uFFFD\\x001c\uFFFD\uFFFD3/\uFFFD>\\x0005\uFFFDh\uFFFD\uFFFD\uFFFD\uFFFDK\uFFFDGe\uFFFD\uFFFD\uFFFD\uFFFD)\u03DC\uFFFD\\x00123i\\x001cLep\uFFFD\uFFFD\uFFFDH<P\uFFFD\\x000e\\x001eR\\x00058\uFFFD\uFFFDQ\uFFFD(\uFFFD\uFFFD\uFFFD\\x0006u\uFFFD*\u00AF\uFFFD\uFFFDy\uFFFD\uFFFD\uFFFD\uFFFDVS\\x0006\uFFFD_\uFFFD~j\uFFFD7h\uFFFD\\x0010\uFFFD]hG\uFFFDy\uFFFDD[\uFFFD*\uFFFD>\\\uFFFD\uFFFD\\x0012[\\x0016;\uFFFD\uFFFD*\uFFFD\uFFFDLl\uFFFD\\x0005\u0572\uB2A3\\x0018fV\\x0012\\x0016'>\uFFFD\uFFFDW\\x0015!\uFFFD\uFFFD\"\\x001b\uFFFD*\uFFFD{p%\uFFFD\\x0002\uFFFD\\x001bx\uFFFD\uFFFDY\uFFFD0\r\uFFFD\u0335\\x000b\uFFFD\uFFFD\uFFFD\\x0015G1VS\\x001a\uFFFD\uFFFD\\x0018\uFFFD\uFFFD+\uFFFDPr\u0698\uFFFDTq\uFFFD\uFFFD\\x001dg\\x000b$\uFFFDe\uFFFD\uFFFD\uFFFD\uFFFD\\x0002\uFFFD\uFFFD\uFFFD\uFFFDI\\x0018\u03AC\uFFFDE\uFFFDX\uFFFDYOA\u010E\uFFFDl\uFFFDS\uFFFDH\\x001fq\uFFFD\\x0002h\uFFFD'\uFFFD\\x0018\uFFFD2\uFFFDP\uFFFD\uFFFD\uFFFD\uFFFDs\uFFFD\uFFFD\uFFFDJ%x\uFFFD\uFFFD\uFFFDZ\uFFFDm'\uFFFDQ\uFFFDZ\uFFFD\uFFFDjm\uFFFD\\h\uFFFD\uFFFD)\uFFFD\uFFFD\uFFFD\\x0019O\uFFFD<\uFFFD\uFFFDR\\x0005;\uFFFDx\uFFFD7?\\x0015jJFsf\uFFFDx\uFFFD\\x001b\uFFFD\uFFFD\uFFFD6U\uFFFDE\uFFFD\uFFFD\uFFFDf4e\uFFFDm\uFFFD\uFFFD8A\uFFFD\\x000e\uFFFDP\uFFFD[\uFFFDo\uFFFD9\uFFFDA\uFFFD\uFFFD\u045C\uFFFD@\uFFFD\uFFFDwwT\uFFFD\uFFFD]\uFFFD\uFFFD\uFFFD+'\uFFFDMS>\uFFFD3\uFFFD\uFFFDQ\"\u06EA\uFFFD\uFFFD\\x0002\uFFFDjb\uFFFD\uFFFDM\u0324I\uFFFD\uFFFD\\x001f%\uFFFD\\x000e\uFFFD\uFFFD&\uFFFD\uFFFD\uFFFD\uFFFD~\uFFFDT:w\uFFFD\\x000f\uFFFDw\uFFFD/\uFFFD2\uFFFD\uFFFDA\uFFFD\u0700\uFFFDz.\uFFFDpnEhc\uFFFD\uFFFD\uFFFD?\uFFFD^\uFFFD\\x0001@\uFFFDfk\uFFFD\uFFFD8\\x0008\uFFFD81\\x0013\uFFFD0\uFFFD#J\uFFFDEI-\uFFFD\t\uFFFD\\x001b\\x0010\u05E7\uFFFD4K\uFFFD\uFFFDJp\uFFFD|o\uFFFD\\x0014\uFFFD\uFFFD\u01A0Q\\x0002\\x0000@\\x0008C\\\uFFFD;\uFFFD\uFFFD=\uFFFD\uFFFD\\x0018\uFFFD\\x0002\uFFFDhF\\x0000\uFFFD\uFFFD\\x0002\\x0005\uFFFD\\x001b\u07E3\uFFFD?i\uFFFD[\uFFFD\uFFFD_\uFFFD\uFFFD'\uFFFD\uFFFD\\x001e:\uFFFD\uFFFDn\uFFFDdw\\x0017\uFFFD\uFFFD3\u065B\uFFFD\uFFFD\uFFFDx\uFFFD?\uFFFD\\x001e\\x000f\uFFFDg\uFFFD\uFFFD\uFFFD`z9\uFFFD^\r\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDz1\uFFFD\uFFFD\uFFFDt\\x0008=\\x001a\u03BE\uFFFDf\\x001f&\uFFFDWS\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFD\uFFFDNo\uFFFD\uFFFD\\x0007h\uFFFD\\x0019Zt\uFFFD\uFFFD<\uFFFD\uFFFD\\x001f)\uFFFDB\u0468\uFFFDV\\x0002\\x0000\uFFFD!\uFFFD\u03BE}\uFFFD\\x0014\uFFFD\uFFFD[\\x0007\uFFFD\uFFFD\uFFFD\\x0008\\x0000)\\x0018\uFFFD\u0421\uFFFD\uFFFDi\uFFFD}\uFFFDt\uFFFDNng7\uFFFD\uFFFD\uFFFDS\uFFFD\uFFFD\\x0008z\u06D7\uFFFD\uFFFD\uFFFD\\x0001\uFFFD\uFFFD\uFFFD\uFFFDp\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDr\uFFFD\\x001d\u066F\uFFFD|\uFFFD\uFFFD\uFFFDl\\x0006?\u04E1\uFFFD\uFFFD\uFFFD\"\\x001b\uFFFD\uFFFD\\x000f\uFFFD\\x000e\uFFFD\n\\x0000\uFFFD\uFFFD\uFFFD\uFFFD~\uFFFD\u0319\uFFFD\uFFFD\uFFFD;\uFFFD\uFFFD\\x0008\uFFFD\uFFFDQ\\x0010\uFFFD\uFFFDZr\uFFFD\uFFFDnu\uFFFD\uFFFD\u04BB>\uFFFD\uFFFD\uFFFD\"\\x000c\u063F.Ll5]_M\uFFFD\uFFFDp\uFFFD\uFFFDUB\uFFFD\uFFFD\\x0014\uFFFD0\uFFFD\uFFFD\uFFFDY;\\x001f\u057Bd0\uFFFD\uFFFD\\x0014\uFFFD\\x000c@sf$\uFFFD\uFFFD\uFFFD\\x0017\uFFFD\uFFFD\\x0004\uFFFDX\uFFFD\uFFFDM\uFFFD7\uFFFD\\x0008;\uFFFD\u05A8\"\\x000f\uFFFD\u07EE$]Wg\uFFFD\u042AK\uFFFD\u0418\uFFFD3\\x0018\\x0000C\\x0006-\uFFFD\uFFFD>q\uFFFDi\uFFFDh @t@\uFFFD}\uFFFD5\\x0017\uFFFD\uFFFD\\x001a\\x0016\uFFFDo\uFFFD9\u0436\uFFFD\\x0008\r\uFFFD\uFFFD=\uFFFDA'v\uFFFD\uFFFD;\u053BH\uFFFDV\\x0000\uFFFD\uFFFDp\\x000f\uFFFD\uFFFD\\x0013\\x00071\uFFFD\uFFFD\uFFFD\\x0001D\uFFFD9\uFFFD\uFFFD\\x001f'E\uFFFD\\x0003\u810A\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDG\uFFFD\uFFFD\u02FCW\uFFFD\\x0018\r\\x0008\\x0013\\x001fu\\x0014\\x0013|\\x0010\u07F3\uFFFD\uFFFD\uFFFD\uFFFD\\x0008\u0414\r\uFFFD\uFFFD.w{\\x0011=\\x001f\uFFFD\\x0001u@E\uFFFDi\uFFFDS\uFFFD\uFFFD:>\uFFFD\uFFFD\\x001a\\x0005\\x00080\uFFFD\uFFFD\uFFFD\uFFFDq\\x001b\uFFFDJ\uFFFDC\uFFFD\uFFFD\\x0008DT{\uFFFD\uFFFD\uFFFD\u013E\uFFFDa\uFFFD;\uFFFDJa\uFFFD~\uFFFDd/\uFFFD3\uFFFD\uFFFD\\x0019\uFFFD\\x0006DT!\\x000fd\u0734\uFFFDh\\x0019\uFFFD\uFFFDe\uFFFD\uFFFD\uFFFD[\uFFFDy\uFFFD*\uFFFD\uFFFD{0\uFFFD\uFFFD\uFFFD\uFFFD1[\uFFFD\uFFFD\uFFFD:\uFFFD)F%pmz}U,\\x0004r\uFFFDY\uFFFD\uFFFD\uFFFD\u06239\uFFFDg\\x000fL\uFFFD\uFFFD\\x0006\uFFFD\uFFFD\uFFFDs\uFFFD1\uFFFD\\x0001\\x0011\uFFFD^_\\x0019\uFFFD1G\\x0013\"\n\\x0002zMiUZw\uFFFD>\uFFFD7\uFFFD\\x0012\\x001d\uFFFDk\uFFFD\\x0003\uFFFD\uFFFD\\x0001\\x0013E\uFFFD\uFFFD\\x0018\uFFFD<T\uFFFD\\x000c\uFFFD\u055Ek\uFFFD}\uFFFDI\uFFFD\uFFFD\\x0003m\u01EC\uFFFD\uFFFD\uFFFD&='%\\x0001\\x0011\uFFFD\uFFFD1\uFFFD\uFFFDj\uFFFD\uFFFD\\x000b\uFFFD\uFFFDh\uFFFD\\x001b\uFFFD\uFFFD\uFFFDBU\uFFFD\uFFFD~Z\uFFFD\uFFFDOW\u02BD\uFFFD\uFFFD\uFFFDf\uFFFD;\uFFFD\uFFFD\uFFFD\\x0017:\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDn5\uFFFD@\uFFFD\\x0011`\\x0012\uFFFD\uFFFD\uFFFD\uFFFD3\uFFFD\uFFFD0\uFFFD)\uFFFD\uFFFD\\x0008O\uFFFD\u03EE\u057B\uFFFDQ|\uFFFD\u0D26>a5a\uFFFD\uFFFD\uFFFDd\\x001b\uFFFD&\uFFFDv\\x0012\uFFFD7\uFFFD\uFFFD:\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD[4\uFFFD1\uFFFDE#>\uFFFD\uFFFDo\uFFFDS\\x00153X}\uFFFDcNSt\uFFFD\uFFFD&\uFFFDI5\uFFFD\uFFFD\uFFFD\uFFFD!\uFFFD9\uFFFD&?\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD{\uFFFD\uFFFDn\uFFFD\uFFFD\uFFFDXW-\\x0013+7u\uFFFD\uFFFDTU-w7\uFFFDR\\x0003\\x0013\\dV\uFFFDY'Mhd\uFFFDIU\uFFFD\\x0006\uFFFD\uFFFD-/\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD^\uFFFD~\\x0019\uFFFD\uFFFD\uFFFD\\x001dQ B#\\x0000\uFFFD\\x0001\uFFFD\uFFFDX\uFFFDr0@\uFFFD_\\x001dQi\uFFFD\uFFFD\uFFFDY\uFFFD=\uFFFD\uFFFD\u0767q\uFFFD0\uFFFDI0\uFFFDz\uFFFD\\x0011\uFFFD\uFFFD\\h'oZx\uFFFD\uFFFD>[G\uFFFD\\x000e\uFFFD^A\uFFFD\uFFFD2\uFFFD\uFFFD\uFFFDF\uFFFD\uFFFD\u04D6\uFFFD\\x001cK}\\x000b\uFFFD\\x0019\uFFFD\uFFFD\\x0000\\x0000a\uFFFD\n\uFFFD\\x0011\\x0002\\x0000,}\uFFFD\uFFFD\\x001f\uFFFD\uFFFDo\uFFFD;\uFFFDXe\uFFFD\uFFFDPX\\x0018\uFFFD\uFFFD\\x0008\\x0013\\x001a\uFFFD\uFFFD\u05B6\uFFFD\uFFFDU|\u03FB\\x0018\uFFFDROl\uFFFD\\x001d\uFFFD\uFFFD\uFFFD5\uFFFD+E}5\\x0000 \uFFFD\uFFFD\uFFFD\\x0011\\x0000\uFFFD#sc\uFFFD0\uFFFD\uFFFD\r\uFFFD\\x001f\\x0002x\\x001b\uFFFD\uFFFD\n\uFFFDX|\uFFFD\u02EBq\\x0005\uFFFD\u0174]\uFFFD\uFFFDn\uFFFD\uFFFD\\x001b\uFFFD\uFFFD\uFFFD\uFFFD\\x0019\\x0000aT\uFFFD\\x0000Xs\uFFFD:\uFFFD\\x001bH\uFFFD\\x0011\\x00134.\uFFFD\uFFFDx\r!s\uFFFD\uFFFD(\u02BA\uFFFD\\x0006|g\uFFFDV\\x0000\uFFFD(2\\x0019\\x0001\\x0012Q\uFFFD\uFFFD\uFFFD{\uFFFD=\uFFFD\uFFFD\\x0000\\x0003\\x0010\uFFFDm\u018B\\x0016\uFFFDv\uFFFD\uFFFD6PD\uFFFD\uFFFD\\x0004\uFFFD\uFFFDP\uFFFDk\\x0005`\\x0014\uFFFD\\x0004H\uFFFD\uFFFD?\u0750\\x0006\uFFFDUTP\uFFFDl\uFFFD\uFFFDyJd\uFFFD\uFFFD\uFFFD\\x0006\\x0012\u00B6\uFFFD1\uFFFD\uFFFD\uFFFD\uFFFD\\x0001\\x0018E7#\uFFFD\uFFFD\uFFFD\uFFFD\\x0004\uFFFDp.\uFFFD\\x000fE\uFFFD\uFFFD\uFFFD\uFFFD\\x0003\u0147\uFFFD\uFFFD\uFFFDr\\x001d\uFFFDG\uFFFD\u07B1\\\n\uFFFD\uFFFD\uFFFD\\x0001\uFFFD#\uFFFDE\\x000bn3\uFFFD+@@\uFFFD\uFFFD=\uFFFD\uFFFD\\x0016\uFFFD\uFFFD\uFFFDb\\x001a\\x0002\uFFFDJ&\\x0001\uFFFD9\uFFFD\uFFFDt\u0127\\x001d\uFFFD'\\x00071\uFFFD\uFFFDn*\\x0005\\x0008\uFFFDX\uFFFD|w\uFFFD\uFFFDK\uFFFD\\x00187\u20E6\uFFFD\uFFFDn\uFFFD7\uFFFDJ.\uFFFD\uFFFD\\x001a\uFFFD\uFFFD+\uFFFD\uFFFD\\x0018'p\uFFFDtpGt}\uFFFD\uFFFDJ/\uFFFD\u052F\\x0016\uFFFD\\x000en\\x001f\\x000f\uFFFD\\x001e(\uFFFD\uFFFD|\\x0014\u077Bk\\x0012\uFFFD\uFFFD0\uFFFD\\x0010\uFFFD\uFFFDcG\uFFFD\\x0018\u01CA\uFFFD3\uFFFD\uFFFD\uFFFDk\uFFFDR\uFFFD\uFFFD\uFFFD\uFFFD0n\"b\uFFFD\uFFFDJ\uFFFD0v\uFFFD}5e\uFFFD9\uFFFD>\uFFFD [I\\x0007\uFFFD\uFFFD*3\\x001a#]x\uFFFD\uFFFDDC\uFFFDh\rj\uFFFDR\uFFFD\uFFFD\uFFFDJ\uFFFDY\r\uFFFDR\uFFFD\uFFFD\uFFFD\uFFFD\rBm\uFFFDRK=ow\uFFFD\\x0016\uFFFD\uFFFDF\uFFFDR<P\uFFFD \uFFFD\\x0016\uFFFD\\x001b:\uFFFD\uFFFD\uFFFDr\uFFFD\\x0000\uFFFD\uFFFDba\\x0004\\x0000\uFFFD\uFFFD\\x0008\\x0000\\x0010&\\x0012\uFFFD\\x0010\u033B\uFFFD\uFFFDL\uFFFDxc\uFFFD7\uFFFD\uFFFDu01\\x0010\uFFFD;\uFFFDs8\uFFFD\uFFFD\\r\\x0016`\uFFFD`\uFFFDe\u027Fy\uFFFD\uFFFDU\uFFFD@\\x0019\\x0011\uFFFD@\uFFFDrx\\x001dA\uFFFD\u04D6\uFFFD\u0217P\uFFFDY\uFFFD_\uFFFD}F\uFFFDky\uFFFD\\x001a\uFFFD\uFFFD\\x0018\uFFFD|\uFFFD\uFFFDy\uFFFDdiG\uFFFD\uFFFDe\uFFFD\uFFFDG\uFFFD\\x0000H\uFFFD\uFFFDb4i\uFFFDm\uFFFDw}\uFFFD\uFFFD\\x001d\uFFFD(\uFFFD\uFFFD\uFFFDx\uFFFD\uFFFDH\uFFFDY\uFFFDE\u0512\uFFFD\uFFFD\uFFFDYH\uFFFD^\uFFFD\uFFFD\uFFFD\uFFFD\\x0017\uFFFD\uFFFD&\uFFFD\uFFFD4P5\uFFFD?\\x0004G\uFFFD\uFFFD\uFFFD\uFFFDR\uFFFD64\uFFFDgE0\uFFFD\uFFFD\uFFFD\u04ED2@\uFFFDv\uFFFD\uFFFD\uFFFD\uFFFD\\x0008\uFFFD\uFFFDa\uFFFDF.\uFFFDP\t_T\uFFFD7:\uFFFD|\uFFFD\uFFFD\uFFFDD\uFFFD\uFFFDg\\x0016\\x001a)\uFFFD\u0765\\x0004\uFFFD\u0186ud7\uFFFD\\x001c\uFFFD\\x000f\uFFFD\uFFFD<sQ\uFFFD\r}\uFFFD\uFFFD'\uFFFDb\uFFFD\\x0015\\x001a\uFFFD\\x000e\uFFFD\uFFFD6Q\uFFFD\uFFFD\uFFFD[\uFFFDY\\x001b\u0541\uFFFD\\x0008\uFFFDx \uFFFD`\\x001e\uFFFD\\x000fC;\uFFFD\uFFFD:\\x0018/\\x0005\uFFFD'P\uFFFD\uFFFD\\x0002\uFFFD\\x0011\\x0011\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD5OxK\uFFFDTD\uFFFD/X\uFFFDq`+\uFFFD\uFFFD\\x000b\uFFFD\u0639\uFFFD>\uFFFD>\\x000b\uFFFDj\\x0001L\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001f\\x0011\\x0006+\uFFFD\uFFFD35\uFFFD\uFFFD\twd\uFFFDSW}\uFFFD,\\x001d lYv\uFFFD;\uFFFD\"r\uFFFD\\f\uFFFD\uFFFDNM\\x001c\uFFFD)r3t\\x001d\uFFFD\uFFFD\uFFFD\uFFFD.\uFFFD\\x0003\uFFFD\uFFFD\\x0013s0\uFFFD\uFFFD\uFFFDU.\uFFFD\uFFFDM\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001f\uFFFD`\uFFFD\uFFFD\uFFFD\uFFFD;-\uFFFD\\x0015\u027C|N\uFFFD\uFFFD\\x0003t\\x0019\uFFFD?[p \uFFFD?TN\\x0003\uFFFD\\x0001W\uFFFD\uFFFD:\uFFFDM\uFFFD\uFFFDB\uFFFDu\uFFFD\\x001a\uFFFDHGw\u00CD\uFFFDyw\uFFFDl0\\x001b\\x000c\uFFFD\uFFFD\\x0014)\uFFFD\uFFFDV\uFFFD\\x001d\\x0017Gk\uFFFD\\x000c\uFFFD\uFFFD<\uFFFD\\0C\uFFFDQ\uFFFD\\x000b~\uFFFD\uFFFD\uFFFD\uFFFD\u071D\uFFFDz\uFFFD\\x00197\uFFFD\uFFFD(_\\x001ea?\uFFFD\uFFFD\uFFFD\uFFFD\\x001c3\uFFFD\u055C\uFFFD\uFFFD\uFFFD\\x0007\uFFFDl\uFFFD\\x0008x\uFFFD\uFFFD\uFFFD\u0156\uFFFD\uFFFD\uFFFD\\\\x0005)\uFFFD\uFFFD\uFFFD\uFFFDd\\x0013\uFFFD\\x0019\uFFFD.\uFFFDN~C\\x0017em;\\x0001\\x0017\uFFFD\uFFFD\\x0001w\uFFFDs\uFFFD\\\uFFFD\\x0000\uFFFD\\x0018\r\uFFFD\uFFFD\uFFFD\\x001f\\x0010F\uFFFD\uFFFD\uFFFD\uFFFD\\x0004|\\x0019w4\uFFFD*\\x000e2\uFFFDM\\x0010fP\\x001fl\uFFFDc\uFFFDQ\u04B7\uFFFD>\uFFFDD\r\uFFFD\uFFFDH\uFFFD\uFFFD\u88F4OG(\uFFFD\uFFFD\uFFFD\\x0013\uFFFD\uFFFD \uFFFDQ\uFFFD,0\uFFFD}x\uFFFD>\uFFFDuNBy%W\uFFFD\uFFFD\\x0007[\uFFFD\\x0005+\\x0015\uFFFD\uFFFD4\uFFFD~b\uFFFD|\uFFFD\uFFFD/i\uFFFD|\uFFFDF\uFFFDt\\x0019\uFFFD\t\uFFFD\uFFFD#!\uFFFDg2\uFFFD>\\x0007\\x0018\uFFFD\uFFFD\uFFFDw\uFFFD2\uFFFD=\uFFFD1\\x0001\uFFFD\\x0011\uFFFD\\x001c\uFFFD\uFFFD\uFFFD\uFFFDd\uFFFD\uFFFDd\uFFFD\\x0016\uFFFDe\uFFFDr\uFFFD\\x0005\uFFFDFI\uFFFD\uFFFD\uFFFD\uFFFD\\x0001^\\x0004N}r\uFFFD%\uFFFDw\\x0012u\uFFFD{?\uFFFD0/\\x0002FsI\uFFFD\\x0019\uFFFD#j\uFFFD\uFFFD\u0505S{Y8\uFFFDw\uFFFD\\x0012\uFFFD7\uFFFD\uFFFDxa\\x001a_\uFFFDL\uFFFDP\uFFFD\uFFFD\uFFFDWLO\\x0005G\t\uFFFD\uFFFD5\uFFFD\uFFFD3\uFFFD9\uFFFD\uFFFD\uFFFD[\u0344Q\\x00012\\x0012\uFFFD\uFFFD\\x0013\uFFFD\uFFFDZ\uFFFD3\uFFFDq=\u07585B\\x0005\u01FE\uFFFD\\x000e&\uFFFDm\\x0015\\x0011\uFFFD\uFFFD9\uFFFD\uFFFDK\uFFFD\uFFFD20\uFFFD\uFFFD\uFFFDR\\x0002\uFFFDZP#\uFFFD\uFFFD@\\x0019\uFFFDV\uFFFDJ\uFFFDP^\uFFFD\uFFFD\\x000c\uFFFD'\uFFFDm\t\uFFFD\uFFFD\uFFFD;\uFFFD\uFFFDR`h\uFFFDL\uFFFD\uFFFD]x\uFFFD\uFFFD\uFFFDJ-\uFFFDq6\\x0014\uFFFD\uFFFD\"\uFFFDq\uFFFDm\uFFFDRK=\uFFFD\uFFFD\uFFFDR\uFFFD\uFFFD\uFFFDNm\uFFFD\uFFFD,\n\\x0001\u06DC\uFFFDV\uFFFD]\uFFFD\uFFFD\u04B0\uFFFD\uFFFD4e\uFFFD\uFFFD\\x000c\uFFFDEg\uFFFDeU\uFFFD\uFFFD{\u0150)V\\\uFFFDq\uFFFD(j\u489B\uFFFD\uFFFD\\x0014m\u05A2\\x001b\uFFFD]c\uFFFD\uFFFDq\uFFFD\uFFFD\\x001d\u047D\\\uFFFDLz\uFFFDP\uFFFD*\uFFFD\"\u01C3\uFFFDG\\x0017\\x0017]@u 9\uFFFD\uFFFD\\x0014U\uFFFD\\x0019\u053E\uFFFD\uFFFD`\uFFFD\\x001d\uFFFD\\x000c\u0469\uFFFD\u05D870`R\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDI&\uFFFD%a\uFFFD\uFFFDj\uFFFDS\uFFFDzcU\uFFFD\\x0006`\uFFFD\uFFFD\uFFFD}\uFFFDV\uFFFDL\\x0015\uFFFD\uFFFDB\uFFFD{\uFFFDx\uFFFD\uFFFDT\uFFFD?,p\uFFFD\uFFFD0\\x0011\\x0006\\x0004u\\x0004\uFFFD\\x0011,r\uFFFD\\x0017\uFFFDU\u0567\uFFFD\\x0008\uFFFD\uFFFDi\uFFFDG\uFFFD\uFFFD\\x0017\uFFFD\uFFFD]\uFFFD\\x001bsz\\x0000\uFFFD*\\x0002\uFFFD\uFFFDJ\uFFFDX}\uFFFDG\\x0012\uFFFDr(\uFFFD\uFFFD'\uFFFDl\uFFFDN\uFFFD>[\uFFFD\\x0008UU\\x0003\uFFFD\uFFFD;[{\uFFFD\uFFFDJ\uFFFD\\x00010\uFFFD0\\x0002$K\u045B{\uFFFD>/4@\uFFFDV\\x0014kn\uFFFDM\uFFFD\\x0013\u078C\uFFFD\\x000cUUM\u0666\u0795\uFFFD\uFFFD\uFFFD\\x001d\uFFFD @\\x0018\\x001a\\x0018\\x0000\uFFFDo\uFFFD\uFFFD\uFFFD\uFFFDL\uFFFD\uFFFD\u02BD\\x0018\uFFFD\uFFFDa/\uFFFD\\x0015\uFFFD\\x0012\u03E6\uFFFD\uFFFDd()n\uFFFDXR93\uFFFD\\x0004\uFFFD1\uFFFD0\\x0002\uFFFD\"j~\uFFFD\uFFFD\\x001b\uFFFD\uFFFD\\x0017\\x001a\uFFFD\uFFFD+\uFFFD\\x00107\uFFFD\uFFFD\u0543\\x0014C\uFFFD\uFFFD\\x0001\uFFFD\uFFFD\uFFFD\\\uFFFD<\uFFFD\uFFFDbr_\r\\x0000\\x0008cBb\uFFFD\\x0000\\x0010\uFFFD\\x001c\uFFFD\uFFFD\uFFFD\uFFFD=\uFFFD\uFFFDm\"\uFFFDI\uFFFD_\\x000c#}\\x0010\uFFFD\uFFFD#\uFFFD\uFFFD*\uFFFD\\x000b\uFFFD\uFFFD\uFFFD\uFFFD&\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFD\uFFFD\uFFFD2\\x0000\\x0000B\\x0018c\uFFFD0\uFFFD\\x0008\\x0001\\x0000`~\\x0003M^\uFFFD\u05DFkM\\x0013\\x0018\uFFFDB\uFFFDL\uFFFD@\uFFFD\uFFFDWx;\uFFFD\uFFFDW\uFFFD+4\uFFFD1\u07EA\\x0002\\x0005\uFFFDu\uFFFD\\\\x0006\uFFFDrw\uFFFDC:\uFFFD\uFFFD\uFFFD\u06E1\uFFFD\\x001a\uFFFD\uFFFD\uFFFD\nd\uFFFD\uFFFD\\x0018#F2\uFFFD\uFFFD\uFFFDc\uFFFD)\uFFFD]\uFFFD\uFFFDn\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD1\\x0013XM\uFFFDr\\x0003UA\uFFFD=WF\uFFFD\uFFFD\uFFFD8\uFFFD6k\uFFFD\uFFFD({\uFFFDt\uFFFD[\uFFFDI8\u079B\uFFFD$\u02FF\uFFFD:kYM\uFFFD'\uFFFD\uFFFD5\uFFFD\uFFFD\\x0013wh/7\uFFFD1/\uFFFDw\uFFFD\uFFFD^\uFFFD\uFFFDw\uFFFD\uFFFDa\uFFFD\\x0016\uFFFD.\uFFFD\u0730\\x0000U\uFFFDy2\uFFFD\uFFFD\uFFFDo\\x0014\uFFFD\uFFFD\uFFFD,\uFFFD\\x0011\uFFFD]\uFFFD:+\\x0017\\x001ce\uFFFD\uFFFD\uFFFD\uFFFD4\uFFFD\uFFFD\n\r\uFFFD\uFFFD+x\uFFFD\uFFFD\uFFFD\u01C0\n_\uFFFD\u03EE\uFFFD;\uFFFD \uFFFD\\x0008\uFFFDRJ`\uFFFD\uFFFD:\u07CC\\x0007\uFFFD\\x0001)K\uFFFD\\x001cg]J\uFFFD\\x0008`T\uFFFD\\x000e\uFFFD\\x0014l\uFFFD\\x0003\uFFFD\uFFFD\uFFFDR\\x0006,\uFFFD\uFFFDub\\x0007[L-Mi\uFFFD>\uFFFD{\uFFFD\\x0002\uFFFD\uFFFD\\x000cy c\\x0012\uFFFDv\uFFFD\uFFFD&\\x000eJ)\\x0003:\uFFFD\uFFFD{\uFFFDU\uFFFD_\\x0017$&\uFFFD\uFFFD\uFFFD\uFFFD-\uFFFD5P\\x0002\uFFFD\uFFFD\uFFFDr\uFFFD\u0558a9\uFFFD\u98A1\uFFFD2\uFFFDQw\uFFFD\uFFFDS\uFFFD\uFFFDB\\x0003\uFFFD\"u\uFFFDS\uFFFD\uFFFDT\uFFFD\\x0004\\x0018\\x0015\uFFFDC:\r\\x001b\uFFFDK\uFFFDDD)e\\x0000u\uFFFD~\uFFFD\\x001f\uFFFD\uFFFD\uFFFD\uFFFDP\\x0017\uFFFD\uFFFD\uFFFDj\uFFFD!V\uFFFD\uFFFD\n\uFFFDQQ\\x0007\uFFFD\uFFFD\\x0012\uFFFD\\x0012:\uFFFDj\uFFFD\uFFFD\\x0000\uFFFDz\uFFFD\uFFFD\uFFFD\uFFFDb\uFFFD&T\uFFFD\uFFFD\uFFFDj\uFFFDt\uFFFD3\uFFFD%\uFFFD\uFFFD\uFFFDI\uFFFD\u060D\u00CE|\uFFFD\uFFFD(\uFFFD\\x000c\uFFFD\uFFFD\uFFFD\u037C\uFFFD\uFFFDf\\j(j\uFFFD\\x000cp\uFFFDG\uFFFDY\uFFFD\\x0006\u02800\uFFFDB\\x00071\\x0019\uFFFD\uFFFD\\x001dg\u0618/(\uFFFD\uFFFD\\x0000\uFFFD\uFFFD\uFFFDl\uFFFD=\u033B?\uFFFD:\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\\uFFFD\uFFFDe.\uFFFD\uFFFD0\uFFFD\uFFFD`w\uFFFD\uFFFD2\uFFFD5\uFFFD\uFFFD\\x0001Txf\\x0000$\uFFFD\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFDkq;\uFFFDK\uFFFDx\uFFFD,5\uFFFD\uCEF8\uFFFD6\uFFFD\uFFFDo\uFFFD\uFFFD\uFFFD\\x0000\\x0008\uFFFD\\x0008=\uFFFD2K\\x0006\uFFFD`g\uFFFDAC\uFFFD\uFFFD\\x000c\uFFFDX\uFFFD8s\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u044C3_o\uFFFDI8\uFFFD\uFFFD\uFFFD'\uFFFD\uFFFD\uFFFD\\x001c\uFFFDY/\uFFFD7\uFFFD\uFFFDR\\x0000\uFFFD(b\uFFFD\uFFFDb\\x001f\uFFFD\t\uFFFDu\uFFFD\\x00185^2\\x0002\\x00004KT\\\uFFFD#\uFFFD\uFFFDS\uFFFD\uFFFD\\x0003\uFFFD\uFFFD\\x0005+\uFFFD\uFFFD(F3\uFFFDr\uFFFD\uFFFD:O\uFFFD\uFFFD(\uFFFD) 0l\uFFFD\uFFFDw8\uFFFD\uFFFD\uFFFD\uFFFD\\x000f\uFFFD\uFFFDa\uFFFD~\uFFFD\\x001a\uFFFD\\x000f\uFFFD \\x0003\\x0000\uFFFD(\uFFFD\uFFFD\\x001d'\\x0008\uFFFDY;\uFFFD)\uFFFD$o\\x0019\\x0001\\x0000`ZD\uFFFD\uFFFD\uFFFD\\i\rW\uFFFD\uFFFD\uFFFDq\uFFFD\uFFFDW\uFFFD\uFFFD\uFFFD\uFFFDcLnr\uFFFD\uFFFD\\x000b\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDk\uFFFDk&y$3(;_\uFFFD\uFFFD~\uFFFD\\x0000\\x0000a\uFFFD\"<F:\uFFFD\uFFFD|\uFFFD\uFFFDqNE\\x00083\uFFFD1B\\x0008\\x0000\\x000c\\x0006\uFFFD\\x001f\uFFFD`\\x0000\uFFFD\\x0010\uFFFD\\x0018\uFFFD\uFFFD`7\uFFFD\uFFFD9\uFFFD[;\uFFFDS\n\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x000b|\uF804\uFFFD\uFFFD,0\uFFFD\uFFFD\uFFFD\uFFFDY%\uFFFD\uFFFDD\uFFFD\uFFFD\\x001b\uFFFD\u033Ai\uFFFDG\uFFFD\\x001ds\\x001c\uFFFD\uFFFD+\uFFFD|\uFFFDT\uFFFD\\x0015v\uFFFD\uFFFD5\uFFFD\uFFFDm\\x0006s\\x001e7\uFFFD/\uFFFDt\uFFFD\uFFFD;\uFFFD\\x0019M\uFFFDh\uFFFD\uFFFD<\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD7\uFFFD)\\x0019\u0359\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD^_V2\u04CD\uFFFD{\uFFFD\uFFFDl~\uFFFD\uFFFD\\x001d\uFFFD\\x000c\uFFFD\\z\uFFFD\uFFFDy*\uFFFD\uFFFD\\$_x\uFFFD\uFFFDJ%\uFFFDh0\uFFFDot\uFFFDJ%F\uFFFD\uFFFD\uFFFD\uFFFD]\uFFFD\uFFFD#\uFFFD8e\uFFFDq\uFFFD\uFFFD\\x0008,\uFFFD#\uFFFD(\uFFFDh\uFFFD\uFFFD#\u0102,\uFFFDf\uFFFDQ\uFFFD\u0518\uFFFD2\n\\x0003\\x000f`\\x001d\uFFFDc\\x001d\\x0003\uFFFD\\x0002\uFFFD\uFFFD-hJCs\\x0014c[}I\\x0011\n\uFFFD\\x001bx\uFFFDUi\\x0018\u0519k\uFFFD\uFFFD\\x001d\uFFFD:\uFFFD\uFFFD:\\x001e\\x0013\\x000b\uFFFD\uFFFD\uFFFD\uFFFD\\x0010\uFFFD\uFFFD\uFFFD,\uFFFDU\uFFFD\\x0014!\uFFFD\uFFFD\uFFFD\uFFFDJ\uFFFD-\uFFFD\uFFFDMX\uFFFDO\uFFFDq\uFFFD\uFFFD\uFFFD\\x0004\\x000b\u0745\uFFFD\tQ\n!.\uFFFD5\\x0016|\uFFFDh&\uFFFD)\\x0003\uFFFDA\u0328\uFFFDO\uFFFD\uFFFD\uFFFD\uFFFD\u07192\uFFFD\uFFFD\uFFFD\uFFFDb,\uFFFD\\x0011SH\t\\x0014\uFFFD6,\uFFFD\uFFFD\t\uFFFD\uFFFD\uFFFDX\uFFFDMx\uFFFD~\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x001c\uFFFD\uFFFD\u01BFR\u0142\uFFFDS0\uFFFDH\uFFFDF\uFFFD\\x001d\uFFFD\uFFFD\\S\uFFFDK\\x0006,\uFFFDD\uFFFD\uFFFD>\uFFFD*\uFFFD~~\uFFFDX\uFFFD%\uFFFD\\x0004\\x001a\uFFFD)9gP'\uFFFD\t\uFFFD\uFFFD\\x001b\uFFFD\uFFFD7\\x001d\u070A\\x001d\uFFFD`\uFFFD\\x0007\uFFFD#\uFFFD\uFFFDq#\uFFFDX\uFFFD\uFFFDX\\x0007\uFFFD\uFFFD\\x000e\uFFFD\uFFFD\uFFFD\"\uFFFDB7\\ek^\u0271\uFFFD\uFFFD\uFFFDH\\x001cV\u0324a\uFFFD\uFFFD\uFFFD7\\x001c\\x0016\\x001ap\uFFFD\uFFFDH\\x0017\u06ACJ\uFFFDU\uFFFD\u05F4\uFFFD\uFFFD\u0128l\uFFFDy\\x00113i\uFFFDQ^\u065A\uFFFD1\uFFFD\uFFFD\uFFFD\uFFFD 1:\uFFFDz\uFFFD\uFFFD\u03C1\u02E9kY\uFFFD\uFFFD\uFFFD\\x0012\\x0018\uFFFD\uFFFD\uFFFD\uFFFD\u0717O'\uFFFD\uFFFD1j\uFFFDH\uFFFD^\u07D4K\uFFFD\uFFFD\uFFFDt\uFFFD\uFFFD\\x0011\\x001a\uFFFDqy\uFFFD|\uFFFD\\x0018\uFFFD%\uFFFD~\uFFFD\uFFFD&\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDcc4/`\uFFFD\uFFFDr\uFFFD\uFFFD\t\\x001d3Fu\uFFFDK:'\uFFFD/R\uFFFDD\u03AC\uFFFDE\\x001dF\uFFFD\uC3B5\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDXq\uFFFD&?S1\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDr\uFFFD\\c\t\uFFFD\\x0008\uFFFD\uFFFD\uFFFD\uFFFD}\uFFFD!\uFFFD$dI\uFFFD|;F\uFFFD\uFFFD\\x001a\\x0017\uFFFD\uFFFD\uFFFD<\uFFFD#\uFFFD\uFFFD\uFFFD\uFFFD\\x00145X\n;\uFFFDC<h\uFFFD\\x0016\uFFFDa)\uFFFD\uFFFDs\\x001b\\x0005\uFFFD\uFFFD\\x0004\uFFFD\uFFFDQ\uFFFD\uFFFD\uFFFD\\x0017#w\\x0014#\\x0013\uFFFDf,\uFFFD\uFFFD~\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDj\uFFFDA\uFFFD\uFFFDK\uFFFD\u07587*\uFFFD\uFFFD8\uFFFD\uFFFD#\uFFFDB\u4D2F\\x0007KmC>;\uFFFDk\uFFFD\\x00169`\uFFFD\uFFFDn\\x0003KpB\uFFFDz\uFFFD\uFFFD\uFFFDR\uFFFD\uFFFD\u0289\\x000f\uFFFD\r,\uFFFD\uFFFDx$\uFFFD\uFFFD(z\uFFFD\uFFFDkGY\uFFFD\uFFFDPb\u026EoA\uFFFDJ*\\x001f~\uFFFD\\x0015-\uFFFDkPG^\uFFFD\uFFFDE-\uFFFD\uFFFD\\x001fw\uFFFD\uFFFDk7K\uFFFDY\\x00077\uFFFD$\uFFFDe\u0112\\x001f'\uFFFDs\\x0014C\n\uFFFD\uFFFD\uFFFD\\\uFFFD\\x000f\u05C3\uFFFD`\u02EE\uFFFD\uFFFD\uFFFD G1L\\x0007\\x000f\uFFFD\uFFFDb\uFFFD\uFFFD\u0107^M\uFFFDX&V\\r\\x0018\uFFFD\u0107g7K\uFFFD9{\u0787\uFFFD\\x0018\uFFFD\u0216^\uFFFD\uFFFD\uFFFD\uFFFDz\uFFFD\uFFFD\uFFFDw\uFFFD\uFFFDw\uFFFD\uFFFDK9\uFFFD\u0710Xn&\uFFFD,\uFFFDg'wU\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD/\\x0012\uFFFD\\x0016,K\uFFFDS\u043B\uFFFD\uFFFD\uFFFDcA\uFFFD\uFFFD\uFFFD\uFFFDuG\uFFFD}\u00B2u\\x0015O\uFFFD\uFFFD\uFFFD\uFFFD\n/\uFFFD\uFFFD\uFFFD^MS\uFFFD(X\uFFFD\u05BB\uFFFD\uFFFD@)\uFFFD|\uFFFD^_\rAO\uFFFDW8\uFFFD\uFFFD\uFFFD\uFFFD\\x0000,\uFFFD[~E$\uFFFD\uFFFD\uFFFDq\uFFFD \uFFFD\uFFFDZ\\x0010J\uFFFD\uFFFD\\x0019\uFFFD\uFFFD\uFFFD\u0630\\n\uFFFDe9tWR\uFFFDez}!\u070C\\x0002sx%_6\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD9\uFFFDe\\x0012\uFFFD\uFFFD\uFFFD\u03AC\uFFFD}\uFFFD!\uFFFD\uFFFD&&\uFFFD?\uFFFD\\x0008\uFFFD\uFFFD\uFFFDI\uFFFD\uFFFDW\uFFFD\uFFFD\uFFFD1o\uFFFD\uFFFD\uFFFD\uFFFDcrb\\x0003\uFFFDZ\\x00077\uFFFD\uFFFDb0\\x0007W\uFFFD\u05C57\\x0019\uFFFD\uFFFDW,\uFFFD7\uFFFDc\uFFFD@\\x0017\u06AA\uFFFD\uFFFD\uFFFD\uFFFD\\x001d\\x001b\uFFFD)\uFFFD&\\x0014-S\uFFFDHO\uFFFD\\x001c\\x0017\uFFFD\uFFFDA\uFFFD\u0638\uFFFDNX\\x0011\uFFFD\uFFFD\\x001c?\uFFFD\uFFFD&Va\uFFFDt\uFFFD\\x000c\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDAf\uFFFDq\uFFFDQsP\uFFFD/T3\u00E1V8\uFFFDk\uFFFD\uFFFD\uFFFD~\u059C\\x001eV\uFFFDm<#\\x001b\uFFFD\u0170\u0178~\uFFFD;Ju\uFFFD\r\\x001cE'g6\u0285\uFFFD\uFFFD\uFFFD\uFFFD\\x000e\uFFFDP\uFFFD\uDBE8\uDF79\uFFFD%\\x0006\uFFFD~Rv\uFFFD\\x000e\uFFFD[\uFFFDWR\u05A4\uFFFD\uFFFDK^mJO\uFFFD\\x0005K\uFFFD\uFFFD~\uFFFDLn\uFFFD\\x000f\uFFFDR,\uFFFD\\x0000"
 						},
 						{
-							"id": "139",
+							"id": "145",
 							"uri": "https://cardano.org/research/",
 							"method": "GET",
 							"param": "",
@@ -956,7 +992,7 @@
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
-					"sourceid": "1779"
+					"sourceid": "1985"
 				},
 				{
 					"pluginid": "10027",
@@ -969,7 +1005,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "135",
+							"id": "129",
 							"uri": "https://cardano.org/assets/js/main.6ba29592.js",
 							"method": "GET",
 							"param": "",
@@ -978,7 +1014,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"// A map from prop names to chunk names.\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "92",
+							"id": "109",
 							"uri": "https://cardano.org/assets/js/runtime~main.cb672e9f.js",
 							"method": "GET",
 							"param": "",
@@ -987,7 +1023,7 @@
 							"otherinfo": "The following pattern was used: \\bLATER\\b and was detected in likely comment: \"// create error before stack unwound to get useful stacktrace later\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "141",
+							"id": "144",
 							"uri": "https://cardano.org/news/",
 							"method": "GET",
 							"param": "",
@@ -996,7 +1032,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//schema.org\",\"@type\":\"Blog\",\"@id\":\"https://cardano.org/news\",\"mainEntityOfPage\":\"https://cardano.org/news\",\"headline\":\"Blog\",\"d\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "147",
+							"id": "152",
 							"uri": "https://cardano.org/news/2021-12-20-december-developer-portal/",
 							"method": "GET",
 							"param": "",
@@ -1005,7 +1041,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//schema.org\",\"@type\":\"BlogPosting\",\"@id\":\"https://cardano.org/news/2021-12-20-december-developer-portal\",\"mainEntityOfPage\":\"ht\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "149",
+							"id": "150",
 							"uri": "https://cardano.org/news/2022-01-24-january-developer-portal/",
 							"method": "GET",
 							"param": "",
@@ -1014,7 +1050,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//schema.org\",\"@type\":\"BlogPosting\",\"@id\":\"https://cardano.org/news/2022-01-24-january-developer-portal\",\"mainEntityOfPage\":\"htt\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "152",
+							"id": "154",
 							"uri": "https://cardano.org/news/2022-09-23-september-developer-portal/",
 							"method": "GET",
 							"param": "",
@@ -1023,7 +1059,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//schema.org\",\"@type\":\"BlogPosting\",\"@id\":\"https://cardano.org/news/2022-09-23-september-developer-portal\",\"mainEntityOfPage\":\"h\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "151",
+							"id": "155",
 							"uri": "https://cardano.org/news/2022-12-05-monthly-report-cardano-scaling/",
 							"method": "GET",
 							"param": "",
@@ -1032,7 +1068,7 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"//schema.org\",\"@type\":\"BlogPosting\",\"@id\":\"https://cardano.org/news/2022-12-05-monthly-report-cardano-scaling\",\"mainEntityOfPage\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "154",
+							"id": "156",
 							"uri": "https://cardano.org/news/2023-01-09-monthly-report-cardano-scaling/",
 							"method": "GET",
 							"param": "",
@@ -1041,7 +1077,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//schema.org\",\"@type\":\"BlogPosting\",\"@id\":\"https://cardano.org/news/2023-01-09-monthly-report-cardano-scaling\",\"mainEntityOfPage\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "153",
+							"id": "158",
 							"uri": "https://cardano.org/news/2023-02-16-february-developer-portal/",
 							"method": "GET",
 							"param": "",
@@ -1059,7 +1095,7 @@
 							"otherinfo": "The following pattern was used: \\bBUG\\b and was detected in likely comment: \"//schema.org\",\"@type\":\"BlogPosting\",\"@id\":\"https://cardano.org/news/2023-05-03-monthly-report-cardano-scaling\",\"mainEntityOfPage\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "156",
+							"id": "160",
 							"uri": "https://cardano.org/news/2023-05-30-monthly-report-cardano-scaling/",
 							"method": "GET",
 							"param": "",
@@ -1068,13 +1104,13 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"//schema.org\",\"@type\":\"BlogPosting\",\"@id\":\"https://cardano.org/news/2023-05-30-monthly-report-cardano-scaling\",\"mainEntityOfPage\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "155",
-							"uri": "https://cardano.org/news/2023-06-27-monthly-report-cardano-scaling/",
+							"id": "159",
+							"uri": "https://cardano.org/news/2023-06-15-june-developer-portal/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "from",
-							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//schema.org\",\"@type\":\"BlogPosting\",\"@id\":\"https://cardano.org/news/2023-06-27-monthly-report-cardano-scaling\",\"mainEntityOfPage\", see evidence field for the suspicious comment/snippet."
+							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//schema.org\",\"@type\":\"BlogPosting\",\"@id\":\"https://cardano.org/news/2023-06-15-june-developer-portal\",\"mainEntityOfPage\":\"https:\", see evidence field for the suspicious comment/snippet."
 						}
 					],
 					"count": "12",
@@ -1083,7 +1119,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "546"
+					"sourceid": "535"
 				},
 				{
 					"pluginid": "10109",
@@ -1096,7 +1132,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "35",
+							"id": "25",
 							"uri": "https://cardano.org",
 							"method": "GET",
 							"param": "",
@@ -1105,7 +1141,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "34",
+							"id": "26",
 							"uri": "https://cardano.org/",
 							"method": "GET",
 							"param": "",
@@ -1114,16 +1150,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "129",
-							"uri": "https://cardano.org/calculator/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a href=\"#\" aria-haspopup=\"true\" aria-expanded=\"false\" role=\"button\" class=\"navbar__link\">Learn</a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"id": "112",
+							"id": "121",
 							"uri": "https://cardano.org/common-scams/",
 							"method": "GET",
 							"param": "",
@@ -1132,7 +1159,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "122",
+							"id": "116",
 							"uri": "https://cardano.org/discover-cardano/",
 							"method": "GET",
 							"param": "",
@@ -1141,7 +1168,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "94",
+							"id": "98",
 							"uri": "https://cardano.org/docs/",
 							"method": "GET",
 							"param": "",
@@ -1150,7 +1177,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "84",
+							"id": "88",
 							"uri": "https://cardano.org/entities/",
 							"method": "GET",
 							"param": "",
@@ -1159,7 +1186,25 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "38",
+							"id": "139",
+							"uri": "https://cardano.org/insights/supply/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a href=\"#\" aria-haspopup=\"true\" aria-expanded=\"false\" role=\"button\" class=\"navbar__link\">Learn</a>",
+							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
+						},
+						{
+							"id": "138",
+							"uri": "https://cardano.org/insights/template/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a href=\"#\" aria-haspopup=\"true\" aria-expanded=\"false\" role=\"button\" class=\"navbar__link\">Learn</a>",
+							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
+						},
+						{
+							"id": "16",
 							"uri": "https://cardano.org/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -1168,16 +1213,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "133",
-							"uri": "https://cardano.org/stake-pool-delegation/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a href=\"#\" aria-haspopup=\"true\" aria-expanded=\"false\" role=\"button\" class=\"navbar__link\">Learn</a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"id": "111",
+							"id": "119",
 							"uri": "https://cardano.org/what-is-ada/",
 							"method": "GET",
 							"param": "",
@@ -1186,7 +1222,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "121",
+							"id": "130",
 							"uri": "https://cardano.org/where-to-get-ada/",
 							"method": "GET",
 							"param": "",
@@ -1201,7 +1237,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10015",
@@ -1214,7 +1250,16 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "1",
+							"id": "4",
+							"uri": "https://cardano.org",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "public,max-age=0,must-revalidate",
+							"otherinfo": ""
+						},
+						{
+							"id": "10",
 							"uri": "https://cardano.org/",
 							"method": "GET",
 							"param": "cache-control",
@@ -1223,16 +1268,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "126",
-							"uri": "https://cardano.org/calculator/",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "public,max-age=0,must-revalidate",
-							"otherinfo": ""
-						},
-						{
-							"id": "109",
+							"id": "117",
 							"uri": "https://cardano.org/common-scams/",
 							"method": "GET",
 							"param": "cache-control",
@@ -1241,7 +1277,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "119",
+							"id": "111",
 							"uri": "https://cardano.org/discover-cardano/",
 							"method": "GET",
 							"param": "cache-control",
@@ -1250,7 +1286,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "87",
+							"id": "91",
 							"uri": "https://cardano.org/docs/",
 							"method": "GET",
 							"param": "cache-control",
@@ -1259,7 +1295,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "79",
+							"id": "82",
 							"uri": "https://cardano.org/entities/",
 							"method": "GET",
 							"param": "cache-control",
@@ -1268,7 +1304,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "103",
+							"id": "90",
 							"uri": "https://cardano.org/news/atom.xml",
 							"method": "GET",
 							"param": "cache-control",
@@ -1277,7 +1313,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "90",
+							"id": "92",
 							"uri": "https://cardano.org/news/rss.xml",
 							"method": "GET",
 							"param": "cache-control",
@@ -1286,7 +1322,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "71",
+							"id": "75",
 							"uri": "https://cardano.org/sitemap.xml",
 							"method": "GET",
 							"param": "cache-control",
@@ -1295,7 +1331,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "107",
+							"id": "113",
 							"uri": "https://cardano.org/what-is-ada/",
 							"method": "GET",
 							"param": "cache-control",
@@ -1304,7 +1340,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "117",
+							"id": "127",
 							"uri": "https://cardano.org/where-to-get-ada/",
 							"method": "GET",
 							"param": "cache-control",
@@ -1319,7 +1355,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "33"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10050",
@@ -1332,34 +1368,34 @@
 					"desc": "<p>The content was retrieved from a shared cache. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "42",
+							"id": "28",
 							"uri": "https://cardano.org",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 13120",
+							"evidence": "Age: 612",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "39",
+							"id": "29",
+							"uri": "https://cardano.org",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "Age: 613",
+							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
+						},
+						{
+							"id": "30",
 							"uri": "https://cardano.org/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 13120",
+							"evidence": "Age: 613",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "93",
-							"uri": "https://cardano.org/assets/js/runtime~main.cb672e9f.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "Age: 0",
-							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
-						},
-						{
-							"id": "96",
+							"id": "100",
 							"uri": "https://cardano.org/docs/",
 							"method": "GET",
 							"param": "",
@@ -1368,7 +1404,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "85",
+							"id": "89",
 							"uri": "https://cardano.org/entities/",
 							"method": "GET",
 							"param": "",
@@ -1377,61 +1413,70 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "97",
-							"uri": "https://cardano.org/img/cardano-logo-white.svg",
+							"id": "105",
+							"uri": "https://cardano.org/img/cardano-logo-blue.svg",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 544",
-							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
-						},
-						{
-							"id": "77",
-							"uri": "https://cardano.org/img/favicon.ico",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "Age: 13280",
-							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
-						},
-						{
-							"id": "98",
-							"uri": "https://cardano.org/news/rss.xml",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "Age: 544",
-							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
-						},
-						{
-							"id": "40",
-							"uri": "https://cardano.org/robots.txt",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "Age: 1",
+							"evidence": "Age: 0",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
 							"id": "81",
+							"uri": "https://cardano.org/img/favicon.ico",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "Age: 3452",
+							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
+						},
+						{
+							"id": "95",
+							"uri": "https://cardano.org/news/atom.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "Age: 0",
+							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
+						},
+						{
+							"id": "99",
+							"uri": "https://cardano.org/news/rss.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "Age: 0",
+							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
+						},
+						{
+							"id": "24",
+							"uri": "https://cardano.org/robots.txt",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "Age: 0",
+							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
+						},
+						{
+							"id": "85",
 							"uri": "https://cardano.org/scripts/deactivateServiceWorker.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 14740",
+							"evidence": "Age: 34539",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "72",
+							"id": "76",
 							"uri": "https://cardano.org/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 1",
+							"evidence": "Age: 0",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						}
 					],
-					"count": "11",
+					"count": "12",
 					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information. If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request.</p>",
 					"otherinfo": "<p>The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use.</p>",
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>https://www.rfc-editor.org/rfc/rfc9110.html</p>",
@@ -1450,8 +1495,8 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "25",
-							"uri": "https://cardano.org/common-scams",
+							"id": "50",
+							"uri": "https://cardano.org",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -1459,8 +1504,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "19",
-							"uri": "https://cardano.org/discover-cardano",
+							"id": "40",
+							"uri": "https://cardano.org/",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -1468,8 +1513,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
-							"uri": "https://cardano.org/what-is-ada",
+							"id": "36",
+							"uri": "https://cardano.org/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -1483,7 +1528,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "62"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -1496,8 +1541,8 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "24",
-							"uri": "https://cardano.org/common-scams",
+							"id": "47",
+							"uri": "https://cardano.org",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -1505,8 +1550,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "15",
-							"uri": "https://cardano.org/discover-cardano",
+							"id": "39",
+							"uri": "https://cardano.org/",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -1514,8 +1559,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "29",
-							"uri": "https://cardano.org/what-is-ada",
+							"id": "35",
+							"uri": "https://cardano.org/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -1529,7 +1574,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "62"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -1542,8 +1587,8 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "23",
-							"uri": "https://cardano.org/common-scams",
+							"id": "45",
+							"uri": "https://cardano.org",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -1551,8 +1596,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "14",
-							"uri": "https://cardano.org/discover-cardano",
+							"id": "38",
+							"uri": "https://cardano.org/",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -1560,8 +1605,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "28",
-							"uri": "https://cardano.org/what-is-ada",
+							"id": "34",
+							"uri": "https://cardano.org/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -1575,7 +1620,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "62"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -1588,8 +1633,8 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "26",
-							"uri": "https://cardano.org/common-scams",
+							"id": "51",
+							"uri": "https://cardano.org",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1597,8 +1642,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "20",
-							"uri": "https://cardano.org/discover-cardano",
+							"id": "41",
+							"uri": "https://cardano.org/",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1606,8 +1651,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
-							"uri": "https://cardano.org/what-is-ada",
+							"id": "37",
+							"uri": "https://cardano.org/robots.txt",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1621,7 +1666,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "62"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10049",
@@ -1643,7 +1688,7 @@
 							"otherinfo": "The response is stale, and stale responses are not configured to be re-validated or blocked, using the 'must-revalidate', 'proxy-revalidate', 's-maxage', or 'max-age' response 'Cache-Control' directives."
 						},
 						{
-							"id": "47",
+							"id": "42",
 							"uri": "https://cardano.org/",
 							"method": "GET",
 							"param": "",
@@ -1652,7 +1697,7 @@
 							"otherinfo": "The response is stale, and stale responses are not configured to be re-validated or blocked, using the 'must-revalidate', 'proxy-revalidate', 's-maxage', or 'max-age' response 'Cache-Control' directives."
 						},
 						{
-							"id": "65",
+							"id": "70",
 							"uri": "https://cardano.org/calculator",
 							"method": "GET",
 							"param": "",
@@ -1661,7 +1706,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "27",
+							"id": "67",
 							"uri": "https://cardano.org/common-scams",
 							"method": "GET",
 							"param": "",
@@ -1670,7 +1715,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "22",
+							"id": "65",
 							"uri": "https://cardano.org/discover-cardano",
 							"method": "GET",
 							"param": "",
@@ -1679,7 +1724,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "66",
+							"id": "73",
 							"uri": "https://cardano.org/governance",
 							"method": "GET",
 							"param": "",
@@ -1688,7 +1733,16 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "46",
+							"id": "72",
+							"uri": "https://cardano.org/ouroboros",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
+						},
+						{
+							"id": "49",
 							"uri": "https://cardano.org/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -1697,16 +1751,7 @@
 							"otherinfo": "The response is stale, and stale responses are not configured to be re-validated or blocked, using the 'must-revalidate', 'proxy-revalidate', 's-maxage', or 'max-age' response 'Cache-Control' directives."
 						},
 						{
-							"id": "68",
-							"uri": "https://cardano.org/stake-pool-delegation",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
-						},
-						{
-							"id": "70",
+							"id": "71",
 							"uri": "https://cardano.org/stake-pool-operation",
 							"method": "GET",
 							"param": "",
@@ -1715,7 +1760,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "32",
+							"id": "64",
 							"uri": "https://cardano.org/what-is-ada",
 							"method": "GET",
 							"param": "",
@@ -1724,7 +1769,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "33",
+							"id": "68",
 							"uri": "https://cardano.org/where-to-get-ada",
 							"method": "GET",
 							"param": "",
@@ -1739,7 +1784,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10031",
@@ -1752,7 +1797,7 @@
 					"desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>",
 					"instances":[ 
 						{
-							"id": "160",
+							"id": "163",
 							"uri": "https://cardano.org/crewardcalculator/?lang=en",
 							"method": "GET",
 							"param": "lang",
@@ -1767,7 +1812,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "2498"
+					"sourceid": "2529"
 				}
 			]
 		}
