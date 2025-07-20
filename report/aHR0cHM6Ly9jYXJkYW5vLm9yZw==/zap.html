@@ -212,7 +212,7 @@ td {
 	</h2>
 
 	<h3>
-		Generated on Sun, 13 Jul 2025 01:31:29
+		Generated on Sun, 20 Jul 2025 01:34:31
 	</h3>
 
 	<h3>
@@ -303,22 +303,22 @@ td {
 			<tr>
 				<td><a href="#10055">CSP: Failure to Define Directive with No Fallback</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">2</td>
+				<td align="center">3</td>
 			</tr>
 			<tr>
 				<td><a href="#10055">CSP: script-src unsafe-eval</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">2</td>
+				<td align="center">3</td>
 			</tr>
 			<tr>
 				<td><a href="#10055">CSP: script-src unsafe-inline</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">2</td>
+				<td align="center">3</td>
 			</tr>
 			<tr>
 				<td><a href="#10055">CSP: style-src unsafe-inline</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">2</td>
+				<td align="center">3</td>
 			</tr>
 			<tr>
 				<td><a href="#90003">Sub Resource Integrity Attribute Missing</a></td>
@@ -378,7 +378,7 @@ td {
 			<tr>
 				<td><a href="#10050">Retrieved from Cache</a></td>
 				<td align="center" class="risk-0">Informational</td>
-				<td align="center">11</td>
+				<td align="center">12</td>
 			</tr>
 			<tr>
 				<td><a href="#90005">Sec-Fetch-Dest Header is Missing</a></td>
@@ -605,9 +605,40 @@ http://www.openwall.com/lists/oss-security/2025/03/23/3
 						<td width="80%">The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src.</td>
 					</tr>
 				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">Content-Security-Policy</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">default-src &#39;self&#39;; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src &#39;self&#39; https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com https://img.youtube.com https://ipfs.io; style-src &#39;self&#39; &#39;unsafe-inline&#39; https://hey.cardano.org; frame-src &#39;self&#39; https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src &#39;self&#39; https://www.youtube.com https://www.youtube-nocookie.com; connect-src &#39;self&#39; https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src.</td>
+					</tr>
+				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">2</td>
+					<td width="80%">3</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -732,9 +763,40 @@ http://www.openwall.com/lists/oss-security/2025/03/23/3
 						<td width="80%">script-src includes unsafe-eval.</td>
 					</tr>
 				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">Content-Security-Policy</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">default-src &#39;self&#39;; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src &#39;self&#39; https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com https://img.youtube.com https://ipfs.io; style-src &#39;self&#39; &#39;unsafe-inline&#39; https://hey.cardano.org; frame-src &#39;self&#39; https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src &#39;self&#39; https://www.youtube.com https://www.youtube-nocookie.com; connect-src &#39;self&#39; https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">script-src includes unsafe-eval.</td>
+					</tr>
+				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">2</td>
+					<td width="80%">3</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -859,9 +921,40 @@ http://www.openwall.com/lists/oss-security/2025/03/23/3
 						<td width="80%">script-src includes unsafe-inline.</td>
 					</tr>
 				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">Content-Security-Policy</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">default-src &#39;self&#39;; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src &#39;self&#39; https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com https://img.youtube.com https://ipfs.io; style-src &#39;self&#39; &#39;unsafe-inline&#39; https://hey.cardano.org; frame-src &#39;self&#39; https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src &#39;self&#39; https://www.youtube.com https://www.youtube-nocookie.com; connect-src &#39;self&#39; https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">script-src includes unsafe-inline.</td>
+					</tr>
+				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">2</td>
+					<td width="80%">3</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -986,9 +1079,40 @@ http://www.openwall.com/lists/oss-security/2025/03/23/3
 						<td width="80%">style-src includes unsafe-inline.</td>
 					</tr>
 				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">Content-Security-Policy</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">default-src &#39;self&#39;; script-src &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src &#39;self&#39; https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com https://img.youtube.com https://ipfs.io; style-src &#39;self&#39; &#39;unsafe-inline&#39; https://hey.cardano.org; frame-src &#39;self&#39; https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src &#39;self&#39; https://www.youtube.com https://www.youtube-nocookie.com; connect-src &#39;self&#39; https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">style-src includes unsafe-inline.</td>
+					</tr>
+				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">2</td>
+					<td width="80%">3</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -1086,37 +1210,6 @@ http://www.openwall.com/lists/oss-security/2025/03/23/3
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://cardano.org/">https://cardano.org/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/calculator/">https://cardano.org/calculator/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1271,7 +1364,7 @@ http://www.openwall.com/lists/oss-security/2025/03/23/3
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
+						<td width="80%"><a href="https://cardano.org/insights/supply/">https://cardano.org/insights/supply/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1302,7 +1395,38 @@ http://www.openwall.com/lists/oss-security/2025/03/23/3
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/stake-pool-delegation/">https://cardano.org/stake-pool-delegation/</a></td>
+						<td width="80%"><a href="https://cardano.org/insights/template/">https://cardano.org/insights/template/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7&quot;&gt;&lt;/script&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1656,37 +1780,6 @@ https://github.com/jquery/jquery-ui/issues/2101
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/calculator/">https://cardano.org/calculator/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://cardano.org/common-scams/">https://cardano.org/common-scams/</a></td>
 					</tr>
 					<tr>
@@ -1811,7 +1904,7 @@ https://github.com/jquery/jquery-ui/issues/2101
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
+						<td width="80%"><a href="https://cardano.org/insights/supply/">https://cardano.org/insights/supply/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1842,7 +1935,38 @@ https://github.com/jquery/jquery-ui/issues/2101
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/stake-pool-delegation/">https://cardano.org/stake-pool-delegation/</a></td>
+						<td width="80%"><a href="https://cardano.org/insights/template/">https://cardano.org/insights/template/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7&quot;&gt;&lt;/script&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2902,38 +3026,6 @@ At &quot;High&quot; threshold this scan rule will not alert on client or server 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/assets/js/runtime~main.cb672e9f.js">https://cardano.org/assets/js/runtime~main.cb672e9f.js</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">x-content-type-options</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
-At &quot;High&quot; threshold this scan rule will not alert on client or server error responses.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://cardano.org/docs/">https://cardano.org/docs/</a></td>
 					</tr>
 					<tr>
@@ -2967,6 +3059,38 @@ At &quot;High&quot; threshold this scan rule will not alert on client or server 
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://cardano.org/entities/">https://cardano.org/entities/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">x-content-type-options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+At &quot;High&quot; threshold this scan rule will not alert on client or server error responses.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/img/cardano-logo-blue.svg">https://cardano.org/img/cardano-logo-blue.svg</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4074,7 +4198,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/news/2023-06-27-monthly-report-cardano-scaling/">https://cardano.org/news/2023-06-27-monthly-report-cardano-scaling/</a></td>
+						<td width="80%"><a href="https://cardano.org/news/2023-06-15-june-developer-portal/">https://cardano.org/news/2023-06-15-june-developer-portal/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4099,7 +4223,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bFROM\b and was detected in likely comment: &quot;//schema.org&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;@id&quot;:&quot;https://cardano.org/news/2023-06-27-monthly-report-cardano-scaling&quot;,&quot;mainEntityOfPage&quot;, see evidence field for the suspicious comment/snippet.</td>
+						<td width="80%">The following pattern was used: \bFROM\b and was detected in likely comment: &quot;//schema.org&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;@id&quot;:&quot;https://cardano.org/news/2023-06-15-june-developer-portal&quot;,&quot;mainEntityOfPage&quot;:&quot;https:&quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
 				<tr>
@@ -4187,37 +4311,6 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://cardano.org/">https://cardano.org/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;a href=&quot;#&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; role=&quot;button&quot; class=&quot;navbar__link&quot;&gt;Learn&lt;/a&gt;</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/calculator/">https://cardano.org/calculator/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4372,7 +4465,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
+						<td width="80%"><a href="https://cardano.org/insights/supply/">https://cardano.org/insights/supply/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4403,7 +4496,38 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/stake-pool-delegation/">https://cardano.org/stake-pool-delegation/</a></td>
+						<td width="80%"><a href="https://cardano.org/insights/template/">https://cardano.org/insights/template/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;a href=&quot;#&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; role=&quot;button&quot; class=&quot;navbar__link&quot;&gt;Learn&lt;/a&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4545,7 +4669,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/">https://cardano.org/</a></td>
+						<td width="80%"><a href="https://cardano.org">https://cardano.org</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4576,7 +4700,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/calculator/">https://cardano.org/calculator/</a></td>
+						<td width="80%"><a href="https://cardano.org/">https://cardano.org/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4965,7 +5089,38 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">Age: 13120</td>
+						<td width="80%">Age: 612</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The presence of the &#39;Age&#39; header indicates that a HTTP/1.1 compliant caching server is in use.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org">https://cardano.org</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Age: 613</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4996,38 +5151,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">Age: 13120</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The presence of the &#39;Age&#39; header indicates that a HTTP/1.1 compliant caching server is in use.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/assets/js/runtime~main.cb672e9f.js">https://cardano.org/assets/js/runtime~main.cb672e9f.js</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Age: 0</td>
+						<td width="80%">Age: 613</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5100,7 +5224,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/img/cardano-logo-white.svg">https://cardano.org/img/cardano-logo-white.svg</a></td>
+						<td width="80%"><a href="https://cardano.org/img/cardano-logo-blue.svg">https://cardano.org/img/cardano-logo-blue.svg</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5120,7 +5244,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">Age: 544</td>
+						<td width="80%">Age: 0</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5151,7 +5275,38 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">Age: 13280</td>
+						<td width="80%">Age: 3452</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The presence of the &#39;Age&#39; header indicates that a HTTP/1.1 compliant caching server is in use.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/atom.xml">https://cardano.org/news/atom.xml</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Age: 0</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5182,7 +5337,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">Age: 544</td>
+						<td width="80%">Age: 0</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5213,7 +5368,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">Age: 1</td>
+						<td width="80%">Age: 0</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5244,7 +5399,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">Age: 14740</td>
+						<td width="80%">Age: 34539</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5275,7 +5430,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">Age: 1</td>
+						<td width="80%">Age: 0</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5285,7 +5440,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">11</td>
+					<td width="80%">12</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -5356,7 +5511,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/common-scams">https://cardano.org/common-scams</a></td>
+						<td width="80%"><a href="https://cardano.org">https://cardano.org</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5387,7 +5542,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/discover-cardano">https://cardano.org/discover-cardano</a></td>
+						<td width="80%"><a href="https://cardano.org/">https://cardano.org/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5418,7 +5573,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/what-is-ada">https://cardano.org/what-is-ada</a></td>
+						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5502,7 +5657,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/common-scams">https://cardano.org/common-scams</a></td>
+						<td width="80%"><a href="https://cardano.org">https://cardano.org</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5533,7 +5688,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/discover-cardano">https://cardano.org/discover-cardano</a></td>
+						<td width="80%"><a href="https://cardano.org/">https://cardano.org/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5564,7 +5719,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/what-is-ada">https://cardano.org/what-is-ada</a></td>
+						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5648,7 +5803,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/common-scams">https://cardano.org/common-scams</a></td>
+						<td width="80%"><a href="https://cardano.org">https://cardano.org</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5679,7 +5834,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/discover-cardano">https://cardano.org/discover-cardano</a></td>
+						<td width="80%"><a href="https://cardano.org/">https://cardano.org/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5710,7 +5865,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/what-is-ada">https://cardano.org/what-is-ada</a></td>
+						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5794,7 +5949,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/common-scams">https://cardano.org/common-scams</a></td>
+						<td width="80%"><a href="https://cardano.org">https://cardano.org</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5825,7 +5980,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/discover-cardano">https://cardano.org/discover-cardano</a></td>
+						<td width="80%"><a href="https://cardano.org/">https://cardano.org/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5856,7 +6011,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/what-is-ada">https://cardano.org/what-is-ada</a></td>
+						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -6126,6 +6281,37 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/ouroboros">https://cardano.org/ouroboros</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
 					</tr>
 					<tr>
@@ -6152,37 +6338,6 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 						<td width="20%"
 							class="indent2">Other Info</td>
 						<td width="80%">The response is stale, and stale responses are not configured to be re-validated or blocked, using the &#39;must-revalidate&#39;, &#39;proxy-revalidate&#39;, &#39;s-maxage&#39;, or &#39;max-age&#39; response &#39;Cache-Control&#39; directives.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/stake-pool-delegation">https://cardano.org/stake-pool-delegation</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
 					</tr>
 				
 					<tr>
