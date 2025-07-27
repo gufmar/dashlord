@@ -353,7 +353,7 @@
               "ip"           : "developers.cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "60 >= 30 days"
+              "finding"      : "53 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,21 +507,21 @@
               "ip"           : "developers.cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+11927 seconds from localtime"
+              "finding"      : "+86 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "developers.cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1752974868"
+              "finding"      : "1753579716"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "developers.cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "11927 seconds"
+              "finding"      : "86 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -684,7 +684,7 @@
               "severity"     : "MEDIUM",
               "cve"          : "CVE-2013-3587",
               "cwe"          : "CWE-310",
-              "finding"      : "potentially VULNERABLE, br gzip deflate HTTP compression detected  - only supplied '/' tested"
+              "finding"      : "potentially VULNERABLE, br deflate HTTP compression detected  - only supplied '/' tested"
           }
 ,         {
               "id"           : "POODLE_SSL",
