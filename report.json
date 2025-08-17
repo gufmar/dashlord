@@ -113,13 +113,13 @@
         "testsQuantity": 10,
         "responseHeaders": {
           "accept-ranges": "bytes",
-          "age": "86549",
+          "age": "16430",
           "cache-control": "public,max-age=0,must-revalidate",
           "cache-status": "\"Netlify Edge\"; hit",
           "content-length": "10061",
           "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com https://img.youtube.com https://ipfs.io; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io;",
           "content-type": "text/html; charset=UTF-8",
-          "date": "Sun, 10 Aug 2025 01:33:30 GMT",
+          "date": "Sun, 17 Aug 2025 01:29:06 GMT",
           "etag": "\"b84712878c43799fd9acd1e84a40ad57-ssl-df\"",
           "feature-policy": "geolocation 'none'; microphone 'none';",
           "referrer-policy": "no-referrer-when-downgrade",
@@ -127,7 +127,7 @@
           "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
           "vary": "Accept-Encoding",
           "x-frame-options": "DENY",
-          "x-nf-request-id": "01K28SS1E10J3SYC3CXKGKZ7W5",
+          "x-nf-request-id": "01K2TT9ZSDZX092NFK1E3V5NCD",
           "x-xss-protection": "1; mode=block",
           "connection": "close"
         }
@@ -655,8 +655,8 @@
         "id": "cert_expirationStatus",
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
-        "severity": "OK",
-        "finding": "36 >= 30 days"
+        "severity": "MEDIUM",
+        "finding": "expires < 30 days (29)"
       },
       {
         "id": "cert_notBefore",
@@ -669,7 +669,7 @@
         "id": "cert_notAfter",
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
-        "severity": "OK",
+        "severity": "MEDIUM",
         "finding": "2025-09-16 00:53"
       },
       {
@@ -810,21 +810,21 @@
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "+86567 seconds from localtime"
+        "finding": "+88 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "1754789628"
+        "finding": "1755394164"
       },
       {
         "id": "HTTP_headerAge",
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "86567 seconds"
+        "finding": "88 seconds"
       },
       {
         "id": "HSTS_time",
@@ -1415,7 +1415,7 @@
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "39"
+        "finding": "41"
       }
     ],
     "thirdparties": {
@@ -1430,7 +1430,7 @@
         },
         {
           "type": "google tag manager",
-          "url": "https://www.googletagmanager.com/gtag/js?id=G-LGRGXBVYMC&cx=c&gtm=45Xe5861v848553843za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105033763~105033765~105103161~105103163~105135708~105135710",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-LGRGXBVYMC&cx=c&gtm=45Xe58d1v848553843za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105033763~105033765~105103161~105103163~105231383~105231385~105347236",
           "details": {
             "id": "google tag manager",
             "message": "Use hosted Matomo instance"
@@ -1438,7 +1438,7 @@
         },
         {
           "type": "google analytics",
-          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LGRGXBVYMC&gtm=45je5861v887638641z8848553843za200zb848553843zd848553843&_p=1754788928531&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~105033763~105033765~105103161~105103163~105113531~105135708~105135710&cid=352354230.1754788929&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B139.0.7258.66%7CNot%253BA%253DBrand%3B99.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1754788928&sct=1&seg=0&dl=https%3A%2F%2Fcardano.org%2F&dt=Home%20%7C%20cardano.org%20%7C%20Cardano&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=448",
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LGRGXBVYMC&gtm=45je58d1v887638641z8848553843za200zb848553843zd848553843&_p=1755393489226&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105033766~105033768~105102051~105103161~105103163~105231383~105231385&cid=1714682191.1755393490&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B139.0.7258.68%7CNot%253BA%253DBrand%3B99.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1755393489&sct=1&seg=0&dl=https%3A%2F%2Fcardano.org%2F&dt=Home%20%7C%20cardano.org%20%7C%20Cardano&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=692",
           "details": {
             "id": "google analytics",
             "message": "Use hosted Matomo instance"
@@ -1448,11 +1448,11 @@
       "cookies": [
         {
           "name": "_ga",
-          "value": "GA1.1.352354230.1754788929",
+          "value": "GA1.1.1714682191.1755393490",
           "domain": ".cardano.org",
           "path": "/",
-          "expires": 1789348928.833938,
-          "size": 29,
+          "expires": 1789953489.625757,
+          "size": 30,
           "httpOnly": false,
           "secure": false,
           "session": false,
@@ -1462,10 +1462,10 @@
         },
         {
           "name": "_ga_LGRGXBVYMC",
-          "value": "GS2.1.s1754788928$o1$g0$t1754788928$j60$l0$h0",
+          "value": "GS2.1.s1755393489$o1$g0$t1755393489$j60$l0$h0",
           "domain": ".cardano.org",
           "path": "/",
-          "expires": 1789348928.833659,
+          "expires": 1789953489.625346,
           "size": 59,
           "httpOnly": false,
           "secure": false,
@@ -1477,14 +1477,14 @@
       ],
       "headers": {
         "accept-ranges": "bytes",
-        "age": "61070",
+        "age": "30558",
         "cache-control": "public,max-age=0,must-revalidate",
         "cache-status": "\"Netlify Edge\"; hit",
         "content-encoding": "br",
         "content-length": "10061",
         "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com https://img.youtube.com https://ipfs.io; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io;",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 10 Aug 2025 01:22:08 GMT",
+        "date": "Sun, 17 Aug 2025 01:18:09 GMT",
         "etag": "\"b84712878c43799fd9acd1e84a40ad57-ssl-df\"",
         "feature-policy": "geolocation 'none'; microphone 'none';",
         "referrer-policy": "no-referrer-when-downgrade",
@@ -1492,7 +1492,7 @@
         "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
         "vary": "Accept-Encoding",
         "x-frame-options": "DENY",
-        "x-nf-request-id": "01K28S4703NNTZ72SXWAQ2FBRT",
+        "x-nf-request-id": "01K2TSNY9N3YBEKEPTN76CEXZA",
         "x-xss-protection": "1; mode=block"
       },
       "endpoints": [
@@ -1552,7 +1552,7 @@
         },
         {
           "hostname": "www.googletagmanager.com",
-          "ip": "142.251.32.40",
+          "ip": "142.251.163.97",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1606,7 +1606,7 @@
         },
         {
           "hostname": "www.google-analytics.com",
-          "ip": "142.250.189.174",
+          "ip": "142.251.163.139",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1784,65 +1784,6 @@
           "rootPath": true
         },
         {
-          "slug": "hubspot",
-          "name": "HubSpot",
-          "description": "HubSpot is a marketing and sales software that helps companies attract visitors, convert leads, and close customers.",
-          "confidence": 100,
-          "version": null,
-          "icon": "HubSpot.svg",
-          "website": "https://www.hubspot.com",
-          "cpe": null,
-          "categories": [
-            {
-              "id": 32,
-              "slug": "marketing-automation",
-              "name": "Marketing automation"
-            }
-          ],
-          "rootPath": true
-        },
-        {
-          "slug": "google-workspace",
-          "name": "Google Workspace",
-          "description": "Google Workspace, formerly G Suite, is a collection of cloud computing, productivity and collaboration tools.",
-          "confidence": 100,
-          "version": null,
-          "icon": "Google.svg",
-          "website": "https://workspace.google.com/",
-          "cpe": null,
-          "categories": [
-            {
-              "id": 30,
-              "slug": "webmail",
-              "name": "Webmail"
-            },
-            {
-              "id": 75,
-              "slug": "email",
-              "name": "Email"
-            }
-          ],
-          "rootPath": true
-        },
-        {
-          "slug": "amazon-ses",
-          "name": "Amazon SES",
-          "description": "Amazon Simple Email Service (SES) is an email service that enables developers to send mail from within any application.",
-          "confidence": 100,
-          "version": null,
-          "icon": "Amazon SES.svg",
-          "website": "https://aws.amazon.com/ses/",
-          "cpe": null,
-          "categories": [
-            {
-              "id": 75,
-              "slug": "email",
-              "name": "Email"
-            }
-          ],
-          "rootPath": true
-        },
-        {
           "slug": "netlify",
           "name": "Netlify",
           "description": "Netlify providers hosting and server-less backend services for web applications and static websites.",
@@ -1897,6 +1838,65 @@
               "id": 31,
               "slug": "cdn",
               "name": "CDN"
+            }
+          ],
+          "rootPath": true
+        },
+        {
+          "slug": "hubspot",
+          "name": "HubSpot",
+          "description": "HubSpot is a marketing and sales software that helps companies attract visitors, convert leads, and close customers.",
+          "confidence": 100,
+          "version": null,
+          "icon": "HubSpot.svg",
+          "website": "https://www.hubspot.com",
+          "cpe": null,
+          "categories": [
+            {
+              "id": 32,
+              "slug": "marketing-automation",
+              "name": "Marketing automation"
+            }
+          ],
+          "rootPath": true
+        },
+        {
+          "slug": "google-workspace",
+          "name": "Google Workspace",
+          "description": "Google Workspace, formerly G Suite, is a collection of cloud computing, productivity and collaboration tools.",
+          "confidence": 100,
+          "version": null,
+          "icon": "Google.svg",
+          "website": "https://workspace.google.com/",
+          "cpe": null,
+          "categories": [
+            {
+              "id": 30,
+              "slug": "webmail",
+              "name": "Webmail"
+            },
+            {
+              "id": 75,
+              "slug": "email",
+              "name": "Email"
+            }
+          ],
+          "rootPath": true
+        },
+        {
+          "slug": "amazon-ses",
+          "name": "Amazon SES",
+          "description": "Amazon Simple Email Service (SES) is an email service that enables developers to send mail from within any application.",
+          "confidence": 100,
+          "version": null,
+          "icon": "Amazon SES.svg",
+          "website": "https://aws.amazon.com/ses/",
+          "cpe": null,
+          "categories": [
+            {
+              "id": 75,
+              "slug": "email",
+              "name": "Email"
             }
           ],
           "rootPath": true
@@ -1976,7 +1976,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.16.1",
-      "@generated": "Sun, 10 Aug 2025 01:32:45",
+      "@generated": "Sun, 17 Aug 2025 01:28:22",
       "site": [
         {
           "@name": "https://cardano.org",
@@ -2162,7 +2162,7 @@
       {
         "requestedUrl": "https://cardano.org/",
         "finalUrl": "https://cardano.org/",
-        "fetchTime": "2025-08-10T01:33:03.526Z",
+        "fetchTime": "2025-08-17T01:28:40.271Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -2225,53 +2225,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 11528,
+            "numericValue": 10046,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 1803,
-                  "firstMeaningfulPaint": 1803,
-                  "largestContentfulPaint": 12236,
-                  "interactive": 11528,
-                  "speedIndex": 1803,
-                  "totalBlockingTime": 364,
-                  "maxPotentialFID": 233,
+                  "firstContentfulPaint": 1092,
+                  "firstMeaningfulPaint": 1092,
+                  "largestContentfulPaint": 11822,
+                  "interactive": 10046,
+                  "speedIndex": 1611,
+                  "totalBlockingTime": 419,
+                  "maxPotentialFID": 221,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 908901565,
+                  "observedTimeOriginTs": 825271765,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 908901565,
-                  "observedFirstPaint": 119,
-                  "observedFirstPaintTs": 909020725,
-                  "observedFirstContentfulPaint": 119,
-                  "observedFirstContentfulPaintTs": 909020725,
-                  "observedFirstContentfulPaintAllFrames": 119,
-                  "observedFirstContentfulPaintAllFramesTs": 909020725,
-                  "observedFirstMeaningfulPaint": 119,
-                  "observedFirstMeaningfulPaintTs": 909020725,
-                  "observedLargestContentfulPaint": 467,
-                  "observedLargestContentfulPaintTs": 909368238,
-                  "observedLargestContentfulPaintAllFrames": 467,
-                  "observedLargestContentfulPaintAllFramesTs": 909368238,
-                  "observedTraceEnd": 2778,
-                  "observedTraceEndTs": 911679528,
-                  "observedLoad": 458,
-                  "observedLoadTs": 909359158,
-                  "observedDomContentLoaded": 169,
-                  "observedDomContentLoadedTs": 909070198,
+                  "observedNavigationStartTs": 825271765,
+                  "observedFirstPaint": 205,
+                  "observedFirstPaintTs": 825476427,
+                  "observedFirstContentfulPaint": 205,
+                  "observedFirstContentfulPaintTs": 825476427,
+                  "observedFirstContentfulPaintAllFrames": 205,
+                  "observedFirstContentfulPaintAllFramesTs": 825476427,
+                  "observedFirstMeaningfulPaint": 205,
+                  "observedFirstMeaningfulPaintTs": 825476427,
+                  "observedLargestContentfulPaint": 565,
+                  "observedLargestContentfulPaintTs": 825836529,
+                  "observedLargestContentfulPaintAllFrames": 565,
+                  "observedLargestContentfulPaintAllFramesTs": 825836529,
+                  "observedTraceEnd": 2895,
+                  "observedTraceEndTs": 828166362,
+                  "observedLoad": 563,
+                  "observedLoadTs": 825834786,
+                  "observedDomContentLoaded": 256,
+                  "observedDomContentLoadedTs": 825528127,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 119,
-                  "observedFirstVisualChangeTs": 909020565,
-                  "observedLastVisualChange": 1064,
-                  "observedLastVisualChangeTs": 909965565,
-                  "observedSpeedIndex": 290,
-                  "observedSpeedIndexTs": 909191903
+                  "observedFirstVisualChange": 204,
+                  "observedFirstVisualChangeTs": 825475765,
+                  "observedLastVisualChange": 1147,
+                  "observedLastVisualChangeTs": 826418765,
+                  "observedSpeedIndex": 351,
+                  "observedSpeedIndexTs": 825623254
                 },
                 {
                   "lcpInvalidated": false
@@ -2289,23 +2289,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 37,
+                  "numRequests": 36,
                   "numScripts": 10,
                   "numStylesheets": 1,
                   "numFonts": 1,
-                  "numTasks": 1147,
-                  "numTasksOver10ms": 12,
-                  "numTasksOver25ms": 3,
+                  "numTasks": 1097,
+                  "numTasksOver10ms": 10,
+                  "numTasksOver25ms": 4,
                   "numTasksOver50ms": 1,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 1.9480000000000013,
-                  "throughput": 118542367.05420816,
-                  "maxRtt": 3.3500000000000005,
-                  "maxServerLatency": 23.439999999999998,
-                  "totalByteWeight": 1983092,
-                  "totalTaskTime": 450.48899999999855,
-                  "mainDocumentTransferSize": 11233
+                  "rtt": 6.439,
+                  "throughput": 95317999.8431196,
+                  "maxRtt": 11.468999999999998,
+                  "maxServerLatency": 17.391999999999996,
+                  "totalByteWeight": 1973711,
+                  "totalTaskTime": 403.55699999999905,
+                  "mainDocumentTransferSize": 11231
                 }
               ]
             }
@@ -2327,7 +2327,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://cardano.org",
-        "size": 2464.307,
+        "size": 2463.505,
         "nodes": 568,
         "requests": 116,
         "grade": "D",
@@ -2335,7 +2335,7 @@
         "ges": 2.18,
         "water": 3.27,
         "ecoindex_version": "5.4.2",
-        "date": "2025-08-10 01:22:52.930806",
+        "date": "2025-08-17 01:18:51.068140",
         "page_type": null
       }
     ],
@@ -2346,7 +2346,7 @@
     "summary": {
       "404": 5,
       "httpGrade": "B-",
-      "testsslExpireSoon": false,
+      "testsslExpireSoon": true,
       "testsslExpireDate": "2025-09-16T00:53:00.000Z",
       "testsslGrade": "A+",
       "cookiesGrade": "B",
@@ -2383,12 +2383,12 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAYElEQVR4nCXIMQ6DMAwAwPxfKgM8AYmtI1Kf0Je0kGIcxyEEUtsM3HguEXJgniGA52WF6eO/U/phppCJXD2Kyh9gabuufTTD+OzfL46xnrVs2ZmpmYkKESFiLvumIqr3X8IGUjQDPLcBAAAAAElFTkSuQmCC&quot;",
-          "path": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAYElEQVR4nCXIMQ6DMAwAwPxfKgM8AYmtI1Kf0Je0kGIcxyEEUtsM3HguEXJgniGA52WF6eO/U/phppCJXD2Kyh9gabuufTTD+OzfL46xnrVs2ZmpmYkKESFiLvumIqr3X8IGUjQDPLcBAAAAAElFTkSuQmCC&quot;",
-          "href": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAYElEQVR4nCXIMQ6DMAwAwPxfKgM8AYmtI1Kf0Je0kGIcxyEEUtsM3HguEXJgniGA52WF6eO/U/phppCJXD2Kyh9gabuufTTD+OzfL46xnrVs2ZmpmYkKESFiLvumIqr3X8IGUjQDPLcBAAAAAElFTkSuQmCC&quot;"
+          "pathname": "/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAHCAIAAAC+zks0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAsElEQVR4nE3MyW6DMBAAUN+7AInDYjJjxnjswUbEREhUlXrq//9T1UtV6Z2fAsvoYjtO75f+v+o6NLdR3W2I68Fpb1p4qW6vdfvnrelUB4yhAD8sb5NPdl7QCThBipf2rtDJ9jxjLgPMBv1ofTdSrU2tTXUdFFD8+Ppe9zOkPeYSUpH16WXTPf7mBv3j+AypEGcXMnEizsQZndTaqN4KpXOSwy8F5wXnhC6BW4BE9/gDUqEaX7XMeV8AAAAASUVORK5CYII=&quot;",
+          "path": "/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAHCAIAAAC+zks0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAsElEQVR4nE3MyW6DMBAAUN+7AInDYjJjxnjswUbEREhUlXrq//9T1UtV6Z2fAsvoYjtO75f+v+o6NLdR3W2I68Fpb1p4qW6vdfvnrelUB4yhAD8sb5NPdl7QCThBipf2rtDJ9jxjLgPMBv1ofTdSrU2tTXUdFFD8+Ppe9zOkPeYSUpH16WXTPf7mBv3j+AypEGcXMnEizsQZndTaqN4KpXOSwy8F5wXnhC6BW4BE9/gDUqEaX7XMeV8AAAAASUVORK5CYII=&quot;",
+          "href": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAHCAIAAAC+zks0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAsElEQVR4nE3MyW6DMBAAUN+7AInDYjJjxnjswUbEREhUlXrq//9T1UtV6Z2fAsvoYjtO75f+v+o6NLdR3W2I68Fpb1p4qW6vdfvnrelUB4yhAD8sb5NPdl7QCThBipf2rtDJ9jxjLgPMBv1ofTdSrU2tTXUdFFD8+Ppe9zOkPeYSUpH16WXTPf7mBv3j+AypEGcXMnEizsQZndTaqN4KpXOSwy8F5wXnhC6BW4BE9/gDUqEaX7XMeV8AAAAASUVORK5CYII=&quot;"
         },
-        "link": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAYElEQVR4nCXIMQ6DMAwAwPxfKgM8AYmtI1Kf0Je0kGIcxyEEUtsM3HguEXJgniGA52WF6eO/U/phppCJXD2Kyh9gabuufTTD+OzfL46xnrVs2ZmpmYkKESFiLvumIqr3X8IGUjQDPLcBAAAAAElFTkSuQmCC&quot;",
-        "line": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAYElEQVR4nCXIMQ6DMAwAwPxfKgM8AYmtI1Kf0Je0kGIcxyEEUtsM3HguEXJgniGA52WF6eO/U/phppCJXD2Kyh9gabuufTTD+OzfL46xnrVs2ZmpmYkKESFiLvumIqr3X8IGUjQDPLcBAAAAAElFTkSuQmCC&quot;",
+        "link": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAHCAIAAAC+zks0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAsElEQVR4nE3MyW6DMBAAUN+7AInDYjJjxnjswUbEREhUlXrq//9T1UtV6Z2fAsvoYjtO75f+v+o6NLdR3W2I68Fpb1p4qW6vdfvnrelUB4yhAD8sb5NPdl7QCThBipf2rtDJ9jxjLgPMBv1ofTdSrU2tTXUdFFD8+Ppe9zOkPeYSUpH16WXTPf7mBv3j+AypEGcXMnEizsQZndTaqN4KpXOSwy8F5wXnhC6BW4BE9/gDUqEaX7XMeV8AAAAASUVORK5CYII=&quot;",
+        "line": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAHCAIAAAC+zks0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAsElEQVR4nE3MyW6DMBAAUN+7AInDYjJjxnjswUbEREhUlXrq//9T1UtV6Z2fAsvoYjtO75f+v+o6NLdR3W2I68Fpb1p4qW6vdfvnrelUB4yhAD8sb5NPdl7QCThBipf2rtDJ9jxjLgPMBv1ofTdSrU2tTXUdFFD8+Ppe9zOkPeYSUpH16WXTPf7mBv3j+AypEGcXMnEizsQZndTaqN4KpXOSwy8F5wXnhC6BW4BE9/gDUqEaX7XMeV8AAAAASUVORK5CYII=&quot;",
         "broken": true
       },
       {
@@ -2402,31 +2402,12 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAX0lEQVR4nBXGyQ5AMBAA0Gmr6KIpXYNGRnCViLu7//8g8U4PCHVAPbAELHOBvMX/JAAZCOtBm+Lj5uPeu6Wzh4unC7ju1zjddYtQ1b4RqRFJKrT6ycOr1aHNLGShVfoA/rMGVAtOTisAAAAASUVORK5CYII=&quot;",
-          "path": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAX0lEQVR4nBXGyQ5AMBAA0Gmr6KIpXYNGRnCViLu7//8g8U4PCHVAPbAELHOBvMX/JAAZCOtBm+Lj5uPeu6Wzh4unC7ju1zjddYtQ1b4RqRFJKrT6ycOr1aHNLGShVfoA/rMGVAtOTisAAAAASUVORK5CYII=&quot;",
-          "href": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAX0lEQVR4nBXGyQ5AMBAA0Gmr6KIpXYNGRnCViLu7//8g8U4PCHVAPbAELHOBvMX/JAAZCOtBm+Lj5uPeu6Wzh4unC7ju1zjddYtQ1b4RqRFJKrT6ycOr1aHNLGShVfoA/rMGVAtOTisAAAAASUVORK5CYII=&quot;"
+          "pathname": "/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAl0lEQVR4nCWMawuCQBBF/f9/qw9BUbsaWGEY5bIrUcY+fIC2J9QzMJfhzr1J1w+83l9MXaO1RilFVSmM0RhTs0kN+f1DMk0T3rc45/EhLBpCwFpL3w90w8g4/UhuxYNMnEjlmeJastvuUU+NOKRc8pJMCGaSORXC2tK1Pc4GmsYihVxu7/36GCPEeRGXmXG+RR7XpsWJkT/aoLx6eydMHwAAAABJRU5ErkJggg==&quot;",
+          "path": "/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAl0lEQVR4nCWMawuCQBBF/f9/qw9BUbsaWGEY5bIrUcY+fIC2J9QzMJfhzr1J1w+83l9MXaO1RilFVSmM0RhTs0kN+f1DMk0T3rc45/EhLBpCwFpL3w90w8g4/UhuxYNMnEjlmeJastvuUU+NOKRc8pJMCGaSORXC2tK1Pc4GmsYihVxu7/36GCPEeRGXmXG+RR7XpsWJkT/aoLx6eydMHwAAAABJRU5ErkJggg==&quot;",
+          "href": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAl0lEQVR4nCWMawuCQBBF/f9/qw9BUbsaWGEY5bIrUcY+fIC2J9QzMJfhzr1J1w+83l9MXaO1RilFVSmM0RhTs0kN+f1DMk0T3rc45/EhLBpCwFpL3w90w8g4/UhuxYNMnEjlmeJastvuUU+NOKRc8pJMCGaSORXC2tK1Pc4GmsYihVxu7/36GCPEeRGXmXG+RR7XpsWJkT/aoLx6eydMHwAAAABJRU5ErkJggg==&quot;"
         },
-        "link": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAX0lEQVR4nBXGyQ5AMBAA0Gmr6KIpXYNGRnCViLu7//8g8U4PCHVAPbAELHOBvMX/JAAZCOtBm+Lj5uPeu6Wzh4unC7ju1zjddYtQ1b4RqRFJKrT6ycOr1aHNLGShVfoA/rMGVAtOTisAAAAASUVORK5CYII=&quot;",
-        "line": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAX0lEQVR4nBXGyQ5AMBAA0Gmr6KIpXYNGRnCViLu7//8g8U4PCHVAPbAELHOBvMX/JAAZCOtBm+Lj5uPeu6Wzh4unC7ju1zjddYtQ1b4RqRFJKrT6ycOr1aHNLGShVfoA/rMGVAtOTisAAAAASUVORK5CYII=&quot;",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "developers.cardano.org",
-          "port": null,
-          "hostname": "developers.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAY0lEQVR4nAXBSw5AMBAA0J7CTAcxhgaJT7FQBAuxEguJxCHcf+89xeYgnhEt6U5iZ3jL5Uxkqgpny1ehbgEagAqhp+hgHrNs1jSSvwzpoxAteDWSC+QKkzdMr0D2mF1p73P9fpheDxJsdif4AAAAAElFTkSuQmCC&quot;",
-          "path": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAY0lEQVR4nAXBSw5AMBAA0J7CTAcxhgaJT7FQBAuxEguJxCHcf+89xeYgnhEt6U5iZ3jL5Uxkqgpny1ehbgEagAqhp+hgHrNs1jSSvwzpoxAteDWSC+QKkzdMr0D2mF1p73P9fpheDxJsdif4AAAAAElFTkSuQmCC&quot;",
-          "href": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAY0lEQVR4nAXBSw5AMBAA0J7CTAcxhgaJT7FQBAuxEguJxCHcf+89xeYgnhEt6U5iZ3jL5Uxkqgpny1ehbgEagAqhp+hgHrNs1jSSvwzpoxAteDWSC+QKkzdMr0D2mF1p73P9fpheDxJsdif4AAAAAElFTkSuQmCC&quot;"
-        },
-        "link": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAY0lEQVR4nAXBSw5AMBAA0J7CTAcxhgaJT7FQBAuxEguJxCHcf+89xeYgnhEt6U5iZ3jL5Uxkqgpny1ehbgEagAqhp+hgHrNs1jSSvwzpoxAteDWSC+QKkzdMr0D2mF1p73P9fpheDxJsdif4AAAAAElFTkSuQmCC&quot;",
-        "line": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAY0lEQVR4nAXBSw5AMBAA0J7CTAcxhgaJT7FQBAuxEguJxCHcf+89xeYgnhEt6U5iZ3jL5Uxkqgpny1ehbgEagAqhp+hgHrNs1jSSvwzpoxAteDWSC+QKkzdMr0D2mF1p73P9fpheDxJsdif4AAAAAElFTkSuQmCC&quot;",
+        "link": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAl0lEQVR4nCWMawuCQBBF/f9/qw9BUbsaWGEY5bIrUcY+fIC2J9QzMJfhzr1J1w+83l9MXaO1RilFVSmM0RhTs0kN+f1DMk0T3rc45/EhLBpCwFpL3w90w8g4/UhuxYNMnEjlmeJastvuUU+NOKRc8pJMCGaSORXC2tK1Pc4GmsYihVxu7/36GCPEeRGXmXG+RR7XpsWJkT/aoLx6eydMHwAAAABJRU5ErkJggg==&quot;",
+        "line": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAl0lEQVR4nCWMawuCQBBF/f9/qw9BUbsaWGEY5bIrUcY+fIC2J9QzMJfhzr1J1w+83l9MXaO1RilFVSmM0RhTs0kN+f1DMk0T3rc45/EhLBpCwFpL3w90w8g4/UhuxYNMnEjlmeJastvuUU+NOKRc8pJMCGaSORXC2tK1Pc4GmsYihVxu7/36GCPEeRGXmXG+RR7XpsWJkT/aoLx6eydMHwAAAABJRU5ErkJggg==&quot;",
         "broken": true
       },
       {
@@ -2446,6 +2427,25 @@
         },
         "link": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAECAIAAAA4WjmaAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAXElEQVR4nDWMwQqEMAwFY2xebBJh1eJF0bqL//+Li1CHuQ0MRQ2s0FUxAwvSmFiYmBrxCy3qX7dqdphM0ueewY+JyS/Pe5aPoAATnqZMHTW9+rANKIg77LQ2f/kDDnUEBZOnGhgAAAAASUVORK5CYII=&quot;",
         "line": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAECAIAAAA4WjmaAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAXElEQVR4nDWMwQqEMAwFY2xebBJh1eJF0bqL//+Li1CHuQ0MRQ2s0FUxAwvSmFiYmBrxCy3qX7dqdphM0ueewY+JyS/Pe5aPoAATnqZMHTW9+rANKIg77LQ2f/kDDnUEBZOnGhgAAAAASUVORK5CYII=&quot;",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "developers.cardano.org",
+          "port": null,
+          "hostname": "developers.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAACXBIWXMAAC4jAAAuIwF4pT92AAAA9klEQVR4nFWMsS9DURhHv2oFi2CgEU0MJGKz2EiFpBMDEaPERkIaC9v7A8RfYKjNva/oIrFazPZuRpPe+yjpve6R99JKfcsv+c7JEekeSC5dq2Qn0XLS/Q30+D/p/UZmjZYro+Tl+1bmMxb1yT0xieXCxvLYUvJgtOz3MyHezWdSPV/+qOderZKa1fJslDx93o3M/FWjKMrS7cZ4qXVdWLb3E9tGDx4YVai+1aSYstBsDglQxrkNoAKsAEvAOrAGbDnnNoG9VDz23h+GEKr8uMtO267iO+fefx2FEM6A0zSQimMhhFFgEZgCFoA5oARMJ0kyCQz/Amo4oWCowfA5AAAAAElFTkSuQmCC&quot;",
+          "path": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAACXBIWXMAAC4jAAAuIwF4pT92AAAA9klEQVR4nFWMsS9DURhHv2oFi2CgEU0MJGKz2EiFpBMDEaPERkIaC9v7A8RfYKjNva/oIrFazPZuRpPe+yjpve6R99JKfcsv+c7JEekeSC5dq2Qn0XLS/Q30+D/p/UZmjZYro+Tl+1bmMxb1yT0xieXCxvLYUvJgtOz3MyHezWdSPV/+qOderZKa1fJslDx93o3M/FWjKMrS7cZ4qXVdWLb3E9tGDx4YVai+1aSYstBsDglQxrkNoAKsAEvAOrAGbDnnNoG9VDz23h+GEKr8uMtO267iO+fefx2FEM6A0zSQimMhhFFgEZgCFoA5oARMJ0kyCQz/Amo4oWCowfA5AAAAAElFTkSuQmCC&quot;",
+          "href": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAACXBIWXMAAC4jAAAuIwF4pT92AAAA9klEQVR4nFWMsS9DURhHv2oFi2CgEU0MJGKz2EiFpBMDEaPERkIaC9v7A8RfYKjNva/oIrFazPZuRpPe+yjpve6R99JKfcsv+c7JEekeSC5dq2Qn0XLS/Q30+D/p/UZmjZYro+Tl+1bmMxb1yT0xieXCxvLYUvJgtOz3MyHezWdSPV/+qOderZKa1fJslDx93o3M/FWjKMrS7cZ4qXVdWLb3E9tGDx4YVai+1aSYstBsDglQxrkNoAKsAEvAOrAGbDnnNoG9VDz23h+GEKr8uMtO267iO+fefx2FEM6A0zSQimMhhFFgEZgCFoA5oARMJ0kyCQz/Amo4oWCowfA5AAAAAElFTkSuQmCC&quot;"
+        },
+        "link": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAACXBIWXMAAC4jAAAuIwF4pT92AAAA9klEQVR4nFWMsS9DURhHv2oFi2CgEU0MJGKz2EiFpBMDEaPERkIaC9v7A8RfYKjNva/oIrFazPZuRpPe+yjpve6R99JKfcsv+c7JEekeSC5dq2Qn0XLS/Q30+D/p/UZmjZYro+Tl+1bmMxb1yT0xieXCxvLYUvJgtOz3MyHezWdSPV/+qOderZKa1fJslDx93o3M/FWjKMrS7cZ4qXVdWLb3E9tGDx4YVai+1aSYstBsDglQxrkNoAKsAEvAOrAGbDnnNoG9VDz23h+GEKr8uMtO267iO+fefx2FEM6A0zSQimMhhFFgEZgCFoA5oARMJ0kyCQz/Amo4oWCowfA5AAAAAElFTkSuQmCC&quot;",
+        "line": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAACXBIWXMAAC4jAAAuIwF4pT92AAAA9klEQVR4nFWMsS9DURhHv2oFi2CgEU0MJGKz2EiFpBMDEaPERkIaC9v7A8RfYKjNva/oIrFazPZuRpPe+yjpve6R99JKfcsv+c7JEekeSC5dq2Qn0XLS/Q30+D/p/UZmjZYro+Tl+1bmMxb1yT0xieXCxvLYUvJgtOz3MyHezWdSPV/+qOderZKa1fJslDx93o3M/FWjKMrS7cZ4qXVdWLb3E9tGDx4YVai+1aSYstBsDglQxrkNoAKsAEvAOrAGbDnnNoG9VDz23h+GEKr8uMtO267iO+fefx2FEM6A0zSQimMhhFFgEZgCFoA5oARMJ0kyCQz/Amo4oWCowfA5AAAAAElFTkSuQmCC&quot;",
         "broken": true
       },
       {
@@ -2497,25 +2497,6 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/tools/&quot;data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUH/8QAGxAAAgIDAQAAAAAAAAAAAAAAAQIAEQMEMRL/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMBTTU4kbKvqhZYHsmMrKxF8NREab//Z&quot;",
-          "path": "/tools/&quot;data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUH/8QAGxAAAgIDAQAAAAAAAAAAAAAAAQIAEQMEMRL/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMBTTU4kbKvqhZYHsmMrKxF8NREab//Z&quot;",
-          "href": "https://developers.cardano.org/tools/&quot;data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUH/8QAGxAAAgIDAQAAAAAAAAAAAAAAAQIAEQMEMRL/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMBTTU4kbKvqhZYHsmMrKxF8NREab//Z&quot;"
-        },
-        "link": "https://developers.cardano.org/tools/&quot;data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUH/8QAGxAAAgIDAQAAAAAAAAAAAAAAAQIAEQMEMRL/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMBTTU4kbKvqhZYHsmMrKxF8NREab//Z&quot;",
-        "line": "https://developers.cardano.org/tools/&quot;data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUH/8QAGxAAAgIDAQAAAAAAAAAAAAAAAQIAEQMEMRL/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMBTTU4kbKvqhZYHsmMrKxF8NREab//Z&quot;",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "developers.cardano.org",
-          "port": null,
-          "hostname": "developers.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
           "pathname": "/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAHCAIAAAC+zks0AAAACXBIWXMAAC4jAAAuIwF4pT92AAAAnklEQVR4nCXNWxKDIAyFYTZQFBASIFzkYm21D53uf28ddOZ7TM7Pcntvxze1Q9usbeLKcolc4uPCkGpsJ8YNqEJoxleFSZggIQpDDKnE/rF5h9ANNe2rpmZ8Wew4YmF9+rwJQxLCTRiaFz8vjivLUn314wdUR9vlxSUJYVLuxiRmTLtLO4YO1Eb+TvimMI/vsp1rP4CK0F7oMTtduLJ/en8WH4InxkQAAAAASUVORK5CYII=&quot;",
           "path": "/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAHCAIAAAC+zks0AAAACXBIWXMAAC4jAAAuIwF4pT92AAAAnklEQVR4nCXNWxKDIAyFYTZQFBASIFzkYm21D53uf28ddOZ7TM7Pcntvxze1Q9usbeLKcolc4uPCkGpsJ8YNqEJoxleFSZggIQpDDKnE/rF5h9ANNe2rpmZ8Wew4YmF9+rwJQxLCTRiaFz8vjivLUn314wdUR9vlxSUJYVLuxiRmTLtLO4YO1Eb+TvimMI/vsp1rP4CK0F7oMTtduLJ/en8WH4InxkQAAAAASUVORK5CYII=&quot;",
           "href": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAHCAIAAAC+zks0AAAACXBIWXMAAC4jAAAuIwF4pT92AAAAnklEQVR4nCXNWxKDIAyFYTZQFBASIFzkYm21D53uf28ddOZ7TM7Pcntvxze1Q9usbeLKcolc4uPCkGpsJ8YNqEJoxleFSZggIQpDDKnE/rF5h9ANNe2rpmZ8Wew4YmF9+rwJQxLCTRiaFz8vjivLUn314wdUR9vlxSUJYVLuxiRmTLtLO4YO1Eb+TvimMI/vsp1rP4CK0F7oMTtduLJ/en8WH4InxkQAAAAASUVORK5CYII=&quot;"
@@ -2554,12 +2535,12 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAaElEQVR4nAFdAKL/AHuHpHaOr6yxvdnO0KKbnbS1tvL09+fp7ens8O/q6gC4tcKEjaedm6m9srSVj420trzEzNvBydfJz9vm6e4AvbbEoZeuqqOwubK0trW24eLm6uzv7Ozv7e7x7u/xEF5E7ahhM0IAAAAASUVORK5CYII=&quot;",
-          "path": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAaElEQVR4nAFdAKL/AHuHpHaOr6yxvdnO0KKbnbS1tvL09+fp7ens8O/q6gC4tcKEjaedm6m9srSVj420trzEzNvBydfJz9vm6e4AvbbEoZeuqqOwubK0trW24eLm6uzv7Ozv7e7x7u/xEF5E7ahhM0IAAAAASUVORK5CYII=&quot;",
-          "href": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAaElEQVR4nAFdAKL/AHuHpHaOr6yxvdnO0KKbnbS1tvL09+fp7ens8O/q6gC4tcKEjaedm6m9srSVj420trzEzNvBydfJz9vm6e4AvbbEoZeuqqOwubK0trW24eLm6uzv7Ozv7e7x7u/xEF5E7ahhM0IAAAAASUVORK5CYII=&quot;"
+          "pathname": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAlUlEQVR4nGNgYGBgYYCAPAYGhndMzMw3OFmYbzAzMLyDijHA1LBCOQ28PDz/Wzo6f8W52P/iYWD4DxKDyrEiK6zX1tb+v2XLlp/Lly37KSYmBlJYj01hA0gyPz//V01NzS9ZWVmcJtYyMTH95+bm/sLFxfUFxAaJIStkhHIkGBgYjBkYGPSgGMQGiSGrIQ2AdGHDNAIA7dUkftoD0XEAAAAASUVORK5CYII=&quot;",
+          "path": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAlUlEQVR4nGNgYGBgYYCAPAYGhndMzMw3OFmYbzAzMLyDijHA1LBCOQ28PDz/Wzo6f8W52P/iYWD4DxKDyrEiK6zX1tb+v2XLlp/Lly37KSYmBlJYj01hA0gyPz//V01NzS9ZWVmcJtYyMTH95+bm/sLFxfUFxAaJIStkhHIkGBgYjBkYGPSgGMQGiSGrIQ2AdGHDNAIA7dUkftoD0XEAAAAASUVORK5CYII=&quot;",
+          "href": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAlUlEQVR4nGNgYGBgYYCAPAYGhndMzMw3OFmYbzAzMLyDijHA1LBCOQ28PDz/Wzo6f8W52P/iYWD4DxKDyrEiK6zX1tb+v2XLlp/Lly37KSYmBlJYj01hA0gyPz//V01NzS9ZWVmcJtYyMTH95+bm/sLFxfUFxAaJIStkhHIkGBgYjBkYGPSgGMQGiSGrIQ2AdGHDNAIA7dUkftoD0XEAAAAASUVORK5CYII=&quot;"
         },
-        "link": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAaElEQVR4nAFdAKL/AHuHpHaOr6yxvdnO0KKbnbS1tvL09+fp7ens8O/q6gC4tcKEjaedm6m9srSVj420trzEzNvBydfJz9vm6e4AvbbEoZeuqqOwubK0trW24eLm6uzv7Ozv7e7x7u/xEF5E7ahhM0IAAAAASUVORK5CYII=&quot;",
-        "line": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAaElEQVR4nAFdAKL/AHuHpHaOr6yxvdnO0KKbnbS1tvL09+fp7ens8O/q6gC4tcKEjaedm6m9srSVj420trzEzNvBydfJz9vm6e4AvbbEoZeuqqOwubK0trW24eLm6uzv7Ozv7e7x7u/xEF5E7ahhM0IAAAAASUVORK5CYII=&quot;",
+        "link": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAlUlEQVR4nGNgYGBgYYCAPAYGhndMzMw3OFmYbzAzMLyDijHA1LBCOQ28PDz/Wzo6f8W52P/iYWD4DxKDyrEiK6zX1tb+v2XLlp/Lly37KSYmBlJYj01hA0gyPz//V01NzS9ZWVmcJtYyMTH95+bm/sLFxfUFxAaJIStkhHIkGBgYjBkYGPSgGMQGiSGrIQ2AdGHDNAIA7dUkftoD0XEAAAAASUVORK5CYII=&quot;",
+        "line": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAlUlEQVR4nGNgYGBgYYCAPAYGhndMzMw3OFmYbzAzMLyDijHA1LBCOQ28PDz/Wzo6f8W52P/iYWD4DxKDyrEiK6zX1tb+v2XLlp/Lly37KSYmBlJYj01hA0gyPz//V01NzS9ZWVmcJtYyMTH95+bm/sLFxfUFxAaJIStkhHIkGBgYjBkYGPSgGMQGiSGrIQ2AdGHDNAIA7dUkftoD0XEAAAAASUVORK5CYII=&quot;",
         "broken": true
       },
       {
@@ -2573,12 +2554,31 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAaElEQVR4nAFdAKL/AOu3W9KjcK+MnaSJw4d44nRt8mpi9EhAsjk0h1NM4ADJoH+6lZKcfZRrX5B0addwafppY+o5M08pIxpPSNEAq4iZpYaxYlN5KS9TUUzDZFv/W1TuSEJuTUVAUEi/xWksvwjRNI8AAAAASUVORK5CYII=&quot;",
-          "path": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAaElEQVR4nAFdAKL/AOu3W9KjcK+MnaSJw4d44nRt8mpi9EhAsjk0h1NM4ADJoH+6lZKcfZRrX5B0addwafppY+o5M08pIxpPSNEAq4iZpYaxYlN5KS9TUUzDZFv/W1TuSEJuTUVAUEi/xWksvwjRNI8AAAAASUVORK5CYII=&quot;",
-          "href": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAaElEQVR4nAFdAKL/AOu3W9KjcK+MnaSJw4d44nRt8mpi9EhAsjk0h1NM4ADJoH+6lZKcfZRrX5B0addwafppY+o5M08pIxpPSNEAq4iZpYaxYlN5KS9TUUzDZFv/W1TuSEJuTUVAUEi/xWksvwjRNI8AAAAASUVORK5CYII=&quot;"
+          "pathname": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAIAAADzBuo/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAhUlEQVR4nBXMOwrCQBAA0L3/UQRbbyAWFikU/IApJEpIdv4zOwlYSN4BXhFGrJJNI3h8w6MnDePvTXlqTUtrAePdeFBlYRShFqICTGBK5bf6Zxwyresuu/3heDr3/WvNqBO4U5mRKsua5k4IE+GsimbbsaSVyttoCoDPcFrSwsXq1XV2kz/r4oqzv4a8hQAAAABJRU5ErkJggg==&quot;",
+          "path": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAIAAADzBuo/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAhUlEQVR4nBXMOwrCQBAA0L3/UQRbbyAWFikU/IApJEpIdv4zOwlYSN4BXhFGrJJNI3h8w6MnDePvTXlqTUtrAePdeFBlYRShFqICTGBK5bf6Zxwyresuu/3heDr3/WvNqBO4U5mRKsua5k4IE+GsimbbsaSVyttoCoDPcFrSwsXq1XV2kz/r4oqzv4a8hQAAAABJRU5ErkJggg==&quot;",
+          "href": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAIAAADzBuo/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAhUlEQVR4nBXMOwrCQBAA0L3/UQRbbyAWFikU/IApJEpIdv4zOwlYSN4BXhFGrJJNI3h8w6MnDePvTXlqTUtrAePdeFBlYRShFqICTGBK5bf6Zxwyresuu/3heDr3/WvNqBO4U5mRKsua5k4IE+GsimbbsaSVyttoCoDPcFrSwsXq1XV2kz/r4oqzv4a8hQAAAABJRU5ErkJggg==&quot;"
         },
-        "link": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAaElEQVR4nAFdAKL/AOu3W9KjcK+MnaSJw4d44nRt8mpi9EhAsjk0h1NM4ADJoH+6lZKcfZRrX5B0addwafppY+o5M08pIxpPSNEAq4iZpYaxYlN5KS9TUUzDZFv/W1TuSEJuTUVAUEi/xWksvwjRNI8AAAAASUVORK5CYII=&quot;",
-        "line": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAaElEQVR4nAFdAKL/AOu3W9KjcK+MnaSJw4d44nRt8mpi9EhAsjk0h1NM4ADJoH+6lZKcfZRrX5B0addwafppY+o5M08pIxpPSNEAq4iZpYaxYlN5KS9TUUzDZFv/W1TuSEJuTUVAUEi/xWksvwjRNI8AAAAASUVORK5CYII=&quot;",
+        "link": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAIAAADzBuo/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAhUlEQVR4nBXMOwrCQBAA0L3/UQRbbyAWFikU/IApJEpIdv4zOwlYSN4BXhFGrJJNI3h8w6MnDePvTXlqTUtrAePdeFBlYRShFqICTGBK5bf6Zxwyresuu/3heDr3/WvNqBO4U5mRKsua5k4IE+GsimbbsaSVyttoCoDPcFrSwsXq1XV2kz/r4oqzv4a8hQAAAABJRU5ErkJggg==&quot;",
+        "line": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAIAAADzBuo/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAhUlEQVR4nBXMOwrCQBAA0L3/UQRbbyAWFikU/IApJEpIdv4zOwlYSN4BXhFGrJJNI3h8w6MnDePvTXlqTUtrAePdeFBlYRShFqICTGBK5bf6Zxwyresuu/3heDr3/WvNqBO4U5mRKsua5k4IE+GsimbbsaSVyttoCoDPcFrSwsXq1XV2kz/r4oqzv4a8hQAAAABJRU5ErkJggg==&quot;",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "developers.cardano.org",
+          "port": null,
+          "hostname": "developers.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAlklEQVR4nNXNsQqEMAyA4Q4nON69qF0dfQLxQbqIu2NdnF1dBecWTJVfWsrB3T3BBQIJ+ZIooFBKKaABmKZJtm2TWF/X1eRZoeZ5TvA4jqaqKoZhEGttgsAvjNtd19H3vYzjKFprnHMJJvP9elkWMcZI27aEED7gIzbnedYReu/3dV33/LrOR5JJAZTAC3jmjHX5Bn8QN6D3k7UmEc+NAAAAAElFTkSuQmCC&quot;",
+          "path": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAlklEQVR4nNXNsQqEMAyA4Q4nON69qF0dfQLxQbqIu2NdnF1dBecWTJVfWsrB3T3BBQIJ+ZIooFBKKaABmKZJtm2TWF/X1eRZoeZ5TvA4jqaqKoZhEGttgsAvjNtd19H3vYzjKFprnHMJJvP9elkWMcZI27aEED7gIzbnedYReu/3dV33/LrOR5JJAZTAC3jmjHX5Bn8QN6D3k7UmEc+NAAAAAElFTkSuQmCC&quot;",
+          "href": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAlklEQVR4nNXNsQqEMAyA4Q4nON69qF0dfQLxQbqIu2NdnF1dBecWTJVfWsrB3T3BBQIJ+ZIooFBKKaABmKZJtm2TWF/X1eRZoeZ5TvA4jqaqKoZhEGttgsAvjNtd19H3vYzjKFprnHMJJvP9elkWMcZI27aEED7gIzbnedYReu/3dV33/LrOR5JJAZTAC3jmjHX5Bn8QN6D3k7UmEc+NAAAAAElFTkSuQmCC&quot;"
+        },
+        "link": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAlklEQVR4nNXNsQqEMAyA4Q4nON69qF0dfQLxQbqIu2NdnF1dBecWTJVfWsrB3T3BBQIJ+ZIooFBKKaABmKZJtm2TWF/X1eRZoeZ5TvA4jqaqKoZhEGttgsAvjNtd19H3vYzjKFprnHMJJvP9elkWMcZI27aEED7gIzbnedYReu/3dV33/LrOR5JJAZTAC3jmjHX5Bn8QN6D3k7UmEc+NAAAAAElFTkSuQmCC&quot;",
+        "line": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAlklEQVR4nNXNsQqEMAyA4Q4nON69qF0dfQLxQbqIu2NdnF1dBecWTJVfWsrB3T3BBQIJ+ZIooFBKKaABmKZJtm2TWF/X1eRZoeZ5TvA4jqaqKoZhEGttgsAvjNtd19H3vYzjKFprnHMJJvP9elkWMcZI27aEED7gIzbnedYReu/3dV33/LrOR5JJAZTAC3jmjHX5Bn8QN6D3k7UmEc+NAAAAAElFTkSuQmCC&quot;",
         "broken": true
       },
       {
@@ -2630,12 +2630,12 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAXUlEQVR4nBXCXQtAMBQG4PO6ISafi222kwkp5ULkEv//R8nTQ2CFXkWdFG2V6H/clKGpMRjMTDhXmpxcvH8Pfg9+dr73whsaLa6N4FrYBrWAFNB5oLJApigT9BoTf5DVCF8ESjDhAAAAAElFTkSuQmCC&quot;",
-          "path": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAXUlEQVR4nBXCXQtAMBQG4PO6ISafi222kwkp5ULkEv//R8nTQ2CFXkWdFG2V6H/clKGpMRjMTDhXmpxcvH8Pfg9+dr73whsaLa6N4FrYBrWAFNB5oLJApigT9BoTf5DVCF8ESjDhAAAAAElFTkSuQmCC&quot;",
-          "href": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAXUlEQVR4nBXCXQtAMBQG4PO6ISafi222kwkp5ULkEv//R8nTQ2CFXkWdFG2V6H/clKGpMRjMTDhXmpxcvH8Pfg9+dr73whsaLa6N4FrYBrWAFNB5oLJApigT9BoTf5DVCF8ESjDhAAAAAElFTkSuQmCC&quot;"
+          "pathname": "/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAm0lEQVR4nC2OyQ6CQBQE3+zDBESNW5QBNaJ4MvHihfj/f1UG4qHSh650WkQEbTSn7sj52nE47sldM1Ovaqb+zyQqUu2xQaOUYKxGGTWn9WYekrKquA0Dl76nfw60l57NtiHEhPWWooyEFJBUrmluI7v8Id9H2seXcnlH24h1Ba5ocUVGtAn4lHHpjHIZ7baICvMvH2uqzZu4ePEDGYU6v/nIYAMAAAAASUVORK5CYII=&quot;",
+          "path": "/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAm0lEQVR4nC2OyQ6CQBQE3+zDBESNW5QBNaJ4MvHihfj/f1UG4qHSh650WkQEbTSn7sj52nE47sldM1Ovaqb+zyQqUu2xQaOUYKxGGTWn9WYekrKquA0Dl76nfw60l57NtiHEhPWWooyEFJBUrmluI7v8Id9H2seXcnlH24h1Ba5ocUVGtAn4lHHpjHIZ7baICvMvH2uqzZu4ePEDGYU6v/nIYAMAAAAASUVORK5CYII=&quot;",
+          "href": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAm0lEQVR4nC2OyQ6CQBQE3+zDBESNW5QBNaJ4MvHihfj/f1UG4qHSh650WkQEbTSn7sj52nE47sldM1Ovaqb+zyQqUu2xQaOUYKxGGTWn9WYekrKquA0Dl76nfw60l57NtiHEhPWWooyEFJBUrmluI7v8Id9H2seXcnlH24h1Ba5ocUVGtAn4lHHpjHIZ7baICvMvH2uqzZu4ePEDGYU6v/nIYAMAAAAASUVORK5CYII=&quot;"
         },
-        "link": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAXUlEQVR4nBXCXQtAMBQG4PO6ISafi222kwkp5ULkEv//R8nTQ2CFXkWdFG2V6H/clKGpMRjMTDhXmpxcvH8Pfg9+dr73whsaLa6N4FrYBrWAFNB5oLJApigT9BoTf5DVCF8ESjDhAAAAAElFTkSuQmCC&quot;",
-        "line": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAXUlEQVR4nBXCXQtAMBQG4PO6ISafi222kwkp5ULkEv//R8nTQ2CFXkWdFG2V6H/clKGpMRjMTDhXmpxcvH8Pfg9+dr73whsaLa6N4FrYBrWAFNB5oLJApigT9BoTf5DVCF8ESjDhAAAAAElFTkSuQmCC&quot;",
+        "link": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAm0lEQVR4nC2OyQ6CQBQE3+zDBESNW5QBNaJ4MvHihfj/f1UG4qHSh650WkQEbTSn7sj52nE47sldM1Ovaqb+zyQqUu2xQaOUYKxGGTWn9WYekrKquA0Dl76nfw60l57NtiHEhPWWooyEFJBUrmluI7v8Id9H2seXcnlH24h1Ba5ocUVGtAn4lHHpjHIZ7baICvMvH2uqzZu4ePEDGYU6v/nIYAMAAAAASUVORK5CYII=&quot;",
+        "line": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAm0lEQVR4nC2OyQ6CQBQE3+zDBESNW5QBNaJ4MvHihfj/f1UG4qHSh650WkQEbTSn7sj52nE47sldM1Ovaqb+zyQqUu2xQaOUYKxGGTWn9WYekrKquA0Dl76nfw60l57NtiHEhPWWooyEFJBUrmluI7v8Id9H2seXcnlH24h1Ba5ocUVGtAn4lHHpjHIZ7baICvMvH2uqzZu4ePEDGYU6v/nIYAMAAAAASUVORK5CYII=&quot;",
         "broken": true
       },
       {
@@ -2649,31 +2649,12 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/docs/smart-contracts/plutus",
-          "path": "/docs/smart-contracts/plutus",
-          "href": "https://developers.cardano.org/docs/smart-contracts/plutus"
+          "pathname": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAxklEQVR4nGNg+P+fmYGBgUHp2M8o5XP/D6mc/L8BhEFskBhIDqzG+Mx/VhBb/fr/BpV9b/+rnPzyS+XUl18q+979B4mB5MBqYAo17vyvl6iY/l+6e/0P6a61PyQrZ/wHiWEoVLvzv15u9uH//JbuP4VDs37Kzjz4X+MeFoWq5/83aNz4/1+yZfkvqfZVv9Rv/P8PEoMrZKj/zwTiqJz4oaVy5n+Uzvv/gRrv/weC2CAxsGegakgE//8zMvz/z4SGGckwiUgAAPYxeo+FP/imAAAAAElFTkSuQmCC&quot;",
+          "path": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAxklEQVR4nGNg+P+fmYGBgUHp2M8o5XP/D6mc/L8BhEFskBhIDqzG+Mx/VhBb/fr/BpV9b/+rnPzyS+XUl18q+979B4mB5MBqYAo17vyvl6iY/l+6e/0P6a61PyQrZ/wHiWEoVLvzv15u9uH//JbuP4VDs37Kzjz4X+MeFoWq5/83aNz4/1+yZfkvqfZVv9Rv/P8PEoMrZKj/zwTiqJz4oaVy5n+Uzvv/gRrv/weC2CAxsGegakgE//8zMvz/z4SGGckwiUgAAPYxeo+FP/imAAAAAElFTkSuQmCC&quot;",
+          "href": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAxklEQVR4nGNg+P+fmYGBgUHp2M8o5XP/D6mc/L8BhEFskBhIDqzG+Mx/VhBb/fr/BpV9b/+rnPzyS+XUl18q+979B4mB5MBqYAo17vyvl6iY/l+6e/0P6a61PyQrZ/wHiWEoVLvzv15u9uH//JbuP4VDs37Kzjz4X+MeFoWq5/83aNz4/1+yZfkvqfZVv9Rv/P8PEoMrZKj/zwTiqJz4oaVy5n+Uzvv/gRrv/weC2CAxsGegakgE//8zMvz/z4SGGckwiUgAAPYxeo+FP/imAAAAAElFTkSuQmCC&quot;"
         },
-        "link": "https://developers.cardano.org/docs/smart-contracts/plutus",
-        "line": "https://developers.cardano.org/docs/smart-contracts/plutus",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "developers.cardano.org",
-          "port": null,
-          "hostname": "developers.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/tools/&quot;data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUH/8QAHRAAAgMAAgMAAAAAAAAAAAAAAQMAAhEEEhMxgf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AwuzeMUKpdVRqxpFNJ+7I7AsMt18grpz1ERpv/9k=&quot;",
-          "path": "/tools/&quot;data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUH/8QAHRAAAgMAAgMAAAAAAAAAAAAAAQMAAhEEEhMxgf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AwuzeMUKpdVRqxpFNJ+7I7AsMt18grpz1ERpv/9k=&quot;",
-          "href": "https://developers.cardano.org/tools/&quot;data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUH/8QAHRAAAgMAAgMAAAAAAAAAAAAAAQMAAhEEEhMxgf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AwuzeMUKpdVRqxpFNJ+7I7AsMt18grpz1ERpv/9k=&quot;"
-        },
-        "link": "https://developers.cardano.org/tools/&quot;data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUH/8QAHRAAAgMAAgMAAAAAAAAAAAAAAQMAAhEEEhMxgf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AwuzeMUKpdVRqxpFNJ+7I7AsMt18grpz1ERpv/9k=&quot;",
-        "line": "https://developers.cardano.org/tools/&quot;data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUH/8QAHRAAAgMAAgMAAAAAAAAAAAAAAQMAAhEEEhMxgf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AwuzeMUKpdVRqxpFNJ+7I7AsMt18grpz1ERpv/9k=&quot;",
+        "link": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAxklEQVR4nGNg+P+fmYGBgUHp2M8o5XP/D6mc/L8BhEFskBhIDqzG+Mx/VhBb/fr/BpV9b/+rnPzyS+XUl18q+979B4mB5MBqYAo17vyvl6iY/l+6e/0P6a61PyQrZ/wHiWEoVLvzv15u9uH//JbuP4VDs37Kzjz4X+MeFoWq5/83aNz4/1+yZfkvqfZVv9Rv/P8PEoMrZKj/zwTiqJz4oaVy5n+Uzvv/gRrv/weC2CAxsGegakgE//8zMvz/z4SGGckwiUgAAPYxeo+FP/imAAAAAElFTkSuQmCC&quot;",
+        "line": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAxklEQVR4nGNg+P+fmYGBgUHp2M8o5XP/D6mc/L8BhEFskBhIDqzG+Mx/VhBb/fr/BpV9b/+rnPzyS+XUl18q+979B4mB5MBqYAo17vyvl6iY/l+6e/0P6a61PyQrZ/wHiWEoVLvzv15u9uH//JbuP4VDs37Kzjz4X+MeFoWq5/83aNz4/1+yZfkvqfZVv9Rv/P8PEoMrZKj/zwTiqJz4oaVy5n+Uzvv/gRrv/weC2CAxsGegakgE//8zMvz/z4SGGckwiUgAAPYxeo+FP/imAAAAAElFTkSuQmCC&quot;",
         "broken": true
       },
       {
@@ -2693,6 +2674,25 @@
         },
         "link": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAYklEQVR4nG3NSwqAIBSFYfe/pKatQSgKmvRAoYSw8qp5IrKB1hncwc8HlyGbsQ7OhzyD3SfErndCySfUgpDTCJ8s1IaCr2jnAON+4DtNJxrp0Cv/eZ/AYbGoRoNOEvRxJvACpQrEB8s2ZU8AAAAASUVORK5CYII=&quot;",
         "line": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAYklEQVR4nG3NSwqAIBSFYfe/pKatQSgKmvRAoYSw8qp5IrKB1hncwc8HlyGbsQ7OhzyD3SfErndCySfUgpDTCJ8s1IaCr2jnAON+4DtNJxrp0Cv/eZ/AYbGoRoNOEvRxJvACpQrEB8s2ZU8AAAAASUVORK5CYII=&quot;",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "developers.cardano.org",
+          "port": null,
+          "hostname": "developers.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwElEQVR4nGNgCP3PzMDAwCCR/MNLIvn3fNaw3xPYI35PALFBYiA5iJq0/6wgtnjm/wb58v//Mxf8/xU36/8v+bL//8Wz/zeAFYLVQBUKJf6qUy/9/79n04/vCw78/G5Q9f8/X/yvOgyFIsm/6pSK/v+ftuPX997NP79rlv3/L4BNIchqubL//yOn/v8V0Pf/l0zp//8gMYTC+v9MILZYyi8L8eRfFSxhv3JBGMQGiYEVQtWQCEC6QMGAjMkziUgAALFibHterh4uAAAAAElFTkSuQmCC&quot;",
+          "path": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwElEQVR4nGNgCP3PzMDAwCCR/MNLIvn3fNaw3xPYI35PALFBYiA5iJq0/6wgtnjm/wb58v//Mxf8/xU36/8v+bL//8Wz/zeAFYLVQBUKJf6qUy/9/79n04/vCw78/G5Q9f8/X/yvOgyFIsm/6pSK/v+ftuPX997NP79rlv3/L4BNIchqubL//yOn/v8V0Pf/l0zp//8gMYTC+v9MILZYyi8L8eRfFSxhv3JBGMQGiYEVQtWQCEC6QMGAjMkziUgAALFibHterh4uAAAAAElFTkSuQmCC&quot;",
+          "href": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwElEQVR4nGNgCP3PzMDAwCCR/MNLIvn3fNaw3xPYI35PALFBYiA5iJq0/6wgtnjm/wb58v//Mxf8/xU36/8v+bL//8Wz/zeAFYLVQBUKJf6qUy/9/79n04/vCw78/G5Q9f8/X/yvOgyFIsm/6pSK/v+ftuPX997NP79rlv3/L4BNIchqubL//yOn/v8V0Pf/l0zp//8gMYTC+v9MILZYyi8L8eRfFSxhv3JBGMQGiYEVQtWQCEC6QMGAjMkziUgAALFibHterh4uAAAAAElFTkSuQmCC&quot;"
+        },
+        "link": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwElEQVR4nGNgCP3PzMDAwCCR/MNLIvn3fNaw3xPYI35PALFBYiA5iJq0/6wgtnjm/wb58v//Mxf8/xU36/8v+bL//8Wz/zeAFYLVQBUKJf6qUy/9/79n04/vCw78/G5Q9f8/X/yvOgyFIsm/6pSK/v+ftuPX997NP79rlv3/L4BNIchqubL//yOn/v8V0Pf/l0zp//8gMYTC+v9MILZYyi8L8eRfFSxhv3JBGMQGiYEVQtWQCEC6QMGAjMkziUgAALFibHterh4uAAAAAElFTkSuQmCC&quot;",
+        "line": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwElEQVR4nGNgCP3PzMDAwCCR/MNLIvn3fNaw3xPYI35PALFBYiA5iJq0/6wgtnjm/wb58v//Mxf8/xU36/8v+bL//8Wz/zeAFYLVQBUKJf6qUy/9/79n04/vCw78/G5Q9f8/X/yvOgyFIsm/6pSK/v+ftuPX997NP79rlv3/L4BNIchqubL//yOn/v8V0Pf/l0zp//8gMYTC+v9MILZYyi8L8eRfFSxhv3JBGMQGiYEVQtWQCEC6QMGAjMkziUgAALFibHterh4uAAAAAElFTkSuQmCC&quot;",
         "broken": true
       },
       {
@@ -2744,25 +2744,6 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAlUlEQVR4nGWMvQqCUACFr3rVsIyMwiCoEOxnaGo0vQ5hkUtDTjoFrb1BUw/+RRoSNBzODx9HaFJRy2xc2grdTJr+3T4SbZAK2z2gTg920R3NSv9B3UoR2p6ud6S6vbiWT4QZoxlJfdCCwlA4/QxvnLPcVszCgsEoxx1myE78CyZMphdWm5J5ULAICsJ1ie+fcXpRDb4BBZlFtrtt9q0AAAAASUVORK5CYII=&quot;",
-          "path": "/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAlUlEQVR4nGWMvQqCUACFr3rVsIyMwiCoEOxnaGo0vQ5hkUtDTjoFrb1BUw/+RRoSNBzODx9HaFJRy2xc2grdTJr+3T4SbZAK2z2gTg920R3NSv9B3UoR2p6ud6S6vbiWT4QZoxlJfdCCwlA4/QxvnLPcVszCgsEoxx1myE78CyZMphdWm5J5ULAICsJ1ie+fcXpRDb4BBZlFtrtt9q0AAAAASUVORK5CYII=&quot;",
-          "href": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAlUlEQVR4nGWMvQqCUACFr3rVsIyMwiCoEOxnaGo0vQ5hkUtDTjoFrb1BUw/+RRoSNBzODx9HaFJRy2xc2grdTJr+3T4SbZAK2z2gTg920R3NSv9B3UoR2p6ud6S6vbiWT4QZoxlJfdCCwlA4/QxvnLPcVszCgsEoxx1myE78CyZMphdWm5J5ULAICsJ1ie+fcXpRDb4BBZlFtrtt9q0AAAAASUVORK5CYII=&quot;"
-        },
-        "link": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAlUlEQVR4nGWMvQqCUACFr3rVsIyMwiCoEOxnaGo0vQ5hkUtDTjoFrb1BUw/+RRoSNBzODx9HaFJRy2xc2grdTJr+3T4SbZAK2z2gTg920R3NSv9B3UoR2p6ud6S6vbiWT4QZoxlJfdCCwlA4/QxvnLPcVszCgsEoxx1myE78CyZMphdWm5J5ULAICsJ1ie+fcXpRDb4BBZlFtrtt9q0AAAAASUVORK5CYII=&quot;",
-        "line": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAlUlEQVR4nGWMvQqCUACFr3rVsIyMwiCoEOxnaGo0vQ5hkUtDTjoFrb1BUw/+RRoSNBzODx9HaFJRy2xc2grdTJr+3T4SbZAK2z2gTg920R3NSv9B3UoR2p6ud6S6vbiWT4QZoxlJfdCCwlA4/QxvnLPcVszCgsEoxx1myE78CyZMphdWm5J5ULAICsJ1ie+fcXpRDb4BBZlFtrtt9q0AAAAASUVORK5CYII=&quot;",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "developers.cardano.org",
-          "port": null,
-          "hostname": "developers.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
           "pathname": "/docs/operate-a-stake-pool/cli-operations/basic-operations/",
           "path": "/docs/operate-a-stake-pool/cli-operations/basic-operations/",
           "href": "https://developers.cardano.org/docs/operate-a-stake-pool/cli-operations/basic-operations/"
@@ -2782,12 +2763,12 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAmElEQVR4nNWOvQrCUAyFM1joqI/nmxR06OS7OLhZnMXFoYtQXKQUF7W9iIODvYHyyS1B/HkCDwSScz6SCBCJiAApwO5+0ex60NAHz7JI3sGCllm11XGx1D3+E8wNvHmfTuqS+anSxfmo07okeCHLvzeuO8gap6vG6ab7PT2wIQlJ8/DOtd7Zj4llPdMLiIERMLQKffwC/kBPyKSalapvdaoAAAAASUVORK5CYII=&quot;",
-          "path": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAmElEQVR4nNWOvQrCUAyFM1joqI/nmxR06OS7OLhZnMXFoYtQXKQUF7W9iIODvYHyyS1B/HkCDwSScz6SCBCJiAApwO5+0ex60NAHz7JI3sGCllm11XGx1D3+E8wNvHmfTuqS+anSxfmo07okeCHLvzeuO8gap6vG6ab7PT2wIQlJ8/DOtd7Zj4llPdMLiIERMLQKffwC/kBPyKSalapvdaoAAAAASUVORK5CYII=&quot;",
-          "href": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAmElEQVR4nNWOvQrCUAyFM1joqI/nmxR06OS7OLhZnMXFoYtQXKQUF7W9iIODvYHyyS1B/HkCDwSScz6SCBCJiAApwO5+0ex60NAHz7JI3sGCllm11XGx1D3+E8wNvHmfTuqS+anSxfmo07okeCHLvzeuO8gap6vG6ab7PT2wIQlJ8/DOtd7Zj4llPdMLiIERMLQKffwC/kBPyKSalapvdaoAAAAASUVORK5CYII=&quot;"
+          "pathname": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAYAAACqPZ51AAAACXBIWXMAABcRAAAXEQHKJvM/AAAASUlEQVR4nC3KMQtAUAAA4a8Uys+QgWIk45tM7CZktEj5/1JvuLqugxIrJrToIgMa9FjgxoUn+ok9tg0vjn8MmFEhQYYUOQrUGD/xJQeKWFAW1QAAAABJRU5ErkJggg==&quot;",
+          "path": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAYAAACqPZ51AAAACXBIWXMAABcRAAAXEQHKJvM/AAAASUlEQVR4nC3KMQtAUAAA4a8Uys+QgWIk45tM7CZktEj5/1JvuLqugxIrJrToIgMa9FjgxoUn+ok9tg0vjn8MmFEhQYYUOQrUGD/xJQeKWFAW1QAAAABJRU5ErkJggg==&quot;",
+          "href": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAYAAACqPZ51AAAACXBIWXMAABcRAAAXEQHKJvM/AAAASUlEQVR4nC3KMQtAUAAA4a8Uys+QgWIk45tM7CZktEj5/1JvuLqugxIrJrToIgMa9FjgxoUn+ok9tg0vjn8MmFEhQYYUOQrUGD/xJQeKWFAW1QAAAABJRU5ErkJggg==&quot;"
         },
-        "link": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAmElEQVR4nNWOvQrCUAyFM1joqI/nmxR06OS7OLhZnMXFoYtQXKQUF7W9iIODvYHyyS1B/HkCDwSScz6SCBCJiAApwO5+0ex60NAHz7JI3sGCllm11XGx1D3+E8wNvHmfTuqS+anSxfmo07okeCHLvzeuO8gap6vG6ab7PT2wIQlJ8/DOtd7Zj4llPdMLiIERMLQKffwC/kBPyKSalapvdaoAAAAASUVORK5CYII=&quot;",
-        "line": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAmElEQVR4nNWOvQrCUAyFM1joqI/nmxR06OS7OLhZnMXFoYtQXKQUF7W9iIODvYHyyS1B/HkCDwSScz6SCBCJiAApwO5+0ex60NAHz7JI3sGCllm11XGx1D3+E8wNvHmfTuqS+anSxfmo07okeCHLvzeuO8gap6vG6ab7PT2wIQlJ8/DOtd7Zj4llPdMLiIERMLQKffwC/kBPyKSalapvdaoAAAAASUVORK5CYII=&quot;",
+        "link": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAYAAACqPZ51AAAACXBIWXMAABcRAAAXEQHKJvM/AAAASUlEQVR4nC3KMQtAUAAA4a8Uys+QgWIk45tM7CZktEj5/1JvuLqugxIrJrToIgMa9FjgxoUn+ok9tg0vjn8MmFEhQYYUOQrUGD/xJQeKWFAW1QAAAABJRU5ErkJggg==&quot;",
+        "line": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAYAAACqPZ51AAAACXBIWXMAABcRAAAXEQHKJvM/AAAASUlEQVR4nC3KMQtAUAAA4a8Uys+QgWIk45tM7CZktEj5/1JvuLqugxIrJrToIgMa9FjgxoUn+ok9tg0vjn8MmFEhQYYUOQrUGD/xJQeKWFAW1QAAAABJRU5ErkJggg==&quot;",
         "broken": true
       },
       {
@@ -2801,12 +2782,12 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAZUlEQVR4nGO41LjsUPWSTcULFmTNnpI2qyl2Sq5/b1/yzGlJU33sWhiudq05O237oYlbtvdtXlS1vDVl5vqaVXszZ22L6Yt2aWcA6a4C6V6cO7cvbkp16IQZ6bO6/ds6fZv97ZsBK8UxDLxBSRQAAAAASUVORK5CYII=&quot;",
-          "path": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAZUlEQVR4nGO41LjsUPWSTcULFmTNnpI2qyl2Sq5/b1/yzGlJU33sWhiudq05O237oYlbtvdtXlS1vDVl5vqaVXszZ22L6Yt2aWcA6a4C6V6cO7cvbkp16IQZ6bO6/ds6fZv97ZsBK8UxDLxBSRQAAAAASUVORK5CYII=&quot;",
-          "href": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAZUlEQVR4nGO41LjsUPWSTcULFmTNnpI2qyl2Sq5/b1/yzGlJU33sWhiudq05O237oYlbtvdtXlS1vDVl5vqaVXszZ22L6Yt2aWcA6a4C6V6cO7cvbkp16IQZ6bO6/ds6fZv97ZsBK8UxDLxBSRQAAAAASUVORK5CYII=&quot;"
+          "pathname": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAYElEQVR4nCXIMQ6DMAwAwPxfKgM8AYmtI1Kf0Je0kGIcxyEEUtsM3HguEXJgniGA52WF6eO/U/phppCJXD2Kyh9gabuufTTD+OzfL46xnrVs2ZmpmYkKESFiLvumIqr3X8IGUjQDPLcBAAAAAElFTkSuQmCC&quot;",
+          "path": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAYElEQVR4nCXIMQ6DMAwAwPxfKgM8AYmtI1Kf0Je0kGIcxyEEUtsM3HguEXJgniGA52WF6eO/U/phppCJXD2Kyh9gabuufTTD+OzfL46xnrVs2ZmpmYkKESFiLvumIqr3X8IGUjQDPLcBAAAAAElFTkSuQmCC&quot;",
+          "href": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAYElEQVR4nCXIMQ6DMAwAwPxfKgM8AYmtI1Kf0Je0kGIcxyEEUtsM3HguEXJgniGA52WF6eO/U/phppCJXD2Kyh9gabuufTTD+OzfL46xnrVs2ZmpmYkKESFiLvumIqr3X8IGUjQDPLcBAAAAAElFTkSuQmCC&quot;"
         },
-        "link": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAZUlEQVR4nGO41LjsUPWSTcULFmTNnpI2qyl2Sq5/b1/yzGlJU33sWhiudq05O237oYlbtvdtXlS1vDVl5vqaVXszZ22L6Yt2aWcA6a4C6V6cO7cvbkp16IQZ6bO6/ds6fZv97ZsBK8UxDLxBSRQAAAAASUVORK5CYII=&quot;",
-        "line": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAZUlEQVR4nGO41LjsUPWSTcULFmTNnpI2qyl2Sq5/b1/yzGlJU33sWhiudq05O237oYlbtvdtXlS1vDVl5vqaVXszZ22L6Yt2aWcA6a4C6V6cO7cvbkp16IQZ6bO6/ds6fZv97ZsBK8UxDLxBSRQAAAAASUVORK5CYII=&quot;",
+        "link": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAYElEQVR4nCXIMQ6DMAwAwPxfKgM8AYmtI1Kf0Je0kGIcxyEEUtsM3HguEXJgniGA52WF6eO/U/phppCJXD2Kyh9gabuufTTD+OzfL46xnrVs2ZmpmYkKESFiLvumIqr3X8IGUjQDPLcBAAAAAElFTkSuQmCC&quot;",
+        "line": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAADCAIAAAAlXwkiAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAYElEQVR4nCXIMQ6DMAwAwPxfKgM8AYmtI1Kf0Je0kGIcxyEEUtsM3HguEXJgniGA52WF6eO/U/phppCJXD2Kyh9gabuufTTD+OzfL46xnrVs2ZmpmYkKESFiLvumIqr3X8IGUjQDPLcBAAAAAElFTkSuQmCC&quot;",
         "broken": true
       }
     ],
@@ -2826,23 +2807,23 @@
         "testsQuantity": 10,
         "responseHeaders": {
           "accept-ranges": "bytes",
-          "age": "5279",
+          "age": "0",
           "cache-control": "public,max-age=0,must-revalidate",
-          "cache-status": "\"Netlify Edge\"; hit",
-          "content-length": "4619",
+          "cache-status": "\"Netlify Edge\"; fwd=miss",
           "content-security-policy": "default-src 'self'; script-src 'self' 'blob:' 'unsafe-inline' https://cardano.org https://developers.cardano.org https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://developers.cardano.org https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com; style-src 'self' 'unsafe-inline'; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://*.algolianet.com https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com;",
           "content-type": "text/html; charset=UTF-8",
-          "date": "Sun, 10 Aug 2025 01:27:30 GMT",
-          "etag": "\"cecef810946561af3aa2fca2b5a62bfd-ssl-df\"",
+          "date": "Sun, 17 Aug 2025 01:22:58 GMT",
+          "etag": "\"753d60828869aa0a619d0fc4fbf7d238-ssl-df\"",
           "feature-policy": "geolocation 'none'; microphone 'none';",
           "referrer-policy": "no-referrer-when-downgrade",
           "server": "Netlify",
           "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
           "vary": "Accept-Encoding",
           "x-frame-options": "DENY",
-          "x-nf-request-id": "01K28SE132BYWRPHRZCDHHHHMA",
+          "x-nf-request-id": "01K2TSYRM5GWFPRDRXS3PWVXG2",
           "x-xss-protection": "1; mode=block",
-          "connection": "close"
+          "connection": "close",
+          "transfer-encoding": "chunked"
         }
       },
       "tests": {
@@ -3360,7 +3341,7 @@
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "OK",
-        "finding": "39 >= 30 days"
+        "finding": "32 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -3514,21 +3495,21 @@
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "0 seconds from localtime"
+        "finding": "+1527 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "1754789267"
+        "finding": "1755393796"
       },
       {
         "id": "HTTP_headerAge",
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "0 seconds"
+        "finding": "1527 seconds"
       },
       {
         "id": "HSTS_time",
@@ -4134,7 +4115,7 @@
         },
         {
           "type": "google tag manager",
-          "url": "https://www.googletagmanager.com/gtag/js?id=G-V21Z77TQ3Q&cx=c&gtm=45Xe5861v848106172za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105033766~105033768~105103161~105103163~105135708~105135710~105231383~105231385",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-V21Z77TQ3Q&cx=c&gtm=45Xe58d1v848106172za200&tag_exp=101509157~103116026~103200004~103233427~104684208~104684211~105033766~105033768~105103161~105103163~105231383~105231385",
           "details": {
             "id": "google tag manager",
             "message": "Use hosted Matomo instance"
@@ -4142,7 +4123,7 @@
         },
         {
           "type": "google analytics",
-          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V21Z77TQ3Q&gtm=45je5861v886082997z8848106172za200zb848106172zd848106172&_p=1754788924419&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948813~105033763~105033765~105103161~105103163~105135708~105135710&cid=831077308.1754788925&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B139.0.7258.66%7CNot%253BA%253DBrand%3B99.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1754788924&sct=1&seg=0&dl=https%3A%2F%2Fdevelopers.cardano.org%2F&dt=Cardano%20Developer%20Portal&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=756",
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V21Z77TQ3Q&gtm=45je58d1v886082997z8848106172za200zb848106172zd848106172&_p=1755393494081&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~105033763~105033765~105103161~105103163~105231383~105231385&cid=1757973784.1755393495&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B139.0.7258.68%7CNot%253BA%253DBrand%3B99.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1755393494&sct=1&seg=0&dl=https%3A%2F%2Fdevelopers.cardano.org%2F&dt=Cardano%20Developer%20Portal&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=913",
           "details": {
             "id": "google analytics",
             "message": "Use hosted Matomo instance"
@@ -4152,11 +4133,11 @@
       "cookies": [
         {
           "name": "_ga",
-          "value": "GA1.1.831077308.1754788925",
+          "value": "GA1.1.1757973784.1755393495",
           "domain": ".cardano.org",
           "path": "/",
-          "expires": 1789348924.791942,
-          "size": 29,
+          "expires": 1789953494.69321,
+          "size": 30,
           "httpOnly": false,
           "secure": false,
           "session": false,
@@ -4166,10 +4147,10 @@
         },
         {
           "name": "_ga_V21Z77TQ3Q",
-          "value": "GS2.1.s1754788924$o1$g0$t1754788924$j60$l0$h0",
+          "value": "GS2.1.s1755393494$o1$g0$t1755393494$j60$l0$h0",
           "domain": ".cardano.org",
           "path": "/",
-          "expires": 1789348924.791636,
+          "expires": 1789953494.692836,
           "size": 59,
           "httpOnly": false,
           "secure": false,
@@ -4187,15 +4168,15 @@
         "content-encoding": "br",
         "content-security-policy": "default-src 'self'; script-src 'self' 'blob:' 'unsafe-inline' https://cardano.org https://developers.cardano.org https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://developers.cardano.org https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com; style-src 'self' 'unsafe-inline'; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://*.algolianet.com https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com;",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 10 Aug 2025 01:22:04 GMT",
-        "etag": "\"cecef810946561af3aa2fca2b5a62bfd-ssl-df\"",
+        "date": "Sun, 17 Aug 2025 01:18:14 GMT",
+        "etag": "\"753d60828869aa0a619d0fc4fbf7d238-ssl-df\"",
         "feature-policy": "geolocation 'none'; microphone 'none';",
         "referrer-policy": "no-referrer-when-downgrade",
         "server": "Netlify",
         "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
         "vary": "Accept-Encoding",
         "x-frame-options": "DENY",
-        "x-nf-request-id": "01K28S42VQEKEYYXCZJDBNVZP0",
+        "x-nf-request-id": "01K2TSP30T15HHAS8A006C5F2K",
         "x-xss-protection": "1; mode=block"
       },
       "endpoints": [
@@ -4255,7 +4236,7 @@
         },
         {
           "hostname": "www.googletagmanager.com",
-          "ip": "172.253.115.97",
+          "ip": "142.250.191.168",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4309,7 +4290,7 @@
         },
         {
           "hostname": "www.google-analytics.com",
-          "ip": "142.251.167.100",
+          "ip": "142.250.191.142",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4597,7 +4578,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.16.1",
-      "@generated": "Sun, 10 Aug 2025 01:26:46",
+      "@generated": "Sun, 17 Aug 2025 01:22:11",
       "site": [
         {
           "@name": "https://developers.cardano.org",
@@ -4776,7 +4757,7 @@
       {
         "requestedUrl": "https://developers.cardano.org/",
         "finalUrl": "https://developers.cardano.org/",
-        "fetchTime": "2025-08-10T01:27:03.611Z",
+        "fetchTime": "2025-08-17T01:22:30.433Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -4787,7 +4768,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.84
+            "score": 0.68
           },
           "accessibility": {
             "title": "Accessibility",
@@ -4798,7 +4779,7 @@
               "snapshot"
             ],
             "id": "accessibility",
-            "score": 0.96
+            "score": 0.98
           },
           "best-practices": {
             "title": "Best Practices",
@@ -4839,53 +4820,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 4375,
+            "numericValue": 4543,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 1090,
-                  "firstMeaningfulPaint": 1090,
-                  "largestContentfulPaint": 3644,
-                  "interactive": 4375,
-                  "speedIndex": 1090,
-                  "totalBlockingTime": 244,
-                  "maxPotentialFID": 294,
+                  "firstContentfulPaint": 1072,
+                  "firstMeaningfulPaint": 1072,
+                  "largestContentfulPaint": 5283,
+                  "interactive": 4543,
+                  "speedIndex": 1191,
+                  "totalBlockingTime": 422,
+                  "maxPotentialFID": 316,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 360117333,
+                  "observedTimeOriginTs": 310229922,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 360117333,
-                  "observedFirstPaint": 226,
-                  "observedFirstPaintTs": 360342999,
-                  "observedFirstContentfulPaint": 226,
-                  "observedFirstContentfulPaintTs": 360342999,
-                  "observedFirstContentfulPaintAllFrames": 226,
-                  "observedFirstContentfulPaintAllFramesTs": 360342999,
-                  "observedFirstMeaningfulPaint": 226,
-                  "observedFirstMeaningfulPaintTs": 360342999,
-                  "observedLargestContentfulPaint": 331,
-                  "observedLargestContentfulPaintTs": 360448600,
-                  "observedLargestContentfulPaintAllFrames": 331,
-                  "observedLargestContentfulPaintAllFramesTs": 360448600,
-                  "observedTraceEnd": 2835,
-                  "observedTraceEndTs": 362952657,
-                  "observedLoad": 503,
-                  "observedLoadTs": 360619991,
-                  "observedDomContentLoaded": 291,
-                  "observedDomContentLoadedTs": 360408430,
+                  "observedNavigationStartTs": 310229922,
+                  "observedFirstPaint": 389,
+                  "observedFirstPaintTs": 310618528,
+                  "observedFirstContentfulPaint": 389,
+                  "observedFirstContentfulPaintTs": 310618528,
+                  "observedFirstContentfulPaintAllFrames": 389,
+                  "observedFirstContentfulPaintAllFramesTs": 310618528,
+                  "observedFirstMeaningfulPaint": 389,
+                  "observedFirstMeaningfulPaintTs": 310618528,
+                  "observedLargestContentfulPaint": 518,
+                  "observedLargestContentfulPaintTs": 310747908,
+                  "observedLargestContentfulPaintAllFrames": 518,
+                  "observedLargestContentfulPaintAllFramesTs": 310747908,
+                  "observedTraceEnd": 2891,
+                  "observedTraceEndTs": 313121140,
+                  "observedLoad": 496,
+                  "observedLoadTs": 310726348,
+                  "observedDomContentLoaded": 352,
+                  "observedDomContentLoadedTs": 310582063,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 225,
-                  "observedFirstVisualChangeTs": 360342333,
-                  "observedLastVisualChange": 787,
-                  "observedLastVisualChangeTs": 360904333,
-                  "observedSpeedIndex": 346,
-                  "observedSpeedIndexTs": 360463461
+                  "observedFirstVisualChange": 436,
+                  "observedFirstVisualChangeTs": 310665922,
+                  "observedLastVisualChange": 946,
+                  "observedLastVisualChangeTs": 311175922,
+                  "observedSpeedIndex": 532,
+                  "observedSpeedIndexTs": 310761839
                 },
                 {
                   "lcpInvalidated": false
@@ -4907,19 +4888,19 @@
                   "numScripts": 6,
                   "numStylesheets": 1,
                   "numFonts": 0,
-                  "numTasks": 689,
-                  "numTasksOver10ms": 6,
+                  "numTasks": 775,
+                  "numTasksOver10ms": 9,
                   "numTasksOver25ms": 5,
-                  "numTasksOver50ms": 2,
+                  "numTasksOver50ms": 1,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 2.1399999999999997,
-                  "throughput": 72641452.1575311,
-                  "maxRtt": 8.024999999999991,
-                  "maxServerLatency": 19.523999999999997,
-                  "totalByteWeight": 586824,
-                  "totalTaskTime": 370.1489999999999,
-                  "mainDocumentTransferSize": 5582
+                  "rtt": 2.0019999999999953,
+                  "throughput": 52779900.26687476,
+                  "maxRtt": 3.0669999999999997,
+                  "maxServerLatency": 21.591000000000005,
+                  "totalByteWeight": 586654,
+                  "totalTaskTime": 405.48899999999895,
+                  "mainDocumentTransferSize": 5215
                 }
               ]
             }
@@ -4941,15 +4922,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://developers.cardano.org",
-        "size": 851.53,
-        "nodes": 420,
+        "size": 857.626,
+        "nodes": 413,
         "requests": 49,
         "grade": "C",
         "score": 67,
         "ges": 1.66,
         "water": 2.49,
         "ecoindex_version": "5.4.2",
-        "date": "2025-08-10 01:22:42.785659",
+        "date": "2025-08-17 01:18:53.348464",
         "page_type": null
       }
     ],
@@ -4958,7 +4939,7 @@
       "detected": false
     },
     "summary": {
-      "404": 23,
+      "404": 22,
       "httpGrade": "B-",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-09-18T21:53:00.000Z",
@@ -4969,9 +4950,9 @@
       "trackersCount": 3,
       "zapCount": 13,
       "zapGrade": "F",
-      "lighthouse_performance": 0.84,
-      "lighthouse_performanceGrade": "A",
-      "lighthouse_accessibility": 0.96,
+      "lighthouse_performance": 0.68,
+      "lighthouse_performanceGrade": "B",
+      "lighthouse_accessibility": 0.98,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 0.92,
       "lighthouse_best-practicesGrade": "A",
@@ -7153,14 +7134,14 @@
           "cache-control": "private,no-cache,no-store,max-age=0,must-revalidate",
           "cache-status": "\"Netlify Durable\"; fwd=bypass, \"Netlify Edge\"; fwd=miss",
           "content-type": "text/html; charset=utf-8",
-          "date": "Sun, 10 Aug 2025 01:27:10 GMT",
+          "date": "Sun, 17 Aug 2025 01:23:39 GMT",
           "link": "</_next/static/media/54d279905dfc6637-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\"",
           "netlify-vary": "query=__nextDataReq|_rsc,header=x-nextjs-data|x-next-debug-logging|next-router-prefetch|next-router-segment-prefetch|next-router-state-tree|next-url|rsc|accept-encoding,cookie=__prerender_bypass|__next_preview_data",
           "server": "Netlify",
           "strict-transport-security": "max-age=31536000",
           "vary": "RSC,Next-Router-State-Tree,Next-Router-Prefetch,Next-Router-Segment-Prefetch,Accept-Encoding",
           "x-content-type-options": "nosniff",
-          "x-nf-request-id": "01K28SDE478B24NPFYVZ23YXPY",
+          "x-nf-request-id": "01K2TT00YDEWEXV90DRJK9RDMB",
           "x-powered-by": "Next.js",
           "connection": "close",
           "transfer-encoding": "chunked"
@@ -7617,7 +7598,7 @@
         "ip": "cips.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "OK",
-        "finding": "74 >= 30 days"
+        "finding": "67 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -7778,7 +7759,7 @@
         "ip": "cips.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "1754789249"
+        "finding": "1755393837"
       },
       {
         "id": "HTTP_headerAge",
@@ -8355,7 +8336,7 @@
         "ip": "cips.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "41"
+        "finding": "39"
       }
     ],
     "thirdparties": {
@@ -8367,14 +8348,14 @@
         "cache-status": "\"Netlify Durable\"; fwd=bypass\n\"Netlify Edge\"; fwd=miss",
         "content-encoding": "br",
         "content-type": "text/html; charset=utf-8",
-        "date": "Sun, 10 Aug 2025 01:22:06 GMT",
+        "date": "Sun, 17 Aug 2025 01:18:22 GMT",
         "link": "</_next/static/media/54d279905dfc6637-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\"",
         "netlify-vary": "query=__nextDataReq|_rsc,header=x-nextjs-data|x-next-debug-logging|next-router-prefetch|next-router-segment-prefetch|next-router-state-tree|next-url|rsc|accept-encoding,cookie=__prerender_bypass|__next_preview_data",
         "server": "Netlify",
         "strict-transport-security": "max-age=31536000",
         "vary": "RSC,Next-Router-State-Tree,Next-Router-Prefetch,Next-Router-Segment-Prefetch,Accept-Encoding",
         "x-content-type-options": "nosniff",
-        "x-nf-request-id": "01K28S44WP68EKERQVRBPTD38T",
+        "x-nf-request-id": "01K2TSPB2N07Q3K1VZQHJW3G9C",
         "x-powered-by": "Next.js"
       },
       "endpoints": [
@@ -8437,7 +8418,8 @@
     "wappalyzer": {
       "urls": {
         "https://cips.cardano.org/": {
-          "status": 200
+          "status": 200,
+          "error": "Execution context was destroyed, most likely because of a navigation. (https://cips.cardano.org/)"
         }
       },
       "technologies": [
@@ -8588,7 +8570,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.16.1",
-      "@generated": "Sun, 10 Aug 2025 01:26:24",
+      "@generated": "Sun, 17 Aug 2025 01:22:51",
       "site": [
         {
           "@name": "https://cips.cardano.org",
@@ -8767,7 +8749,7 @@
       {
         "requestedUrl": "https://cips.cardano.org/",
         "finalUrl": "https://cips.cardano.org/",
-        "fetchTime": "2025-08-10T01:26:43.788Z",
+        "fetchTime": "2025-08-17T01:23:11.141Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -8778,7 +8760,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.78
+            "score": 0.83
           },
           "accessibility": {
             "title": "Accessibility",
@@ -8830,53 +8812,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 7497,
+            "numericValue": 7395,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 942,
-                  "firstMeaningfulPaint": 942,
-                  "largestContentfulPaint": 1842,
-                  "interactive": 7497,
-                  "speedIndex": 1615,
-                  "totalBlockingTime": 645,
-                  "maxPotentialFID": 405,
+                  "firstContentfulPaint": 903,
+                  "firstMeaningfulPaint": 903,
+                  "largestContentfulPaint": 2103,
+                  "interactive": 7395,
+                  "speedIndex": 1198,
+                  "totalBlockingTime": 428,
+                  "maxPotentialFID": 417,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 2137964433,
+                  "observedTimeOriginTs": 597030515,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 2137964433,
-                  "observedFirstPaint": 618,
-                  "observedFirstPaintTs": 2138582711,
-                  "observedFirstContentfulPaint": 618,
-                  "observedFirstContentfulPaintTs": 2138582711,
-                  "observedFirstContentfulPaintAllFrames": 618,
-                  "observedFirstContentfulPaintAllFramesTs": 2138582711,
-                  "observedFirstMeaningfulPaint": 618,
-                  "observedFirstMeaningfulPaintTs": 2138582711,
-                  "observedLargestContentfulPaint": 618,
-                  "observedLargestContentfulPaintTs": 2138582711,
-                  "observedLargestContentfulPaintAllFrames": 618,
-                  "observedLargestContentfulPaintAllFramesTs": 2138582711,
-                  "observedTraceEnd": 3273,
-                  "observedTraceEndTs": 2141237801,
-                  "observedLoad": 828,
-                  "observedLoadTs": 2138792697,
-                  "observedDomContentLoaded": 587,
-                  "observedDomContentLoadedTs": 2138551752,
+                  "observedNavigationStartTs": 597030515,
+                  "observedFirstPaint": 551,
+                  "observedFirstPaintTs": 597581674,
+                  "observedFirstContentfulPaint": 551,
+                  "observedFirstContentfulPaintTs": 597581674,
+                  "observedFirstContentfulPaintAllFrames": 551,
+                  "observedFirstContentfulPaintAllFramesTs": 597581674,
+                  "observedFirstMeaningfulPaint": 551,
+                  "observedFirstMeaningfulPaintTs": 597581674,
+                  "observedLargestContentfulPaint": 551,
+                  "observedLargestContentfulPaintTs": 597581674,
+                  "observedLargestContentfulPaintAllFrames": 551,
+                  "observedLargestContentfulPaintAllFramesTs": 597581674,
+                  "observedTraceEnd": 3182,
+                  "observedTraceEndTs": 600212026,
+                  "observedLoad": 692,
+                  "observedLoadTs": 597722238,
+                  "observedDomContentLoaded": 491,
+                  "observedDomContentLoadedTs": 597521281,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 892,
-                  "observedFirstVisualChangeTs": 2138856433,
-                  "observedLastVisualChange": 892,
-                  "observedLastVisualChangeTs": 2138856433,
-                  "observedSpeedIndex": 895,
-                  "observedSpeedIndexTs": 2138859264
+                  "observedFirstVisualChange": 612,
+                  "observedFirstVisualChangeTs": 597642515,
+                  "observedLastVisualChange": 612,
+                  "observedLastVisualChangeTs": 597642515,
+                  "observedSpeedIndex": 615,
+                  "observedSpeedIndexTs": 597645563
                 },
                 {
                   "lcpInvalidated": false
@@ -8898,19 +8880,19 @@
                   "numScripts": 11,
                   "numStylesheets": 2,
                   "numFonts": 1,
-                  "numTasks": 358,
+                  "numTasks": 345,
                   "numTasksOver10ms": 8,
-                  "numTasksOver25ms": 4,
+                  "numTasksOver25ms": 3,
                   "numTasksOver50ms": 1,
                   "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
-                  "rtt": 2.1510000000000002,
-                  "throughput": 68683700.87173554,
-                  "maxRtt": 2.1510000000000002,
-                  "maxServerLatency": 41.864,
-                  "totalByteWeight": 1192495,
-                  "totalTaskTime": 354.6839999999997,
-                  "mainDocumentTransferSize": 12390
+                  "rtt": 1.7429999999999986,
+                  "throughput": 194415789.90392187,
+                  "maxRtt": 1.7429999999999986,
+                  "maxServerLatency": 3.0870000000000015,
+                  "totalByteWeight": 1191866,
+                  "totalTaskTime": 310.352,
+                  "mainDocumentTransferSize": 12313
                 }
               ]
             }
@@ -8932,15 +8914,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://cips.cardano.org",
-        "size": 1617.915,
-        "nodes": 707,
+        "size": 1617.273,
+        "nodes": 708,
         "requests": 43,
         "grade": "D",
         "score": 54,
         "ges": 1.92,
         "water": 2.88,
         "ecoindex_version": "5.4.2",
-        "date": "2025-08-10 01:22:46.731194",
+        "date": "2025-08-17 01:19:06.823654",
         "page_type": null
       }
     ],
@@ -8960,7 +8942,7 @@
       "trackersCount": 0,
       "zapCount": 13,
       "zapGrade": "D",
-      "lighthouse_performance": 0.78,
+      "lighthouse_performance": 0.83,
       "lighthouse_performanceGrade": "B",
       "lighthouse_accessibility": 0.98,
       "lighthouse_accessibilityGrade": "A",
@@ -9460,7 +9442,7 @@
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "OK",
-        "finding": "46 >= 30 days"
+        "finding": "39 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -10212,7 +10194,7 @@
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "INFO",
-        "finding": "92"
+        "finding": "49"
       }
     ],
     "thirdparties": {
@@ -10344,7 +10326,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.16.1",
-      "@generated": "Sun, 10 Aug 2025 01:41:08",
+      "@generated": "Sun, 17 Aug 2025 01:36:27",
       "site": [
         {
           "@name": "https://data.cardano.org",
@@ -10467,7 +10449,45 @@
         "type": "dns",
         "host": "data.cardano.org.",
         "matched-at": "data.cardano.org",
-        "timestamp": "2025-08-10T01:43:58.921340043Z",
+        "timestamp": "2025-08-17T01:38:29.36771815Z",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "x-permitted-cross-domain-policies",
+        "type": "http",
+        "host": "https://data.cardano.org",
+        "matched-at": "https://data.cardano.org",
+        "ip": "52.211.238.28",
+        "timestamp": "2025-08-17T01:39:12.279846014Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
         "matcher-status": true
       },
       {
@@ -10504,7 +10524,7 @@
         "host": "https://data.cardano.org",
         "matched-at": "https://data.cardano.org",
         "ip": "52.211.238.28",
-        "timestamp": "2025-08-10T01:45:11.913042465Z",
+        "timestamp": "2025-08-17T01:39:12.27990239Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
         "matcher-status": true
       },
@@ -10542,7 +10562,7 @@
         "host": "https://data.cardano.org",
         "matched-at": "https://data.cardano.org",
         "ip": "52.211.238.28",
-        "timestamp": "2025-08-10T01:45:11.913089604Z",
+        "timestamp": "2025-08-17T01:39:12.279919973Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
         "matcher-status": true
       },
@@ -10580,7 +10600,7 @@
         "host": "https://data.cardano.org",
         "matched-at": "https://data.cardano.org",
         "ip": "52.211.238.28",
-        "timestamp": "2025-08-10T01:45:11.91310397Z",
+        "timestamp": "2025-08-17T01:39:12.279935041Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
         "matcher-status": true
       },
@@ -10618,45 +10638,7 @@
         "host": "https://data.cardano.org",
         "matched-at": "https://data.cardano.org",
         "ip": "52.211.238.28",
-        "timestamp": "2025-08-10T01:45:11.913120141Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs",
-            "userdehghani"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "x-permitted-cross-domain-policies",
-        "type": "http",
-        "host": "https://data.cardano.org",
-        "matched-at": "https://data.cardano.org",
-        "ip": "52.211.238.28",
-        "timestamp": "2025-08-10T01:45:11.913141Z",
+        "timestamp": "2025-08-17T01:39:12.279948597Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
         "matcher-status": true
       },
@@ -10708,7 +10690,7 @@
           "SSH-2.0-OpenSSH_9.2p1"
         ],
         "ip": "52.211.238.28",
-        "timestamp": "2025-08-10T01:46:50.55316305Z",
+        "timestamp": "2025-08-17T01:40:23.26994905Z",
         "matcher-status": true
       },
       {
@@ -10738,7 +10720,7 @@
           "Let's Encrypt"
         ],
         "ip": "52.211.238.28",
-        "timestamp": "2025-08-10T01:47:41.211266041Z",
+        "timestamp": "2025-08-17T01:41:13.570393254Z",
         "matcher-status": true
       },
       {
@@ -10769,7 +10751,7 @@
           "hey.cardano.org"
         ],
         "ip": "52.211.238.28",
-        "timestamp": "2025-08-10T01:47:41.211407976Z",
+        "timestamp": "2025-08-17T01:41:13.570531864Z",
         "matcher-status": true
       },
       {
@@ -10800,7 +10782,7 @@
           "tls12"
         ],
         "ip": "52.211.238.28",
-        "timestamp": "2025-08-10T01:47:44.596404659Z",
+        "timestamp": "2025-08-17T01:41:14.74839735Z",
         "matcher-status": true
       },
       {
@@ -10831,7 +10813,7 @@
           "tls13"
         ],
         "ip": "52.211.238.28",
-        "timestamp": "2025-08-10T01:47:44.855129856Z",
+        "timestamp": "2025-08-17T01:41:14.893560987Z",
         "matcher-status": true
       }
     ],
@@ -10839,7 +10821,7 @@
       {
         "requestedUrl": "https://data.cardano.org/",
         "finalUrl": "https://data.cardano.org/",
-        "fetchTime": "2025-08-10T01:41:27.022Z",
+        "fetchTime": "2025-08-17T01:36:44.907Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -10902,53 +10884,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 1009,
+            "numericValue": 844,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 866,
-                  "firstMeaningfulPaint": 866,
-                  "largestContentfulPaint": 866,
-                  "interactive": 1009,
-                  "speedIndex": 1080,
-                  "totalBlockingTime": 14,
-                  "maxPotentialFID": 137,
+                  "firstContentfulPaint": 811,
+                  "firstMeaningfulPaint": 811,
+                  "largestContentfulPaint": 811,
+                  "interactive": 844,
+                  "speedIndex": 811,
+                  "totalBlockingTime": 0,
+                  "maxPotentialFID": 94,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 215966386,
+                  "observedTimeOriginTs": 189156952,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 215966386,
-                  "observedFirstPaint": 484,
-                  "observedFirstPaintTs": 216450681,
-                  "observedFirstContentfulPaint": 484,
-                  "observedFirstContentfulPaintTs": 216450681,
-                  "observedFirstContentfulPaintAllFrames": 484,
-                  "observedFirstContentfulPaintAllFramesTs": 216450681,
-                  "observedFirstMeaningfulPaint": 484,
-                  "observedFirstMeaningfulPaintTs": 216450681,
-                  "observedLargestContentfulPaint": 484,
-                  "observedLargestContentfulPaintTs": 216450681,
-                  "observedLargestContentfulPaintAllFrames": 484,
-                  "observedLargestContentfulPaintAllFramesTs": 216450681,
-                  "observedTraceEnd": 2914,
-                  "observedTraceEndTs": 218880591,
-                  "observedLoad": 480,
-                  "observedLoadTs": 216446542,
-                  "observedDomContentLoaded": 480,
-                  "observedDomContentLoadedTs": 216446368,
+                  "observedNavigationStartTs": 189156952,
+                  "observedFirstPaint": 273,
+                  "observedFirstPaintTs": 189429991,
+                  "observedFirstContentfulPaint": 273,
+                  "observedFirstContentfulPaintTs": 189429991,
+                  "observedFirstContentfulPaintAllFrames": 273,
+                  "observedFirstContentfulPaintAllFramesTs": 189429991,
+                  "observedFirstMeaningfulPaint": 273,
+                  "observedFirstMeaningfulPaintTs": 189429991,
+                  "observedLargestContentfulPaint": 273,
+                  "observedLargestContentfulPaintTs": 189429991,
+                  "observedLargestContentfulPaintAllFrames": 273,
+                  "observedLargestContentfulPaintAllFramesTs": 189429991,
+                  "observedTraceEnd": 2647,
+                  "observedTraceEndTs": 191803671,
+                  "observedLoad": 269,
+                  "observedLoadTs": 189426064,
+                  "observedDomContentLoaded": 269,
+                  "observedDomContentLoadedTs": 189425872,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 484,
-                  "observedFirstVisualChangeTs": 216450386,
-                  "observedLastVisualChange": 484,
-                  "observedLastVisualChangeTs": 216450386,
-                  "observedSpeedIndex": 484,
-                  "observedSpeedIndexTs": 216450815
+                  "observedFirstVisualChange": 273,
+                  "observedFirstVisualChangeTs": 189429952,
+                  "observedLastVisualChange": 273,
+                  "observedLastVisualChangeTs": 189429952,
+                  "observedSpeedIndex": 273,
+                  "observedSpeedIndexTs": 189430142
                 },
                 {
                   "lcpInvalidated": false
@@ -10970,18 +10952,18 @@
                   "numScripts": 0,
                   "numStylesheets": 0,
                   "numFonts": 0,
-                  "numTasks": 93,
-                  "numTasksOver10ms": 4,
-                  "numTasksOver25ms": 2,
+                  "numTasks": 89,
+                  "numTasksOver10ms": 2,
+                  "numTasksOver25ms": 0,
                   "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 123.00699999999999,
-                  "throughput": 5824719.100948836,
-                  "maxRtt": 123.00699999999999,
-                  "maxServerLatency": 0.07200000000001694,
+                  "rtt": 66.86,
+                  "throughput": 6084507.042595501,
+                  "maxRtt": 66.86,
+                  "maxServerLatency": 0.06199999999999761,
                   "totalByteWeight": 438,
-                  "totalTaskTime": 108.65600000000002,
+                  "totalTaskTime": 59.31300000000002,
                   "mainDocumentTransferSize": 324
                 }
               ]
@@ -11012,7 +10994,7 @@
         "ges": 1.04,
         "water": 1.56,
         "ecoindex_version": "5.4.2",
-        "date": "2025-08-10 01:39:36.850041",
+        "date": "2025-08-17 01:35:09.403751",
         "page_type": null
       }
     ],
