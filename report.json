@@ -113,21 +113,21 @@
         "testsQuantity": 10,
         "responseHeaders": {
           "accept-ranges": "bytes",
-          "age": "20600",
+          "age": "102715",
           "cache-control": "public,max-age=0,must-revalidate",
           "cache-status": "\"Netlify Edge\"; hit",
-          "content-length": "10073",
+          "content-length": "10117",
           "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com https://img.youtube.com https://ipfs.io; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io;",
           "content-type": "text/html; charset=UTF-8",
-          "date": "Sun, 24 Aug 2025 01:26:16 GMT",
-          "etag": "\"c2c76e215b6fda43d944479a754d2641-ssl-df\"",
+          "date": "Sun, 31 Aug 2025 01:22:33 GMT",
+          "etag": "\"7374a8b0dd5bb260b8de4ac8451e83d9-ssl-df\"",
           "feature-policy": "geolocation 'none'; microphone 'none';",
           "referrer-policy": "no-referrer-when-downgrade",
           "server": "Netlify",
           "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
           "vary": "Accept-Encoding",
           "x-frame-options": "DENY",
-          "x-nf-request-id": "01K3CTXTWW7GGG3D8A5GC0J9RH",
+          "x-nf-request-id": "01K3YVG24AW7T15TQNKR578MEQ",
           "x-xss-protection": "1; mode=block",
           "connection": "close"
         }
@@ -481,7 +481,7 @@
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "'EC point formats/#11' 'application layer protocol negotiation/#16' 'extended master secret/#23' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
+        "finding": "'server name/#0' 'EC point formats/#11' 'application layer protocol negotiation/#16' 'extended master secret/#23' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
       },
       {
         "id": "TLS_session_ticket",
@@ -656,7 +656,7 @@
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
         "severity": "OK",
-        "finding": "83 >= 30 days"
+        "finding": "76 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -810,21 +810,21 @@
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "0 seconds from localtime"
+        "finding": "+32068 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "1755998793"
+        "finding": "1756603370"
       },
       {
         "id": "HTTP_headerAge",
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "0 seconds"
+        "finding": "32068 seconds"
       },
       {
         "id": "HSTS_time",
@@ -1415,7 +1415,7 @@
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "41"
+        "finding": "38"
       }
     ],
     "thirdparties": {
@@ -1430,7 +1430,7 @@
         },
         {
           "type": "google tag manager",
-          "url": "https://www.googletagmanager.com/gtag/js?id=G-LGRGXBVYMC&cx=c&gtm=4e58k1",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-LGRGXBVYMC&cx=c&gtm=4e58r1",
           "details": {
             "id": "google tag manager",
             "message": "Use hosted Matomo instance"
@@ -1438,7 +1438,7 @@
         },
         {
           "type": "google analytics",
-          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LGRGXBVYMC&gtm=45je58k1v887638641z8848553843za200zb848553843zd848553843&_p=1755998113496&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~105347236~105399921~105399923&cid=386897655.1755998116&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B139.0.7258.138%7CNot%253BA%253DBrand%3B99.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1755998115&sct=1&seg=0&dl=https%3A%2F%2Fcardano.org%2F&dt=Home%20%7C%20cardano.org%20%7C%20Cardano&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2366",
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LGRGXBVYMC&gtm=45je58r1v887638641z8848553843za200zb848553843zd848553843&_p=1756602646512&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103103155~103103157~103116026~103200004~103233427~104527907~104528500~104684208~104684211~104948813~105427542~105427544&cid=861340139.1756602649&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B139.0.7258.154%7CNot%253BA%253DBrand%3B99.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1756602648&sct=1&seg=0&dl=https%3A%2F%2Fcardano.org%2F&dt=Home%20%7C%20cardano.org%20%7C%20Cardano&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2327",
           "details": {
             "id": "google analytics",
             "message": "Use hosted Matomo instance"
@@ -1448,10 +1448,10 @@
       "cookies": [
         {
           "name": "_ga",
-          "value": "GA1.1.386897655.1755998116",
+          "value": "GA1.1.861340139.1756602649",
           "domain": ".cardano.org",
           "path": "/",
-          "expires": 1790558115.569949,
+          "expires": 1791162648.695534,
           "size": 29,
           "httpOnly": false,
           "secure": false,
@@ -1462,10 +1462,10 @@
         },
         {
           "name": "_ga_LGRGXBVYMC",
-          "value": "GS2.1.s1755998115$o1$g0$t1755998115$j60$l0$h0",
+          "value": "GS2.1.s1756602648$o1$g0$t1756602648$j60$l0$h0",
           "domain": ".cardano.org",
           "path": "/",
-          "expires": 1790558115.569679,
+          "expires": 1791162648.695228,
           "size": 59,
           "httpOnly": false,
           "secure": false,
@@ -1477,22 +1477,22 @@
       ],
       "headers": {
         "accept-ranges": "bytes",
-        "age": "38150",
+        "age": "124819",
         "cache-control": "public,max-age=0,must-revalidate",
         "cache-status": "\"Netlify Edge\"; hit",
         "content-encoding": "br",
-        "content-length": "10061",
+        "content-length": "10117",
         "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com https://img.youtube.com https://ipfs.io; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io;",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 24 Aug 2025 01:15:13 GMT",
-        "etag": "\"c2c76e215b6fda43d944479a754d2641-ssl-df\"",
+        "date": "Sun, 31 Aug 2025 01:10:46 GMT",
+        "etag": "\"7374a8b0dd5bb260b8de4ac8451e83d9-ssl-df\"",
         "feature-policy": "geolocation 'none'; microphone 'none';",
         "referrer-policy": "no-referrer-when-downgrade",
         "server": "Netlify",
         "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
         "vary": "Accept-Encoding",
         "x-frame-options": "DENY",
-        "x-nf-request-id": "01K3CT9KNZ1YB7YSAE80BR2CJA",
+        "x-nf-request-id": "01K3YTTFZ1P8CFDWP1J9K2ETZ3",
         "x-xss-protection": "1; mode=block"
       },
       "endpoints": [
@@ -1552,7 +1552,7 @@
         },
         {
           "hostname": "www.googletagmanager.com",
-          "ip": "142.250.31.97",
+          "ip": "142.250.191.72",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1606,7 +1606,7 @@
         },
         {
           "hostname": "www.google-analytics.com",
-          "ip": "142.251.163.101",
+          "ip": "142.250.189.206",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1976,7 +1976,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.16.1",
-      "@generated": "Sun, 24 Aug 2025 01:25:29",
+      "@generated": "Sun, 31 Aug 2025 01:21:46",
       "site": [
         {
           "@name": "https://cardano.org",
@@ -2162,7 +2162,7 @@
       {
         "requestedUrl": "https://cardano.org/",
         "finalUrl": "https://cardano.org/",
-        "fetchTime": "2025-08-24T01:25:48.473Z",
+        "fetchTime": "2025-08-31T01:22:05.937Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -2173,7 +2173,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.59
+            "score": 0.61
           },
           "accessibility": {
             "title": "Accessibility",
@@ -2225,53 +2225,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 11235,
+            "numericValue": 9009,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 1086,
-                  "firstMeaningfulPaint": 1086,
-                  "largestContentfulPaint": 11874,
-                  "interactive": 11235,
-                  "speedIndex": 1173,
-                  "totalBlockingTime": 336,
-                  "maxPotentialFID": 209,
+                  "firstContentfulPaint": 1803,
+                  "firstMeaningfulPaint": 1803,
+                  "largestContentfulPaint": 10734,
+                  "interactive": 9009,
+                  "speedIndex": 1803,
+                  "totalBlockingTime": 291,
+                  "maxPotentialFID": 233,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 1709595937,
+                  "observedTimeOriginTs": 1165319963,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 1709595937,
-                  "observedFirstPaint": 375,
-                  "observedFirstPaintTs": 1709970573,
-                  "observedFirstContentfulPaint": 375,
-                  "observedFirstContentfulPaintTs": 1709970573,
-                  "observedFirstContentfulPaintAllFrames": 375,
-                  "observedFirstContentfulPaintAllFramesTs": 1709970573,
-                  "observedFirstMeaningfulPaint": 375,
-                  "observedFirstMeaningfulPaintTs": 1709970573,
-                  "observedLargestContentfulPaint": 681,
-                  "observedLargestContentfulPaintTs": 1710276966,
-                  "observedLargestContentfulPaintAllFrames": 681,
-                  "observedLargestContentfulPaintAllFramesTs": 1710276966,
-                  "observedTraceEnd": 3029,
-                  "observedTraceEndTs": 1712624522,
-                  "observedLoad": 666,
-                  "observedLoadTs": 1710262381,
-                  "observedDomContentLoaded": 417,
-                  "observedDomContentLoadedTs": 1710013338,
+                  "observedNavigationStartTs": 1165319963,
+                  "observedFirstPaint": 112,
+                  "observedFirstPaintTs": 1165432257,
+                  "observedFirstContentfulPaint": 112,
+                  "observedFirstContentfulPaintTs": 1165432257,
+                  "observedFirstContentfulPaintAllFrames": 112,
+                  "observedFirstContentfulPaintAllFramesTs": 1165432257,
+                  "observedFirstMeaningfulPaint": 112,
+                  "observedFirstMeaningfulPaintTs": 1165432257,
+                  "observedLargestContentfulPaint": 348,
+                  "observedLargestContentfulPaintTs": 1165667780,
+                  "observedLargestContentfulPaintAllFrames": 348,
+                  "observedLargestContentfulPaintAllFramesTs": 1165667780,
+                  "observedTraceEnd": 2824,
+                  "observedTraceEndTs": 1168143739,
+                  "observedLoad": 499,
+                  "observedLoadTs": 1165819301,
+                  "observedDomContentLoaded": 161,
+                  "observedDomContentLoadedTs": 1165480547,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 375,
-                  "observedFirstVisualChangeTs": 1709970937,
-                  "observedLastVisualChange": 1271,
-                  "observedLastVisualChangeTs": 1710866937,
-                  "observedSpeedIndex": 512,
-                  "observedSpeedIndexTs": 1710107884
+                  "observedFirstVisualChange": 112,
+                  "observedFirstVisualChangeTs": 1165431963,
+                  "observedLastVisualChange": 952,
+                  "observedLastVisualChangeTs": 1166271963,
+                  "observedSpeedIndex": 213,
+                  "observedSpeedIndexTs": 1165533056
                 },
                 {
                   "lcpInvalidated": false
@@ -2289,23 +2289,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 37,
+                  "numRequests": 36,
                   "numScripts": 10,
                   "numStylesheets": 1,
                   "numFonts": 1,
-                  "numTasks": 1024,
+                  "numTasks": 1058,
                   "numTasksOver10ms": 11,
                   "numTasksOver25ms": 4,
                   "numTasksOver50ms": 1,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 6.816000000000001,
-                  "throughput": 131915054.89833742,
-                  "maxRtt": 12.038999999999987,
-                  "maxServerLatency": 17.667,
-                  "totalByteWeight": 1984432,
-                  "totalTaskTime": 379.6799999999977,
-                  "mainDocumentTransferSize": 11243
+                  "rtt": 1.482000000000001,
+                  "throughput": 120880687.98018092,
+                  "maxRtt": 3.563999999999999,
+                  "maxServerLatency": 25.354999999999997,
+                  "totalByteWeight": 1978969,
+                  "totalTaskTime": 401.8729999999982,
+                  "mainDocumentTransferSize": 11288
                 }
               ]
             }
@@ -2327,15 +2327,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://cardano.org",
-        "size": 2463.639,
+        "size": 2560.604,
         "nodes": 568,
-        "requests": 116,
+        "requests": 115,
         "grade": "D",
         "score": 41,
         "ges": 2.18,
         "water": 3.27,
         "ecoindex_version": "5.4.2",
-        "date": "2025-08-24 01:15:56.981115",
+        "date": "2025-08-31 01:11:31.470562",
         "page_type": null
       }
     ],
@@ -2355,7 +2355,7 @@
       "trackersCount": 3,
       "zapCount": 13,
       "zapGrade": "F",
-      "lighthouse_performance": 0.59,
+      "lighthouse_performance": 0.61,
       "lighthouse_performanceGrade": "C",
       "lighthouse_accessibility": 0.97,
       "lighthouse_accessibilityGrade": "A",
@@ -2497,12 +2497,31 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAHCAIAAAC+zks0AAAACXBIWXMAAC4jAAAuIwF4pT92AAAAnklEQVR4nCXNWxKDIAyFYTZQFBASIFzkYm21D53uf28ddOZ7TM7Pcntvxze1Q9usbeLKcolc4uPCkGpsJ8YNqEJoxleFSZggIQpDDKnE/rF5h9ANNe2rpmZ8Wew4YmF9+rwJQxLCTRiaFz8vjivLUn314wdUR9vlxSUJYVLuxiRmTLtLO4YO1Eb+TvimMI/vsp1rP4CK0F7oMTtduLJ/en8WH4InxkQAAAAASUVORK5CYII=&quot;",
-          "path": "/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAHCAIAAAC+zks0AAAACXBIWXMAAC4jAAAuIwF4pT92AAAAnklEQVR4nCXNWxKDIAyFYTZQFBASIFzkYm21D53uf28ddOZ7TM7Pcntvxze1Q9usbeLKcolc4uPCkGpsJ8YNqEJoxleFSZggIQpDDKnE/rF5h9ANNe2rpmZ8Wew4YmF9+rwJQxLCTRiaFz8vjivLUn314wdUR9vlxSUJYVLuxiRmTLtLO4YO1Eb+TvimMI/vsp1rP4CK0F7oMTtduLJ/en8WH4InxkQAAAAASUVORK5CYII=&quot;",
-          "href": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAHCAIAAAC+zks0AAAACXBIWXMAAC4jAAAuIwF4pT92AAAAnklEQVR4nCXNWxKDIAyFYTZQFBASIFzkYm21D53uf28ddOZ7TM7Pcntvxze1Q9usbeLKcolc4uPCkGpsJ8YNqEJoxleFSZggIQpDDKnE/rF5h9ANNe2rpmZ8Wew4YmF9+rwJQxLCTRiaFz8vjivLUn314wdUR9vlxSUJYVLuxiRmTLtLO4YO1Eb+TvimMI/vsp1rP4CK0F7oMTtduLJ/en8WH4InxkQAAAAASUVORK5CYII=&quot;"
+          "pathname": "/docs/get-started/cli-operations/governance/governance-actions",
+          "path": "/docs/get-started/cli-operations/governance/governance-actions",
+          "href": "https://developers.cardano.org/docs/get-started/cli-operations/governance/governance-actions"
         },
-        "link": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAHCAIAAAC+zks0AAAACXBIWXMAAC4jAAAuIwF4pT92AAAAnklEQVR4nCXNWxKDIAyFYTZQFBASIFzkYm21D53uf28ddOZ7TM7Pcntvxze1Q9usbeLKcolc4uPCkGpsJ8YNqEJoxleFSZggIQpDDKnE/rF5h9ANNe2rpmZ8Wew4YmF9+rwJQxLCTRiaFz8vjivLUn314wdUR9vlxSUJYVLuxiRmTLtLO4YO1Eb+TvimMI/vsp1rP4CK0F7oMTtduLJ/en8WH4InxkQAAAAASUVORK5CYII=&quot;",
-        "line": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAHCAIAAAC+zks0AAAACXBIWXMAAC4jAAAuIwF4pT92AAAAnklEQVR4nCXNWxKDIAyFYTZQFBASIFzkYm21D53uf28ddOZ7TM7Pcntvxze1Q9usbeLKcolc4uPCkGpsJ8YNqEJoxleFSZggIQpDDKnE/rF5h9ANNe2rpmZ8Wew4YmF9+rwJQxLCTRiaFz8vjivLUn314wdUR9vlxSUJYVLuxiRmTLtLO4YO1Eb+TvimMI/vsp1rP4CK0F7oMTtduLJ/en8WH4InxkQAAAAASUVORK5CYII=&quot;",
+        "link": "https://developers.cardano.org/docs/get-started/cli-operations/governance/governance-actions",
+        "line": "https://developers.cardano.org/docs/get-started/cli-operations/governance/governance-actions",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "developers.cardano.org",
+          "port": null,
+          "hostname": "developers.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/docs/smart-contracts/plinth/",
+          "path": "/docs/smart-contracts/plinth/",
+          "href": "https://developers.cardano.org/docs/smart-contracts/plinth/"
+        },
+        "link": "https://developers.cardano.org/docs/smart-contracts/plinth/",
+        "line": "https://developers.cardano.org/docs/smart-contracts/plinth/",
         "broken": true
       },
       {
@@ -2687,12 +2706,50 @@
           "hash": null,
           "search": null,
           "query": null,
+          "pathname": "/docs/governance/cardano-improvement-proposals/cip-0057/",
+          "path": "/docs/governance/cardano-improvement-proposals/cip-0057/",
+          "href": "https://developers.cardano.org/docs/governance/cardano-improvement-proposals/cip-0057/"
+        },
+        "link": "https://developers.cardano.org/docs/governance/cardano-improvement-proposals/cip-0057/",
+        "line": "https://developers.cardano.org/docs/governance/cardano-improvement-proposals/cip-0057/",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "developers.cardano.org",
+          "port": null,
+          "hostname": "developers.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
           "pathname": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwElEQVR4nGNgCP3PzMDAwCCR/MNLIvn3fNaw3xPYI35PALFBYiA5iJq0/6wgtnjm/wb58v//Mxf8/xU36/8v+bL//8Wz/zeAFYLVQBUKJf6qUy/9/79n04/vCw78/G5Q9f8/X/yvOgyFIsm/6pSK/v+ftuPX997NP79rlv3/L4BNIchqubL//yOn/v8V0Pf/l0zp//8gMYTC+v9MILZYyi8L8eRfFSxhv3JBGMQGiYEVQtWQCEC6QMGAjMkziUgAALFibHterh4uAAAAAElFTkSuQmCC&quot;",
           "path": "/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwElEQVR4nGNgCP3PzMDAwCCR/MNLIvn3fNaw3xPYI35PALFBYiA5iJq0/6wgtnjm/wb58v//Mxf8/xU36/8v+bL//8Wz/zeAFYLVQBUKJf6qUy/9/79n04/vCw78/G5Q9f8/X/yvOgyFIsm/6pSK/v+ftuPX997NP79rlv3/L4BNIchqubL//yOn/v8V0Pf/l0zp//8gMYTC+v9MILZYyi8L8eRfFSxhv3JBGMQGiYEVQtWQCEC6QMGAjMkziUgAALFibHterh4uAAAAAElFTkSuQmCC&quot;",
           "href": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwElEQVR4nGNgCP3PzMDAwCCR/MNLIvn3fNaw3xPYI35PALFBYiA5iJq0/6wgtnjm/wb58v//Mxf8/xU36/8v+bL//8Wz/zeAFYLVQBUKJf6qUy/9/79n04/vCw78/G5Q9f8/X/yvOgyFIsm/6pSK/v+ftuPX997NP79rlv3/L4BNIchqubL//yOn/v8V0Pf/l0zp//8gMYTC+v9MILZYyi8L8eRfFSxhv3JBGMQGiYEVQtWQCEC6QMGAjMkziUgAALFibHterh4uAAAAAElFTkSuQmCC&quot;"
         },
         "link": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwElEQVR4nGNgCP3PzMDAwCCR/MNLIvn3fNaw3xPYI35PALFBYiA5iJq0/6wgtnjm/wb58v//Mxf8/xU36/8v+bL//8Wz/zeAFYLVQBUKJf6qUy/9/79n04/vCw78/G5Q9f8/X/yvOgyFIsm/6pSK/v+ftuPX997NP79rlv3/L4BNIchqubL//yOn/v8V0Pf/l0zp//8gMYTC+v9MILZYyi8L8eRfFSxhv3JBGMQGiYEVQtWQCEC6QMGAjMkziUgAALFibHterh4uAAAAAElFTkSuQmCC&quot;",
         "line": "https://developers.cardano.org/showcase/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwElEQVR4nGNgCP3PzMDAwCCR/MNLIvn3fNaw3xPYI35PALFBYiA5iJq0/6wgtnjm/wb58v//Mxf8/xU36/8v+bL//8Wz/zeAFYLVQBUKJf6qUy/9/79n04/vCw78/G5Q9f8/X/yvOgyFIsm/6pSK/v+ftuPX997NP79rlv3/L4BNIchqubL//yOn/v8V0Pf/l0zp//8gMYTC+v9MILZYyi8L8eRfFSxhv3JBGMQGiYEVQtWQCEC6QMGAjMkziUgAALFibHterh4uAAAAAElFTkSuQmCC&quot;",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "developers.cardano.org",
+          "port": null,
+          "hostname": "developers.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/docs/get-started/cli-operations/basic-operations/",
+          "path": "/docs/get-started/cli-operations/basic-operations/",
+          "href": "https://developers.cardano.org/docs/get-started/cli-operations/basic-operations/"
+        },
+        "link": "https://developers.cardano.org/docs/get-started/cli-operations/basic-operations/",
+        "line": "https://developers.cardano.org/docs/get-started/cli-operations/basic-operations/",
         "broken": true
       },
       {
@@ -2725,6 +2782,25 @@
           "hash": null,
           "search": null,
           "query": null,
+          "pathname": "/docs/smart-contracts/plutus/",
+          "path": "/docs/smart-contracts/plutus/",
+          "href": "https://developers.cardano.org/docs/smart-contracts/plutus/"
+        },
+        "link": "https://developers.cardano.org/docs/smart-contracts/plutus/",
+        "line": "https://developers.cardano.org/docs/smart-contracts/plutus/",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "developers.cardano.org",
+          "port": null,
+          "hostname": "developers.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
           "pathname": "/tools/&quot;data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMI/8QAHRABAQACAQUAAAAAAAAAAAAAAQIAEQMEEiEiMf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDPPTxPLLT3bK+jpyNUlIXeh8ezjGB//9k=&quot;",
           "path": "/tools/&quot;data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMI/8QAHRABAQACAQUAAAAAAAAAAAAAAQIAEQMEEiEiMf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDPPTxPLLT3bK+jpyNUlIXeh8ezjGB//9k=&quot;",
           "href": "https://developers.cardano.org/tools/&quot;data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMI/8QAHRABAQACAQUAAAAAAAAAAAAAAQIAEQMEEiEiMf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDPPTxPLLT3bK+jpyNUlIXeh8ezjGB//9k=&quot;"
@@ -2744,12 +2820,31 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/docs/operate-a-stake-pool/cli-operations/basic-operations/",
-          "path": "/docs/operate-a-stake-pool/cli-operations/basic-operations/",
-          "href": "https://developers.cardano.org/docs/operate-a-stake-pool/cli-operations/basic-operations/"
+          "pathname": "/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAd0lEQVR4nGNgQAL///9nXHXlClv8/P0cDAwMjMhycAUgev35+wL5qy6323cf7WWwny8AlUXSAFW4//5/Dtf+Ez0alXu65eXrQaaCAIrJYI5S6Cp+iYCFmvIecwyVXDr4sSiEmCgXuFhSzW2+hoJ7v7qMW68QsvsAlekmkFyz1ZgAAAAASUVORK5CYII=&quot;",
+          "path": "/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAd0lEQVR4nGNgQAL///9nXHXlClv8/P0cDAwMjMhycAUgev35+wL5qy6323cf7WWwny8AlUXSAFW4//5/Dtf+Ez0alXu65eXrQaaCAIrJYI5S6Cp+iYCFmvIecwyVXDr4sSiEmCgXuFhSzW2+hoJ7v7qMW68QsvsAlekmkFyz1ZgAAAAASUVORK5CYII=&quot;",
+          "href": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAd0lEQVR4nGNgQAL///9nXHXlClv8/P0cDAwMjMhycAUgev35+wL5qy6323cf7WWwny8AlUXSAFW4//5/Dtf+Ez0alXu65eXrQaaCAIrJYI5S6Cp+iYCFmvIecwyVXDr4sSiEmCgXuFhSzW2+hoJ7v7qMW68QsvsAlekmkFyz1ZgAAAAASUVORK5CYII=&quot;"
         },
-        "link": "https://developers.cardano.org/docs/operate-a-stake-pool/cli-operations/basic-operations/",
-        "line": "https://developers.cardano.org/docs/operate-a-stake-pool/cli-operations/basic-operations/",
+        "link": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAd0lEQVR4nGNgQAL///9nXHXlClv8/P0cDAwMjMhycAUgev35+wL5qy6323cf7WWwny8AlUXSAFW4//5/Dtf+Ez0alXu65eXrQaaCAIrJYI5S6Cp+iYCFmvIecwyVXDr4sSiEmCgXuFhSzW2+hoJ7v7qMW68QsvsAlekmkFyz1ZgAAAAASUVORK5CYII=&quot;",
+        "line": "https://developers.cardano.org/tools/&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAYAAAB8ZH1oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAd0lEQVR4nGNgQAL///9nXHXlClv8/P0cDAwMjMhycAUgev35+wL5qy6323cf7WWwny8AlUXSAFW4//5/Dtf+Ez0alXu65eXrQaaCAIrJYI5S6Cp+iYCFmvIecwyVXDr4sSiEmCgXuFhSzW2+hoJ7v7qMW68QsvsAlekmkFyz1ZgAAAAASUVORK5CYII=&quot;",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "developers.cardano.org",
+          "port": null,
+          "hostname": "developers.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/docs/smart-contracts/plinth",
+          "path": "/docs/smart-contracts/plinth",
+          "href": "https://developers.cardano.org/docs/smart-contracts/plinth"
+        },
+        "link": "https://developers.cardano.org/docs/smart-contracts/plinth",
+        "line": "https://developers.cardano.org/docs/smart-contracts/plinth",
         "broken": true
       },
       {
@@ -2807,21 +2902,21 @@
         "testsQuantity": 10,
         "responseHeaders": {
           "accept-ranges": "bytes",
-          "age": "15630",
+          "age": "21204",
           "cache-control": "public,max-age=0,must-revalidate",
           "cache-status": "\"Netlify Edge\"; hit",
-          "content-length": "4332",
+          "content-length": "4256",
           "content-security-policy": "default-src 'self'; script-src 'self' 'blob:' 'unsafe-inline' https://cardano.org https://developers.cardano.org https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://developers.cardano.org https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com; style-src 'self' 'unsafe-inline'; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://*.algolianet.com https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com;",
           "content-type": "text/html; charset=UTF-8",
-          "date": "Sun, 24 Aug 2025 01:19:36 GMT",
-          "etag": "\"8f88bc3ab6b2a76d06ec6c7ac0869a85-ssl-df\"",
+          "date": "Sun, 31 Aug 2025 01:15:53 GMT",
+          "etag": "\"9079cf0e0dd00f2716d3c3297522a6d4-ssl-df\"",
           "feature-policy": "geolocation 'none'; microphone 'none';",
           "referrer-policy": "no-referrer-when-downgrade",
           "server": "Netlify",
           "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
           "vary": "Accept-Encoding",
           "x-frame-options": "DENY",
-          "x-nf-request-id": "01K3CTHMDR0KMSWGC8QWX6CX3Y",
+          "x-nf-request-id": "01K3YV3VQMP3H6XHXAWT2XG3VS",
           "x-xss-protection": "1; mode=block",
           "connection": "close"
         }
@@ -3166,7 +3261,7 @@
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "'EC point formats/#11' 'application layer protocol negotiation/#16' 'extended master secret/#23' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
+        "finding": "'server name/#0' 'EC point formats/#11' 'application layer protocol negotiation/#16' 'extended master secret/#23' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
       },
       {
         "id": "TLS_session_ticket",
@@ -3341,7 +3436,7 @@
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "OK",
-        "finding": "86 >= 30 days"
+        "finding": "79 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -3495,21 +3590,21 @@
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "+84 seconds from localtime"
+        "finding": "0 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "1755998393"
+        "finding": "1756602971"
       },
       {
         "id": "HTTP_headerAge",
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "84 seconds"
+        "finding": "0 seconds"
       },
       {
         "id": "HSTS_time",
@@ -4100,7 +4195,7 @@
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "40"
+        "finding": "43"
       }
     ],
     "thirdparties": {
@@ -4115,7 +4210,7 @@
         },
         {
           "type": "google tag manager",
-          "url": "https://www.googletagmanager.com/gtag/js?id=G-V21Z77TQ3Q&cx=c&gtm=4e58k1h1",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-V21Z77TQ3Q&cx=c&gtm=4e58r1",
           "details": {
             "id": "google tag manager",
             "message": "Use hosted Matomo instance"
@@ -4123,7 +4218,7 @@
         },
         {
           "type": "google analytics",
-          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V21Z77TQ3Q&gtm=45je58k1h1v886082997z8848106172za200zb848106172zd848106172&_p=1755998110959&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528500~104573694~104684208~104684211~104948813~105399921~105399923&cid=1543954689.1755998111&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B139.0.7258.138%7CNot%253BA%253DBrand%3B99.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1755998111&sct=1&seg=0&dl=https%3A%2F%2Fdevelopers.cardano.org%2F&dt=Cardano%20Developer%20Portal&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=636",
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V21Z77TQ3Q&gtm=45je58r1v886082997z8848106172za200zb848106172zd848106172&_p=1756602643525&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=101509157~103116026~103200004~103233427~104527907~104528501~104684208~104684211~104948813~105427542~105427544&cid=585850036.1756602644&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B139.0.7258.154%7CNot%253BA%253DBrand%3B99.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&sid=1756602643&sct=1&seg=0&dl=https%3A%2F%2Fdevelopers.cardano.org%2F&dt=Cardano%20Developer%20Portal&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=704",
           "details": {
             "id": "google analytics",
             "message": "Use hosted Matomo instance"
@@ -4133,11 +4228,11 @@
       "cookies": [
         {
           "name": "_ga",
-          "value": "GA1.1.1543954689.1755998111",
+          "value": "GA1.1.585850036.1756602644",
           "domain": ".cardano.org",
           "path": "/",
-          "expires": 1790558111.345435,
-          "size": 30,
+          "expires": 1791162643.876275,
+          "size": 29,
           "httpOnly": false,
           "secure": false,
           "session": false,
@@ -4147,10 +4242,10 @@
         },
         {
           "name": "_ga_V21Z77TQ3Q",
-          "value": "GS2.1.s1755998111$o1$g0$t1755998111$j60$l0$h0",
+          "value": "GS2.1.s1756602643$o1$g0$t1756602643$j60$l0$h0",
           "domain": ".cardano.org",
           "path": "/",
-          "expires": 1790558111.345124,
+          "expires": 1791162643.875987,
           "size": 59,
           "httpOnly": false,
           "secure": false,
@@ -4162,22 +4257,22 @@
       ],
       "headers": {
         "accept-ranges": "bytes",
-        "age": "26759",
+        "age": "15366",
         "cache-control": "public,max-age=0,must-revalidate",
         "cache-status": "\"Netlify Edge\"; hit",
         "content-encoding": "br",
-        "content-length": "4257",
+        "content-length": "4256",
         "content-security-policy": "default-src 'self'; script-src 'self' 'blob:' 'unsafe-inline' https://cardano.org https://developers.cardano.org https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://developers.cardano.org https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com; style-src 'self' 'unsafe-inline'; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://*.algolianet.com https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com;",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 24 Aug 2025 01:15:10 GMT",
-        "etag": "\"8f88bc3ab6b2a76d06ec6c7ac0869a85-ssl-df\"",
+        "date": "Sun, 31 Aug 2025 01:10:43 GMT",
+        "etag": "\"9079cf0e0dd00f2716d3c3297522a6d4-ssl-df\"",
         "feature-policy": "geolocation 'none'; microphone 'none';",
         "referrer-policy": "no-referrer-when-downgrade",
         "server": "Netlify",
         "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
         "vary": "Accept-Encoding",
         "x-frame-options": "DENY",
-        "x-nf-request-id": "01K3CT9H6TM88Q54XV3B2QDXB2",
+        "x-nf-request-id": "01K3YTTCZZ0ETR1BS8AGZP8B5Y",
         "x-xss-protection": "1; mode=block"
       },
       "endpoints": [
@@ -4237,7 +4332,7 @@
         },
         {
           "hostname": "www.googletagmanager.com",
-          "ip": "172.253.122.97",
+          "ip": "172.253.63.97",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4291,7 +4386,7 @@
         },
         {
           "hostname": "www.google-analytics.com",
-          "ip": "172.253.122.101",
+          "ip": "172.253.63.100",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4579,7 +4674,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.16.1",
-      "@generated": "Sun, 24 Aug 2025 01:18:52",
+      "@generated": "Sun, 31 Aug 2025 01:15:06",
       "site": [
         {
           "@name": "https://developers.cardano.org",
@@ -4593,6 +4688,13 @@
               "confidence": "3",
               "riskdesc": "High (High)",
               "desc": "<p>The response contains Personally Identifiable Information, such as CC number, SSN and similar sensitive data.</p>"
+            },
+            {
+              "name": "Application Error Disclosure",
+              "riskcode": "2",
+              "confidence": "2",
+              "riskdesc": "Medium (Medium)",
+              "desc": "<p>This page contains an error/warning message that may disclose sensitive information like the location of the file that produced the unhandled exception. This information can be used to launch further attacks against the web application. The alert could be a false positive if the error message is found inside a documentation page.</p>"
             },
             {
               "name": "CSP: Failure to Define Directive with No Fallback",
@@ -4758,7 +4860,7 @@
       {
         "requestedUrl": "https://developers.cardano.org/",
         "finalUrl": "https://developers.cardano.org/",
-        "fetchTime": "2025-08-24T01:19:09.223Z",
+        "fetchTime": "2025-08-31T01:15:26.179Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -4769,7 +4871,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.87
+            "score": 0.79
           },
           "accessibility": {
             "title": "Accessibility",
@@ -4821,53 +4923,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 4437,
+            "numericValue": 4792,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 1086,
-                  "firstMeaningfulPaint": 1086,
-                  "largestContentfulPaint": 2768,
-                  "interactive": 4437,
-                  "speedIndex": 1086,
-                  "totalBlockingTime": 331,
-                  "maxPotentialFID": 288,
-                  "cumulativeLayoutShift": 0.0008303087022569444,
-                  "cumulativeLayoutShiftMainFrame": 0.0008303087022569444,
-                  "totalCumulativeLayoutShift": 0.0008303087022569444,
+                  "firstContentfulPaint": 1090,
+                  "firstMeaningfulPaint": 1090,
+                  "largestContentfulPaint": 2785,
+                  "interactive": 4792,
+                  "speedIndex": 1430,
+                  "totalBlockingTime": 553,
+                  "maxPotentialFID": 404,
+                  "cumulativeLayoutShift": 0,
+                  "cumulativeLayoutShiftMainFrame": 0,
+                  "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 299343344,
+                  "observedTimeOriginTs": 340159126,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 299343344,
-                  "observedFirstPaint": 181,
-                  "observedFirstPaintTs": 299523989,
-                  "observedFirstContentfulPaint": 181,
-                  "observedFirstContentfulPaintTs": 299523989,
-                  "observedFirstContentfulPaintAllFrames": 181,
-                  "observedFirstContentfulPaintAllFramesTs": 299523989,
-                  "observedFirstMeaningfulPaint": 181,
-                  "observedFirstMeaningfulPaintTs": 299523989,
-                  "observedLargestContentfulPaint": 308,
-                  "observedLargestContentfulPaintTs": 299651324,
-                  "observedLargestContentfulPaintAllFrames": 308,
-                  "observedLargestContentfulPaintAllFramesTs": 299651324,
-                  "observedTraceEnd": 2890,
-                  "observedTraceEndTs": 302232985,
-                  "observedLoad": 488,
-                  "observedLoadTs": 299831482,
-                  "observedDomContentLoaded": 256,
-                  "observedDomContentLoadedTs": 299599386,
-                  "observedCumulativeLayoutShift": 0.0008303087022569444,
-                  "observedCumulativeLayoutShiftMainFrame": 0.0008303087022569444,
-                  "observedTotalCumulativeLayoutShift": 0.0008303087022569444,
-                  "observedFirstVisualChange": 180,
-                  "observedFirstVisualChangeTs": 299523344,
-                  "observedLastVisualChange": 763,
-                  "observedLastVisualChangeTs": 300106344,
-                  "observedSpeedIndex": 361,
-                  "observedSpeedIndexTs": 299704104
+                  "observedNavigationStartTs": 340159126,
+                  "observedFirstPaint": 480,
+                  "observedFirstPaintTs": 340639354,
+                  "observedFirstContentfulPaint": 480,
+                  "observedFirstContentfulPaintTs": 340639354,
+                  "observedFirstContentfulPaintAllFrames": 480,
+                  "observedFirstContentfulPaintAllFramesTs": 340639354,
+                  "observedFirstMeaningfulPaint": 480,
+                  "observedFirstMeaningfulPaintTs": 340639354,
+                  "observedLargestContentfulPaint": 576,
+                  "observedLargestContentfulPaintTs": 340734704,
+                  "observedLargestContentfulPaintAllFrames": 576,
+                  "observedLargestContentfulPaintAllFramesTs": 340734704,
+                  "observedTraceEnd": 3134,
+                  "observedTraceEndTs": 343293554,
+                  "observedLoad": 806,
+                  "observedLoadTs": 340965488,
+                  "observedDomContentLoaded": 542,
+                  "observedDomContentLoadedTs": 340700678,
+                  "observedCumulativeLayoutShift": 0,
+                  "observedCumulativeLayoutShiftMainFrame": 0,
+                  "observedTotalCumulativeLayoutShift": 0,
+                  "observedFirstVisualChange": 480,
+                  "observedFirstVisualChangeTs": 340639126,
+                  "observedLastVisualChange": 1080,
+                  "observedLastVisualChangeTs": 341239126,
+                  "observedSpeedIndex": 632,
+                  "observedSpeedIndexTs": 340791288
                 },
                 {
                   "lcpInvalidated": false
@@ -4889,18 +4991,18 @@
                   "numScripts": 6,
                   "numStylesheets": 1,
                   "numFonts": 0,
-                  "numTasks": 760,
+                  "numTasks": 772,
                   "numTasksOver10ms": 7,
                   "numTasksOver25ms": 5,
-                  "numTasksOver50ms": 2,
-                  "numTasksOver100ms": 0,
+                  "numTasksOver50ms": 3,
+                  "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
-                  "rtt": 3.052999999999999,
-                  "throughput": 68847266.31387918,
-                  "maxRtt": 7.925000000000001,
-                  "maxServerLatency": 20.694000000000003,
-                  "totalByteWeight": 586099,
-                  "totalTaskTime": 396.1769999999983,
+                  "rtt": 2.9120000000000004,
+                  "throughput": 92999573.09736586,
+                  "maxRtt": 8.500999999999976,
+                  "maxServerLatency": 19.069,
+                  "totalByteWeight": 599633,
+                  "totalTaskTime": 451.81799999999834,
                   "mainDocumentTransferSize": 5214
                 }
               ]
@@ -4923,7 +5025,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://developers.cardano.org",
-        "size": 857.647,
+        "size": 873.712,
         "nodes": 413,
         "requests": 49,
         "grade": "C",
@@ -4931,7 +5033,7 @@
         "ges": 1.66,
         "water": 2.49,
         "ecoindex_version": "5.4.2",
-        "date": "2025-08-24 01:15:49.449026",
+        "date": "2025-08-31 01:11:23.586058",
         "page_type": null
       }
     ],
@@ -4940,7 +5042,7 @@
       "detected": false
     },
     "summary": {
-      "404": 22,
+      "404": 27,
       "httpGrade": "B-",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-11-18T14:34:00.000Z",
@@ -4949,10 +5051,10 @@
       "cookiesCount": 2,
       "trackersGrade": "C",
       "trackersCount": 3,
-      "zapCount": 13,
+      "zapCount": 14,
       "zapGrade": "F",
-      "lighthouse_performance": 0.87,
-      "lighthouse_performanceGrade": "A",
+      "lighthouse_performance": 0.79,
+      "lighthouse_performanceGrade": "B",
       "lighthouse_accessibility": 0.98,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 0.92,
@@ -7135,14 +7237,14 @@
           "cache-control": "private,no-cache,no-store,max-age=0,must-revalidate",
           "cache-status": "\"Netlify Durable\"; fwd=bypass, \"Netlify Edge\"; fwd=miss",
           "content-type": "text/html; charset=utf-8",
-          "date": "Sun, 24 Aug 2025 01:19:40 GMT",
+          "date": "Sun, 31 Aug 2025 01:15:29 GMT",
           "link": "</_next/static/media/54d279905dfc6637-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\"",
           "netlify-vary": "query=__nextDataReq|_rsc,header=x-nextjs-data|x-next-debug-logging|next-router-prefetch|next-router-segment-prefetch|next-router-state-tree|next-url|rsc|accept-encoding,cookie=__prerender_bypass|__next_preview_data",
           "server": "Netlify",
           "strict-transport-security": "max-age=31536000",
           "vary": "RSC,Next-Router-State-Tree,Next-Router-Prefetch,Next-Router-Segment-Prefetch,Accept-Encoding",
           "x-content-type-options": "nosniff",
-          "x-nf-request-id": "01K3CTHRGVFY88XHEZVNP7W335",
+          "x-nf-request-id": "01K3YV34476TJ6PJ5Y7J4P031M",
           "x-powered-by": "Next.js",
           "connection": "close",
           "transfer-encoding": "chunked"
@@ -7424,7 +7526,7 @@
         "ip": "cips.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "'EC point formats/#11' 'application layer protocol negotiation/#16' 'extended master secret/#23' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
+        "finding": "'server name/#0' 'EC point formats/#11' 'application layer protocol negotiation/#16' 'extended master secret/#23' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
       },
       {
         "id": "TLS_session_ticket",
@@ -7599,7 +7701,7 @@
         "ip": "cips.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "OK",
-        "finding": "60 >= 30 days"
+        "finding": "53 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -7760,7 +7862,7 @@
         "ip": "cips.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "1755998398"
+        "finding": "1756602947"
       },
       {
         "id": "HTTP_headerAge",
@@ -8344,19 +8446,19 @@
       "trackers": [],
       "cookies": [],
       "headers": {
-        "age": "0",
+        "age": "1",
         "cache-control": "private,no-cache,no-store,max-age=0,must-revalidate",
         "cache-status": "\"Netlify Durable\"; fwd=bypass\n\"Netlify Edge\"; fwd=miss",
         "content-encoding": "br",
         "content-type": "text/html; charset=utf-8",
-        "date": "Sun, 24 Aug 2025 01:15:11 GMT",
+        "date": "Sun, 31 Aug 2025 01:10:43 GMT",
         "link": "</_next/static/media/54d279905dfc6637-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\"",
         "netlify-vary": "query=__nextDataReq|_rsc,header=x-nextjs-data|x-next-debug-logging|next-router-prefetch|next-router-segment-prefetch|next-router-state-tree|next-url|rsc|accept-encoding,cookie=__prerender_bypass|__next_preview_data",
         "server": "Netlify",
         "strict-transport-security": "max-age=31536000",
         "vary": "RSC,Next-Router-State-Tree,Next-Router-Prefetch,Next-Router-Segment-Prefetch,Accept-Encoding",
         "x-content-type-options": "nosniff",
-        "x-nf-request-id": "01K3CT9H9WVGZSCRCVKM8R06SQ",
+        "x-nf-request-id": "01K3YTTCEJQ0KRWMH579VB9F96",
         "x-powered-by": "Next.js"
       },
       "endpoints": [
@@ -8570,7 +8672,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.16.1",
-      "@generated": "Sun, 24 Aug 2025 01:18:55",
+      "@generated": "Sun, 31 Aug 2025 01:14:43",
       "site": [
         {
           "@name": "https://cips.cardano.org",
@@ -8749,7 +8851,7 @@
       {
         "requestedUrl": "https://cips.cardano.org/",
         "finalUrl": "https://cips.cardano.org/",
-        "fetchTime": "2025-08-24T01:19:13.988Z",
+        "fetchTime": "2025-08-31T01:15:02.230Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -8760,7 +8862,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.79
+            "score": 0.83
           },
           "accessibility": {
             "title": "Accessibility",
@@ -8812,53 +8914,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 7539,
+            "numericValue": 7768,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 926,
-                  "firstMeaningfulPaint": 926,
-                  "largestContentfulPaint": 1676,
-                  "interactive": 7539,
-                  "speedIndex": 1042,
-                  "totalBlockingTime": 625,
-                  "maxPotentialFID": 463,
+                  "firstContentfulPaint": 932,
+                  "firstMeaningfulPaint": 932,
+                  "largestContentfulPaint": 1532,
+                  "interactive": 7768,
+                  "speedIndex": 1490,
+                  "totalBlockingTime": 444,
+                  "maxPotentialFID": 461,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 715015095,
+                  "observedTimeOriginTs": 680630478,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 715015095,
-                  "observedFirstPaint": 434,
-                  "observedFirstPaintTs": 715448892,
-                  "observedFirstContentfulPaint": 434,
-                  "observedFirstContentfulPaintTs": 715448892,
-                  "observedFirstContentfulPaintAllFrames": 434,
-                  "observedFirstContentfulPaintAllFramesTs": 715448892,
-                  "observedFirstMeaningfulPaint": 434,
-                  "observedFirstMeaningfulPaintTs": 715448892,
-                  "observedLargestContentfulPaint": 434,
-                  "observedLargestContentfulPaintTs": 715448892,
-                  "observedLargestContentfulPaintAllFrames": 434,
-                  "observedLargestContentfulPaintAllFramesTs": 715448892,
-                  "observedTraceEnd": 3072,
-                  "observedTraceEndTs": 718087503,
-                  "observedLoad": 624,
-                  "observedLoadTs": 715639111,
-                  "observedDomContentLoaded": 373,
-                  "observedDomContentLoadedTs": 715388372,
+                  "observedNavigationStartTs": 680630478,
+                  "observedFirstPaint": 749,
+                  "observedFirstPaintTs": 681379744,
+                  "observedFirstContentfulPaint": 749,
+                  "observedFirstContentfulPaintTs": 681379744,
+                  "observedFirstContentfulPaintAllFrames": 749,
+                  "observedFirstContentfulPaintAllFramesTs": 681379744,
+                  "observedFirstMeaningfulPaint": 749,
+                  "observedFirstMeaningfulPaintTs": 681379744,
+                  "observedLargestContentfulPaint": 749,
+                  "observedLargestContentfulPaintTs": 681379744,
+                  "observedLargestContentfulPaintAllFrames": 749,
+                  "observedLargestContentfulPaintAllFramesTs": 681379744,
+                  "observedTraceEnd": 3372,
+                  "observedTraceEndTs": 684002729,
+                  "observedLoad": 943,
+                  "observedLoadTs": 681573234,
+                  "observedDomContentLoaded": 711,
+                  "observedDomContentLoadedTs": 681341734,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 489,
-                  "observedFirstVisualChangeTs": 715504095,
-                  "observedLastVisualChange": 489,
-                  "observedLastVisualChangeTs": 715504095,
-                  "observedSpeedIndex": 493,
-                  "observedSpeedIndexTs": 715507738
+                  "observedFirstVisualChange": 807,
+                  "observedFirstVisualChangeTs": 681437478,
+                  "observedLastVisualChange": 807,
+                  "observedLastVisualChangeTs": 681437478,
+                  "observedSpeedIndex": 810,
+                  "observedSpeedIndexTs": 681440689
                 },
                 {
                   "lcpInvalidated": false
@@ -8880,19 +8982,19 @@
                   "numScripts": 11,
                   "numStylesheets": 2,
                   "numFonts": 1,
-                  "numTasks": 347,
-                  "numTasksOver10ms": 8,
-                  "numTasksOver25ms": 3,
+                  "numTasks": 371,
+                  "numTasksOver10ms": 7,
+                  "numTasksOver25ms": 2,
                   "numTasksOver50ms": 1,
                   "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
-                  "rtt": 7.552999999999997,
-                  "throughput": 141725534.50810724,
-                  "maxRtt": 7.552999999999997,
-                  "maxServerLatency": 25.97800000000001,
-                  "totalByteWeight": 1191522,
-                  "totalTaskTime": 353.88099999999986,
-                  "mainDocumentTransferSize": 12299
+                  "rtt": 11.759000000000015,
+                  "throughput": 94528426.07534143,
+                  "maxRtt": 11.759000000000015,
+                  "maxServerLatency": 31.95599999999999,
+                  "totalByteWeight": 1253057,
+                  "totalTaskTime": 311.38499999999976,
+                  "mainDocumentTransferSize": 12360
                 }
               ]
             }
@@ -8914,15 +9016,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://cips.cardano.org",
-        "size": 1612.662,
-        "nodes": 706,
-        "requests": 42,
+        "size": 1677.934,
+        "nodes": 708,
+        "requests": 43,
         "grade": "D",
         "score": 54,
         "ges": 1.92,
         "water": 2.88,
         "ecoindex_version": "5.4.2",
-        "date": "2025-08-24 01:15:48.656087",
+        "date": "2025-08-31 01:11:20.725435",
         "page_type": null
       }
     ],
@@ -8942,7 +9044,7 @@
       "trackersCount": 0,
       "zapCount": 13,
       "zapGrade": "D",
-      "lighthouse_performance": 0.79,
+      "lighthouse_performance": 0.83,
       "lighthouse_performanceGrade": "B",
       "lighthouse_accessibility": 0.98,
       "lighthouse_accessibilityGrade": "A",
@@ -9365,7 +9467,7 @@
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "INFO",
-        "finding": "06DD2126CB1663468A59A63AD59C9B4D9819"
+        "finding": "06B2F0CFF6990EFF46D019232D564995201C"
       },
       {
         "id": "cert_serialNumberLen",
@@ -9379,21 +9481,21 @@
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "INFO",
-        "finding": "2BA6858AB69A289058708E345DF1AFC30A054074"
+        "finding": "349244FE9BD7C7B5715F1C03D7E7EE5D24514A68"
       },
       {
         "id": "cert_fingerprintSHA256",
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "INFO",
-        "finding": "58AABBDEA8F5FDCA127882A0B99DA44807C3C6BCEC0B6567E571C32A508D7A70"
+        "finding": "09D812C1CE7D8AB6051064DB8AE228D132FB106E23B3B4B52303E994A295740D"
       },
       {
         "id": "cert",
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\nMIIDnTCCAyOgAwIBAgISBt0hJssWY0aKWaY61ZybTZgZMAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFNjAeFw0yNTA2MjcwNzIzNDNaFw0yNTA5MjUwNzIzNDJaMBoxGDAWBgNVBAMTD2hleS5jYXJkYW5vLm9yZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABCMhmzxLoN3qoWIsEjRX7EubtRaX+ae3aPwrnDnTU5gxoRP5nkxPB4jpO+UKW2hfmsntdm39AyUFwLwL/Am6VS2jggIvMIICKzAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFIEfNscEcZmKqf0Vi27lCA7gFR+8MB8GA1UdIwQYMBaAFJMnRpgDqVFojpjWxEJI2yO/WJTSMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcwAoYWaHR0cDovL2U2LmkubGVuY3Iub3JnLzAsBgNVHREEJTAjghBkYXRhLmNhcmRhbm8ub3Jngg9oZXkuY2FyZGFuby5vcmcwEwYDVR0gBAwwCjAIBgZngQwBAgEwLQYDVR0fBCYwJDAioCCgHoYcaHR0cDovL2U2LmMubGVuY3Iub3JnLzI2LmNybDCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB3AH1ZHhLheCp7HGFnfF79+NCHXBSgTpWeuQMv2Q6MLnm4AAABl7B65cIAAAQDAEgwRgIhANZCkui+vjlG898+nR3LCxPeJq0fZjGaqqC5FoFdVouQAiEAtU89tzlp/DmQSnpAqEHH/V9aP6nBDSD2lvJrIREzPWcAdQAaBP9J0FQdQK/2oMO/8djEZy9O7O4jQGiYaxdALtyJfQAAAZeweuYaAAAEAwBGMEQCIG70aD6kXfdQCWsG19jHaHnTIhTftltMWB/MTd3oPQN5AiAZtlIJ1Paaw2xr67GU83+LGu1HhTJXTOUC2pt30xcxfDAKBggqhkjOPQQDAwNoADBlAjARejD6iJuAHzOTBKPz/PjdD276CnTttLLew8xd9zgI2x4wV2/Daw9AOkD68YmOomQCMQCVPa/xaeWHRM/XdHFVqUOK9RQtaql+7UAwACRRMrwU/pEs4hCbOL2uJr4rsRNXnDs=\n-----END CERTIFICATE-----"
+        "finding": "-----BEGIN CERTIFICATE-----\nMIIDnTCCAyOgAwIBAgISBrLwz/aZDv9G0BkjLVZJlSAcMAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFODAeFw0yNTA4MjYwNzIzNDNaFw0yNTExMjQwNzIzNDJaMBoxGDAWBgNVBAMTD2hleS5jYXJkYW5vLm9yZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABCMhmzxLoN3qoWIsEjRX7EubtRaX+ae3aPwrnDnTU5gxoRP5nkxPB4jpO+UKW2hfmsntdm39AyUFwLwL/Am6VS2jggIvMIICKzAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFIEfNscEcZmKqf0Vi27lCA7gFR+8MB8GA1UdIwQYMBaAFI8NE6L2Ln7RUGwzGDhdWY4jcpHKMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcwAoYWaHR0cDovL2U4LmkubGVuY3Iub3JnLzAsBgNVHREEJTAjghBkYXRhLmNhcmRhbm8ub3Jngg9oZXkuY2FyZGFuby5vcmcwEwYDVR0gBAwwCjAIBgZngQwBAgEwLQYDVR0fBCYwJDAioCCgHoYcaHR0cDovL2U4LmMubGVuY3Iub3JnLzI5LmNybDCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB2AO08S9boBsKkogBX28sk4jgB31Ev7cSGxXAPIN23Pj/gAAABmOV4do0AAAQDAEcwRQIhAMMvDvnoMw46xgw+Mu8aUaqZBSLZcwLIu6EPuo5vdq2VAiAFu2JrCLq1NTH+wwRW/vkzKkSYMj5j3ZxzcYkvh7ENoQB2AK8YGijWjKPgqYpMnGerCfi7vCK6rryxOKOhndP5tgMNAAABmOV4d2gAAAQDAEcwRQIgHeJw/VdHk/SItawZRAvQaUjQvI4sSJyOiCt/890ywOgCIQCz6tHSDHj/RtAAo8scAz8/4+nluOF6YtV3kFkTWRTO2DAKBggqhkjOPQQDAwNoADBlAjEAtVnVBGY5qjG2r8le1xMaD2olLgQXJlgVTY4gQVmrQR/8vGGA6quGdBYkpUgjYeEqAjAXItoKaGXcxleCGTAf4uZCac0xOJD0+1BUZdUsCXi/5X77GKVvUrNCzxy6gGFDG/Q=\n-----END CERTIFICATE-----"
       },
       {
         "id": "cert_commonName",
@@ -9442,21 +9544,21 @@
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "OK",
-        "finding": "32 >= 30 days"
+        "finding": "85 >= 30 days"
       },
       {
         "id": "cert_notBefore",
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "INFO",
-        "finding": "2025-06-27 07:23"
+        "finding": "2025-08-26 07:23"
       },
       {
         "id": "cert_notAfter",
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "OK",
-        "finding": "2025-09-25 07:23"
+        "finding": "2025-11-24 07:23"
       },
       {
         "id": "cert_extlifeSpan",
@@ -9477,7 +9579,7 @@
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "INFO",
-        "finding": "http://e6.c.lencr.org/26.crl"
+        "finding": "http://e8.c.lencr.org/29.crl"
       },
       {
         "id": "cert_ocspURL",
@@ -9533,21 +9635,21 @@
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "INFO",
-        "finding": "E6 (Let's Encrypt from US)"
+        "finding": "E8 (Let's Encrypt from US)"
       },
       {
         "id": "intermediate_cert <#1>",
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\nMIIEVzCCAj+gAwIBAgIRALBXPpFzlydw27SHyzpFKzgwDQYJKoZIhvcNAQELBQAwTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjQwMzEzMDAwMDAwWhcNMjcwMzEyMjM1OTU5WjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5jcnlwdDELMAkGA1UEAxMCRTYwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAATZ8Z5Gh/ghcWCoJuuj+rnq2h25EqfUJtlRFLFhfHWWvyILOR/VvtEKRqotPEoJhC6+QJVV6RlAN2Z17TJOdwRJ+HB7wxjnzvdxEP6sdNgA1O1tHHMWMxCcOrLqbGL0vbijgfgwgfUwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBSTJ0aYA6lRaI6Y1sRCSNsjv1iU0jAfBgNVHSMEGDAWgBR5tFnme7bl5AFzgAiIyBpY9umbbjAyBggrBgEFBQcBAQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly94MS5pLmxlbmNyLm9yZy8wEwYDVR0gBAwwCjAIBgZngQwBAgEwJwYDVR0fBCAwHjAcoBqgGIYWaHR0cDovL3gxLmMubGVuY3Iub3JnLzANBgkqhkiG9w0BAQsFAAOCAgEAfYt7SiA1sgWGCIpunk46r4AExIRcMxkKgUhNlrrv1B21hOaXN/5miE+LOTbrcmU/M9yvC6MVY730GNFoL8IhJ8j8vrOLpMY22OP6baS1k9YMrtDTlwJHoGby04ThTUeBDksS9RiuHvicZqBedQdIF65pZuhpeDcGBcLiYasQr/EO5gxxtLyTmgsHSOVSBcFOn9lgv7LECPq9i7mfH3mpxgrRKSxHpOoZ0KXMcB+hHuvlklHntvcI0mMMQ0mhYj6qtMFStkF1RpCG3IPdIwpVCQqu8GV7s8ubknRzs+3C/Bm19RFOoiPpDkwvyNfvmQ14XkyqqKK5oZ8zhD32kFRQkxa8uZSuh4aTImFxknu39waBxIRXE4jKxlAmQc4QjFZoq1KmQqQg0J/1JF8RlFvJas1VcjLvYlvUB2t6npO6oQjB3l+PNf0DpQH7iUx3Wz5AjQCi6L25FjyE06q6BZ/QlmtYdl/8ZYao4SRqPEs/6cAiF+Qf5zg2UkaWtDphl1LKMuTNLotvsX99HP69V2faNyegodQ0LyTApr/vT01YPE46vNsDLgK+4cL6TrzC/a4WcmF5SRJ938zrv/duJHLXQIku5v0+EwOy59Hdm0PT/Er/84dDV0CSjdR/2XuZM3kpysSKLgD1cKiDA+IRguODCxfO9cyYIg46v9mFmBvyH04=\n-----END CERTIFICATE-----"
+        "finding": "-----BEGIN CERTIFICATE-----\nMIIEVjCCAj6gAwIBAgIQY5WTY8JOcIJxWRi/w9ftVjANBgkqhkiG9w0BAQsFADBPMQswCQYDVQQGEwJVUzEpMCcGA1UEChMgSW50ZXJuZXQgU2VjdXJpdHkgUmVzZWFyY2ggR3JvdXAxFTATBgNVBAMTDElTUkcgUm9vdCBYMTAeFw0yNDAzMTMwMDAwMDBaFw0yNzAzMTIyMzU5NTlaMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFODB2MBAGByqGSM49AgEGBSuBBAAiA2IABNFl8l7cS7QMApzSsvru6WyrOq44ofTUOTIzxULUzDMMNMchIJBwXOhiLxxxs0LXeb5GDcHbR6EToMffgSZjO9SNHfY9gjMy9vQr5/WWOrQTZxh7az6NSNnq3u2ubT6HTKOB+DCB9TAOBgNVHQ8BAf8EBAMCAYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFI8NE6L2Ln7RUGwzGDhdWY4jcpHKMB8GA1UdIwQYMBaAFHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcwAoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzATBgNVHSAEDDAKMAgGBmeBDAECATAnBgNVHR8EIDAeMBygGqAYhhZodHRwOi8veDEuYy5sZW5jci5vcmcvMA0GCSqGSIb3DQEBCwUAA4ICAQBnE0hGINKsCYWi0Xx1ygxD5qihEjZ0RI3tTZz1wuATH3ZwYPIp97kWEayanD1j0cDhIYzy4CkDo2jB8D5t0a6zZWzlr98dAQFNh8uKJkIHdLShy+nUyeZxc5bNeMp1Lu0gSzE4McqfmNMvIpeiwWSYO9w82Ob8otvXcO2JUYi3svHIWRm3+707DUbL51XMcY2iZdlCq4Wa9nbuk3WTU4gr6LY8MzVAaDQG2+4U3eJ6qUF10bBnR1uuVyDYs9RhrwucRVnfuDj29CMLTsplM5f5wSV5hUpmUwp/vV7M4w4aGunt74koX71n4EdagCsL/Yk5+mAQU0+tue0JOfAV/R6t1k+Xk9s2HMQFeoxppfzAVC04FdG9M+AC2JWxmFSt6BCuh3CEey3fE52Qrj9YM75rtvIjsm/1Hl+u//Wqxnu1ZQ4jpa+VpuZiGOlWrqSP9eogdOhCGisnyewWJwRQOqK16wiGyZeRxs/Bekw65vwSIaVkBruPiTfMOo0Zh4gVa8/qJgMbJbyrwwG97z/PRgmLKCDl8z3dtA0Z7qq7fta0Gl24uyuB05dqI5J1LvAzKuWdIjT1tP8qCoxSE/xpix8hX2dt3h+/jujUgFPFZ0EVZ0xSyBNRF3MboGZnYXFUxpNjTWPKpagDHJQmqrAcDmWJnMsFY3jSu1igv3OefnWjSQ==\n-----END CERTIFICATE-----"
       },
       {
         "id": "intermediate_cert_fingerprintSHA256 <#1>",
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "INFO",
-        "finding": "76E9E288AAFC0E37F4390CBF946AAD997D5C1C901B3CE513D3D8FADBABE2AB85"
+        "finding": "83624FD338C8D9B023C18A67CB7A9C0519DA43D11775B4C6CBDAD45C3D997C52"
       },
       {
         "id": "intermediate_cert_notBefore <#1>",
@@ -9575,7 +9677,7 @@
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "INFO",
-        "finding": "E6 <-- ISRG Root X1"
+        "finding": "E8 <-- ISRG Root X1"
       },
       {
         "id": "intermediate_cert_badOCSP",
@@ -10194,7 +10296,7 @@
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "INFO",
-        "finding": "92"
+        "finding": "55"
       }
     ],
     "thirdparties": {
@@ -10326,7 +10428,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.16.1",
-      "@generated": "Sun, 24 Aug 2025 01:33:22",
+      "@generated": "Sun, 31 Aug 2025 01:26:33",
       "site": [
         {
           "@name": "https://data.cardano.org",
@@ -10449,83 +10551,7 @@
         "type": "dns",
         "host": "data.cardano.org.",
         "matched-at": "data.cardano.org",
-        "timestamp": "2025-08-24T01:36:16.932491034Z",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs",
-            "userdehghani"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "x-permitted-cross-domain-policies",
-        "type": "http",
-        "host": "https://data.cardano.org",
-        "matched-at": "https://data.cardano.org",
-        "ip": "52.211.238.28",
-        "timestamp": "2025-08-24T01:37:29.889976682Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs",
-            "userdehghani"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "clear-site-data",
-        "type": "http",
-        "host": "https://data.cardano.org",
-        "matched-at": "https://data.cardano.org",
-        "ip": "52.211.238.28",
-        "timestamp": "2025-08-24T01:37:29.890029671Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
+        "timestamp": "2025-08-31T01:28:47.572926474Z",
         "matcher-status": true
       },
       {
@@ -10562,7 +10588,7 @@
         "host": "https://data.cardano.org",
         "matched-at": "https://data.cardano.org",
         "ip": "52.211.238.28",
-        "timestamp": "2025-08-24T01:37:29.89004545Z",
+        "timestamp": "2025-08-31T01:29:47.475874584Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
         "matcher-status": true
       },
@@ -10600,7 +10626,7 @@
         "host": "https://data.cardano.org",
         "matched-at": "https://data.cardano.org",
         "ip": "52.211.238.28",
-        "timestamp": "2025-08-24T01:37:29.890058144Z",
+        "timestamp": "2025-08-31T01:29:47.475913457Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
         "matcher-status": true
       },
@@ -10638,7 +10664,83 @@
         "host": "https://data.cardano.org",
         "matched-at": "https://data.cardano.org",
         "ip": "52.211.238.28",
-        "timestamp": "2025-08-24T01:37:29.890096966Z",
+        "timestamp": "2025-08-31T01:29:47.475927814Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "x-permitted-cross-domain-policies",
+        "type": "http",
+        "host": "https://data.cardano.org",
+        "matched-at": "https://data.cardano.org",
+        "ip": "52.211.238.28",
+        "timestamp": "2025-08-31T01:29:47.475941911Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "clear-site-data",
+        "type": "http",
+        "host": "https://data.cardano.org",
+        "matched-at": "https://data.cardano.org",
+        "ip": "52.211.238.28",
+        "timestamp": "2025-08-31T01:29:47.475957179Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
         "matcher-status": true
       },
@@ -10690,7 +10792,7 @@
           "SSH-2.0-OpenSSH_9.2p1"
         ],
         "ip": "52.211.238.28",
-        "timestamp": "2025-08-24T01:39:12.598507635Z",
+        "timestamp": "2025-08-31T01:31:14.085285823Z",
         "matcher-status": true
       },
       {
@@ -10720,7 +10822,7 @@
           "Let's Encrypt"
         ],
         "ip": "52.211.238.28",
-        "timestamp": "2025-08-24T01:39:59.677629154Z",
+        "timestamp": "2025-08-31T01:32:04.5449706Z",
         "matcher-status": true
       },
       {
@@ -10751,7 +10853,7 @@
           "hey.cardano.org"
         ],
         "ip": "52.211.238.28",
-        "timestamp": "2025-08-24T01:39:59.677794372Z",
+        "timestamp": "2025-08-31T01:32:04.545112626Z",
         "matcher-status": true
       },
       {
@@ -10782,7 +10884,7 @@
           "tls12"
         ],
         "ip": "52.211.238.28",
-        "timestamp": "2025-08-24T01:40:02.739177306Z",
+        "timestamp": "2025-08-31T01:32:06.159943925Z",
         "matcher-status": true
       },
       {
@@ -10813,7 +10915,7 @@
           "tls13"
         ],
         "ip": "52.211.238.28",
-        "timestamp": "2025-08-24T01:40:03.005416564Z",
+        "timestamp": "2025-08-31T01:32:06.415067059Z",
         "matcher-status": true
       }
     ],
@@ -10821,7 +10923,7 @@
       {
         "requestedUrl": "https://data.cardano.org/",
         "finalUrl": "https://data.cardano.org/",
-        "fetchTime": "2025-08-24T01:33:42.346Z",
+        "fetchTime": "2025-08-31T01:26:52.757Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -10832,7 +10934,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 1
+            "score": 0.91
           },
           "accessibility": {
             "title": "Accessibility",
@@ -10884,53 +10986,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 879,
+            "numericValue": 1580,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 842,
-                  "firstMeaningfulPaint": 842,
-                  "largestContentfulPaint": 842,
-                  "interactive": 879,
-                  "speedIndex": 1007,
-                  "totalBlockingTime": 0,
-                  "maxPotentialFID": 99,
+                  "firstContentfulPaint": 971,
+                  "firstMeaningfulPaint": 971,
+                  "largestContentfulPaint": 971,
+                  "interactive": 1580,
+                  "speedIndex": 1522,
+                  "totalBlockingTime": 384,
+                  "maxPotentialFID": 333,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 208747472,
+                  "observedTimeOriginTs": 233196647,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 208747472,
-                  "observedFirstPaint": 470,
-                  "observedFirstPaintTs": 209217364,
-                  "observedFirstContentfulPaint": 470,
-                  "observedFirstContentfulPaintTs": 209217364,
-                  "observedFirstContentfulPaintAllFrames": 470,
-                  "observedFirstContentfulPaintAllFramesTs": 209217364,
-                  "observedFirstMeaningfulPaint": 470,
-                  "observedFirstMeaningfulPaintTs": 209217364,
-                  "observedLargestContentfulPaint": 470,
-                  "observedLargestContentfulPaintTs": 209217364,
-                  "observedLargestContentfulPaintAllFrames": 470,
-                  "observedLargestContentfulPaintAllFramesTs": 209217364,
-                  "observedTraceEnd": 2888,
-                  "observedTraceEndTs": 211635862,
-                  "observedLoad": 448,
-                  "observedLoadTs": 209195460,
-                  "observedDomContentLoaded": 447,
-                  "observedDomContentLoadedTs": 209194944,
+                  "observedNavigationStartTs": 233196647,
+                  "observedFirstPaint": 637,
+                  "observedFirstPaintTs": 233833395,
+                  "observedFirstContentfulPaint": 637,
+                  "observedFirstContentfulPaintTs": 233833395,
+                  "observedFirstContentfulPaintAllFrames": 637,
+                  "observedFirstContentfulPaintAllFramesTs": 233833395,
+                  "observedFirstMeaningfulPaint": 637,
+                  "observedFirstMeaningfulPaintTs": 233833395,
+                  "observedLargestContentfulPaint": 637,
+                  "observedLargestContentfulPaintTs": 233833395,
+                  "observedLargestContentfulPaintAllFrames": 637,
+                  "observedLargestContentfulPaintAllFramesTs": 233833395,
+                  "observedTraceEnd": 3101,
+                  "observedTraceEndTs": 236298081,
+                  "observedLoad": 633,
+                  "observedLoadTs": 233829592,
+                  "observedDomContentLoaded": 633,
+                  "observedDomContentLoadedTs": 233829380,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 470,
-                  "observedFirstVisualChangeTs": 209217472,
-                  "observedLastVisualChange": 470,
-                  "observedLastVisualChangeTs": 209217472,
-                  "observedSpeedIndex": 470,
-                  "observedSpeedIndexTs": 209217528
+                  "observedFirstVisualChange": 636,
+                  "observedFirstVisualChangeTs": 233832647,
+                  "observedLastVisualChange": 636,
+                  "observedLastVisualChangeTs": 233832647,
+                  "observedSpeedIndex": 637,
+                  "observedSpeedIndexTs": 233833560
                 },
                 {
                   "lcpInvalidated": false
@@ -10952,18 +11054,18 @@
                   "numScripts": 0,
                   "numStylesheets": 0,
                   "numFonts": 0,
-                  "numTasks": 88,
-                  "numTasksOver10ms": 1,
-                  "numTasksOver25ms": 0,
-                  "numTasksOver50ms": 0,
+                  "numTasks": 93,
+                  "numTasksOver10ms": 6,
+                  "numTasksOver25ms": 4,
+                  "numTasksOver50ms": 3,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 123.11599999999999,
-                  "throughput": 5092337.917546539,
-                  "maxRtt": 123.11599999999999,
-                  "maxServerLatency": 0,
+                  "rtt": 99.643,
+                  "throughput": 5671772.4287415985,
+                  "maxRtt": 99.643,
+                  "maxServerLatency": 0.0309999999999917,
                   "totalByteWeight": 438,
-                  "totalTaskTime": 57.16600000000001,
+                  "totalTaskTime": 257.259,
                   "mainDocumentTransferSize": 324
                 }
               ]
@@ -10994,7 +11096,7 @@
         "ges": 1.04,
         "water": 1.56,
         "ecoindex_version": "5.4.2",
-        "date": "2025-08-24 01:31:59.705532",
+        "date": "2025-08-31 01:24:47.003870",
         "page_type": null
       }
     ],
@@ -11006,7 +11108,7 @@
       "404": "A+",
       "httpGrade": "A+",
       "testsslExpireSoon": false,
-      "testsslExpireDate": "2025-09-25T07:23:00.000Z",
+      "testsslExpireDate": "2025-11-24T07:23:00.000Z",
       "testsslGrade": "A+",
       "cookiesGrade": "A",
       "cookiesCount": 0,
@@ -11014,7 +11116,7 @@
       "trackersCount": 0,
       "zapCount": 5,
       "zapGrade": "D",
-      "lighthouse_performance": 1,
+      "lighthouse_performance": 0.91,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.68,
       "lighthouse_accessibilityGrade": "B",
