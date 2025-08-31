@@ -178,7 +178,7 @@
               "ip"           : "cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'EC point formats/#11' 'application layer protocol negotiation/#16' 'extended master secret/#23' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
+              "finding"      : "'server name/#0' 'EC point formats/#11' 'application layer protocol negotiation/#16' 'extended master secret/#23' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
@@ -353,7 +353,7 @@
               "ip"           : "cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "83 >= 30 days"
+              "finding"      : "76 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,21 +507,21 @@
               "ip"           : "cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "+32068 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1755998793"
+              "finding"      : "1756603370"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds"
+              "finding"      : "32068 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1112,6 +1112,6 @@
               "ip"           : "cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "41"
+              "finding"      : "38"
           }
 ]
