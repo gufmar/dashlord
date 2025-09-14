@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.16.1",
-	"@generated": "Sun, 7 Sept 2025 01:14:03",
-	"created": "2025-09-07T01:14:03.019097964Z",
+	"@generated": "Sun, 14 Sept 2025 01:13:02",
+	"created": "2025-09-14T01:13:02.517162015Z",
 	"site":[ 
 		{
 			"@name": "https://cips.cardano.org",
@@ -21,7 +21,7 @@
 					"desc": "<p>This page contains an error/warning message that may disclose sensitive information like the location of the file that produced the unhandled exception. This information can be used to launch further attacks against the web application. The alert could be a false positive if the error message is found inside a documentation page.</p>",
 					"instances":[ 
 						{
-							"id": "155",
+							"id": "152",
 							"uri": "https://cips.cardano.org/cip/CIP-0095",
 							"method": "GET",
 							"param": "",
@@ -36,7 +36,7 @@
 					"reference": "",
 					"cweid": "550",
 					"wascid": "13",
-					"sourceid": "325"
+					"sourceid": "317"
 				},
 				{
 					"pluginid": "10038",
@@ -49,7 +49,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "5",
+							"id": "6",
 							"uri": "https://cips.cardano.org",
 							"method": "GET",
 							"param": "",
@@ -58,7 +58,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "47",
+							"id": "50",
 							"uri": "https://cips.cardano.org/",
 							"method": "GET",
 							"param": "",
@@ -67,7 +67,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "43",
+							"id": "52",
 							"uri": "https://cips.cardano.org/about",
 							"method": "GET",
 							"param": "",
@@ -76,7 +76,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "82",
+							"id": "77",
 							"uri": "https://cips.cardano.org/cip/CIP-0001",
 							"method": "GET",
 							"param": "",
@@ -85,7 +85,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
+							"id": "81",
 							"uri": "https://cips.cardano.org/cip/CIP-0002",
 							"method": "GET",
 							"param": "",
@@ -94,7 +94,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "49",
+							"id": "112",
 							"uri": "https://cips.cardano.org/cip/CIP-0003",
 							"method": "GET",
 							"param": "",
@@ -103,7 +103,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "80",
+							"id": "79",
 							"uri": "https://cips.cardano.org/cip/CIP-0004",
 							"method": "GET",
 							"param": "",
@@ -112,8 +112,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "108",
-							"uri": "https://cips.cardano.org/cip/CIP-0005",
+							"id": "106",
+							"uri": "https://cips.cardano.org/cip/CIP-0006",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -121,16 +121,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "116",
-							"uri": "https://cips.cardano.org/cip/CIP-0007",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "78",
+							"id": "74",
 							"uri": "https://cips.cardano.org/contributors",
 							"method": "GET",
 							"param": "",
@@ -146,6 +137,15 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "29",
+							"uri": "https://cips.cardano.org/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
 					"count": "11",
@@ -154,7 +154,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10020",
@@ -176,7 +176,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "41",
+							"id": "45",
 							"uri": "https://cips.cardano.org/",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -185,7 +185,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "39",
+							"id": "47",
 							"uri": "https://cips.cardano.org/about",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -194,7 +194,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "72",
+							"id": "70",
 							"uri": "https://cips.cardano.org/cip/CIP-0001",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -203,7 +203,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
+							"id": "75",
 							"uri": "https://cips.cardano.org/cip/CIP-0002",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -212,7 +212,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "40",
+							"id": "107",
 							"uri": "https://cips.cardano.org/cip/CIP-0003",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -221,7 +221,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "75",
+							"id": "73",
 							"uri": "https://cips.cardano.org/cip/CIP-0004",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -230,16 +230,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "105",
-							"uri": "https://cips.cardano.org/cip/CIP-0005",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "113",
+							"id": "103",
 							"uri": "https://cips.cardano.org/cip/CIP-0006",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -248,7 +239,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "112",
+							"id": "113",
 							"uri": "https://cips.cardano.org/cip/CIP-0007",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -257,7 +248,25 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
+							"id": "126",
+							"uri": "https://cips.cardano.org/cip/CIP-0010",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "127",
+							"uri": "https://cips.cardano.org/cip/CIP-0011",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "69",
 							"uri": "https://cips.cardano.org/contributors",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -266,13 +275,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "11",
+					"count": "12",
 					"solution": "<p>Modern Web browsers support the Content-Security-Policy and X-Frame-Options HTTP headers. Ensure one of them is set on all web pages returned by your site/app.</p><p>If you expect the page to be framed only by pages on your server (e.g. it's part of a FRAMESET) then you'll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy's \"frame-ancestors\" directive.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10099",
@@ -285,7 +294,7 @@
 					"desc": "<p>Application Source Code was disclosed by the web server. - SQL</p>",
 					"instances":[ 
 						{
-							"id": "110",
+							"id": "108",
 							"uri": "https://cips.cardano.org/cip/CIP-0002",
 							"method": "GET",
 							"param": "",
@@ -294,7 +303,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "186",
+							"id": "187",
 							"uri": "https://cips.cardano.org/cps/CPS-0020",
 							"method": "GET",
 							"param": "",
@@ -309,7 +318,7 @@
 					"reference": "<p>https://www.wsj.com/articles/BL-CIOB-2999</p>",
 					"cweid": "540",
 					"wascid": "13",
-					"sourceid": "131"
+					"sourceid": "52"
 				},
 				{
 					"pluginid": "90003",
@@ -322,7 +331,7 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "184",
+							"id": "185",
 							"uri": "https://cips.cardano.org/_next/static/chunks/7287-0bed10d9b2ab5d05.js",
 							"method": "GET",
 							"param": "",
@@ -337,7 +346,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "276"
+					"sourceid": "277"
 				},
 				{
 					"pluginid": "90022",
@@ -350,8 +359,8 @@
 					"desc": "<p>This page contains an error/warning message that may disclose sensitive information like the location of the file that produced the unhandled exception. This information can be used to launch further attacks against the web application. The alert could be a false positive if the error message is found inside a documentation page.</p>",
 					"instances":[ 
 						{
-							"id": "213",
-							"uri": "https://cips.cardano.org/cip/FairStakepoolRewards.xlsx",
+							"id": "194",
+							"uri": "https://cips.cardano.org/cip/Byron.md",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -359,7 +368,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "190",
+							"id": "198",
 							"uri": "https://cips.cardano.org/cip/Icarus.md",
 							"method": "GET",
 							"param": "",
@@ -368,16 +377,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "217",
-							"uri": "https://cips.cardano.org/cip/ImprovedRewardsSchemeParameters.xlsx",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "HTTP/1.1 500 Internal Server Error",
-							"otherinfo": ""
-						},
-						{
-							"id": "187",
+							"id": "188",
 							"uri": "https://cips.cardano.org/cip/Ledger_BitBox02.md",
 							"method": "GET",
 							"param": "",
@@ -386,7 +386,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "209",
+							"id": "210",
 							"uri": "https://cips.cardano.org/cip/ref_impl",
 							"method": "GET",
 							"param": "",
@@ -395,7 +395,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "201",
+							"id": "191",
 							"uri": "https://cips.cardano.org/cip/registry.json",
 							"method": "GET",
 							"param": "",
@@ -404,7 +404,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "197",
+							"id": "202",
 							"uri": "https://cips.cardano.org/cip/schema.cddl",
 							"method": "GET",
 							"param": "",
@@ -413,7 +413,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "194",
+							"id": "206",
 							"uri": "https://cips.cardano.org/cip/schema.json",
 							"method": "GET",
 							"param": "",
@@ -422,7 +422,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "214",
+							"id": "216",
 							"uri": "https://cips.cardano.org/cip/UnsaturatedPledgeBenefitPenalty.xlxs",
 							"method": "GET",
 							"param": "",
@@ -431,7 +431,16 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "206",
+							"id": "218",
+							"uri": "https://cips.cardano.org/cip/version_2.0.0_offchain.json",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "HTTP/1.1 500 Internal Server Error",
+							"otherinfo": ""
+						},
+						{
+							"id": "212",
 							"uri": "https://cips.cardano.org/cip/version_2.0.0_onchain.cddl",
 							"method": "GET",
 							"param": "",
@@ -440,7 +449,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "210",
+							"id": "214",
 							"uri": "https://cips.cardano.org/cip/version_2.0.0_onchain.json",
 							"method": "GET",
 							"param": "",
@@ -455,7 +464,7 @@
 					"reference": "",
 					"cweid": "550",
 					"wascid": "13",
-					"sourceid": "535"
+					"sourceid": "497"
 				},
 				{
 					"pluginid": "10110",
@@ -468,7 +477,7 @@
 					"desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "183",
+							"id": "184",
 							"uri": "https://cips.cardano.org/_next/static/chunks/7287-0bed10d9b2ab5d05.js",
 							"method": "GET",
 							"param": "",
@@ -477,7 +486,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "158",
+							"id": "159",
 							"uri": "https://cips.cardano.org/cip/CIP-0117",
 							"method": "GET",
 							"param": "",
@@ -492,7 +501,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "276"
+					"sourceid": "277"
 				},
 				{
 					"pluginid": "10023",
@@ -505,8 +514,8 @@
 					"desc": "<p>The response appeared to contain common error messages returned by platforms such as ASP.NET, and Web-servers such as IIS and Apache. You can configure the list of common debug messages.</p>",
 					"instances":[ 
 						{
-							"id": "219",
-							"uri": "https://cips.cardano.org/cip/CIPs",
+							"id": "195",
+							"uri": "https://cips.cardano.org/cip/Byron.md",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -514,16 +523,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "215",
-							"uri": "https://cips.cardano.org/cip/FairStakepoolRewards.xlsx",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "Internal Server Error",
-							"otherinfo": ""
-						},
-						{
-							"id": "191",
+							"id": "199",
 							"uri": "https://cips.cardano.org/cip/Icarus.md",
 							"method": "GET",
 							"param": "",
@@ -532,7 +532,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "218",
+							"id": "220",
 							"uri": "https://cips.cardano.org/cip/ImprovedRewardsSchemeParameters.xlsx",
 							"method": "GET",
 							"param": "",
@@ -541,7 +541,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "188",
+							"id": "189",
 							"uri": "https://cips.cardano.org/cip/Ledger_BitBox02.md",
 							"method": "GET",
 							"param": "",
@@ -559,7 +559,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "202",
+							"id": "192",
 							"uri": "https://cips.cardano.org/cip/registry.json",
 							"method": "GET",
 							"param": "",
@@ -568,7 +568,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "198",
+							"id": "203",
 							"uri": "https://cips.cardano.org/cip/schema.cddl",
 							"method": "GET",
 							"param": "",
@@ -577,7 +577,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "195",
+							"id": "207",
 							"uri": "https://cips.cardano.org/cip/schema.json",
 							"method": "GET",
 							"param": "",
@@ -586,7 +586,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "216",
+							"id": "217",
 							"uri": "https://cips.cardano.org/cip/UnsaturatedPledgeBenefitPenalty.xlxs",
 							"method": "GET",
 							"param": "",
@@ -595,7 +595,16 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "207",
+							"id": "219",
+							"uri": "https://cips.cardano.org/cip/version_2.0.0_offchain.json",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "Internal Server Error",
+							"otherinfo": ""
+						},
+						{
+							"id": "213",
 							"uri": "https://cips.cardano.org/cip/version_2.0.0_onchain.cddl",
 							"method": "GET",
 							"param": "",
@@ -604,7 +613,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "212",
+							"id": "215",
 							"uri": "https://cips.cardano.org/cip/version_2.0.0_onchain.json",
 							"method": "GET",
 							"param": "",
@@ -619,7 +628,7 @@
 					"reference": "",
 					"cweid": "1295",
 					"wascid": "13",
-					"sourceid": "544"
+					"sourceid": "497"
 				},
 				{
 					"pluginid": "90004",
@@ -659,7 +668,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "55",
+							"id": "58",
 							"uri": "https://cips.cardano.org/about",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
@@ -686,7 +695,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "56",
+							"id": "59",
 							"uri": "https://cips.cardano.org/about",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
@@ -713,7 +722,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "57",
+							"id": "60",
 							"uri": "https://cips.cardano.org/about",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
@@ -741,7 +750,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "15",
+							"id": "14",
 							"uri": "https://cips.cardano.org",
 							"method": "GET",
 							"param": "",
@@ -759,7 +768,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "54",
+							"id": "57",
 							"uri": "https://cips.cardano.org/about",
 							"method": "GET",
 							"param": "",
@@ -768,7 +777,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "104",
+							"id": "98",
 							"uri": "https://cips.cardano.org/cip/CIP-0001",
 							"method": "GET",
 							"param": "",
@@ -777,7 +786,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "106",
+							"id": "101",
 							"uri": "https://cips.cardano.org/cip/CIP-0002",
 							"method": "GET",
 							"param": "",
@@ -786,7 +795,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "70",
+							"id": "122",
 							"uri": "https://cips.cardano.org/cip/CIP-0003",
 							"method": "GET",
 							"param": "",
@@ -804,8 +813,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "123",
-							"uri": "https://cips.cardano.org/cip/CIP-0005",
+							"id": "119",
+							"uri": "https://cips.cardano.org/cip/CIP-0006",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -813,16 +822,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "124",
-							"uri": "https://cips.cardano.org/cip/CIP-0007",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "99",
+							"id": "94",
 							"uri": "https://cips.cardano.org/contributors",
 							"method": "GET",
 							"param": "",
@@ -831,8 +831,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "45",
+							"id": "46",
 							"uri": "https://cips.cardano.org/robots.txt",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "38",
+							"uri": "https://cips.cardano.org/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -859,7 +868,7 @@
 					"desc": "<p>The web/application server is leaking information via one or more \"X-Powered-By\" HTTP response headers. Access to such information may facilitate attackers identifying other frameworks/components your web application is reliant upon and the vulnerabilities such components may be subject to.</p>",
 					"instances":[ 
 						{
-							"id": "11",
+							"id": "10",
 							"uri": "https://cips.cardano.org",
 							"method": "GET",
 							"param": "",
@@ -877,7 +886,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "51",
+							"id": "55",
 							"uri": "https://cips.cardano.org/about",
 							"method": "GET",
 							"param": "",
@@ -886,7 +895,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "98",
+							"id": "96",
 							"uri": "https://cips.cardano.org/cip/CIP-0001",
 							"method": "GET",
 							"param": "",
@@ -895,7 +904,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "102",
+							"id": "99",
 							"uri": "https://cips.cardano.org/cip/CIP-0002",
 							"method": "GET",
 							"param": "",
@@ -904,7 +913,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "68",
+							"id": "120",
 							"uri": "https://cips.cardano.org/cip/CIP-0003",
 							"method": "GET",
 							"param": "",
@@ -922,8 +931,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "120",
-							"uri": "https://cips.cardano.org/cip/CIP-0005",
+							"id": "116",
+							"uri": "https://cips.cardano.org/cip/CIP-0006",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -931,16 +940,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "122",
-							"uri": "https://cips.cardano.org/cip/CIP-0007",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "X-Powered-By: Next.js",
-							"otherinfo": ""
-						},
-						{
-							"id": "93",
+							"id": "91",
 							"uri": "https://cips.cardano.org/contributors",
 							"method": "GET",
 							"param": "",
@@ -956,6 +956,15 @@
 							"attack": "",
 							"evidence": "X-Powered-By: Next.js",
 							"otherinfo": ""
+						},
+						{
+							"id": "36",
+							"uri": "https://cips.cardano.org/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "X-Powered-By: Next.js",
+							"otherinfo": ""
 						}
 					],
 					"count": "11",
@@ -964,7 +973,7 @@
 					"reference": "<p>https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework</p><p>https://www.troyhunt.com/2012/02/shhh-dont-let-your-response-headers.html</p>",
 					"cweid": "497",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10096",
@@ -977,7 +986,7 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "173",
+							"id": "174",
 							"uri": "https://cips.cardano.org/_next/static/chunks/7287-0bed10d9b2ab5d05.js",
 							"method": "GET",
 							"param": "",
@@ -986,7 +995,7 @@
 							"otherinfo": "1459053570, which evaluates to: 2016-03-27 04:39:30."
 						},
 						{
-							"id": "169",
+							"id": "170",
 							"uri": "https://cips.cardano.org/_next/static/chunks/7287-0bed10d9b2ab5d05.js",
 							"method": "GET",
 							"param": "",
@@ -995,7 +1004,7 @@
 							"otherinfo": "1488582240, which evaluates to: 2017-03-03 23:04:00."
 						},
 						{
-							"id": "159",
+							"id": "160",
 							"uri": "https://cips.cardano.org/_next/static/chunks/7287-0bed10d9b2ab5d05.js",
 							"method": "GET",
 							"param": "",
@@ -1004,7 +1013,7 @@
 							"otherinfo": "1506203091, which evaluates to: 2017-09-23 21:44:51."
 						},
 						{
-							"id": "175",
+							"id": "176",
 							"uri": "https://cips.cardano.org/_next/static/chunks/7287-0bed10d9b2ab5d05.js",
 							"method": "GET",
 							"param": "",
@@ -1013,7 +1022,7 @@
 							"otherinfo": "1508306896, which evaluates to: 2017-10-18 06:08:16."
 						},
 						{
-							"id": "167",
+							"id": "168",
 							"uri": "https://cips.cardano.org/_next/static/chunks/7287-0bed10d9b2ab5d05.js",
 							"method": "GET",
 							"param": "",
@@ -1022,7 +1031,7 @@
 							"otherinfo": "1636103821, which evaluates to: 2021-11-05 09:17:01."
 						},
 						{
-							"id": "161",
+							"id": "162",
 							"uri": "https://cips.cardano.org/_next/static/chunks/7287-0bed10d9b2ab5d05.js",
 							"method": "GET",
 							"param": "",
@@ -1031,7 +1040,7 @@
 							"otherinfo": "1669460822, which evaluates to: 2022-11-26 11:07:02."
 						},
 						{
-							"id": "163",
+							"id": "164",
 							"uri": "https://cips.cardano.org/_next/static/chunks/7287-0bed10d9b2ab5d05.js",
 							"method": "GET",
 							"param": "",
@@ -1040,7 +1049,7 @@
 							"otherinfo": "1673261248, which evaluates to: 2023-01-09 10:47:28."
 						},
 						{
-							"id": "170",
+							"id": "171",
 							"uri": "https://cips.cardano.org/_next/static/chunks/7287-0bed10d9b2ab5d05.js",
 							"method": "GET",
 							"param": "",
@@ -1049,7 +1058,7 @@
 							"otherinfo": "1674693810, which evaluates to: 2023-01-26 00:43:30."
 						},
 						{
-							"id": "174",
+							"id": "175",
 							"uri": "https://cips.cardano.org/_next/static/chunks/7287-0bed10d9b2ab5d05.js",
 							"method": "GET",
 							"param": "",
@@ -1058,7 +1067,7 @@
 							"otherinfo": "1824222790, which evaluates to: 2027-10-22 16:33:10."
 						},
 						{
-							"id": "171",
+							"id": "172",
 							"uri": "https://cips.cardano.org/_next/static/chunks/7287-0bed10d9b2ab5d05.js",
 							"method": "GET",
 							"param": "",
@@ -1067,7 +1076,7 @@
 							"otherinfo": "1860805380, which evaluates to: 2028-12-19 02:23:00."
 						},
 						{
-							"id": "172",
+							"id": "173",
 							"uri": "https://cips.cardano.org/_next/static/chunks/7287-0bed10d9b2ab5d05.js",
 							"method": "GET",
 							"param": "",
@@ -1076,7 +1085,7 @@
 							"otherinfo": "2046916950, which evaluates to: 2034-11-12 04:02:30."
 						},
 						{
-							"id": "133",
+							"id": "139",
 							"uri": "https://cips.cardano.org/cip/CIP-0009",
 							"method": "GET",
 							"param": "",
@@ -1085,7 +1094,7 @@
 							"otherinfo": "1506203091, which evaluates to: 2017-09-23 21:44:51."
 						},
 						{
-							"id": "149",
+							"id": "150",
 							"uri": "https://cips.cardano.org/cip/CIP-0045",
 							"method": "GET",
 							"param": "",
@@ -1094,7 +1103,7 @@
 							"otherinfo": "1669460822, which evaluates to: 2022-11-26 11:07:02."
 						},
 						{
-							"id": "151",
+							"id": "155",
 							"uri": "https://cips.cardano.org/cip/CIP-0093",
 							"method": "GET",
 							"param": "",
@@ -1103,7 +1112,7 @@
 							"otherinfo": "1673261248, which evaluates to: 2023-01-09 10:47:28."
 						},
 						{
-							"id": "156",
+							"id": "153",
 							"uri": "https://cips.cardano.org/cip/CIP-0095",
 							"method": "GET",
 							"param": "",
@@ -1118,7 +1127,7 @@
 					"reference": "<p>https://cwe.mitre.org/data/definitions/200.html</p>",
 					"cweid": "497",
 					"wascid": "13",
-					"sourceid": "276"
+					"sourceid": "277"
 				},
 				{
 					"pluginid": "10021",
@@ -1131,35 +1140,8 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "143",
-							"uri": "https://cips.cardano.org/_next/static/chunks/3216-cb4fbf1f9690a17a.js",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
 							"id": "148",
-							"uri": "https://cips.cardano.org/_next/static/chunks/4873-4cb997f94c00f2a2.js",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "147",
-							"uri": "https://cips.cardano.org/_next/static/chunks/827-6d7cf4c06cbb5208.js",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "142",
-							"uri": "https://cips.cardano.org/_next/static/chunks/9771-e827cb3de00e234d.js",
+							"uri": "https://cips.cardano.org/_next/static/chunks/3149-b2c99cdbf298cf7a.js",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1168,16 +1150,7 @@
 						},
 						{
 							"id": "144",
-							"uri": "https://cips.cardano.org/_next/static/chunks/app/layout-e6286f82cb349761.js",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"id": "145",
-							"uri": "https://cips.cardano.org/_next/static/chunks/app/page-dacd688cd160d79d.js",
+							"uri": "https://cips.cardano.org/_next/static/chunks/3216-cb4fbf1f9690a17a.js",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -1186,6 +1159,42 @@
 						},
 						{
 							"id": "146",
+							"uri": "https://cips.cardano.org/_next/static/chunks/827-6d7cf4c06cbb5208.js",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "143",
+							"uri": "https://cips.cardano.org/_next/static/chunks/9771-e827cb3de00e234d.js",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "145",
+							"uri": "https://cips.cardano.org/_next/static/chunks/app/layout-e6286f82cb349761.js",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "147",
+							"uri": "https://cips.cardano.org/_next/static/chunks/app/page-dacd688cd160d79d.js",
+							"method": "GET",
+							"param": "x-content-type-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"id": "149",
 							"uri": "https://cips.cardano.org/_next/static/chunks/c8542951-fc1fca8aab44b3d6.js",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -1194,7 +1203,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "141",
+							"id": "142",
 							"uri": "https://cips.cardano.org/_next/static/chunks/main-app-58977faf21b002c3.js",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -1203,7 +1212,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "139",
+							"id": "140",
 							"uri": "https://cips.cardano.org/_next/static/chunks/webpack-3bf1e29bc3a93239.js",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -1212,7 +1221,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "137",
+							"id": "138",
 							"uri": "https://cips.cardano.org/_next/static/css/9ce6743e331aca6b.css",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -1221,7 +1230,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "138",
+							"id": "136",
 							"uri": "https://cips.cardano.org/_next/static/css/ad2762ca96cee671.css",
 							"method": "GET",
 							"param": "x-content-type-options",
@@ -1245,7 +1254,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "209"
+					"sourceid": "205"
 				},
 				{
 					"pluginid": "10094",
@@ -1258,7 +1267,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "25",
+							"id": "30",
 							"uri": "https://cips.cardano.org",
 							"method": "GET",
 							"param": "",
@@ -1276,7 +1285,7 @@
 							"otherinfo": "<\uFFFD7\u0599\uFFFD\uFFFD\uFFFD\uFFFD\u0549\\x000c+\uFFFDa\\x0007:\\x0007\uFFFD\uFFFDi\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "59",
+							"id": "68",
 							"uri": "https://cips.cardano.org/about",
 							"method": "GET",
 							"param": "",
@@ -1285,16 +1294,7 @@
 							"otherinfo": "<\uFFFD7\u0599\uFFFD\uFFFD\uFFFD\uFFFD\u0549\\x000c+\uFFFDa\\x0007:\\x0007\uFFFD\uFFFDi\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "127",
-							"uri": "https://cips.cardano.org/cip/CIP-0001",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "PL831pmH4tfw1YkMK4FhBzoHyuSaadjdxn",
-							"otherinfo": "<\uFFFD7\u0599\uFFFD\uFFFD\uFFFD\uFFFD\u0549\\x000c+\uFFFDa\\x0007:\\x0007\uFFFD\uFFFDi\uFFFD\uFFFD\uFFFD"
-						},
-						{
-							"id": "111",
+							"id": "109",
 							"uri": "https://cips.cardano.org/cip/CIP-0002",
 							"method": "GET",
 							"param": "",
@@ -1303,7 +1303,7 @@
 							"otherinfo": "<\uFFFD7\u0599\uFFFD\uFFFD\uFFFD\uFFFD\u0549\\x000c+\uFFFDa\\x0007:\\x0007\uFFFD\uFFFDi\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "73",
+							"id": "124",
 							"uri": "https://cips.cardano.org/cip/CIP-0003",
 							"method": "GET",
 							"param": "",
@@ -1312,7 +1312,7 @@
 							"otherinfo": "<\uFFFD7\u0599\uFFFD\uFFFD\uFFFD\uFFFD\u0549\\x000c+\uFFFDa\\x0007:\\x0007\uFFFD\uFFFDi\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "96",
+							"id": "102",
 							"uri": "https://cips.cardano.org/cip/CIP-0004",
 							"method": "GET",
 							"param": "",
@@ -1321,8 +1321,8 @@
 							"otherinfo": "<\uFFFD7\u0599\uFFFD\uFFFD\uFFFD\uFFFD\u0549\\x000c+\uFFFDa\\x0007:\\x0007\uFFFD\uFFFDi\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "128",
-							"uri": "https://cips.cardano.org/cip/CIP-0005",
+							"id": "123",
+							"uri": "https://cips.cardano.org/cip/CIP-0006",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1330,7 +1330,7 @@
 							"otherinfo": "<\uFFFD7\u0599\uFFFD\uFFFD\uFFFD\uFFFD\u0549\\x000c+\uFFFDa\\x0007:\\x0007\uFFFD\uFFFDi\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "126",
+							"id": "125",
 							"uri": "https://cips.cardano.org/cip/CIP-0007",
 							"method": "GET",
 							"param": "",
@@ -1339,7 +1339,7 @@
 							"otherinfo": "<\uFFFD7\u0599\uFFFD\uFFFD\uFFFD\uFFFD\u0549\\x000c+\uFFFDa\\x0007:\\x0007\uFFFD\uFFFDi\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "109",
+							"id": "104",
 							"uri": "https://cips.cardano.org/contributors",
 							"method": "GET",
 							"param": "",
@@ -1348,8 +1348,17 @@
 							"otherinfo": "<\uFFFD7\u0599\uFFFD\uFFFD\uFFFD\uFFFD\u0549\\x000c+\uFFFDa\\x0007:\\x0007\uFFFD\uFFFDi\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "53",
+							"id": "49",
 							"uri": "https://cips.cardano.org/robots.txt",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "PL831pmH4tfw1YkMK4FhBzoHyuSaadjdxn",
+							"otherinfo": "<\uFFFD7\u0599\uFFFD\uFFFD\uFFFD\uFFFD\u0549\\x000c+\uFFFDa\\x0007:\\x0007\uFFFD\uFFFDi\uFFFD\uFFFD\uFFFD"
+						},
+						{
+							"id": "48",
+							"uri": "https://cips.cardano.org/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1363,7 +1372,7 @@
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10027",
@@ -1376,7 +1385,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "46",
+							"id": "53",
 							"uri": "https://cips.cardano.org/about",
 							"method": "GET",
 							"param": "",
@@ -1385,7 +1394,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//www.youtube.com/playlist?list=PL831pmH4tfw1YkMK4FhBzoHyuSaadjdxn\\\",\\\"target\\\":\\\"_blank\\\",\\\"children\\\":[\\\"$\\\",\\\"svg\\\",null,{\\\"c\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "92",
+							"id": "85",
 							"uri": "https://cips.cardano.org/cip/CIP-0001",
 							"method": "GET",
 							"param": "",
@@ -1394,7 +1403,7 @@
 							"otherinfo": "The following pattern was used: \\bWHERE\\b and was detected in likely comment: \"//github.com/cardano-foundation/CIPs/wiki\\\"\\u003eCIP repository Wiki\\u003c/a\\u003e.\\u003c/p\\u003e\\n\\u003ch2 id=\\\"specification\\\"\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "95",
+							"id": "89",
 							"uri": "https://cips.cardano.org/cip/CIP-0002",
 							"method": "GET",
 							"param": "",
@@ -1403,7 +1412,7 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"//github.com/cardano-foundation/cardano-wallet/\\\"\\u003eCardano\\nWallet\\u003c/a\\u003e and other parts of\\nthe Cardano ecosystem.\\\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "58",
+							"id": "115",
 							"uri": "https://cips.cardano.org/cip/CIP-0003",
 							"method": "GET",
 							"param": "",
@@ -1412,7 +1421,7 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"//github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md\\\"\\u003eBIP39\\u003c/a\\u003e.\\u003c/p\\u003e\\n\\u003ch3 id=\\\"hi\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "85",
+							"id": "83",
 							"uri": "https://cips.cardano.org/cip/CIP-0004",
 							"method": "GET",
 							"param": "",
@@ -1421,7 +1430,7 @@
 							"otherinfo": "The following pattern was used: \\bBUG\\b and was detected in likely comment: \"//github.com/bitcoin/bips/blob/master/bip-0039.mediawiki\\\"\\u003emnemonic\\u003c/a\\u003e for their wallet. In this case, they simp\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "114",
+							"id": "133",
 							"uri": "https://cips.cardano.org/cip/CIP-0005",
 							"method": "GET",
 							"param": "",
@@ -1430,7 +1439,7 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"//github.com/bitcoin/bips/blob/master/bip-0173.mediawiki\\\"\\u003ebech32\\u003c/a\\u003e) encoding format) for various bech32-encode\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "125",
+							"id": "110",
 							"uri": "https://cips.cardano.org/cip/CIP-0006",
 							"method": "GET",
 							"param": "",
@@ -1439,7 +1448,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//github.com/IntersectMBO/cardano-ledger/releases/latest/download/shelley-delegation.pdf\\\"\\u003edelegation-design-specification \", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "119",
+							"id": "121",
 							"uri": "https://cips.cardano.org/cip/CIP-0007",
 							"method": "GET",
 							"param": "",
@@ -1448,7 +1457,7 @@
 							"otherinfo": "The following pattern was used: \\bWHERE\\b and was detected in likely comment: \"//github.com/cardano-foundation/CIPs/tree/master/CIP-0084\\\"\\u003eCIP-0084\\u003c/a\\u003e under \\u003cem\\u003eExpectations for led\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "135",
+							"id": "134",
 							"uri": "https://cips.cardano.org/cip/CIP-0008",
 							"method": "GET",
 							"param": "",
@@ -1457,7 +1466,7 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"//tools.ietf.org/html/rfc8152#section-3\\\"\\u003eRFC 8152 section-3\\u003c/a\\u003e and you can see some the reserved entries (calle\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "132",
+							"id": "130",
 							"uri": "https://cips.cardano.org/cip/CIP-0011",
 							"method": "GET",
 							"param": "",
@@ -1466,7 +1475,7 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"//github.com/cardano-foundation/CIPs/blob/master/CIP-1852/README.md\\\"\\u003eCIP-1852\\u003c/a\\u003e.\\u003c/p\\u003e\\n\\u003ch2 id=\\\"\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "136",
+							"id": "135",
 							"uri": "https://cips.cardano.org/cip/CIP-0012",
 							"method": "GET",
 							"param": "",
@@ -1475,7 +1484,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"//github.com/cardano-foundation/CIPs/blob/master/CIP-0006/README.md\\\"\\u003eCIP-0006\\u003c/a\\u003e already defines an external fe\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "89",
+							"id": "82",
 							"uri": "https://cips.cardano.org/contributors",
 							"method": "GET",
 							"param": "",
@@ -1490,7 +1499,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "46"
+					"sourceid": "48"
 				},
 				{
 					"pluginid": "10109",
@@ -1503,7 +1512,16 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "140",
+							"id": "196",
+							"uri": "https://cips.cardano.org/cip/Byron.md",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script defer=\"\" noModule=\"\" src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\"></script>",
+							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
+						},
+						{
+							"id": "137",
 							"uri": "https://cips.cardano.org/cip/CIP-0014",
 							"method": "GET",
 							"param": "",
@@ -1512,7 +1530,7 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "200",
+							"id": "201",
 							"uri": "https://cips.cardano.org/cip/CIP-0017.json",
 							"method": "GET",
 							"param": "",
@@ -1521,7 +1539,7 @@
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "204",
+							"id": "205",
 							"uri": "https://cips.cardano.org/cip/extensions-register.md",
 							"method": "GET",
 							"param": "",
@@ -1530,7 +1548,7 @@
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "205",
+							"id": "209",
 							"uri": "https://cips.cardano.org/cip/feature-table.md",
 							"method": "GET",
 							"param": "",
@@ -1539,7 +1557,7 @@
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "192",
+							"id": "200",
 							"uri": "https://cips.cardano.org/cip/Icarus.md",
 							"method": "GET",
 							"param": "",
@@ -1548,7 +1566,7 @@
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "189",
+							"id": "190",
 							"uri": "https://cips.cardano.org/cip/Ledger_BitBox02.md",
 							"method": "GET",
 							"param": "",
@@ -1557,7 +1575,7 @@
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "203",
+							"id": "193",
 							"uri": "https://cips.cardano.org/cip/registry.json",
 							"method": "GET",
 							"param": "",
@@ -1566,7 +1584,7 @@
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "199",
+							"id": "204",
 							"uri": "https://cips.cardano.org/cip/schema.cddl",
 							"method": "GET",
 							"param": "",
@@ -1575,7 +1593,7 @@
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "196",
+							"id": "208",
 							"uri": "https://cips.cardano.org/cip/schema.json",
 							"method": "GET",
 							"param": "",
@@ -1584,7 +1602,7 @@
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "193",
+							"id": "197",
 							"uri": "https://cips.cardano.org/cip/test-vector.md",
 							"method": "GET",
 							"param": "",
@@ -1593,16 +1611,7 @@
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "208",
-							"uri": "https://cips.cardano.org/cip/version_2.0.0_onchain.cddl",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script defer=\"\" noModule=\"\" src=\"/_next/static/chunks/polyfills-42372ed130431b0a.js\"></script>",
-							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
-						},
-						{
-							"id": "185",
+							"id": "186",
 							"uri": "https://cips.cardano.org/cps/CPS-0020",
 							"method": "GET",
 							"param": "",
@@ -1613,11 +1622,11 @@
 					],
 					"count": "12",
 					"solution": "<p>This is an informational alert and so no changes are required.</p>",
-					"otherinfo": "<p>Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</p>",
+					"otherinfo": "<p>No links have been found while there are scripts, which is an indication that this is a modern web application.</p>",
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "194"
+					"sourceid": "497"
 				},
 				{
 					"pluginid": "10015",
@@ -1630,7 +1639,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "42",
+							"id": "51",
 							"uri": "https://cips.cardano.org/about",
 							"method": "GET",
 							"param": "cache-control",
@@ -1639,7 +1648,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "81",
+							"id": "76",
 							"uri": "https://cips.cardano.org/cip/CIP-0001",
 							"method": "GET",
 							"param": "cache-control",
@@ -1648,7 +1657,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "83",
+							"id": "80",
 							"uri": "https://cips.cardano.org/cip/CIP-0002",
 							"method": "GET",
 							"param": "cache-control",
@@ -1657,7 +1666,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "48",
+							"id": "111",
 							"uri": "https://cips.cardano.org/cip/CIP-0003",
 							"method": "GET",
 							"param": "cache-control",
@@ -1666,7 +1675,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "79",
+							"id": "78",
 							"uri": "https://cips.cardano.org/cip/CIP-0004",
 							"method": "GET",
 							"param": "cache-control",
@@ -1675,7 +1684,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "107",
+							"id": "131",
 							"uri": "https://cips.cardano.org/cip/CIP-0005",
 							"method": "GET",
 							"param": "cache-control",
@@ -1684,7 +1693,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "118",
+							"id": "105",
 							"uri": "https://cips.cardano.org/cip/CIP-0006",
 							"method": "GET",
 							"param": "cache-control",
@@ -1693,7 +1702,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "115",
+							"id": "118",
 							"uri": "https://cips.cardano.org/cip/CIP-0007",
 							"method": "GET",
 							"param": "cache-control",
@@ -1702,8 +1711,8 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "130",
-							"uri": "https://cips.cardano.org/cip/CIP-0009",
+							"id": "132",
+							"uri": "https://cips.cardano.org/cip/CIP-0008",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1711,7 +1720,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "129",
+							"id": "128",
 							"uri": "https://cips.cardano.org/cip/CIP-0010",
 							"method": "GET",
 							"param": "cache-control",
@@ -1720,7 +1729,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "131",
+							"id": "129",
 							"uri": "https://cips.cardano.org/cip/CIP-0011",
 							"method": "GET",
 							"param": "cache-control",
@@ -1729,7 +1738,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
+							"id": "72",
 							"uri": "https://cips.cardano.org/contributors",
 							"method": "GET",
 							"param": "cache-control",
@@ -1744,7 +1753,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "46"
+					"sourceid": "48"
 				},
 				{
 					"pluginid": "10050",
@@ -1757,7 +1766,7 @@
 					"desc": "<p>The content was retrieved from a shared cache. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "10",
+							"id": "9",
 							"uri": "https://cips.cardano.org",
 							"method": "GET",
 							"param": "",
@@ -1766,16 +1775,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "9",
-							"uri": "https://cips.cardano.org",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "Age: 1",
-							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
-						},
-						{
-							"id": "60",
+							"id": "61",
 							"uri": "https://cips.cardano.org/",
 							"method": "GET",
 							"param": "",
@@ -1789,83 +1789,83 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 216",
+							"evidence": "Age: 5795",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "50",
+							"id": "54",
 							"uri": "https://cips.cardano.org/about",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 487162",
+							"evidence": "Age: 1091901",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "97",
+							"id": "93",
 							"uri": "https://cips.cardano.org/cip/CIP-0001",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 487162",
+							"evidence": "Age: 1091901",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "101",
+							"id": "95",
 							"uri": "https://cips.cardano.org/cip/CIP-0002",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 487162",
+							"evidence": "Age: 1091901",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "61",
-							"uri": "https://cips.cardano.org/cip/CIP-0003",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "Age: 487162",
-							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
-						},
-						{
-							"id": "86",
+							"id": "84",
 							"uri": "https://cips.cardano.org/cip/CIP-0004",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 487162",
+							"evidence": "Age: 1091901",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "117",
-							"uri": "https://cips.cardano.org/cip/CIP-0005",
+							"id": "114",
+							"uri": "https://cips.cardano.org/cip/CIP-0006",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 487162",
+							"evidence": "Age: 1091903",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "91",
+							"id": "86",
 							"uri": "https://cips.cardano.org/contributors",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 487162",
+							"evidence": "Age: 1091901",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "6",
+							"id": "5",
 							"uri": "https://cips.cardano.org/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 1",
+							"evidence": "Age: 0",
+							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
+						},
+						{
+							"id": "35",
+							"uri": "https://cips.cardano.org/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "Age: 0",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						}
 					],
-					"count": "12",
+					"count": "11",
 					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information. If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request.</p>",
 					"otherinfo": "<p>The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use.</p>",
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>https://www.rfc-editor.org/rfc/rfc9110.html</p>",
@@ -1884,7 +1884,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "28",
+							"id": "33",
 							"uri": "https://cips.cardano.org",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -1893,7 +1893,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "32",
+							"id": "27",
 							"uri": "https://cips.cardano.org/_next/static/media/54d279905dfc6637-s.p.woff2",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
@@ -1908,7 +1908,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -1921,7 +1921,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "27",
+							"id": "32",
 							"uri": "https://cips.cardano.org",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -1930,7 +1930,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
+							"id": "26",
 							"uri": "https://cips.cardano.org/_next/static/media/54d279905dfc6637-s.p.woff2",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
@@ -1945,7 +1945,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -1958,7 +1958,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "26",
+							"id": "31",
 							"uri": "https://cips.cardano.org",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -1967,7 +1967,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "25",
 							"uri": "https://cips.cardano.org/_next/static/media/54d279905dfc6637-s.p.woff2",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
@@ -1982,7 +1982,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -1995,7 +1995,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "29",
+							"id": "34",
 							"uri": "https://cips.cardano.org",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -2004,7 +2004,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "33",
+							"id": "28",
 							"uri": "https://cips.cardano.org/_next/static/media/54d279905dfc6637-s.p.woff2",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
@@ -2019,11 +2019,11 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10049",
-					"alertRef": "10049",
+					"alertRef": "10049-3",
 					"alert": "Storable and Cacheable Content",
 					"name": "Storable and Cacheable Content",
 					"riskcode": "0",
@@ -2032,7 +2032,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "12",
+							"id": "11",
 							"uri": "https://cips.cardano.org",
 							"method": "GET",
 							"param": "",
@@ -2050,7 +2050,7 @@
 							"otherinfo": "The response is stale, and stale responses are not configured to be re-validated or blocked, using the 'must-revalidate', 'proxy-revalidate', 's-maxage', or 'max-age' response 'Cache-Control' directives."
 						},
 						{
-							"id": "23",
+							"id": "21",
 							"uri": "https://cips.cardano.org/_next/static/media/54d279905dfc6637-s.p.woff2",
 							"method": "GET",
 							"param": "",
@@ -2059,7 +2059,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "52",
+							"id": "56",
 							"uri": "https://cips.cardano.org/about",
 							"method": "GET",
 							"param": "",
@@ -2068,7 +2068,7 @@
 							"otherinfo": "The response is stale, and stale responses are not configured to be re-validated or blocked, using the 'must-revalidate', 'proxy-revalidate', 's-maxage', or 'max-age' response 'Cache-Control' directives."
 						},
 						{
-							"id": "100",
+							"id": "97",
 							"uri": "https://cips.cardano.org/cip/CIP-0001",
 							"method": "GET",
 							"param": "",
@@ -2077,17 +2077,8 @@
 							"otherinfo": "The response is stale, and stale responses are not configured to be re-validated or blocked, using the 'must-revalidate', 'proxy-revalidate', 's-maxage', or 'max-age' response 'Cache-Control' directives."
 						},
 						{
-							"id": "103",
+							"id": "100",
 							"uri": "https://cips.cardano.org/cip/CIP-0002",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "The response is stale, and stale responses are not configured to be re-validated or blocked, using the 'must-revalidate', 'proxy-revalidate', 's-maxage', or 'max-age' response 'Cache-Control' directives."
-						},
-						{
-							"id": "69",
-							"uri": "https://cips.cardano.org/cip/CIP-0003",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -2104,8 +2095,8 @@
 							"otherinfo": "The response is stale, and stale responses are not configured to be re-validated or blocked, using the 'must-revalidate', 'proxy-revalidate', 's-maxage', or 'max-age' response 'Cache-Control' directives."
 						},
 						{
-							"id": "121",
-							"uri": "https://cips.cardano.org/cip/CIP-0005",
+							"id": "117",
+							"uri": "https://cips.cardano.org/cip/CIP-0006",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -2113,7 +2104,7 @@
 							"otherinfo": "The response is stale, and stale responses are not configured to be re-validated or blocked, using the 'must-revalidate', 'proxy-revalidate', 's-maxage', or 'max-age' response 'Cache-Control' directives."
 						},
 						{
-							"id": "94",
+							"id": "92",
 							"uri": "https://cips.cardano.org/contributors",
 							"method": "GET",
 							"param": "",
@@ -2122,8 +2113,17 @@
 							"otherinfo": "The response is stale, and stale responses are not configured to be re-validated or blocked, using the 'must-revalidate', 'proxy-revalidate', 's-maxage', or 'max-age' response 'Cache-Control' directives."
 						},
 						{
-							"id": "44",
+							"id": "42",
 							"uri": "https://cips.cardano.org/robots.txt",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "The response is stale, and stale responses are not configured to be re-validated or blocked, using the 'must-revalidate', 'proxy-revalidate', 's-maxage', or 'max-age' response 'Cache-Control' directives."
+						},
+						{
+							"id": "37",
+							"uri": "https://cips.cardano.org/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -2137,7 +2137,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "1"
 				}
 			]
 		}
