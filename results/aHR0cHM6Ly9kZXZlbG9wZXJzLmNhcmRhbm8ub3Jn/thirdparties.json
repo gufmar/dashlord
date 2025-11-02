@@ -10,7 +10,7 @@
     },
     {
       "type": "google tag manager",
-      "url": "https://www.googletagmanager.com/gtag/js?id=G-V21Z77TQ3Q&cx=c&gtm=4e5am0",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-V21Z77TQ3Q&cx=c&gtm=4e5at1h1",
       "details": {
         "id": "google tag manager",
         "message": "Use hosted Matomo instance"
@@ -18,14 +18,43 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V21Z77TQ3Q&gtm=45je5am0v886082997z8848106172za200zb848106172zd848106172&_p=1761441125554&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=861785817.1761441126&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B141.0.7390.122%7CNot%253FA_Brand%3B8.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948813~115480710~115938465~115938469~116217636~116217638&sid=1761441125&sct=1&seg=0&dl=https%3A%2F%2Fdevelopers.cardano.org%2F&dt=Cardano%20Developer%20Portal&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=422",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V21Z77TQ3Q&gtm=45je5at1h1v886082997z8848106172za200zb848106172zd848106172&_p=1762045991785&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1990627418.1762045992&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Not_A%2520Brand%3B99.0.0.0%7CChromium%3B142.0.7444.59&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948813~115480710~115583767~115616985~115938465~115938468~116217636~116217638~116253087~116253089&sid=1762045992&sct=1&seg=0&dl=https%3A%2F%2Fdevelopers.cardano.org%2F&dt=Cardano%20Developer%20Portal&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=418",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
       }
     }
   ],
-  "cookies": [],
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.1.1990627418.1762045992",
+      "domain": ".cardano.org",
+      "path": "/",
+      "expires": 1796605992.029376,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure"
+    },
+    {
+      "name": "_ga_V21Z77TQ3Q",
+      "value": "GS2.1.s1762045992$o1$g0$t1762045992$j60$l0$h0",
+      "domain": ".cardano.org",
+      "path": "/",
+      "expires": 1796605992.029011,
+      "size": 59,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "priority": "Medium",
+      "sameParty": false,
+      "sourceScheme": "Secure"
+    }
+  ],
   "headers": {
     "accept-ranges": "bytes",
     "age": "0",
@@ -34,7 +63,7 @@
     "content-encoding": "br",
     "content-security-policy": "default-src 'self'; script-src 'self' 'blob:' 'unsafe-inline' https://cardano.org https://developers.cardano.org https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://developers.cardano.org https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com; style-src 'self' 'unsafe-inline'; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://*.algolianet.com https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com;",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 26 Oct 2025 01:12:05 GMT",
+    "date": "Sun, 02 Nov 2025 01:13:11 GMT",
     "etag": "\"b4a49944cb1be46cc10c5d36cbed9f37-ssl-df\"",
     "feature-policy": "geolocation 'none'; microphone 'none';",
     "referrer-policy": "no-referrer-when-downgrade",
@@ -42,7 +71,7 @@
     "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
     "vary": "Accept-Encoding",
     "x-frame-options": "DENY",
-    "x-nf-request-id": "01K8F1553FB7W345N7GYCGRWX1",
+    "x-nf-request-id": "01K91206SP0FC4E9J78Y7WRQRT",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
@@ -102,7 +131,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.251.179.97",
+      "ip": "142.250.190.104",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -156,7 +185,7 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "142.251.111.113",
+      "ip": "142.250.190.142",
       "geoip": {
         "continent": {
           "code": "NA",
