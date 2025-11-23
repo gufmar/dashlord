@@ -113,21 +113,21 @@
         "testsQuantity": 10,
         "responseHeaders": {
           "accept-ranges": "bytes",
-          "age": "1801",
+          "age": "24366",
           "cache-control": "public,max-age=0,must-revalidate",
           "cache-status": "\"Netlify Edge\"; hit",
-          "content-length": "9783",
+          "content-length": "9527",
           "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com https://img.youtube.com https://ipfs.io; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io;",
           "content-type": "text/html; charset=UTF-8",
-          "date": "Sun, 16 Nov 2025 01:25:52 GMT",
-          "etag": "\"6e0393a3dd196c797c90a73e726046d8-ssl-df\"",
+          "date": "Sun, 23 Nov 2025 01:31:11 GMT",
+          "etag": "\"c97fa95661c734bbce6be59c54892a1f-ssl-df\"",
           "feature-policy": "geolocation 'none'; microphone 'none';",
           "referrer-policy": "no-referrer-when-downgrade",
           "server": "Netlify",
           "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
           "vary": "Accept-Encoding",
           "x-frame-options": "DENY",
-          "x-nf-request-id": "01KA549FH2K4XKTH6Q0RQBYJHF",
+          "x-nf-request-id": "01KAQ5C8BRPA73VBDZ6KF7N092",
           "x-xss-protection": "1; mode=block",
           "connection": "close"
         }
@@ -656,7 +656,7 @@
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
         "severity": "OK",
-        "finding": "59 >= 30 days"
+        "finding": "52 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -810,21 +810,21 @@
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "+642 seconds from localtime"
+        "finding": "+10872 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "1763256369"
+        "finding": "1763861490"
       },
       {
         "id": "HTTP_headerAge",
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "642 seconds"
+        "finding": "10872 seconds"
       },
       {
         "id": "HSTS_time",
@@ -1415,7 +1415,7 @@
         "ip": "cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "40"
+        "finding": "42"
       }
     ],
     "thirdparties": {
@@ -1430,7 +1430,7 @@
         },
         {
           "type": "google tag manager",
-          "url": "https://www.googletagmanager.com/gtag/js?id=G-LGRGXBVYMC&cx=c&gtm=4e5bc1h1",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-LGRGXBVYMC&cx=c&gtm=4e5bi1",
           "details": {
             "id": "google tag manager",
             "message": "Use hosted Matomo instance"
@@ -1438,7 +1438,7 @@
         },
         {
           "type": "google analytics",
-          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LGRGXBVYMC&gtm=45je5bc1h1v887638641z8848553843za200zb848553843zd848553843&_p=1763255683848&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=2001950528.1763255684&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Not_A%2520Brand%3B99.0.0.0%7CChromium%3B142.0.7444.162&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105322304~105391253~115583767~115706422~115938466~115938469~116217636~116217638&sid=1763255684&sct=1&seg=0&dl=https%3A%2F%2Fcardano.org%2F&dt=Home%20%7C%20cardano.org%20%7C%20Cardano&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=470",
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LGRGXBVYMC&gtm=45je5bi1v887638641z8848553843za200zb848553843zd848553843&_p=1763860748298&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=538665677.1763860749&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Not_A%2520Brand%3B99.0.0.0%7CChromium%3B142.0.7444.175&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~115583767~115616986~115938466~115938469~116184927~116184929~116217636~116217638~116251935~116251937~116427946~116474638&sid=1763860748&sct=1&seg=0&dl=https%3A%2F%2Fcardano.org%2F&dt=Home%20%7C%20cardano.org%20%7C%20Cardano&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=471",
           "details": {
             "id": "google analytics",
             "message": "Use hosted Matomo instance"
@@ -1448,11 +1448,11 @@
       "cookies": [
         {
           "name": "_ga",
-          "value": "GA1.1.2001950528.1763255684",
+          "value": "GA1.1.538665677.1763860749",
           "domain": ".cardano.org",
           "path": "/",
-          "expires": 1797815684.129292,
-          "size": 30,
+          "expires": 1798420748.567094,
+          "size": 29,
           "httpOnly": false,
           "secure": false,
           "session": false,
@@ -1462,10 +1462,10 @@
         },
         {
           "name": "_ga_LGRGXBVYMC",
-          "value": "GS2.1.s1763255684$o1$g0$t1763255684$j60$l0$h0",
+          "value": "GS2.1.s1763860748$o1$g0$t1763860748$j60$l0$h0",
           "domain": ".cardano.org",
           "path": "/",
-          "expires": 1797815684.128753,
+          "expires": 1798420748.566758,
           "size": 59,
           "httpOnly": false,
           "secure": false,
@@ -1477,22 +1477,22 @@
       ],
       "headers": {
         "accept-ranges": "bytes",
-        "age": "1132",
+        "age": "23643",
         "cache-control": "public,max-age=0,must-revalidate",
         "cache-status": "\"Netlify Edge\"; hit",
         "content-encoding": "br",
-        "content-length": "9783",
+        "content-length": "9527",
         "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com https://img.youtube.com https://ipfs.io; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io;",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 16 Nov 2025 01:14:43 GMT",
-        "etag": "\"6e0393a3dd196c797c90a73e726046d8-ssl-df\"",
+        "date": "Sun, 23 Nov 2025 01:19:08 GMT",
+        "etag": "\"c97fa95661c734bbce6be59c54892a1f-ssl-df\"",
         "feature-policy": "geolocation 'none'; microphone 'none';",
         "referrer-policy": "no-referrer-when-downgrade",
         "server": "Netlify",
         "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
         "vary": "Accept-Encoding",
         "x-frame-options": "DENY",
-        "x-nf-request-id": "01KA53N2QRYQ01ZSY8BXQN9VAH",
+        "x-nf-request-id": "01KAQ4P5ZJEJHAA5T10GKMTHGN",
         "x-xss-protection": "1; mode=block"
       },
       "endpoints": [
@@ -1552,7 +1552,7 @@
         },
         {
           "hostname": "www.googletagmanager.com",
-          "ip": "192.178.218.97",
+          "ip": "142.250.190.72",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1606,7 +1606,7 @@
         },
         {
           "hostname": "www.google-analytics.com",
-          "ip": "172.253.115.138",
+          "ip": "142.250.190.14",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -1672,7 +1672,7 @@
           "name": "Docusaurus",
           "description": "Docusaurus is a tool for teams to publish documentation websites.",
           "confidence": 100,
-          "version": "3.9.1",
+          "version": "3.9.2",
           "icon": "docusaurus.svg",
           "website": "https://docusaurus.io/",
           "cpe": null,
@@ -1976,8 +1976,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.16.1",
-      "@generated": "Sun, 16 Nov 2025 01:25:08",
-      "created": "2025-11-16T01:25:08.387506241Z",
+      "@generated": "Sun, 23 Nov 2025 01:30:22",
+      "created": "2025-11-23T01:30:22.570607054Z",
       "site": [
         {
           "@name": "https://cardano.org",
@@ -2163,7 +2163,7 @@
       {
         "requestedUrl": "https://cardano.org/",
         "finalUrl": "https://cardano.org/",
-        "fetchTime": "2025-11-16T01:25:26.629Z",
+        "fetchTime": "2025-11-23T01:30:42.792Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -2174,7 +2174,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.64
+            "score": 0.56
           },
           "accessibility": {
             "title": "Accessibility",
@@ -2216,7 +2216,7 @@
               "navigation"
             ],
             "id": "pwa",
-            "score": 0.2
+            "score": 0.3
           }
         },
         "audits": {
@@ -2226,53 +2226,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 8338,
+            "numericValue": 10963,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 1204,
-                  "firstMeaningfulPaint": 1204,
-                  "largestContentfulPaint": 11743,
-                  "interactive": 8338,
-                  "speedIndex": 1204,
-                  "totalBlockingTime": 252,
-                  "maxPotentialFID": 239,
-                  "cumulativeLayoutShift": 0.0013774278428819444,
-                  "cumulativeLayoutShiftMainFrame": 0.0013774278428819444,
-                  "totalCumulativeLayoutShift": 0.0013774278428819444,
+                  "firstContentfulPaint": 1226,
+                  "firstMeaningfulPaint": 1226,
+                  "largestContentfulPaint": 11713,
+                  "interactive": 10963,
+                  "speedIndex": 1237,
+                  "totalBlockingTime": 435,
+                  "maxPotentialFID": 246,
+                  "cumulativeLayoutShift": 0,
+                  "cumulativeLayoutShiftMainFrame": 0,
+                  "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 708432706,
+                  "observedTimeOriginTs": 773969178,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 708432706,
-                  "observedFirstPaint": 215,
-                  "observedFirstPaintTs": 708647540,
-                  "observedFirstContentfulPaint": 215,
-                  "observedFirstContentfulPaintTs": 708647540,
-                  "observedFirstContentfulPaintAllFrames": 215,
-                  "observedFirstContentfulPaintAllFramesTs": 708647540,
-                  "observedFirstMeaningfulPaint": 215,
-                  "observedFirstMeaningfulPaintTs": 708647540,
-                  "observedLargestContentfulPaint": 559,
-                  "observedLargestContentfulPaintTs": 708992097,
-                  "observedLargestContentfulPaintAllFrames": 559,
-                  "observedLargestContentfulPaintAllFramesTs": 708992097,
-                  "observedTraceEnd": 2849,
-                  "observedTraceEndTs": 711281812,
-                  "observedLoad": 527,
-                  "observedLoadTs": 708959238,
-                  "observedDomContentLoaded": 0,
-                  "observedDomContentLoadedTs": 708433102,
-                  "observedCumulativeLayoutShift": 0.0013774278428819444,
-                  "observedCumulativeLayoutShiftMainFrame": 0.0013774278428819444,
-                  "observedTotalCumulativeLayoutShift": 0.0013774278428819444,
-                  "observedFirstVisualChange": 215,
-                  "observedFirstVisualChangeTs": 708647706,
-                  "observedLastVisualChange": 1141,
-                  "observedLastVisualChangeTs": 709573706,
-                  "observedSpeedIndex": 364,
-                  "observedSpeedIndexTs": 708796799
+                  "observedNavigationStartTs": 773969178,
+                  "observedFirstPaint": 320,
+                  "observedFirstPaintTs": 774288941,
+                  "observedFirstContentfulPaint": 320,
+                  "observedFirstContentfulPaintTs": 774288941,
+                  "observedFirstContentfulPaintAllFrames": 320,
+                  "observedFirstContentfulPaintAllFramesTs": 774288941,
+                  "observedFirstMeaningfulPaint": 320,
+                  "observedFirstMeaningfulPaintTs": 774288941,
+                  "observedLargestContentfulPaint": 707,
+                  "observedLargestContentfulPaintTs": 774676581,
+                  "observedLargestContentfulPaintAllFrames": 707,
+                  "observedLargestContentfulPaintAllFramesTs": 774676581,
+                  "observedTraceEnd": 3010,
+                  "observedTraceEndTs": 776979649,
+                  "observedLoad": 657,
+                  "observedLoadTs": 774626260,
+                  "observedDomContentLoaded": 1,
+                  "observedDomContentLoadedTs": 773969752,
+                  "observedCumulativeLayoutShift": 0,
+                  "observedCumulativeLayoutShiftMainFrame": 0,
+                  "observedTotalCumulativeLayoutShift": 0,
+                  "observedFirstVisualChange": 320,
+                  "observedFirstVisualChangeTs": 774289178,
+                  "observedLastVisualChange": 721,
+                  "observedLastVisualChangeTs": 774690178,
+                  "observedSpeedIndex": 493,
+                  "observedSpeedIndexTs": 774461768
                 },
                 {
                   "lcpInvalidated": false
@@ -2290,23 +2290,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 37,
+                  "numRequests": 36,
                   "numScripts": 10,
                   "numStylesheets": 1,
                   "numFonts": 1,
-                  "numTasks": 1089,
-                  "numTasksOver10ms": 12,
-                  "numTasksOver25ms": 3,
+                  "numTasks": 1124,
+                  "numTasksOver10ms": 9,
+                  "numTasksOver25ms": 4,
                   "numTasksOver50ms": 1,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 5.581000000000003,
-                  "throughput": 116295596.72013894,
-                  "maxRtt": 7.238000000000001,
-                  "maxServerLatency": 15.597999999999997,
-                  "totalByteWeight": 1915352,
-                  "totalTaskTime": 425.432999999999,
-                  "mainDocumentTransferSize": 10952
+                  "rtt": 1.512999999999991,
+                  "throughput": 87248832.52446781,
+                  "maxRtt": 2.424,
+                  "maxServerLatency": 26.42600000000001,
+                  "totalByteWeight": 1906234,
+                  "totalTaskTime": 442.71899999999795,
+                  "mainDocumentTransferSize": 10696
                 }
               ]
             }
@@ -2328,15 +2328,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://cardano.org",
-        "size": 2530.656,
-        "nodes": 577,
-        "requests": 121,
-        "grade": "E",
-        "score": 40,
-        "ges": 2.2,
-        "water": 3.3,
+        "size": 2441.376,
+        "nodes": 569,
+        "requests": 122,
+        "grade": "D",
+        "score": 41,
+        "ges": 2.18,
+        "water": 3.27,
         "ecoindex_version": "5.4.2",
-        "date": "2025-11-16 01:15:26.467053",
+        "date": "2025-11-23 01:19:52.278137",
         "page_type": null
       }
     ],
@@ -2356,7 +2356,7 @@
       "trackersCount": 3,
       "zapCount": 13,
       "zapGrade": "F",
-      "lighthouse_performance": 0.64,
+      "lighthouse_performance": 0.56,
       "lighthouse_performanceGrade": "C",
       "lighthouse_accessibility": 0.97,
       "lighthouse_accessibilityGrade": "A",
@@ -2364,10 +2364,10 @@
       "lighthouse_best-practicesGrade": "A",
       "lighthouse_seo": 1,
       "lighthouse_seoGrade": "A",
-      "lighthouse_pwa": 0.2,
+      "lighthouse_pwa": 0.3,
       "lighthouse_pwaGrade": "E",
       "declaration-a11y": "F",
-      "ecoindexGrade": "E",
+      "ecoindexGrade": "D",
       "dsfrGrade": "F"
     }
   },
@@ -2884,13 +2884,13 @@
         "testsQuantity": 10,
         "responseHeaders": {
           "accept-ranges": "bytes",
-          "age": "451",
+          "age": "43007",
           "cache-control": "public,max-age=0,must-revalidate",
           "cache-status": "\"Netlify Edge\"; hit",
-          "content-length": "5003",
+          "content-length": "5029",
           "content-security-policy": "default-src 'self'; script-src 'self' 'blob:' 'unsafe-inline' https://cardano.org https://developers.cardano.org https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://developers.cardano.org https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com; style-src 'self' 'unsafe-inline'; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://*.algolianet.com https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com;",
           "content-type": "text/html; charset=UTF-8",
-          "date": "Sun, 16 Nov 2025 01:22:22 GMT",
+          "date": "Sun, 23 Nov 2025 01:25:57 GMT",
           "etag": "\"375c628ff09671d836bec6fad539007f-ssl-df\"",
           "feature-policy": "geolocation 'none'; microphone 'none';",
           "referrer-policy": "no-referrer-when-downgrade",
@@ -2898,7 +2898,7 @@
           "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
           "vary": "Accept-Encoding",
           "x-frame-options": "DENY",
-          "x-nf-request-id": "01KA5432W56T883MGFPDM7D97W",
+          "x-nf-request-id": "01KAQ52NTQ9D7NY0XT6J3D50AJ",
           "x-xss-protection": "1; mode=block",
           "connection": "close"
         }
@@ -3418,7 +3418,7 @@
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "OK",
-        "finding": "62 >= 30 days"
+        "finding": "55 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -3572,21 +3572,21 @@
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "+433 seconds from localtime"
+        "finding": "+356 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "1763256162"
+        "finding": "1763861174"
       },
       {
         "id": "HTTP_headerAge",
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "433 seconds"
+        "finding": "356 seconds"
       },
       {
         "id": "HSTS_time",
@@ -4177,7 +4177,7 @@
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "42"
+        "finding": "38"
       }
     ],
     "thirdparties": {
@@ -4192,7 +4192,7 @@
         },
         {
           "type": "google tag manager",
-          "url": "https://www.googletagmanager.com/gtag/js?id=G-V21Z77TQ3Q&cx=c&gtm=4e5bc1",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-V21Z77TQ3Q&cx=c&gtm=4e5bi1",
           "details": {
             "id": "google tag manager",
             "message": "Use hosted Matomo instance"
@@ -4200,52 +4200,24 @@
         },
         {
           "type": "google analytics",
-          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V21Z77TQ3Q&gtm=45je5bc1v886082997z8848106172za200zb848106172zd848106172&_p=1763255691166&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=517061638.1763255692&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Not_A%2520Brand%3B99.0.0.0%7CChromium%3B142.0.7444.162&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~115495939~115583767~115938465~115938468~116194002~116217636~116217638~116474636&sid=1763255691&sct=1&seg=0&dl=https%3A%2F%2Fdevelopers.cardano.org%2F&dt=Cardano%20Developer%20Portal&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=786",
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V21Z77TQ3Q&gtm=45je5bi1v886082997z8848106172za200zb848106172zd848106172&_p=1763860776110&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=741356538.1763860776&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Not_A%2520Brand%3B99.0.0.0%7CChromium%3B142.0.7444.175&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=&_s=1&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~115583767~115938465~115938468~116184927~116184929~116217636~116217638&sid=1763860776&sct=1&seg=0&dl=https%3A%2F%2Fdevelopers.cardano.org%2F&dt=Cardano%20Developer%20Portal&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=329",
           "details": {
             "id": "google analytics",
             "message": "Use hosted Matomo instance"
           }
         }
       ],
-      "cookies": [
-        {
-          "name": "_ga",
-          "value": "GA1.1.517061638.1763255692",
-          "domain": ".cardano.org",
-          "path": "/",
-          "expires": 1797815691.5684,
-          "size": 29,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "priority": "Medium",
-          "sameParty": false,
-          "sourceScheme": "Secure"
-        },
-        {
-          "name": "_ga_V21Z77TQ3Q",
-          "value": "GS2.1.s1763255691$o1$g0$t1763255691$j60$l0$h0",
-          "domain": ".cardano.org",
-          "path": "/",
-          "expires": 1797815691.568102,
-          "size": 59,
-          "httpOnly": false,
-          "secure": false,
-          "session": false,
-          "priority": "Medium",
-          "sameParty": false,
-          "sourceScheme": "Secure"
-        }
-      ],
+      "cookies": [],
       "headers": {
         "accept-ranges": "bytes",
-        "age": "0",
+        "age": "42626",
         "cache-control": "public,max-age=0,must-revalidate",
-        "cache-status": "\"Netlify Edge\"; fwd=miss",
+        "cache-status": "\"Netlify Edge\"; hit",
         "content-encoding": "br",
+        "content-length": "5029",
         "content-security-policy": "default-src 'self'; script-src 'self' 'blob:' 'unsafe-inline' https://cardano.org https://developers.cardano.org https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://developers.cardano.org https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com; style-src 'self' 'unsafe-inline'; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://*.algolianet.com https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com;",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 16 Nov 2025 01:14:51 GMT",
+        "date": "Sun, 23 Nov 2025 01:19:36 GMT",
         "etag": "\"375c628ff09671d836bec6fad539007f-ssl-df\"",
         "feature-policy": "geolocation 'none'; microphone 'none';",
         "referrer-policy": "no-referrer-when-downgrade",
@@ -4253,7 +4225,7 @@
         "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
         "vary": "Accept-Encoding",
         "x-frame-options": "DENY",
-        "x-nf-request-id": "01KA53N9RZXRGXGN2XKBV36KW1",
+        "x-nf-request-id": "01KAQ4Q151Q9KQ1YHNA4PNX447",
         "x-xss-protection": "1; mode=block"
       },
       "endpoints": [
@@ -4313,7 +4285,7 @@
         },
         {
           "hostname": "www.googletagmanager.com",
-          "ip": "142.251.121.97",
+          "ip": "142.251.214.136",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4367,7 +4339,7 @@
         },
         {
           "hostname": "www.google-analytics.com",
-          "ip": "192.178.142.139",
+          "ip": "142.251.32.46",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4655,8 +4627,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.16.1",
-      "@generated": "Sun, 16 Nov 2025 01:21:36",
-      "created": "2025-11-16T01:21:36.766536677Z",
+      "@generated": "Sun, 23 Nov 2025 01:25:15",
+      "created": "2025-11-23T01:25:15.208730129Z",
       "site": [
         {
           "@name": "https://developers.cardano.org",
@@ -4849,7 +4821,7 @@
       {
         "requestedUrl": "https://developers.cardano.org/",
         "finalUrl": "https://developers.cardano.org/",
-        "fetchTime": "2025-11-16T01:21:54.480Z",
+        "fetchTime": "2025-11-23T01:25:34.316Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -4860,7 +4832,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.79
+            "score": 0.91
           },
           "accessibility": {
             "title": "Accessibility",
@@ -4912,53 +4884,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 4752,
+            "numericValue": 4512,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 1148,
-                  "firstMeaningfulPaint": 1148,
-                  "largestContentfulPaint": 3886,
-                  "interactive": 4752,
-                  "speedIndex": 1420,
-                  "totalBlockingTime": 320,
-                  "maxPotentialFID": 268,
+                  "firstContentfulPaint": 1060,
+                  "firstMeaningfulPaint": 1060,
+                  "largestContentfulPaint": 2715,
+                  "interactive": 4512,
+                  "speedIndex": 1060,
+                  "totalBlockingTime": 225,
+                  "maxPotentialFID": 293,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 496391376,
+                  "observedTimeOriginTs": 466314276,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 496391376,
-                  "observedFirstPaint": 485,
-                  "observedFirstPaintTs": 496875908,
-                  "observedFirstContentfulPaint": 485,
-                  "observedFirstContentfulPaintTs": 496875908,
-                  "observedFirstContentfulPaintAllFrames": 485,
-                  "observedFirstContentfulPaintAllFramesTs": 496875908,
-                  "observedFirstMeaningfulPaint": 485,
-                  "observedFirstMeaningfulPaintTs": 496875908,
-                  "observedLargestContentfulPaint": 623,
-                  "observedLargestContentfulPaintTs": 497014514,
-                  "observedLargestContentfulPaintAllFrames": 623,
-                  "observedLargestContentfulPaintAllFramesTs": 497014514,
-                  "observedTraceEnd": 3181,
-                  "observedTraceEndTs": 499572148,
-                  "observedLoad": 817,
-                  "observedLoadTs": 497208391,
+                  "observedNavigationStartTs": 466314276,
+                  "observedFirstPaint": 348,
+                  "observedFirstPaintTs": 466662076,
+                  "observedFirstContentfulPaint": 348,
+                  "observedFirstContentfulPaintTs": 466662076,
+                  "observedFirstContentfulPaintAllFrames": 348,
+                  "observedFirstContentfulPaintAllFramesTs": 466662076,
+                  "observedFirstMeaningfulPaint": 348,
+                  "observedFirstMeaningfulPaintTs": 466662076,
+                  "observedLargestContentfulPaint": 380,
+                  "observedLargestContentfulPaintTs": 466694599,
+                  "observedLargestContentfulPaintAllFrames": 380,
+                  "observedLargestContentfulPaintAllFramesTs": 466694599,
+                  "observedTraceEnd": 2917,
+                  "observedTraceEndTs": 469231150,
+                  "observedLoad": 434,
+                  "observedLoadTs": 466748552,
                   "observedDomContentLoaded": 4,
-                  "observedDomContentLoadedTs": 496395593,
+                  "observedDomContentLoadedTs": 466318205,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 484,
-                  "observedFirstVisualChangeTs": 496875376,
-                  "observedLastVisualChange": 1058,
-                  "observedLastVisualChangeTs": 497449376,
-                  "observedSpeedIndex": 624,
-                  "observedSpeedIndexTs": 497015196
+                  "observedFirstVisualChange": 409,
+                  "observedFirstVisualChangeTs": 466723276,
+                  "observedLastVisualChange": 905,
+                  "observedLastVisualChangeTs": 467219276,
+                  "observedSpeedIndex": 438,
+                  "observedSpeedIndexTs": 466752238
                 },
                 {
                   "lcpInvalidated": false
@@ -4980,19 +4952,19 @@
                   "numScripts": 6,
                   "numStylesheets": 1,
                   "numFonts": 0,
-                  "numTasks": 929,
-                  "numTasksOver10ms": 9,
-                  "numTasksOver25ms": 5,
-                  "numTasksOver50ms": 2,
+                  "numTasks": 814,
+                  "numTasksOver10ms": 7,
+                  "numTasksOver25ms": 3,
+                  "numTasksOver50ms": 1,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 10.893999999999998,
-                  "throughput": 26866330.565764237,
-                  "maxRtt": 25.55200000000002,
-                  "maxServerLatency": 35.855,
-                  "totalByteWeight": 606063,
-                  "totalTaskTime": 436.3469999999981,
-                  "mainDocumentTransferSize": 5960
+                  "rtt": 0.661,
+                  "throughput": 49962193.94972009,
+                  "maxRtt": 1.9339999999999975,
+                  "maxServerLatency": 24.948999999999998,
+                  "totalByteWeight": 604827,
+                  "totalTaskTime": 332.14499999999884,
+                  "mainDocumentTransferSize": 5988
                 }
               ]
             }
@@ -5014,7 +4986,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://developers.cardano.org",
-        "size": 1074.365,
+        "size": 1073.481,
         "nodes": 643,
         "requests": 61,
         "grade": "D",
@@ -5022,7 +4994,7 @@
         "ges": 1.92,
         "water": 2.88,
         "ecoindex_version": "5.4.2",
-        "date": "2025-11-16 01:15:28.698879",
+        "date": "2025-11-23 01:20:17.515712",
         "page_type": null
       }
     ],
@@ -5036,14 +5008,14 @@
       "testsslExpireSoon": false,
       "testsslExpireDate": "2026-01-17T13:43:00.000Z",
       "testsslGrade": "A+",
-      "cookiesGrade": "B",
-      "cookiesCount": 2,
+      "cookiesGrade": "A",
+      "cookiesCount": 0,
       "trackersGrade": "C",
       "trackersCount": 3,
       "zapCount": 15,
       "zapGrade": "F",
-      "lighthouse_performance": 0.79,
-      "lighthouse_performanceGrade": "B",
+      "lighthouse_performance": 0.91,
+      "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.96,
       "lighthouse_accessibilityGrade": "A",
       "lighthouse_best-practices": 0.92,
@@ -5068,242 +5040,14 @@
           "port": null,
           "hostname": "cips.cardano.org",
           "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/cip/sickcity.xyz",
-          "path": "/cip/sickcity.xyz",
-          "href": "https://cips.cardano.org/cip/sickcity.xyz"
+          "search": "?v=2hCnmMG1__8%3E",
+          "query": "v=2hCnmMG1__8%3E",
+          "pathname": "/cip/%3Chttps:/www.youtube.com/watch",
+          "path": "/cip/%3Chttps:/www.youtube.com/watch?v=2hCnmMG1__8%3E",
+          "href": "https://cips.cardano.org/cip/%3Chttps:/www.youtube.com/watch?v=2hCnmMG1__8%3E"
         },
-        "link": "https://cips.cardano.org/cip/sickcity.xyz",
-        "line": "https://cips.cardano.org/cip/sickcity.xyz",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/CIP-0108/README.md",
-          "path": "/CIP-0108/README.md",
-          "href": "https://cips.cardano.org/CIP-0108/README.md"
-        },
-        "link": "https://cips.cardano.org/CIP-0108/README.md",
-        "line": "https://cips.cardano.org/CIP-0108/README.md",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/CIP-0119/README.md",
-          "path": "/CIP-0119/README.md",
-          "href": "https://cips.cardano.org/CIP-0119/README.md"
-        },
-        "link": "https://cips.cardano.org/CIP-0119/README.md",
-        "line": "https://cips.cardano.org/CIP-0119/README.md",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/CPS-0003",
-          "path": "/CPS-0003",
-          "href": "https://cips.cardano.org/CPS-0003"
-        },
-        "link": "https://cips.cardano.org/CPS-0003",
-        "line": "https://cips.cardano.org/CPS-0003",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/cip/cip-0105/annex/test-vectors-test-vector-4",
-          "path": "/cip/cip-0105/annex/test-vectors-test-vector-4",
-          "href": "https://cips.cardano.org/cip/cip-0105/annex/test-vectors-test-vector-4"
-        },
-        "link": "https://cips.cardano.org/cip/cip-0105/annex/test-vectors-test-vector-4",
-        "line": "https://cips.cardano.org/cip/cip-0105/annex/test-vectors-test-vector-4",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/cip/%3Chttps:/twitter.com/IOHK_Charles/status/1632211417221701632%3E",
-          "path": "/cip/%3Chttps:/twitter.com/IOHK_Charles/status/1632211417221701632%3E",
-          "href": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/IOHK_Charles/status/1632211417221701632%3E"
-        },
-        "link": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/IOHK_Charles/status/1632211417221701632%3E",
-        "line": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/IOHK_Charles/status/1632211417221701632%3E",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/CIP-1854",
-          "path": "/CIP-1854",
-          "href": "https://cips.cardano.org/CIP-1854"
-        },
-        "link": "https://cips.cardano.org/CIP-1854",
-        "line": "https://cips.cardano.org/CIP-1854",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/cip/cip-0100/annex/README",
-          "path": "/cip/cip-0100/annex/README",
-          "href": "https://cips.cardano.org/cip/cip-0100/annex/README"
-        },
-        "link": "https://cips.cardano.org/cip/cip-0100/annex/README",
-        "line": "https://cips.cardano.org/cip/cip-0100/annex/README",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/cip/codesamples",
-          "path": "/cip/codesamples",
-          "href": "https://cips.cardano.org/cip/codesamples"
-        },
-        "link": "https://cips.cardano.org/cip/codesamples",
-        "line": "https://cips.cardano.org/cip/codesamples",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/CIP-0137",
-          "path": "/CIP-0137",
-          "href": "https://cips.cardano.org/CIP-0137"
-        },
-        "link": "https://cips.cardano.org/CIP-0137",
-        "line": "https://cips.cardano.org/CIP-0137",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/cip/%3Chttps:/forum.cardano.org/t/swarm-session-cip-1694/114453%3E",
-          "path": "/cip/%3Chttps:/forum.cardano.org/t/swarm-session-cip-1694/114453%3E",
-          "href": "https://cips.cardano.org/cip/%3Chttps:/forum.cardano.org/t/swarm-session-cip-1694/114453%3E"
-        },
-        "link": "https://cips.cardano.org/cip/%3Chttps:/forum.cardano.org/t/swarm-session-cip-1694/114453%3E",
-        "line": "https://cips.cardano.org/cip/%3Chttps:/forum.cardano.org/t/swarm-session-cip-1694/114453%3E",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/cip/CIP-0017.json",
-          "path": "/cip/CIP-0017.json",
-          "href": "https://cips.cardano.org/cip/CIP-0017.json"
-        },
-        "link": "https://cips.cardano.org/cip/CIP-0017.json",
-        "line": "https://cips.cardano.org/cip/CIP-0017.json",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/cip/stats.json",
-          "path": "/cip/stats.json",
-          "href": "https://cips.cardano.org/cip/stats.json"
-        },
-        "link": "https://cips.cardano.org/cip/stats.json",
-        "line": "https://cips.cardano.org/cip/stats.json",
+        "link": "https://cips.cardano.org/cip/%3Chttps:/www.youtube.com/watch?v=2hCnmMG1__8%3E",
+        "line": "https://cips.cardano.org/cip/%3Chttps:/www.youtube.com/watch?v=2hCnmMG1__8%3E",
         "broken": true
       },
       {
@@ -5336,12 +5080,12 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/cip/%3Chttps:/twitter.com/_KtorZ_/status/1632356766368382976%3E",
-          "path": "/cip/%3Chttps:/twitter.com/_KtorZ_/status/1632356766368382976%3E",
-          "href": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/_KtorZ_/status/1632356766368382976%3E"
+          "pathname": "/cip/(https:/github.com/cardano-foundation/CIPs/blob/master/CIP-0129/README.md)",
+          "path": "/cip/(https:/github.com/cardano-foundation/CIPs/blob/master/CIP-0129/README.md)",
+          "href": "https://cips.cardano.org/cip/(https:/github.com/cardano-foundation/CIPs/blob/master/CIP-0129/README.md)"
         },
-        "link": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/_KtorZ_/status/1632356766368382976%3E",
-        "line": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/_KtorZ_/status/1632356766368382976%3E",
+        "link": "https://cips.cardano.org/cip/(https:/github.com/cardano-foundation/CIPs/blob/master/CIP-0129/README.md)",
+        "line": "https://cips.cardano.org/cip/(https:/github.com/cardano-foundation/CIPs/blob/master/CIP-0129/README.md)",
         "broken": true
       },
       {
@@ -5355,88 +5099,12 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/cip/%3Chttps:/twitter.com/_KtorZ_/status/1630087586193584128%3E",
-          "path": "/cip/%3Chttps:/twitter.com/_KtorZ_/status/1630087586193584128%3E",
-          "href": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/_KtorZ_/status/1630087586193584128%3E"
+          "pathname": "/cip/%3Chttps:/forum.cardano.org/t/swarm-session-cip-1694/114453%3E",
+          "path": "/cip/%3Chttps:/forum.cardano.org/t/swarm-session-cip-1694/114453%3E",
+          "href": "https://cips.cardano.org/cip/%3Chttps:/forum.cardano.org/t/swarm-session-cip-1694/114453%3E"
         },
-        "link": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/_KtorZ_/status/1630087586193584128%3E",
-        "line": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/_KtorZ_/status/1630087586193584128%3E",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/cip/%3Chttps:/github.com/cardano-foundation/CIPs/pull/916%3E",
-          "path": "/cip/%3Chttps:/github.com/cardano-foundation/CIPs/pull/916%3E",
-          "href": "https://cips.cardano.org/cip/%3Chttps:/github.com/cardano-foundation/CIPs/pull/916%3E"
-        },
-        "link": "https://cips.cardano.org/cip/%3Chttps:/github.com/cardano-foundation/CIPs/pull/916%3E",
-        "line": "https://cips.cardano.org/cip/%3Chttps:/github.com/cardano-foundation/CIPs/pull/916%3E",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/CIP-0003",
-          "path": "/CIP-0003",
-          "href": "https://cips.cardano.org/CIP-0003"
-        },
-        "link": "https://cips.cardano.org/CIP-0003",
-        "line": "https://cips.cardano.org/CIP-0003",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/cip/registry.json",
-          "path": "/cip/registry.json",
-          "href": "https://cips.cardano.org/cip/registry.json"
-        },
-        "link": "https://cips.cardano.org/cip/registry.json",
-        "line": "https://cips.cardano.org/cip/registry.json",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/cip/cip-0100/annex/example.json",
-          "path": "/cip/cip-0100/annex/example.json",
-          "href": "https://cips.cardano.org/cip/cip-0100/annex/example.json"
-        },
-        "link": "https://cips.cardano.org/cip/cip-0100/annex/example.json",
-        "line": "https://cips.cardano.org/cip/cip-0100/annex/example.json",
+        "link": "https://cips.cardano.org/cip/%3Chttps:/forum.cardano.org/t/swarm-session-cip-1694/114453%3E",
+        "line": "https://cips.cardano.org/cip/%3Chttps:/forum.cardano.org/t/swarm-session-cip-1694/114453%3E",
         "broken": true
       },
       {
@@ -5469,69 +5137,12 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/cip/(https:/github.com/cardano-foundation/CIPs/blob/master/CIP-0129/README.md)",
-          "path": "/cip/(https:/github.com/cardano-foundation/CIPs/blob/master/CIP-0129/README.md)",
-          "href": "https://cips.cardano.org/cip/(https:/github.com/cardano-foundation/CIPs/blob/master/CIP-0129/README.md)"
+          "pathname": "/cip/newm.io",
+          "path": "/cip/newm.io",
+          "href": "https://cips.cardano.org/cip/newm.io"
         },
-        "link": "https://cips.cardano.org/cip/(https:/github.com/cardano-foundation/CIPs/blob/master/CIP-0129/README.md)",
-        "line": "https://cips.cardano.org/cip/(https:/github.com/cardano-foundation/CIPs/blob/master/CIP-0129/README.md)",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/cip/%3Chttps:/twitter.com/RichardMcCrackn/status/1632514347195850752%3E",
-          "path": "/cip/%3Chttps:/twitter.com/RichardMcCrackn/status/1632514347195850752%3E",
-          "href": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/RichardMcCrackn/status/1632514347195850752%3E"
-        },
-        "link": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/RichardMcCrackn/status/1632514347195850752%3E",
-        "line": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/RichardMcCrackn/status/1632514347195850752%3E",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/cip/(https:/eprint.iacr.org/2020/1143.pdf)",
-          "path": "/cip/(https:/eprint.iacr.org/2020/1143.pdf)",
-          "href": "https://cips.cardano.org/cip/(https:/eprint.iacr.org/2020/1143.pdf)"
-        },
-        "link": "https://cips.cardano.org/cip/(https:/eprint.iacr.org/2020/1143.pdf)",
-        "line": "https://cips.cardano.org/cip/(https:/eprint.iacr.org/2020/1143.pdf)",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/cip/cip-0093/annex/CIP-0008",
-          "path": "/cip/cip-0093/annex/CIP-0008",
-          "href": "https://cips.cardano.org/cip/cip-0093/annex/CIP-0008"
-        },
-        "link": "https://cips.cardano.org/cip/cip-0093/annex/CIP-0008",
-        "line": "https://cips.cardano.org/cip/cip-0093/annex/CIP-0008",
+        "link": "https://cips.cardano.org/cip/newm.io",
+        "line": "https://cips.cardano.org/cip/newm.io",
         "broken": true
       },
       {
@@ -5564,88 +5175,12 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/CIP-0136/README.md",
-          "path": "/CIP-0136/README.md",
-          "href": "https://cips.cardano.org/CIP-0136/README.md"
+          "pathname": "/cip/cip-0093/annex/CIP-0008",
+          "path": "/cip/cip-0093/annex/CIP-0008",
+          "href": "https://cips.cardano.org/cip/cip-0093/annex/CIP-0008"
         },
-        "link": "https://cips.cardano.org/CIP-0136/README.md",
-        "line": "https://cips.cardano.org/CIP-0136/README.md",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/cip/cip-0161/annex/CPD",
-          "path": "/cip/cip-0161/annex/CPD",
-          "href": "https://cips.cardano.org/cip/cip-0161/annex/CPD"
-        },
-        "link": "https://cips.cardano.org/cip/cip-0161/annex/CPD",
-        "line": "https://cips.cardano.org/cip/cip-0161/annex/CPD",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": "?v=2hCnmMG1__8%3E",
-          "query": "v=2hCnmMG1__8%3E",
-          "pathname": "/cip/%3Chttps:/www.youtube.com/watch",
-          "path": "/cip/%3Chttps:/www.youtube.com/watch?v=2hCnmMG1__8%3E",
-          "href": "https://cips.cardano.org/cip/%3Chttps:/www.youtube.com/watch?v=2hCnmMG1__8%3E"
-        },
-        "link": "https://cips.cardano.org/cip/%3Chttps:/www.youtube.com/watch?v=2hCnmMG1__8%3E",
-        "line": "https://cips.cardano.org/cip/%3Chttps:/www.youtube.com/watch?v=2hCnmMG1__8%3E",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": "?v=KiLhhOVXQOg%3E",
-          "query": "v=KiLhhOVXQOg%3E",
-          "pathname": "/cip/%3Chttps:/www.youtube.com/watch",
-          "path": "/cip/%3Chttps:/www.youtube.com/watch?v=KiLhhOVXQOg%3E",
-          "href": "https://cips.cardano.org/cip/%3Chttps:/www.youtube.com/watch?v=KiLhhOVXQOg%3E"
-        },
-        "link": "https://cips.cardano.org/cip/%3Chttps:/www.youtube.com/watch?v=KiLhhOVXQOg%3E",
-        "line": "https://cips.cardano.org/cip/%3Chttps:/www.youtube.com/watch?v=KiLhhOVXQOg%3E",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/cip/CIP88_Master_v2.cddl",
-          "path": "/cip/CIP88_Master_v2.cddl",
-          "href": "https://cips.cardano.org/cip/CIP88_Master_v2.cddl"
-        },
-        "link": "https://cips.cardano.org/cip/CIP88_Master_v2.cddl",
-        "line": "https://cips.cardano.org/cip/CIP88_Master_v2.cddl",
+        "link": "https://cips.cardano.org/cip/cip-0093/annex/CIP-0008",
+        "line": "https://cips.cardano.org/cip/cip-0093/annex/CIP-0008",
         "broken": true
       },
       {
@@ -5678,12 +5213,12 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/cip/newm.io",
-          "path": "/cip/newm.io",
-          "href": "https://cips.cardano.org/cip/newm.io"
+          "pathname": "/CIP-1854",
+          "path": "/CIP-1854",
+          "href": "https://cips.cardano.org/CIP-1854"
         },
-        "link": "https://cips.cardano.org/cip/newm.io",
-        "line": "https://cips.cardano.org/cip/newm.io",
+        "link": "https://cips.cardano.org/CIP-1854",
+        "line": "https://cips.cardano.org/CIP-1854",
         "broken": true
       },
       {
@@ -5697,12 +5232,12 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/CIP-0010",
-          "path": "/CIP-0010",
-          "href": "https://cips.cardano.org/CIP-0010"
+          "pathname": "/cip/CIP88_Master_v2.cddl",
+          "path": "/cip/CIP88_Master_v2.cddl",
+          "href": "https://cips.cardano.org/cip/CIP88_Master_v2.cddl"
         },
-        "link": "https://cips.cardano.org/CIP-0010",
-        "line": "https://cips.cardano.org/CIP-0010",
+        "link": "https://cips.cardano.org/cip/CIP88_Master_v2.cddl",
+        "line": "https://cips.cardano.org/cip/CIP88_Master_v2.cddl",
         "broken": true
       },
       {
@@ -5716,50 +5251,12 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/cip/soundrig.io",
-          "path": "/cip/soundrig.io",
-          "href": "https://cips.cardano.org/cip/soundrig.io"
+          "pathname": "/cip/cip-0100/annex/README",
+          "path": "/cip/cip-0100/annex/README",
+          "href": "https://cips.cardano.org/cip/cip-0100/annex/README"
         },
-        "link": "https://cips.cardano.org/cip/soundrig.io",
-        "line": "https://cips.cardano.org/cip/soundrig.io",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/cip/cip-0161/annex/Readme",
-          "path": "/cip/cip-0161/annex/Readme",
-          "href": "https://cips.cardano.org/cip/cip-0161/annex/Readme"
-        },
-        "link": "https://cips.cardano.org/cip/cip-0161/annex/Readme",
-        "line": "https://cips.cardano.org/cip/cip-0161/annex/Readme",
-        "broken": true
-      },
-      {
-        "url": {
-          "protocol": "https:",
-          "slashes": true,
-          "auth": null,
-          "host": "cips.cardano.org",
-          "port": null,
-          "hostname": "cips.cardano.org",
-          "hash": null,
-          "search": null,
-          "query": null,
-          "pathname": "/cip/%3Chttps:/twitter.com/RichardMcCrackn/status/1633135124500865024%3E",
-          "path": "/cip/%3Chttps:/twitter.com/RichardMcCrackn/status/1633135124500865024%3E",
-          "href": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/RichardMcCrackn/status/1633135124500865024%3E"
-        },
-        "link": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/RichardMcCrackn/status/1633135124500865024%3E",
-        "line": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/RichardMcCrackn/status/1633135124500865024%3E",
+        "link": "https://cips.cardano.org/cip/cip-0100/annex/README",
+        "line": "https://cips.cardano.org/cip/cip-0100/annex/README",
         "broken": true
       },
       {
@@ -5779,6 +5276,25 @@
         },
         "link": "https://cips.cardano.org/cip/%3Chttps:/github.com/cardano-foundation/CIPs/pull/380%3E",
         "line": "https://cips.cardano.org/cip/%3Chttps:/github.com/cardano-foundation/CIPs/pull/380%3E",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/cip/cip-0161/annex/Readme",
+          "path": "/cip/cip-0161/annex/Readme",
+          "href": "https://cips.cardano.org/cip/cip-0161/annex/Readme"
+        },
+        "link": "https://cips.cardano.org/cip/cip-0161/annex/Readme",
+        "line": "https://cips.cardano.org/cip/cip-0161/annex/Readme",
         "broken": true
       },
       {
@@ -5849,12 +5365,297 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/cip/%3Chttps:/twitter.com/danny_cryptofay/status/1631606919071776768%3E",
-          "path": "/cip/%3Chttps:/twitter.com/danny_cryptofay/status/1631606919071776768%3E",
-          "href": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/danny_cryptofay/status/1631606919071776768%3E"
+          "pathname": "/cip/cip-0105/annex/test-vectors-test-vector-4",
+          "path": "/cip/cip-0105/annex/test-vectors-test-vector-4",
+          "href": "https://cips.cardano.org/cip/cip-0105/annex/test-vectors-test-vector-4"
         },
-        "link": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/danny_cryptofay/status/1631606919071776768%3E",
-        "line": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/danny_cryptofay/status/1631606919071776768%3E",
+        "link": "https://cips.cardano.org/cip/cip-0105/annex/test-vectors-test-vector-4",
+        "line": "https://cips.cardano.org/cip/cip-0105/annex/test-vectors-test-vector-4",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/cip/stats.json",
+          "path": "/cip/stats.json",
+          "href": "https://cips.cardano.org/cip/stats.json"
+        },
+        "link": "https://cips.cardano.org/cip/stats.json",
+        "line": "https://cips.cardano.org/cip/stats.json",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/cip/registry.json",
+          "path": "/cip/registry.json",
+          "href": "https://cips.cardano.org/cip/registry.json"
+        },
+        "link": "https://cips.cardano.org/cip/registry.json",
+        "line": "https://cips.cardano.org/cip/registry.json",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/cip/codesamples",
+          "path": "/cip/codesamples",
+          "href": "https://cips.cardano.org/cip/codesamples"
+        },
+        "link": "https://cips.cardano.org/cip/codesamples",
+        "line": "https://cips.cardano.org/cip/codesamples",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/CIP-0136/README.md",
+          "path": "/CIP-0136/README.md",
+          "href": "https://cips.cardano.org/CIP-0136/README.md"
+        },
+        "link": "https://cips.cardano.org/CIP-0136/README.md",
+        "line": "https://cips.cardano.org/CIP-0136/README.md",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/cip/cip-0161/annex/CPD",
+          "path": "/cip/cip-0161/annex/CPD",
+          "href": "https://cips.cardano.org/cip/cip-0161/annex/CPD"
+        },
+        "link": "https://cips.cardano.org/cip/cip-0161/annex/CPD",
+        "line": "https://cips.cardano.org/cip/cip-0161/annex/CPD",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/cip/(https:/eprint.iacr.org/2020/1143.pdf)",
+          "path": "/cip/(https:/eprint.iacr.org/2020/1143.pdf)",
+          "href": "https://cips.cardano.org/cip/(https:/eprint.iacr.org/2020/1143.pdf)"
+        },
+        "link": "https://cips.cardano.org/cip/(https:/eprint.iacr.org/2020/1143.pdf)",
+        "line": "https://cips.cardano.org/cip/(https:/eprint.iacr.org/2020/1143.pdf)",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/cip/%3Chttps:/twitter.com/_KtorZ_/status/1632356766368382976%3E",
+          "path": "/cip/%3Chttps:/twitter.com/_KtorZ_/status/1632356766368382976%3E",
+          "href": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/_KtorZ_/status/1632356766368382976%3E"
+        },
+        "link": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/_KtorZ_/status/1632356766368382976%3E",
+        "line": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/_KtorZ_/status/1632356766368382976%3E",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/cip/(https:/arxiv.org/pdf/2211.16128)",
+          "path": "/cip/(https:/arxiv.org/pdf/2211.16128)",
+          "href": "https://cips.cardano.org/cip/(https:/arxiv.org/pdf/2211.16128)"
+        },
+        "link": "https://cips.cardano.org/cip/(https:/arxiv.org/pdf/2211.16128)",
+        "line": "https://cips.cardano.org/cip/(https:/arxiv.org/pdf/2211.16128)",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/cip/%3Chttps:/twitter.com/RichardMcCrackn/status/1633135124500865024%3E",
+          "path": "/cip/%3Chttps:/twitter.com/RichardMcCrackn/status/1633135124500865024%3E",
+          "href": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/RichardMcCrackn/status/1633135124500865024%3E"
+        },
+        "link": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/RichardMcCrackn/status/1633135124500865024%3E",
+        "line": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/RichardMcCrackn/status/1633135124500865024%3E",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/cip/%3Chttps:/twitter.com/_KtorZ_/status/1630087586193584128%3E",
+          "path": "/cip/%3Chttps:/twitter.com/_KtorZ_/status/1630087586193584128%3E",
+          "href": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/_KtorZ_/status/1630087586193584128%3E"
+        },
+        "link": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/_KtorZ_/status/1630087586193584128%3E",
+        "line": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/_KtorZ_/status/1630087586193584128%3E",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/CPS-0003",
+          "path": "/CPS-0003",
+          "href": "https://cips.cardano.org/CPS-0003"
+        },
+        "link": "https://cips.cardano.org/CPS-0003",
+        "line": "https://cips.cardano.org/CPS-0003",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/cip/CIP-0017.json",
+          "path": "/cip/CIP-0017.json",
+          "href": "https://cips.cardano.org/cip/CIP-0017.json"
+        },
+        "link": "https://cips.cardano.org/cip/CIP-0017.json",
+        "line": "https://cips.cardano.org/cip/CIP-0017.json",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": "?v=KiLhhOVXQOg%3E",
+          "query": "v=KiLhhOVXQOg%3E",
+          "pathname": "/cip/%3Chttps:/www.youtube.com/watch",
+          "path": "/cip/%3Chttps:/www.youtube.com/watch?v=KiLhhOVXQOg%3E",
+          "href": "https://cips.cardano.org/cip/%3Chttps:/www.youtube.com/watch?v=KiLhhOVXQOg%3E"
+        },
+        "link": "https://cips.cardano.org/cip/%3Chttps:/www.youtube.com/watch?v=KiLhhOVXQOg%3E",
+        "line": "https://cips.cardano.org/cip/%3Chttps:/www.youtube.com/watch?v=KiLhhOVXQOg%3E",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/CIP-0119/README.md",
+          "path": "/CIP-0119/README.md",
+          "href": "https://cips.cardano.org/CIP-0119/README.md"
+        },
+        "link": "https://cips.cardano.org/CIP-0119/README.md",
+        "line": "https://cips.cardano.org/CIP-0119/README.md",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/CIP-0003",
+          "path": "/CIP-0003",
+          "href": "https://cips.cardano.org/CIP-0003"
+        },
+        "link": "https://cips.cardano.org/CIP-0003",
+        "line": "https://cips.cardano.org/CIP-0003",
         "broken": true
       },
       {
@@ -5887,12 +5688,202 @@
           "hash": null,
           "search": null,
           "query": null,
-          "pathname": "/cip/(https:/arxiv.org/pdf/2211.16128)",
-          "path": "/cip/(https:/arxiv.org/pdf/2211.16128)",
-          "href": "https://cips.cardano.org/cip/(https:/arxiv.org/pdf/2211.16128)"
+          "pathname": "/cip/sickcity.xyz",
+          "path": "/cip/sickcity.xyz",
+          "href": "https://cips.cardano.org/cip/sickcity.xyz"
         },
-        "link": "https://cips.cardano.org/cip/(https:/arxiv.org/pdf/2211.16128)",
-        "line": "https://cips.cardano.org/cip/(https:/arxiv.org/pdf/2211.16128)",
+        "link": "https://cips.cardano.org/cip/sickcity.xyz",
+        "line": "https://cips.cardano.org/cip/sickcity.xyz",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/cip/%3Chttps:/github.com/cardano-foundation/CIPs/pull/916%3E",
+          "path": "/cip/%3Chttps:/github.com/cardano-foundation/CIPs/pull/916%3E",
+          "href": "https://cips.cardano.org/cip/%3Chttps:/github.com/cardano-foundation/CIPs/pull/916%3E"
+        },
+        "link": "https://cips.cardano.org/cip/%3Chttps:/github.com/cardano-foundation/CIPs/pull/916%3E",
+        "line": "https://cips.cardano.org/cip/%3Chttps:/github.com/cardano-foundation/CIPs/pull/916%3E",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/CIP-0137",
+          "path": "/CIP-0137",
+          "href": "https://cips.cardano.org/CIP-0137"
+        },
+        "link": "https://cips.cardano.org/CIP-0137",
+        "line": "https://cips.cardano.org/CIP-0137",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/cip/%3Chttps:/twitter.com/RichardMcCrackn/status/1632514347195850752%3E",
+          "path": "/cip/%3Chttps:/twitter.com/RichardMcCrackn/status/1632514347195850752%3E",
+          "href": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/RichardMcCrackn/status/1632514347195850752%3E"
+        },
+        "link": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/RichardMcCrackn/status/1632514347195850752%3E",
+        "line": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/RichardMcCrackn/status/1632514347195850752%3E",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/CIP-0010",
+          "path": "/CIP-0010",
+          "href": "https://cips.cardano.org/CIP-0010"
+        },
+        "link": "https://cips.cardano.org/CIP-0010",
+        "line": "https://cips.cardano.org/CIP-0010",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/cip/registry.schema.json",
+          "path": "/cip/registry.schema.json",
+          "href": "https://cips.cardano.org/cip/registry.schema.json"
+        },
+        "link": "https://cips.cardano.org/cip/registry.schema.json",
+        "line": "https://cips.cardano.org/cip/registry.schema.json",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/CIP-0108/README.md",
+          "path": "/CIP-0108/README.md",
+          "href": "https://cips.cardano.org/CIP-0108/README.md"
+        },
+        "link": "https://cips.cardano.org/CIP-0108/README.md",
+        "line": "https://cips.cardano.org/CIP-0108/README.md",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/cip/cip-0100/annex/example.json",
+          "path": "/cip/cip-0100/annex/example.json",
+          "href": "https://cips.cardano.org/cip/cip-0100/annex/example.json"
+        },
+        "link": "https://cips.cardano.org/cip/cip-0100/annex/example.json",
+        "line": "https://cips.cardano.org/cip/cip-0100/annex/example.json",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/cip/%3Chttps:/twitter.com/danny_cryptofay/status/1631606919071776768%3E",
+          "path": "/cip/%3Chttps:/twitter.com/danny_cryptofay/status/1631606919071776768%3E",
+          "href": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/danny_cryptofay/status/1631606919071776768%3E"
+        },
+        "link": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/danny_cryptofay/status/1631606919071776768%3E",
+        "line": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/danny_cryptofay/status/1631606919071776768%3E",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/cip/%3Chttps:/twitter.com/IOHK_Charles/status/1632211417221701632%3E",
+          "path": "/cip/%3Chttps:/twitter.com/IOHK_Charles/status/1632211417221701632%3E",
+          "href": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/IOHK_Charles/status/1632211417221701632%3E"
+        },
+        "link": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/IOHK_Charles/status/1632211417221701632%3E",
+        "line": "https://cips.cardano.org/cip/%3Chttps:/twitter.com/IOHK_Charles/status/1632211417221701632%3E",
+        "broken": true
+      },
+      {
+        "url": {
+          "protocol": "https:",
+          "slashes": true,
+          "auth": null,
+          "host": "cips.cardano.org",
+          "port": null,
+          "hostname": "cips.cardano.org",
+          "hash": null,
+          "search": null,
+          "query": null,
+          "pathname": "/cip/soundrig.io",
+          "path": "/cip/soundrig.io",
+          "href": "https://cips.cardano.org/cip/soundrig.io"
+        },
+        "link": "https://cips.cardano.org/cip/soundrig.io",
+        "line": "https://cips.cardano.org/cip/soundrig.io",
         "broken": true
       }
     ],
@@ -5911,22 +5902,22 @@
         "testsPassed": 8,
         "testsQuantity": 10,
         "responseHeaders": {
-          "age": "1585800",
+          "age": "2190863",
           "cache-control": "public,max-age=0,must-revalidate",
           "cache-status": "\"Netlify Edge\"; hit",
-          "content-length": "14866",
+          "content-length": "15575",
           "content-type": "text/html; charset=utf-8",
-          "date": "Sun, 16 Nov 2025 01:19:18 GMT",
+          "date": "Sun, 23 Nov 2025 01:23:40 GMT",
           "etag": "\"ew2gdb19bf4glr-df\"",
-          "netlify-vary": "query=__nextDataReq|_rsc,header=x-nextjs-data|x-next-debug-logging|next-router-prefetch|next-router-segment-prefetch|next-router-state-tree|next-url|rsc|accept-encoding,cookie=__prerender_bypass|__next_preview_data",
+          "netlify-vary": "query=__nextDataReq|_rsc,header=x-nextjs-data|x-next-debug-logging|next-router-prefetch|next-router-segment-prefetch|next-router-state-tree|next-url|rsc,cookie=__prerender_bypass|__next_preview_data",
           "server": "Netlify",
           "strict-transport-security": "max-age=31536000",
           "vary": "rsc,next-router-state-tree,next-router-prefetch,next-router-segment-prefetch,Accept-Encoding",
           "x-content-type-options": "nosniff",
-          "x-nextjs-date": "Tue, 28 Oct 2025 16:49:48 GMT",
+          "x-nextjs-date": "Sun, 23 Nov 2025 01:18:56 GMT",
           "x-nextjs-prerender": "1, 1",
           "x-nextjs-stale-time": "300",
-          "x-nf-request-id": "01KA53XEPRWFPFBDFJNZZ4WKND",
+          "x-nf-request-id": "01KAQ4YFWMGPZ9SXP8YZT8NC5W",
           "x-powered-by": "Next.js",
           "connection": "close"
         }
@@ -6382,7 +6373,7 @@
         "ip": "cips.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "OK",
-        "finding": "38 >= 30 days"
+        "finding": "31 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -6536,21 +6527,21 @@
         "ip": "cips.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "+1585817 seconds from localtime"
+        "finding": "+2190879 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "cips.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "1763255975"
+        "finding": "1763861037"
       },
       {
         "id": "HTTP_headerAge",
         "ip": "cips.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "1585817 seconds"
+        "finding": "2190879 seconds"
       },
       {
         "id": "HSTS_time",
@@ -7120,29 +7111,29 @@
         "ip": "cips.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "39"
+        "finding": "38"
       }
     ],
     "thirdparties": {
       "trackers": [],
       "cookies": [],
       "headers": {
-        "age": "1585523",
+        "age": "2190579",
         "cache-control": "public,max-age=0,must-revalidate",
-        "cache-status": "\"Netlify Durable\"; hit; ttl=29950476\n\"Next.js\"; hit\n\"Netlify Edge\"; fwd=miss",
+        "cache-status": "\"Next.js\"; hit\n\"Netlify Edge\"; fwd=miss",
         "content-encoding": "br",
         "content-type": "text/html; charset=utf-8",
-        "date": "Sun, 16 Nov 2025 01:14:41 GMT",
+        "date": "Sun, 23 Nov 2025 01:18:56 GMT",
         "etag": "\"ew2gdb19bf4glr-df\"",
-        "netlify-vary": "query=__nextDataReq|_rsc,header=x-nextjs-data|x-next-debug-logging|next-router-prefetch|next-router-segment-prefetch|next-router-state-tree|next-url|rsc|accept-encoding,cookie=__prerender_bypass|__next_preview_data",
+        "netlify-vary": "query=__nextDataReq|_rsc,header=x-nextjs-data|x-next-debug-logging|next-router-prefetch|next-router-segment-prefetch|next-router-state-tree|next-url|rsc,cookie=__prerender_bypass|__next_preview_data",
         "server": "Netlify",
         "strict-transport-security": "max-age=31536000",
         "vary": "rsc,next-router-state-tree,next-router-prefetch,next-router-segment-prefetch,Accept-Encoding",
         "x-content-type-options": "nosniff",
-        "x-nextjs-date": "Tue, 28 Oct 2025 16:49:48 GMT",
+        "x-nextjs-date": "Sun, 23 Nov 2025 01:18:56 GMT",
         "x-nextjs-prerender": "1, 1",
         "x-nextjs-stale-time": "300",
-        "x-nf-request-id": "01KA53N0MM4A88THXFCYGY9RYX",
+        "x-nf-request-id": "01KAQ4NSZSA9WJSF94RMD0KHB7",
         "x-powered-by": "Next.js"
       },
       "endpoints": [
@@ -7392,8 +7383,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.16.1",
-      "@generated": "Sun, 16 Nov 2025 01:18:35",
-      "created": "2025-11-16T01:18:35.204076292Z",
+      "@generated": "Sun, 23 Nov 2025 01:22:56",
+      "created": "2025-11-23T01:22:56.933842540Z",
       "site": [
         {
           "@name": "https://cips.cardano.org",
@@ -7572,7 +7563,7 @@
       {
         "requestedUrl": "https://cips.cardano.org/",
         "finalUrl": "https://cips.cardano.org/",
-        "fetchTime": "2025-11-16T01:18:52.045Z",
+        "fetchTime": "2025-11-23T01:23:15.248Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -7583,7 +7574,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.73
+            "score": 0.74
           },
           "accessibility": {
             "title": "Accessibility",
@@ -7635,53 +7626,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 9287,
+            "numericValue": 9368,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 974,
-                  "firstMeaningfulPaint": 974,
-                  "largestContentfulPaint": 2405,
-                  "interactive": 9287,
-                  "speedIndex": 974,
-                  "totalBlockingTime": 740,
-                  "maxPotentialFID": 582,
+                  "firstContentfulPaint": 954,
+                  "firstMeaningfulPaint": 954,
+                  "largestContentfulPaint": 2555,
+                  "interactive": 9368,
+                  "speedIndex": 954,
+                  "totalBlockingTime": 667,
+                  "maxPotentialFID": 588,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 314121952,
+                  "observedTimeOriginTs": 384393028,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 314121952,
-                  "observedFirstPaint": 242,
-                  "observedFirstPaintTs": 314363915,
-                  "observedFirstContentfulPaint": 242,
-                  "observedFirstContentfulPaintTs": 314363915,
-                  "observedFirstContentfulPaintAllFrames": 242,
-                  "observedFirstContentfulPaintAllFramesTs": 314363915,
-                  "observedFirstMeaningfulPaint": 242,
-                  "observedFirstMeaningfulPaintTs": 314363915,
-                  "observedLargestContentfulPaint": 242,
-                  "observedLargestContentfulPaintTs": 314363915,
-                  "observedLargestContentfulPaintAllFrames": 242,
-                  "observedLargestContentfulPaintAllFramesTs": 314363915,
-                  "observedTraceEnd": 2744,
-                  "observedTraceEndTs": 316865739,
-                  "observedLoad": 404,
-                  "observedLoadTs": 314526022,
+                  "observedNavigationStartTs": 384393028,
+                  "observedFirstPaint": 111,
+                  "observedFirstPaintTs": 384503610,
+                  "observedFirstContentfulPaint": 111,
+                  "observedFirstContentfulPaintTs": 384503610,
+                  "observedFirstContentfulPaintAllFrames": 111,
+                  "observedFirstContentfulPaintAllFramesTs": 384503610,
+                  "observedFirstMeaningfulPaint": 111,
+                  "observedFirstMeaningfulPaintTs": 384503610,
+                  "observedLargestContentfulPaint": 111,
+                  "observedLargestContentfulPaintTs": 384503610,
+                  "observedLargestContentfulPaintAllFrames": 111,
+                  "observedLargestContentfulPaintAllFramesTs": 384503610,
+                  "observedTraceEnd": 2635,
+                  "observedTraceEndTs": 387028228,
+                  "observedLoad": 300,
+                  "observedLoadTs": 384693407,
                   "observedDomContentLoaded": 0,
-                  "observedDomContentLoadedTs": 314122370,
+                  "observedDomContentLoadedTs": 384393384,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 242,
-                  "observedFirstVisualChangeTs": 314363952,
-                  "observedLastVisualChange": 489,
-                  "observedLastVisualChangeTs": 314610952,
-                  "observedSpeedIndex": 255,
-                  "observedSpeedIndexTs": 314376673
+                  "observedFirstVisualChange": 184,
+                  "observedFirstVisualChangeTs": 384577028,
+                  "observedLastVisualChange": 378,
+                  "observedLastVisualChangeTs": 384771028,
+                  "observedSpeedIndex": 194,
+                  "observedSpeedIndexTs": 384586937
                 },
                 {
                   "lcpInvalidated": false
@@ -7703,19 +7694,19 @@
                   "numScripts": 11,
                   "numStylesheets": 1,
                   "numFonts": 2,
-                  "numTasks": 363,
+                  "numTasks": 386,
                   "numTasksOver10ms": 4,
-                  "numTasksOver25ms": 4,
+                  "numTasksOver25ms": 3,
                   "numTasksOver50ms": 1,
                   "numTasksOver100ms": 1,
                   "numTasksOver500ms": 0,
-                  "rtt": 2.2560000000000002,
-                  "throughput": 203312232.56330433,
-                  "maxRtt": 2.2560000000000002,
-                  "maxServerLatency": 5.1339999999999995,
-                  "totalByteWeight": 1526392,
-                  "totalTaskTime": 361.0069999999996,
-                  "mainDocumentTransferSize": 15448
+                  "rtt": 1.7780000000000005,
+                  "throughput": 186315002.66962576,
+                  "maxRtt": 1.7780000000000005,
+                  "maxServerLatency": 5.300999999999998,
+                  "totalByteWeight": 1526735,
+                  "totalTaskTime": 342.0799999999999,
+                  "mainDocumentTransferSize": 16146
                 }
               ]
             }
@@ -7737,15 +7728,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://cips.cardano.org",
-        "size": 2093.484,
-        "nodes": 650,
-        "requests": 39,
+        "size": 2123.568,
+        "nodes": 649,
+        "requests": 42,
         "grade": "D",
-        "score": 55,
-        "ges": 1.9,
-        "water": 2.85,
+        "score": 54,
+        "ges": 1.92,
+        "water": 2.88,
         "ecoindex_version": "5.4.2",
-        "date": "2025-11-16 01:15:18.828283",
+        "date": "2025-11-23 01:19:33.860898",
         "page_type": null
       }
     ],
@@ -7754,7 +7745,7 @@
       "detected": false
     },
     "summary": {
-      "404": 44,
+      "404": 45,
       "httpGrade": "C",
       "testsslExpireSoon": false,
       "testsslExpireDate": "2025-12-24T17:43:00.000Z",
@@ -7765,7 +7756,7 @@
       "trackersCount": 0,
       "zapCount": 13,
       "zapGrade": "D",
-      "lighthouse_performance": 0.73,
+      "lighthouse_performance": 0.74,
       "lighthouse_performanceGrade": "B",
       "lighthouse_accessibility": null,
       "lighthouse_accessibilityGrade": "F",
@@ -8264,7 +8255,7 @@
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "HIGH",
-        "finding": "expires < 15 days (8)"
+        "finding": "expires < 15 days (1)"
       },
       {
         "id": "cert_notBefore",
@@ -9016,7 +9007,7 @@
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "INFO",
-        "finding": "49"
+        "finding": "95"
       }
     ],
     "thirdparties": {
@@ -9148,8 +9139,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.16.1",
-      "@generated": "Sun, 16 Nov 2025 01:32:47",
-      "created": "2025-11-16T01:32:47.391745138Z",
+      "@generated": "Sun, 23 Nov 2025 01:38:33",
+      "created": "2025-11-23T01:38:33.898966853Z",
       "site": [
         {
           "@name": "https://data.cardano.org",
@@ -9889,7 +9880,7 @@
       {
         "requestedUrl": "https://data.cardano.org/",
         "finalUrl": "https://data.cardano.org/",
-        "fetchTime": "2025-11-16T01:33:09.293Z",
+        "fetchTime": "2025-11-23T01:38:52.214Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -9952,53 +9943,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 817,
+            "numericValue": 979,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 817,
-                  "firstMeaningfulPaint": 817,
-                  "largestContentfulPaint": 817,
-                  "interactive": 817,
-                  "speedIndex": 817,
-                  "totalBlockingTime": 0,
-                  "maxPotentialFID": 50,
+                  "firstContentfulPaint": 821,
+                  "firstMeaningfulPaint": 821,
+                  "largestContentfulPaint": 821,
+                  "interactive": 979,
+                  "speedIndex": 993,
+                  "totalBlockingTime": 34,
+                  "maxPotentialFID": 113,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 210733968,
+                  "observedTimeOriginTs": 288313081,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 210733968,
-                  "observedFirstPaint": 281,
-                  "observedFirstPaintTs": 211014674,
-                  "observedFirstContentfulPaint": 281,
-                  "observedFirstContentfulPaintTs": 211014674,
-                  "observedFirstContentfulPaintAllFrames": 281,
-                  "observedFirstContentfulPaintAllFramesTs": 211014674,
-                  "observedFirstMeaningfulPaint": 281,
-                  "observedFirstMeaningfulPaintTs": 211014674,
-                  "observedLargestContentfulPaint": 281,
-                  "observedLargestContentfulPaintTs": 211014674,
-                  "observedLargestContentfulPaintAllFrames": 281,
-                  "observedLargestContentfulPaintAllFramesTs": 211014674,
-                  "observedTraceEnd": 2665,
-                  "observedTraceEndTs": 213399208,
-                  "observedLoad": 276,
-                  "observedLoadTs": 211010032,
-                  "observedDomContentLoaded": 45,
-                  "observedDomContentLoadedTs": 210779098,
+                  "observedNavigationStartTs": 288313081,
+                  "observedFirstPaint": 448,
+                  "observedFirstPaintTs": 288760920,
+                  "observedFirstContentfulPaint": 448,
+                  "observedFirstContentfulPaintTs": 288760920,
+                  "observedFirstContentfulPaintAllFrames": 448,
+                  "observedFirstContentfulPaintAllFramesTs": 288760920,
+                  "observedFirstMeaningfulPaint": 448,
+                  "observedFirstMeaningfulPaintTs": 288760920,
+                  "observedLargestContentfulPaint": 448,
+                  "observedLargestContentfulPaintTs": 288760920,
+                  "observedLargestContentfulPaintAllFrames": 448,
+                  "observedLargestContentfulPaintAllFramesTs": 288760920,
+                  "observedTraceEnd": 2913,
+                  "observedTraceEndTs": 291225823,
+                  "observedLoad": 424,
+                  "observedLoadTs": 288737556,
+                  "observedDomContentLoaded": 20,
+                  "observedDomContentLoadedTs": 288333281,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 280,
-                  "observedFirstVisualChangeTs": 211013968,
-                  "observedLastVisualChange": 280,
-                  "observedLastVisualChangeTs": 211013968,
-                  "observedSpeedIndex": 281,
-                  "observedSpeedIndexTs": 211014842
+                  "observedFirstVisualChange": 448,
+                  "observedFirstVisualChangeTs": 288761081,
+                  "observedLastVisualChange": 448,
+                  "observedLastVisualChangeTs": 288761081,
+                  "observedSpeedIndex": 448,
+                  "observedSpeedIndexTs": 288761095
                 },
                 {
                   "lcpInvalidated": false
@@ -10020,18 +10011,18 @@
                   "numScripts": 0,
                   "numStylesheets": 0,
                   "numFonts": 0,
-                  "numTasks": 147,
-                  "numTasksOver10ms": 3,
+                  "numTasks": 150,
+                  "numTasksOver10ms": 5,
                   "numTasksOver25ms": 1,
                   "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 71.377,
-                  "throughput": 3880239.5208490845,
-                  "maxRtt": 71.377,
+                  "rtt": 129.66,
+                  "throughput": 4603907.637193468,
+                  "maxRtt": 129.66,
                   "maxServerLatency": 0,
                   "totalByteWeight": 438,
-                  "totalTaskTime": 99.662,
+                  "totalTaskTime": 113.48800000000004,
                   "mainDocumentTransferSize": 324
                 }
               ]
@@ -10062,7 +10053,7 @@
         "ges": 1.04,
         "water": 1.56,
         "ecoindex_version": "5.4.2",
-        "date": "2025-11-16 01:31:26.675255",
+        "date": "2025-11-23 01:36:29.973591",
         "page_type": null
       }
     ],
