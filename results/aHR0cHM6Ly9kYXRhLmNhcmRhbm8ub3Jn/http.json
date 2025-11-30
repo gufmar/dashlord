@@ -1,12 +1,12 @@
 {
   "scan": {
     "algorithmVersion": 4,
-    "grade": "B+",
+    "grade": "A+",
     "error": null,
-    "score": 80,
+    "score": 110,
     "statusCode": 200,
-    "testsFailed": 1,
-    "testsPassed": 9,
+    "testsFailed": 0,
+    "testsPassed": 10,
     "testsQuantity": 10,
     "responseHeaders": {
       "strict-transport-security": "max-age=31536000; includeSubDomains",
@@ -65,15 +65,16 @@
     },
     "redirection": {
       "expectation": "redirection-to-https",
-      "pass": false,
-      "result": "redirection-missing",
-      "scoreModifier": -20,
-      "destination": "http://data.cardano.org/",
-      "redirects": false,
+      "pass": true,
+      "result": "redirection-to-https",
+      "scoreModifier": 0,
+      "destination": "https://data.cardano.org/",
+      "redirects": true,
       "route": [
-        "http://data.cardano.org/"
+        "http://data.cardano.org/",
+        "https://data.cardano.org/"
       ],
-      "statusCode": 503
+      "statusCode": 200
     },
     "referrer-policy": {
       "expectation": "referrer-policy-private",
