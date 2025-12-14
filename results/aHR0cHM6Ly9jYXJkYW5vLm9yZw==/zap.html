@@ -212,7 +212,7 @@ td {
 	</h2>
 
 	<h3>
-		Generated on Sun, 7 Dec 2025 01:32:33
+		Generated on Sun, 14 Dec 2025 01:28:59
 	</h3>
 
 	<h3>
@@ -237,7 +237,7 @@ td {
 					<div>High</div>
 				</td>
 				<td align="center">
-					<div>1</div>
+					<div>0</div>
 				</td>
 			</tr>
 			<tr>
@@ -253,7 +253,7 @@ td {
 					<div>Low</div>
 				</td>
 				<td align="center">
-					<div>5</div>
+					<div>6</div>
 				</td>
 			</tr>
 			<tr>
@@ -261,7 +261,7 @@ td {
 					<div>Informational</div>
 				</td>
 				<td align="center">
-					<div>11</div>
+					<div>10</div>
 				</td>
 			</tr>
 			<tr>
@@ -296,14 +296,6 @@ td {
 					align="center">Number of Instances</th>
 			</tr>
 			<tr>
-				<td><a href="#10003">Vulnerable JS Library</a></td>
-				<td align="center" class="risk-3">High</td>
-				
-				
-				<td align="center">1</td>
-				
-			</tr>
-			<tr>
 				<td><a href="#10055">CSP: Failure to Define Directive with No Fallback</a></td>
 				<td align="center" class="risk-2">Medium</td>
 				
@@ -336,6 +328,14 @@ td {
 				
 			</tr>
 			<tr>
+				<td><a href="#10038">Content Security Policy (CSP) Header Not Set</a></td>
+				<td align="center" class="risk-2">Medium</td>
+				
+				
+				<td align="center">12</td>
+				
+			</tr>
+			<tr>
 				<td><a href="#10099">Source Code Disclosure - Python</a></td>
 				<td align="center" class="risk-2">Medium</td>
 				
@@ -349,14 +349,6 @@ td {
 				
 				
 				<td align="center">11</td>
-				
-			</tr>
-			<tr>
-				<td><a href="#10003">Vulnerable JS Library</a></td>
-				<td align="center" class="risk-2">Medium</td>
-				
-				
-				<td align="center">2</td>
 				
 			</tr>
 			<tr>
@@ -384,11 +376,19 @@ td {
 				
 			</tr>
 			<tr>
+				<td><a href="#10035">Strict-Transport-Security Header Not Set</a></td>
+				<td align="center" class="risk-1">Low</td>
+				
+				
+				<td align="center">12</td>
+				
+			</tr>
+			<tr>
 				<td><a href="#10096">Timestamp Disclosure - Unix</a></td>
 				<td align="center" class="risk-1">Low</td>
 				
 				
-				<td align="center">2</td>
+				<td align="center">1</td>
 				
 			</tr>
 			<tr>
@@ -412,7 +412,7 @@ td {
 				<td align="center" class="risk-0">Informational</td>
 				
 				
-				<td align="center">13</td>
+				<td align="center">3</td>
 				
 			</tr>
 			<tr>
@@ -420,7 +420,7 @@ td {
 				<td align="center" class="risk-0">Informational</td>
 				
 				
-				<td align="center">6</td>
+				<td align="center">12</td>
 				
 			</tr>
 			<tr>
@@ -476,15 +476,7 @@ td {
 				<td align="center" class="risk-0">Informational</td>
 				
 				
-				<td align="center">12</td>
-				
-			</tr>
-			<tr>
-				<td><a href="#10031">User Controllable HTML Element Attribute (Potential XSS)</a></td>
-				<td align="center" class="risk-0">Informational</td>
-				
-				
-				<td align="center">2</td>
+				<td align="center">11</td>
 				
 			</tr>
 		</table>
@@ -493,131 +485,6 @@ td {
 
 	
 		<h3>Alert Detail</h3>
-		
-			<table class="results">
-				<tr height="24">
-					<th width="20%" class="risk-3"><a
-						id="10003"></a>
-						<div>High</div></th>
-					<th class="risk-3">Vulnerable JS Library</th>
-				</tr>
-				<tr>
-					<td width="20%">Description</td>
-					<td width="80%">
-							<div>The identified library appears to be vulnerable.</div>
-							
-						</td>
-				</tr>
-				<TR vAlign="top">
-					<TD colspan="2"></TD>
-				</TR>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/crewardcalculator/_next/static/chunks/main-dfb077c8afae29b4.js">https://cardano.org/crewardcalculator/_next/static/chunks/main-dfb077c8afae29b4.js</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">=&quot;14.2.23&quot;,z=(0,v.default)(),V=e=&gt;[].slice.call(e),X=!1;class Y extends y.default.Component{componentDidCatch(e,t){this.props.fn(e,t)}componentDidMount</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The identified library nextjs, version 14.2.23 is vulnerable.
-CVE-2025-57822
-CVE-2025-32421
-CVE-2025-57752
-CVE-2025-55173
-CVE-2025-29927
-CVE-2025-48068
-https://vercel.com/changelog/vercel-firewall-proactively-protects-against-vulnerability-with-middleware
-https://vercel.com/changelog/cve-2025-57752
-https://github.com/vercel/next.js/security/advisories/GHSA-4342-x723-ch2f
-https://vercel.com/changelog/cve-2025-48068
-https://github.com/vercel/next.js/releases/tag/v13.5.9
-https://github.com/vercel/next.js/security/advisories/GHSA-xv57-4mr9-wg8v
-https://nvd.nist.gov/vuln/detail/CVE-2025-32421
-https://security.netapp.com/advisory/ntap-20250328-0002
-https://github.com/vercel/next.js/commit/5fd3ae8f8542677c6294f32d18022731eab6fe48
-https://github.com/vercel/next.js/security/advisories/GHSA-f82v-jwr5-mffw
-https://github.com/advisories/GHSA-3h52-269p-cp9r
-https://github.com/vercel/next.js/commit/52a078da3884efe6501613c7834a3d02a91676d2
-https://github.com/advisories/GHSA-f82v-jwr5-mffw
-https://github.com/vercel/next.js/commit/9c9aaed5bb9338ef31b0517ccf0ab4414f2093d8
-https://nvd.nist.gov/vuln/detail/CVE-2025-48068
-https://vercel.com/changelog/cve-2025-32421
-https://github.com/advisories/GHSA-qpjv-v59x-3qc4
-https://vercel.com/changelog/cve-2025-57822
-https://github.com/vercel/next.js/releases/tag/v12.3.5
-https://github.com/vercel/next.js/security/advisories/GHSA-3h52-269p-cp9r
-https://nvd.nist.gov/vuln/detail/CVE-2025-29927
-https://github.com/vercel/next.js/commit/6b12c60c61ee80cb0443ccd20de82ca9b4422ddd
-https://github.com/vercel/next.js/security/advisories/GHSA-qpjv-v59x-3qc4
-https://github.com/vercel/next.js/pull/82114
-https://github.com/vercel/next.js/security/advisories/GHSA-g5qg-72qw-gw5v
-https://github.com/vercel/next.js
-http://www.openwall.com/lists/oss-security/2025/03/23/4
-http://vercel.com/changelog/cve-2025-55173
-http://www.openwall.com/lists/oss-security/2025/03/23/3
-https://vercel.com/changelog/cve-2025-55173
-</td>
-					</tr>
-				
-				<tr>
-					<td width="20%">Instances</td>
-					
-					
-					<td width="80%">1</td>
-					
-				</tr>
-				<tr>
-					<td width="20%">Solution</td>
-					<td width="80%">
-							<div>Upgrade to the latest version of the affected library.</div>
-							
-						</td>
-				</tr>
-				<tr>
-					<td width="20%">Reference</td>
-					<td width="80%">
-							<a href="https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/">https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</a>
-							
-						</td>
-				</tr>
-				<tr>
-					<td width="20%">CWE Id</td>
-					<td width="80%"><a
-						href="https://cwe.mitre.org/data/definitions/1395.html">1395</a></td>
-				</tr>
-				<tr>
-					<td width="20%">WASC Id</td>
-					<td width="80%"></td>
-				</tr>
-				<tr>
-					<td width="20%">Plugin Id</td>
-					<td width="80%"><a
-						href="https://www.zaproxy.org/docs/alerts/10003/">10003</a></td>
-				</tr>
-			</table>
-			<div class="spacer"></div>
 		
 			<table class="results">
 				<tr height="24">
@@ -1278,6 +1145,464 @@ https://vercel.com/changelog/cve-2025-55173
 			<table class="results">
 				<tr height="24">
 					<th width="20%" class="risk-2"><a
+						id="10038"></a>
+						<div>Medium</div></th>
+					<th class="risk-2">Content Security Policy (CSP) Header Not Set</th>
+				</tr>
+				<tr>
+					<td width="20%">Description</td>
+					<td width="80%">
+							<div>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</div>
+							
+						</td>
+				</tr>
+				<TR vAlign="top">
+					<TD colspan="2"></TD>
+				</TR>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/apps?tags=dex">https://cardano.org/apps?tags=dex</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/img/eras/byron.avif">https://cardano.org/img/eras/byron.avif</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/img/eras/goguen.avif">https://cardano.org/img/eras/goguen.avif</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/14">https://cardano.org/news/page/14</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/15">https://cardano.org/news/page/15</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/16">https://cardano.org/news/page/16</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/17">https://cardano.org/news/page/17</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/18">https://cardano.org/news/page/18</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/19">https://cardano.org/news/page/19</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/2">https://cardano.org/news/page/2</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/20">https://cardano.org/news/page/20</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/21">https://cardano.org/news/page/21</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+				<tr>
+					<td width="20%">Instances</td>
+					
+					
+					<td width="80%">12</td>
+					
+				</tr>
+				<tr>
+					<td width="20%">Solution</td>
+					<td width="80%">
+							<div>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</div>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">Reference</td>
+					<td width="80%">
+							<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP">https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP</a>
+							<br />
+						
+							<a href="https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html">https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</a>
+							<br />
+						
+							<a href="https://www.w3.org/TR/CSP/">https://www.w3.org/TR/CSP/</a>
+							<br />
+						
+							<a href="https://w3c.github.io/webappsec-csp/">https://w3c.github.io/webappsec-csp/</a>
+							<br />
+						
+							<a href="https://web.dev/articles/csp">https://web.dev/articles/csp</a>
+							<br />
+						
+							<a href="https://caniuse.com/#feat=contentsecuritypolicy">https://caniuse.com/#feat=contentsecuritypolicy</a>
+							<br />
+						
+							<a href="https://content-security-policy.com/">https://content-security-policy.com/</a>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">CWE Id</td>
+					<td width="80%"><a
+						href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+				</tr>
+				<tr>
+					<td width="20%">WASC Id</td>
+					<td width="80%">15</td>
+				</tr>
+				<tr>
+					<td width="20%">Plugin Id</td>
+					<td width="80%"><a
+						href="https://www.zaproxy.org/docs/alerts/10038/">10038</a></td>
+				</tr>
+			</table>
+			<div class="spacer"></div>
+		
+			<table class="results">
+				<tr height="24">
+					<th width="20%" class="risk-2"><a
 						id="10099"></a>
 						<div>Medium</div></th>
 					<th class="risk-2">Source Code Disclosure - Python</th>
@@ -1480,6 +1805,38 @@ https://vercel.com/changelog/cve-2025-55173
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/common-scams/">https://cardano.org/common-scams/</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7&quot;&gt;&lt;/script&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://cardano.org/community-code-of-conduct/">https://cardano.org/community-code-of-conduct/</a></td>
 					</tr>
 					
@@ -1512,7 +1869,7 @@ https://vercel.com/changelog/cve-2025-55173
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/docs/">https://cardano.org/docs/</a></td>
+						<td width="80%"><a href="https://cardano.org/docs/communities/">https://cardano.org/docs/communities/</a></td>
 					</tr>
 					
 					<tr>
@@ -1608,71 +1965,39 @@ https://vercel.com/changelog/cve-2025-55173
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/insights/governance-actions/">https://cardano.org/insights/governance-actions/</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/insights/supply/">https://cardano.org/insights/supply/</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7&quot;&gt;&lt;/script&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/stake-pool-delegation/">https://cardano.org/stake-pool-delegation/</a></td>
 					</tr>
 					
 					<tr>
@@ -1767,157 +2092,6 @@ https://vercel.com/changelog/cve-2025-55173
 					<td width="20%">Plugin Id</td>
 					<td width="80%"><a
 						href="https://www.zaproxy.org/docs/alerts/90003/">90003</a></td>
-				</tr>
-			</table>
-			<div class="spacer"></div>
-		
-			<table class="results">
-				<tr height="24">
-					<th width="20%" class="risk-2"><a
-						id="10003"></a>
-						<div>Medium</div></th>
-					<th class="risk-2">Vulnerable JS Library</th>
-				</tr>
-				<tr>
-					<td width="20%">Description</td>
-					<td width="80%">
-							<div>The identified library appears to be vulnerable.</div>
-							
-						</td>
-				</tr>
-				<TR vAlign="top">
-					<TD colspan="2"></TD>
-				</TR>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/archive/code.jquery.com/jquery-1.12.4.js">https://cardano.org/archive/code.jquery.com/jquery-1.12.4.js</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">jquery-1.12.4.js</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The identified library jquery, version 1.12.4 is vulnerable.
-CVE-2020-11023
-CVE-2020-11022
-CVE-2015-9251
-CVE-2019-11358
-https://github.com/jquery/jquery/issues/2432
-http://research.insecurelabs.org/jquery/test/
-http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/
-https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/
-https://nvd.nist.gov/vuln/detail/CVE-2019-11358
-https://github.com/advisories/GHSA-rmxg-73gg-4p98
-https://nvd.nist.gov/vuln/detail/CVE-2015-9251
-https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b
-https://bugs.jquery.com/ticket/11974
-https://github.com/jquery/jquery.com/issues/162
-https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/
-</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/archive/code.jquery.com/ui/1.12.1/jquery-ui.js">https://cardano.org/archive/code.jquery.com/ui/1.12.1/jquery-ui.js</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">/1.12.1/jquery-ui.js</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The identified library jquery-ui, version 1.12.1 is vulnerable.
-CVE-2021-41184
-CVE-2021-41183
-CVE-2021-41182
-CVE-2022-31160
-https://github.com/advisories/GHSA-h6gj-6jjq-h8g9
-https://bugs.jqueryui.com/ticket/15284
-https://github.com/jquery/jquery-ui/commit/8cc5bae1caa1fcf96bf5862c5646c787020ba3f9
-https://nvd.nist.gov/vuln/detail/CVE-2022-31160
-https://github.com/jquery/jquery-ui/security/advisories/GHSA-gpqq-952q-5327
-https://nvd.nist.gov/vuln/detail/CVE-2021-41184
-https://nvd.nist.gov/vuln/detail/CVE-2021-41183
-https://github.com/jquery/jquery-ui/security/advisories/GHSA-9gj3-hwp5-pmwc
-https://nvd.nist.gov/vuln/detail/CVE-2021-41182
-https://github.com/jquery/jquery-ui/issues/2101
-</td>
-					</tr>
-				
-				<tr>
-					<td width="20%">Instances</td>
-					
-					
-					<td width="80%">2</td>
-					
-				</tr>
-				<tr>
-					<td width="20%">Solution</td>
-					<td width="80%">
-							<div>Upgrade to the latest version of the affected library.</div>
-							
-						</td>
-				</tr>
-				<tr>
-					<td width="20%">Reference</td>
-					<td width="80%">
-							<a href="https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/">https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</a>
-							
-						</td>
-				</tr>
-				<tr>
-					<td width="20%">CWE Id</td>
-					<td width="80%"><a
-						href="https://cwe.mitre.org/data/definitions/1395.html">1395</a></td>
-				</tr>
-				<tr>
-					<td width="20%">WASC Id</td>
-					<td width="80%"></td>
-				</tr>
-				<tr>
-					<td width="20%">Plugin Id</td>
-					<td width="80%"><a
-						href="https://www.zaproxy.org/docs/alerts/10003/">10003</a></td>
 				</tr>
 			</table>
 			<div class="spacer"></div>
@@ -2039,6 +2213,38 @@ https://github.com/jquery/jquery-ui/issues/2101
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/common-scams/">https://cardano.org/common-scams/</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7&quot;&gt;&lt;/script&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://cardano.org/community-code-of-conduct/">https://cardano.org/community-code-of-conduct/</a></td>
 					</tr>
 					
@@ -2071,7 +2277,7 @@ https://github.com/jquery/jquery-ui/issues/2101
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/docs/">https://cardano.org/docs/</a></td>
+						<td width="80%"><a href="https://cardano.org/docs/communities/">https://cardano.org/docs/communities/</a></td>
 					</tr>
 					
 					<tr>
@@ -2167,71 +2373,39 @@ https://github.com/jquery/jquery-ui/issues/2101
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/insights/governance-actions/">https://cardano.org/insights/governance-actions/</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/insights/supply/">https://cardano.org/insights/supply/</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7&quot;&gt;&lt;/script&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/stake-pool-delegation/">https://cardano.org/stake-pool-delegation/</a></td>
 					</tr>
 					
 					<tr>
@@ -2444,7 +2618,7 @@ https://github.com/jquery/jquery-ui/issues/2101
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/assets/js/runtime~main.9f500e59.js">https://cardano.org/assets/js/runtime~main.9f500e59.js</a></td>
+						<td width="80%"><a href="https://cardano.org/common-scams/">https://cardano.org/common-scams/</a></td>
 					</tr>
 					
 					<tr>
@@ -2508,7 +2682,7 @@ https://github.com/jquery/jquery-ui/issues/2101
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/docs/">https://cardano.org/docs/</a></td>
+						<td width="80%"><a href="https://cardano.org/docs/communities/">https://cardano.org/docs/communities/</a></td>
 					</tr>
 					
 					<tr>
@@ -2541,38 +2715,6 @@ https://github.com/jquery/jquery-ui/issues/2101
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://cardano.org/entities/">https://cardano.org/entities/</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Feature-Policy</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/insights/governance-actions/">https://cardano.org/insights/governance-actions/</a></td>
 					</tr>
 					
 					<tr>
@@ -2637,6 +2779,38 @@ https://github.com/jquery/jquery-ui/issues/2101
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://cardano.org/scripts/deactivateServiceWorker.js">https://cardano.org/scripts/deactivateServiceWorker.js</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Feature-Policy</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/stake-pool-delegation/">https://cardano.org/stake-pool-delegation/</a></td>
 					</tr>
 					
 					<tr>
@@ -2823,7 +2997,7 @@ https://github.com/jquery/jquery-ui/issues/2101
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/sitemap.xml">https://cardano.org/sitemap.xml</a></td>
+						<td width="80%"><a href="https://cardano.org/docs/communities/">https://cardano.org/docs/communities/</a></td>
 					</tr>
 					
 					<tr>
@@ -2919,7 +3093,7 @@ https://github.com/jquery/jquery-ui/issues/2101
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/sitemap.xml">https://cardano.org/sitemap.xml</a></td>
+						<td width="80%"><a href="https://cardano.org/docs/communities/">https://cardano.org/docs/communities/</a></td>
 					</tr>
 					
 					<tr>
@@ -3015,7 +3189,7 @@ https://github.com/jquery/jquery-ui/issues/2101
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/sitemap.xml">https://cardano.org/sitemap.xml</a></td>
+						<td width="80%"><a href="https://cardano.org/docs/communities/">https://cardano.org/docs/communities/</a></td>
 					</tr>
 					
 					<tr>
@@ -3094,6 +3268,458 @@ https://github.com/jquery/jquery-ui/issues/2101
 			<table class="results">
 				<tr height="24">
 					<th width="20%" class="risk-1"><a
+						id="10035"></a>
+						<div>Low</div></th>
+					<th class="risk-1">Strict-Transport-Security Header Not Set</th>
+				</tr>
+				<tr>
+					<td width="20%">Description</td>
+					<td width="80%">
+							<div>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</div>
+							
+						</td>
+				</tr>
+				<TR vAlign="top">
+					<TD colspan="2"></TD>
+				</TR>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/apps?tags=dex">https://cardano.org/apps?tags=dex</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/img/eras/byron.avif">https://cardano.org/img/eras/byron.avif</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/img/eras/goguen.avif">https://cardano.org/img/eras/goguen.avif</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/14">https://cardano.org/news/page/14</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/15">https://cardano.org/news/page/15</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/16">https://cardano.org/news/page/16</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/17">https://cardano.org/news/page/17</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/18">https://cardano.org/news/page/18</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/19">https://cardano.org/news/page/19</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/2">https://cardano.org/news/page/2</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/20">https://cardano.org/news/page/20</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/21">https://cardano.org/news/page/21</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+				<tr>
+					<td width="20%">Instances</td>
+					
+					
+					<td width="80%">12</td>
+					
+				</tr>
+				<tr>
+					<td width="20%">Solution</td>
+					<td width="80%">
+							<div>Ensure that your web server, application server, load balancer, etc. is configured to enforce Strict-Transport-Security.</div>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">Reference</td>
+					<td width="80%">
+							<a href="https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html">https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</a>
+							<br />
+						
+							<a href="https://owasp.org/www-community/Security_Headers">https://owasp.org/www-community/Security_Headers</a>
+							<br />
+						
+							<a href="https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security">https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</a>
+							<br />
+						
+							<a href="https://caniuse.com/stricttransportsecurity">https://caniuse.com/stricttransportsecurity</a>
+							<br />
+						
+							<a href="https://datatracker.ietf.org/doc/html/rfc6797">https://datatracker.ietf.org/doc/html/rfc6797</a>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">CWE Id</td>
+					<td width="80%"><a
+						href="https://cwe.mitre.org/data/definitions/319.html">319</a></td>
+				</tr>
+				<tr>
+					<td width="20%">WASC Id</td>
+					<td width="80%">15</td>
+				</tr>
+				<tr>
+					<td width="20%">Plugin Id</td>
+					<td width="80%"><a
+						href="https://www.zaproxy.org/docs/alerts/10035/">10035</a></td>
+				</tr>
+			</table>
+			<div class="spacer"></div>
+		
+			<table class="results">
+				<tr height="24">
+					<th width="20%" class="risk-1"><a
 						id="10096"></a>
 						<div>Low</div></th>
 					<th class="risk-1">Timestamp Disclosure - Unix</th>
@@ -3112,7 +3738,7 @@ https://github.com/jquery/jquery-ui/issues/2101
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/assets/js/main.2f82edf1.js">https://cardano.org/assets/js/main.2f82edf1.js</a></td>
+						<td width="80%"><a href="https://cardano.org/assets/js/main.c826a0c0.js">https://cardano.org/assets/js/main.c826a0c0.js</a></td>
 					</tr>
 					
 					<tr>
@@ -3141,43 +3767,11 @@ https://github.com/jquery/jquery-ui/issues/2101
 						<td width="80%">1516328368, which evaluates to: 2018-01-19 02:19:28.</td>
 					</tr>
 				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/crewardcalculator/_next/static/chunks/main-dfb077c8afae29b4.js">https://cardano.org/crewardcalculator/_next/static/chunks/main-dfb077c8afae29b4.js</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">1540483477</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">1540483477, which evaluates to: 2018-10-25 16:04:37.</td>
-					</tr>
-				
 				<tr>
 					<td width="20%">Instances</td>
 					
 					
-					<td width="80%">2</td>
+					<td width="80%">1</td>
 					
 				</tr>
 				<tr>
@@ -3298,7 +3892,73 @@ At &quot;High&quot; threshold this scan rule will not alert on client or server 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/docs/">https://cardano.org/docs/</a></td>
+						<td width="80%"><a href="https://cardano.org/common-scams/">https://cardano.org/common-scams/</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">x-content-type-options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+At &quot;High&quot; threshold this scan rule will not alert on client or server error responses.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/community-code-of-conduct/">https://cardano.org/community-code-of-conduct/</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">x-content-type-options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+At &quot;High&quot; threshold this scan rule will not alert on client or server error responses.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/docs/communities/">https://cardano.org/docs/communities/</a></td>
 					</tr>
 					
 					<tr>
@@ -3364,72 +4024,6 @@ At &quot;High&quot; threshold this scan rule will not alert on client or server 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/img/cardano-logo-blue.svg">https://cardano.org/img/cardano-logo-blue.svg</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">x-content-type-options</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
-At &quot;High&quot; threshold this scan rule will not alert on client or server error responses.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/img/cardano-logo-white.svg">https://cardano.org/img/cardano-logo-white.svg</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">x-content-type-options</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
-At &quot;High&quot; threshold this scan rule will not alert on client or server error responses.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://cardano.org/img/favicon.ico">https://cardano.org/img/favicon.ico</a></td>
 					</tr>
 					
@@ -3463,7 +4057,7 @@ At &quot;High&quot; threshold this scan rule will not alert on client or server 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/img/icons/book-solid.svg">https://cardano.org/img/icons/book-solid.svg</a></td>
+						<td width="80%"><a href="https://cardano.org/news/atom.xml">https://cardano.org/news/atom.xml</a></td>
 					</tr>
 					
 					<tr>
@@ -3496,40 +4090,7 @@ At &quot;High&quot; threshold this scan rule will not alert on client or server 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/img/icons/shapes-solid.svg">https://cardano.org/img/icons/shapes-solid.svg</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">x-content-type-options</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
-At &quot;High&quot; threshold this scan rule will not alert on client or server error responses.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/scripts/deactivateServiceWorker.js">https://cardano.org/scripts/deactivateServiceWorker.js</a></td>
+						<td width="80%"><a href="https://cardano.org/news/rss.xml">https://cardano.org/news/rss.xml</a></td>
 					</tr>
 					
 					<tr>
@@ -3563,6 +4124,39 @@ At &quot;High&quot; threshold this scan rule will not alert on client or server 
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://cardano.org/sitemap.xml">https://cardano.org/sitemap.xml</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">x-content-type-options</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+At &quot;High&quot; threshold this scan rule will not alert on client or server error responses.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/what-is-ada/">https://cardano.org/what-is-ada/</a></td>
 					</tr>
 					
 					<tr>
@@ -3694,7 +4288,76 @@ At &quot;High&quot; threshold this scan rule will not alert on client or server 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/assets/css/styles.f1460796.css">https://cardano.org/assets/css/styles.f1460796.css</a></td>
+						<td width="80%"><a href="https://cardano.org/apps/?tags=governance">https://cardano.org/apps/?tags=governance</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAIAAADzBuo/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAhUlEQVR4nBXMOwrCQBAA0L3/UQRbbyAWFikU/IApJEpIdv4zOwlYSN4BXhFGrJJNI3h8w6MnDePvTXlqTUtrAePdeFBlYRShFqICTGBK5bf6Zxwyresuu/3heDr3/WvNqBO4U5mRKsua5k4IE+GsimbbsaSVyttoCoDPcFrSwsXq1XV2kz/r4oqzv4a8hQAAAABJRU5ErkJggg==</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">�PNG
+
+   IHDR   
+      ��?   	pHYs     ��   �IDATx��;
+�@ н�Q[o )��)$JHv�3;	XH�^F��M#x|ã&#39;��MyjMKk��xPea��L`J��g2��.���x:��kͨ�S��*˚�Nᬊf۱����h
+��pZ�����uv�?�⊳����    IEND�B`�</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/apps?tags=dex">https://cardano.org/apps?tags=dex</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">--colorRgbFacetsNeutralLight100</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">��(��с�Zq�l5뭭�K�m�M</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/assets/css/styles.927de67f.css">https://cardano.org/assets/css/styles.927de67f.css</a></td>
 					</tr>
 					
 					<tr>
@@ -3726,7 +4389,7 @@ At &quot;High&quot; threshold this scan rule will not alert on client or server 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/assets/js/main.2f82edf1.js">https://cardano.org/assets/js/main.2f82edf1.js</a></td>
+						<td width="80%"><a href="https://cardano.org/assets/js/main.c826a0c0.js">https://cardano.org/assets/js/main.c826a0c0.js</a></td>
 					</tr>
 					
 					<tr>
@@ -3758,7 +4421,7 @@ At &quot;High&quot; threshold this scan rule will not alert on client or server 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/genesis/">https://cardano.org/genesis/</a></td>
+						<td width="80%"><a href="https://cardano.org/img/eras/byron.avif">https://cardano.org/img/eras/byron.avif</a></td>
 					</tr>
 					
 					<tr>
@@ -3779,12 +4442,12 @@ At &quot;High&quot; threshold this scan rule will not alert on client or server 
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">info/address/3LZU6nDHGFfNrcs15qZcPA7xDDMHBbDN28</td>
+						<td width="80%">--colorRgbFacetsNeutralLight100</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">�w���]��,�r�S��a_6�,ך�p�;�0��7o</td>
+						<td width="80%">��(��с�Zq�l5뭭�K�m�M</td>
 					</tr>
 				
 					<tr>
@@ -3895,7 +4558,7 @@ At &quot;High&quot; threshold this scan rule will not alert on client or server 
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/news/2021-12-20-december-developer-portal/">https://cardano.org/news/2021-12-20-december-developer-portal/</a></td>
+						<td width="80%"><a href="https://cardano.org/news/page/14">https://cardano.org/news/page/14</a></td>
 					</tr>
 					
 					<tr>
@@ -3916,174 +4579,12 @@ At &quot;High&quot; threshold this scan rule will not alert on client or server 
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">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</td>
+						<td width="80%">--colorRgbFacetsNeutralLight100</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">�PNG
-
-   IHDR  �   n   ����   sBIT��O�   6PLTE� :�������� &#39;����1V���� 6� /�Fe����������u��G�Xv�g���  BIDATx��]����u���ف` Ъ���|&gt;��9]U��\b%0�W�C�}z 
-��ǠQ�4*�F�cШ|��A��1hT&gt;��ǠQ�4*�F�cШ|��A��1hT&gt;�����T�a�5�a���i����R��4�d�}���[�P��s�R��CtB��hl~.��Z1��N!�462�WT�;+ht�nSoe�P�r��Dd��q�w�Q�6yM$H�Ѵ���B�2�3�������6�AS������巀�r(�ֺ���=��Í��B6.��KG3Y�W��c�%�|�0)*�����Y5n߳�K*g��a��׸�~����Uh�c�-����\��ʑ�t����*~�&lt;��j��J)&gt;��ا��va.{���&quot;O!�r�Hġ&amp;���v�u G�C�C�}^k�� ��{`��b�&lt;h���PU�h&#39;�ێ�!�7�6�d��)�}(��R9��Տ��|��ŉ�3+\A�&#39;�������_.�j�9�Z����{mʻ�&#39;񋭌cԨ4d��������RYK�C�i��ZB�nu���Ҷ֩�\nyc�(ć�/�ʚP���Rk���a���$����{Ae)�����໥���1&lt;�l~]��u�&#39;w�2�c��M�΄8��b�/bɇa.�[��R�i�Q*M�ۺ�r�0��=	�5�ƈ�6�F�5{-yD���J1v����A.��|:� ��q޻�D5��x�&amp;F�Fr��p
-a�8��&amp;R��c�4]��0�S����y�}��|B��s�=�3����O����$p(�����s�ay��W{*uW���x?#2�֢�,���a��3�IB��,�Ƿ�9�����B��Q�qn�9[H%?Mjӆ��|!��!�#�k�td1�����ʔ無hG�p��T�G
-�����s�s�=h�,���,���-�f&#39;$a���Үy��e��Z�=W�CV�T�=�`X�k�1۹T����͵�Xe�����-�A�J~&amp;j��7S&amp;*TւJ3��]����jp�N�)�4&#39;WT�3��#�����ep�Qw0D��:��ʌ�H�/�����ǉT�)�!���X�*�����,�J5gܰs���8e���ă�T򙑃ֈ�^�G�ʜ��v˭�T�bl718�Jq[`��ב	�=�*�&amp;\zn�nQ=dR	ހ�/h���t9�_&lt;N*Ww�{2�Ե^��/�J�Qy�T
-1r3p�R�_��@ԋ��%&lt;��DS3q�!=`�^C�^��ʯ�y��Y:.�l�?��ܶ��F���Wl�	�mrS�o@tۢ�?���4���(������}B&#39;��[h�J���8V3��,�yI�,3��LA���ڵA&#39;��@&#39;�K�|��IPFP�/2(w\���bUv�.^�U:�nv���H����R���+j�+���Lj����oX�@��l��k�v%�-7�zI�QYXA�W�$�	լ��7��x�J��
-�&lt;P��%��\��zb����1�f�9ָ΄�[�d$:�Z�0y�T�
-E�2�3÷�������Vt����Fe��%&amp;��g�L��8R(5*U\B/�4�-�
-��p��{�!��56�^*k\z�v�d��{�_�yX��T*��ܦ�C��k{
-�8NO����ƹ	*9��j��+󛈦Ǚ����|OH�Z��Y�E��D_�Ȥ�$rTf�u�l�Ŕ��v�d��g�-yNR)�J����a��G�����ܫ��ܞ�J��vH�,���Fe�D��	~��Q��˨�����^�s{2Cq�[&gt;Vfѓ]��
-�����ծ 4��VZ����m�7O��~E�kx�|,}��_�T����@�(�Ҙ_�N��2袩x�P1�V�2t�tWʢ1d�:,=a�N���v�:�o���2^8�/�`]l���Z��d�P�R�rTb��PYd`�+*s[y�)^�^�R���w
-bhyeT.������+p����:E*!0��)�2W��/wBg�X*��ũZ�==�*)=}�a��E&amp;KGP�/��&lt;؛��2�M�?��b����߀�A��޳�%
-�\[1���ལ�#��թ�j�H�X(��s�輔�&quot;ʄ�����]g�k�%��_Heƍ��XG����!P͜�J\�v[D���灢-X��z�l,&lt;+-��EWT�4K��J�u�d���R���a�L}�c+U�i�Dz1�P�0�n�|^v�(��VA�Ҡ��[c���0D��ѻT^,��*��4om�U�;)�;e+�/}�B^����EK�g{���`OyA%���]L3���[�l��ҵ�E%�b/`g��E٭��#q��/2w{� f�y�9��a�*��?d0����nO�����} �@Wʫ`� �8޹�Q�#Х�bLߖ���J�{t0��R��s��L#6 ����-6 ���t4d��2@��&#39;��	ArL�g�c�9�ԛ&#39;�F%X��	��I%X&#39;w�=��&amp;�*!*�RK��8ر�U�p�`=wd� 쬟0�D\;��R�9ZW�=�(`�����.���&lt;���Y�TԨ|e.�M�� ��H����7*�D��h�t���X����]�Qd������N��6����i��$WsU�cWE�h�L�)��L%�~�]oUF��%���4�Z�Ƃ(쪠6ub��`	�}&lt;��$9q�*m�[�E��Ց�O�c
-9�n&#39;�W� [������3�q��ſ�g�Aү�k�B��&gt;�u:�����Hﻩ�3K���s�K�zbHp�T��nU_���eD����s��ʰ�Ň)[����ɮs��vFc��B~9��Ú��&#39;&#39;R�h׾!]�&#39;s&amp;lY��t���rg�T�F���rHo����T�&#39;�%���&quot;�6�ӓ%�&gt;�����2#�?	��a��gբ��=@�̷m3�\��°�l���K�I���q��6p�Rj��?1�T�Y�/�BZ*MqO0:B�����2�f��&quot;Ov�VajB�UK�&lt;�$�q�A�R�g��K�tl.��dW^�&lt;X빈P͑�6!$�p��iC���m�t{�:���zln�83va�N#�-ΊT�;xӠdl6��F*S�h�B�g��^�E�� :&amp;	��P���g����{��v���]zTTd��&gt;7y?�-v(�R��.��V9�;z�e�,&amp;�&amp;��^��O[��k*�� ��A�&amp;$�B�&amp;��#�4�QT�u{.y[Ԋ=&quot;͐JpT�Xph�ʗ�0��H�׈����$���vF�)��d[�,���/��K����V�jF�fF%�ݴ]��9gX��#Z({��cE���&gt;4�`̏ʚ��9Vn�&gt;s.�B[���l�̈́r��H�P4l�SO&lt;�rB\d��z���ք�&quot;i
-���2�T�ܱZ�����/�ŏE(�}p��kob�0bo����̇��k��L��y�&gt;}Z�ۢ��mE*aL|=v��Tj��0NZ��ʖ�S�W�Y��̻�{����������r���p���1��o8��J�����&quot;�=a��4jk^Y/��蝑��jE�q��D�e�D�R���L�T��B.��7�������N�j�(ż.&gt;�4:AJ�d��R�$A�ɟ�T��+R�Q�hN(�`t��ß�H�DI��ދVT�}��?�%Ģ��TR��_qY�/�4&#39;�Kz��)C��A�=ƻ=��g��_�w?t��w0�ɗ��͟�&gt;�S{�$�}��ų^����B��ap����ޠg���Z ��V�,�	��s��a�*qN�$R��Gj�� 5a�P��M1Gz���Ӹ���娽��������gE2ux�����Ӹ�N.�Ε�f���*�&quot;&gt;��o����3��CzG��+��4�J��ܴ�yS�߉��lc�KѾ �1hT&gt;��ǠQ�4*�F�cШ|��A��1hT&gt;��ǠQ�4*�F�cШ|��A��1hT&gt;��ǠQ�4*�F�cШ|��A��1�b��)H&amp;��    IEND�B`�</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/news/2022-01-24-january-developer-portal/">https://cardano.org/news/2022-01-24-january-developer-portal/</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">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</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">RIFFj  WEBPVP8L]  /�@&gt;Ua��m�7?�����n5IK�ffffffff��̌f�03u��/&lt;��n�p�R�S��d�^��)�aL�3ȥ2����d��iH�|fK��.lf/C�Ua�#,�UW�s����$���T=eX��*�r�T}�Je�f�.lf[f�*��2�J�WI)K�{�Sf0C81����I��f*�a��I�Ȩ2�rVaflS��X��q���̜!S8yaZ1��̰t��f�pm{�ڶm۶m۶m����i�6h���n�?wB$٦m���&lt;\}]?�3۶�1�m۶m۶m�6nM ��n/���Zf�&#39;,��膫�x&#39;g6ڙ-��u☝�fk�{;��N�2��:pDob=ʿ���?�U�sl9��}�k(9,�d~��b�ٹ͢���	\��Qt̤���� ���`m�C���h��]�M�ʩF-!G�����b���y����&amp;����)�c�@	.����ePtp��|����Q�j�&quot;G�K�ك���]�^;���p�`�m��M�%Z�&quot;4Wn�mX�ѼBc�8ɳ֝��ԍ��g��&gt;[���ћ�4*b-��]M�AK�w.��wW&amp;t쮤�AL��6泙&quot;�^ɗ���Gʦ�ߕ	\7WR^�^_��|9���xZpGʡ2�w�� ����������;���8c�2��ϔ8A�3�hPm�W��^șu���&lt;U�K}��Qv�t�[(�-˾ۜ?.O[�Xq#;��&quot;����|8}�-�%��~ά�A�����?�&gt;U��BN��8�A#�Pɴ�tԶ�B.�ꒈ:��:�g��j.������B�|����J��З&gt;��%��.��^�0SI6�鎓ԍ�V�ƕTԑ�ͿT���5p9�լ�2vk���1ߨ�ov&gt;�جR�:&#39;��^Pɷ5/6�j)j�&#39;7\hP�,TZ�.�ɩnڑT&amp;FN;��+-�}�4|���Q٨Mw�˖���Ց����2���V�h��Rꐅ�L�=Pr�/KI(��sf�m�K*C�VSFY&#39;q}�������A̋�#��fh�2�&lt;�kC[�^�������-+�ׄ�*��]�9�~�T�FV�N�Jd��*s����1!���X�쵌��TB#r�T?~��&quot;���De���p*r�qn1*��=Zz8T��r&lt;�2�Z�q�A�/ҊK��RY���k@F�NH��Ƽ�2�Jڴ�$*b&amp;�����Ɗ �W�2&lt;�}&quot;���)��w��&lt;�2=�����FT�T��&gt;B����oPǩ�O^r�/�U�g[����6�ZD�)���3/�&gt;�h����K�Ge����)Ϝ�3iLep���H&lt;P�R8��Q�(���u�*¯��y����VS�_�~j�7h��]hG�y�D[�*�&gt;\��[;��*��Ll�ղ늣fV&#39;&gt;��W!��&quot;�*�{p%��x��Y�0�̵���G1VS����+�Prژ�Tq��g$�e��������Iά�E�X�YOAĎ�l�S�Hq�h�&#39;��2�P����s���J%x���Z�m&#39;�Q�Z��jm�\h��)���O�&lt;��R;�x�7?jJFsf�x����6U�E���f4e�m��8A��P�[�o�9�A��ќ�@��wwT��]���+&#39;�MS&gt;�3��Q&quot;۪���jb��M̤I��%���&amp;����~�T:w��w�/�2��A�܀�z.�pnEhc���?�^�@�fk��8�81�0�#J�EI-�	�ק�4K��Jp�|o���ƠQ @C\�;��=����hF ���ߣ�?i�[��_��&#39;��:��n�dw��3ٛ���x�?��g���`z9�^������z1���t=ξ�f&amp;�WS�����b���No��h�Zt��&lt;��)�BѨ�V �!�ξ}���[��� )�С��i�}�t�Nng7���S��zۗ�������p������r�ٯ�|���l?ӡ���&quot;����
- ����~�̙���;����Q��Zr��nu��һ&gt;���&quot;ؿ.Ll5]_M��p��UB���0���Y;ջd0���@sf$������X��M�7�;�֨&quot;�߮$]Wg�ЪK�И�3 C-��&gt;q�i�h @t@�}�5���o�9ж���=�A&#39;v��;ԻH�V ��p��1���D�9��&#39;E�脊������G��˼W�u|߳����Д��.w{=�u@E�i�S��:&gt;��0����q�J�C��DT{���ľ�a�;�Ja�~�d/�3���DT!dܴ�h��e���[�y�*��{0����1[���:�)F%pmz}U,r�Y���أ9�gL�����s�1��^_�1G&quot;
-zMiUZw�&gt;�7��k���E���&lt;T��՞k�}�I��mǬ���&amp;=&#39;%��1��j����h����BU��~Z��OWʽ���f�;���:�����n5�@�`����3��0�)��O�Ϯջ�Q|�ദ&gt;a5a���d�&amp;�v�7��:�����[4�1�E#&gt;��o�S3X}�cNSt��&amp;�I5����!�9�&amp;?�����{��n���XW-+7u��TU-w7�R\dV�Y&#39;Mhd�IU���-/�����^�~���Q B# ���X�r0@�_Qi���Y�=��ݧq�0�I0�z���\h&#39;oZx��&gt;[G��^A��2���F��Ӗ�K}���  a�
-� ,}����o�;�Xe��PX����ֶ��U|ϻ�ROl����5�+E}5  ��� �#sc�0���x��
-�X|�˫q�Ŵ]��n������ aT� Xs�:�H�4.��x!s��(ʺ�|g�V �(2Q���{�=�� �mƋ�v��6PD����P�k`�H��?ݐ�UTP�l��yJd���¶�1����E7#�����p.�E����Ň���r�G�ޱ\
-����#�En3�+@@��=�����b�J&amp;�9��tħ�&#39;1��n*�X�|w��K�7⃦��n�7�J.����+��&#39;p�tpGt}��J/�ԯ�n�(��|ݻk��0���cG�Ǌ�3���k�R����0n&quot;b��J�0v�}5e�9�&gt;� [I��*3#]x��DC�hj�R���J�Y�R����Bm�RK=ow���F�R&lt;P� ��:���r� ��ba �� &amp;�̻��L�xc�7��u01�;�s8��\r`�`�eɿy��U�@�@�rxA�Ӗ�ȗP�Y�_�}F�ky����|��y�diG��e��G� H��b4i�m�w}���(���x��H�Y�EԒ���YH�^������&amp;��4P5�?G����R�64�gE0���ӭ2@�v������a�F.�P	_T�7:�|���D��g)�ݥ�Ɔud7����&lt;sQ�}��&#39;�b����6Q���[�YՁ��x �`�C;��:/�&#39;P���������5OxK�TD�/X�q`+���ع�&gt;�&gt;�jL������+��35��	wd�SW}�, lYv�;�&quot;r�\f��NM�)r3t����.���s0���U.��M������`����;-�ɼ|N��t�?[p �?TN�W��:�M��B�u��HGwÍ�yw�l0��)��V�Gk���&lt;�\0C�Q�~����ܝ�z�7��(_a?����3�՜����l�x���Ŗ���\)����d��.�N~Cem;��w�s�\� ����F����|w4�*2�MfPl�c�Qҷ�&gt;�D��H��裴OG(����� �Q�,0�}x�&gt;�uNBy%W��[�+��4�~b�|��/i�|�F�t�	��#!�g2�&gt;���w�2�=�1������d��d��e�r��FI����^N}r�%�wu�{?�0/FsI��#j��ԅS{Y8�w��7��xa_�L�P���WLOG	��5��3�9���[̈́Q2����Z�3�q=ݘ5BǾ�&amp;�m��9��K��20���R�ZP#��@�V�J�P^���&#39;�m	���;��R`h�L��]x���J-�q6��&quot;�q�m�RK=���R���Nm��,
-ۜ�V�]��Ұ��4e���Eg�eU��{Ő)V\�q�(j䢛��m֢�]c��q��ѽ\�Lz�P�*�&quot;ǃ�G]@u 9��U�Ծ��`��ѩ�ט70`R�����I&amp;�%a��j�S�zcU�`���}�V�L��B�{�x��T�?,p��0u�,r��Uէ���i�G����]�sz �*��J�X}�G�r(��&#39;�l�N�&gt;[�UU��;[{��J�0�0$Kћ{�&gt;/4@�Vkn�M�ތ�UUM٦ޕ���� @ �o����L��ʽ��a/��Ϧ��d()n�XR93��1�0�&quot;j~������+�7��ՃC�����\�&lt;��br_ cBb� �����=��m&quot;�I�_#}��#��*�����&amp;�����b����2  Bc�0� `~M^�ןkM�B�L�@��Wx;��W�+4�1ߪ�u�\�rw�C:���ۡ����
-d��#F2���c�)�]��n�����1XM�rUA�=WF���8�6k��({�t�[�I8ޛ�$˿�:kYM�&#39;��5��wh/7�1/�w��^��w��a��.�ܰ U�y2���o���,��]�:+e����4��
-��+x���ǀ
-_�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,��ub[L-Mi�&gt;�{���y c�v��&amp;J):��{�U�_$&amp;����-�5P���r�՘a9�颡�2�Qw��S��B�&quot;u�S��T��C:�K�DD)e u�~�����P���j�!V��
-�QQ���:�j�� �z����b�&amp;T���j�t�3�%���I�؍Î|��(����ͼ��f\j(j�p�G�Y�ʀ0�B1��gؘ/(�� ���l�=̻?�:��������\��e.��0��`w��2�5��Txf $����b��kq;�K�x�,5�컸�6��o��� �=�2K�`g�AC���X�8s������ь3_o�I8���&#39;����Y/�7��R �(b��b�	�u�5^2 4KT\�#��S����+��(F3�r��:O��(�) 0l��w8������a�~���  �(��&#39;�Y;�)�$o `ZD���\iW���q��W����cLnr��������k�k&amp;y$3(;_��~�  a�&quot;&lt;F:��|��qNE3�1B ��` ����`7��9�[;�S
-�����|��,0����Y%��D���̺i�G�s��+�|�T�v��5��ms7�/�t��;�M�h��&lt;���������7�)͙�����^_V2Ӎ�{��l~����\z��y*��\$_x��J%�h0�ot�J%F����]��#�8e�q��,�#�(�h��#Ă,�f�Q�Ԙ�2
-`�c���-hJCsc[}I
-�x�Uiԙk���:��:�������,�U�!����J�-��MX�O�q���݅�	Q
-!.�5|�h&amp;�)�Ą�O����ܙ2����b,�SH	�6,��	���X�Mx�~�������ƿRł�S0�H�F���\S�K,�D��&gt;�*�~~�X�%��)9gP&#39;�	����7܊�`��#��q#�X��X�����&quot;�B7\ek^ɱ���HV̤a���7p��HڬJ�U�״��Ĩl�y3i�Q^ٚ�1���� 1:�z��ρ˩kY�������ܗO&#39;��1j�H�^ߔK���t���qy�|��%�~��&amp;�����cc4/`��r��	3Fu�K:&#39;�/R�Dά�EF�쎵�����Xq�&amp;?S1�����r�\c	�����}�!�$dI�|;F�����&lt;�#����5X
-;�C&lt;h��a)��s����Q���#w#�f,��~�����j�A��K�ݘ7*��8��#�B䴯KmC&gt;;�k�9`��nKpB�z���R��ʉ�,��x$��(z��kGY��PbɮoA�J*~�-�kPG^��E-��w��k7K�Y7�$�eĒ&#39;�sC
-���\�׃�`ˮ��� G1L��b��ć^M�X&amp;V\r�ćg7K�9{އ��Ȗ^����z���w��w��K9�ܐXn&amp;�,�g&#39;wU�����/�,K�Sл���cA����uG�}²uO����
-/���^MS�(X�ֻ��@)�|�^_AO�W8���� ,�[~E$���q� ��ZJ�����ذ\n�e9tWR�ez}!܌sx%_6�������9�e���ά�}�!��&amp;&amp;�?����I��W���1o����crb�Z7��b0W�ׅ7��W,�7�c�@ڪ�����)�&amp;-S�HO���A�ظ�NX��?��&amp;Va�t������Af�q�QsP�/T3áV8�k���~֜V�m&lt;#�ŰŸ~�;Ju�E&#39;g6ʅ�����P�􊍹�%�~Rv��[�WR֤��K^mJO�K��~�Ln��R,� </td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/news/page/32/">https://cardano.org/news/page/32/</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">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</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">RIFFj  WEBPVP8L]  /�@&gt;Ua��m�7?�����n5IK�ffffffff��̌f�03u��/&lt;��n�p�R�S��d�^��)�aL�3ȥ2����d��iH�|fK��.lf/C�Ua�#,�UW�s����$���T=eX��*�r�T}�Je�f�.lf[f�*��2�J�WI)K�{�Sf0C81����I��f*�a��I�Ȩ2�rVaflS��X��q���̜!S8yaZ1��̰t��f�pm{�ڶm۶m۶m����i�6h���n�?wB$٦m���&lt;\}]?�3۶�1�m۶m۶m�6nM ��n/���Zf�&#39;,��膫�x&#39;g6ڙ-��u☝�fk�{;��N�2��:pDob=ʿ���?�U�sl9��}�k(9,�d~��b�ٹ͢���	\��Qt̤���� ���`m�C���h��]�M�ʩF-!G�����b���y����&amp;����)�c�@	.����ePtp��|����Q�j�&quot;G�K�ك���]�^;���p�`�m��M�%Z�&quot;4Wn�mX�ѼBc�8ɳ֝��ԍ��g��&gt;[���ћ�4*b-��]M�AK�w.��wW&amp;t쮤�AL��6泙&quot;�^ɗ���Gʦ�ߕ	\7WR^�^_��|9���xZpGʡ2�w�� ����������;���8c�2��ϔ8A�3�hPm�W��^șu���&lt;U�K}��Qv�t�[(�-˾ۜ?.O[�Xq#;��&quot;����|8}�-�%��~ά�A�����?�&gt;U��BN��8�A#�Pɴ�tԶ�B.�ꒈ:��:�g��j.������B�|����J��З&gt;��%��.��^�0SI6�鎓ԍ�V�ƕTԑ�ͿT���5p9�լ�2vk���1ߨ�ov&gt;�جR�:&#39;��^Pɷ5/6�j)j�&#39;7\hP�,TZ�.�ɩnڑT&amp;FN;��+-�}�4|���Q٨Mw�˖���Ց����2���V�h��Rꐅ�L�=Pr�/KI(��sf�m�K*C�VSFY&#39;q}�������A̋�#��fh�2�&lt;�kC[�^�������-+�ׄ�*��]�9�~�T�FV�N�Jd��*s����1!���X�쵌��TB#r�T?~��&quot;���De���p*r�qn1*��=Zz8T��r&lt;�2�Z�q�A�/ҊK��RY���k@F�NH��Ƽ�2�Jڴ�$*b&amp;�����Ɗ �W�2&lt;�}&quot;���)��w��&lt;�2=�����FT�T��&gt;B����oPǩ�O^r�/�U�g[����6�ZD�)���3/�&gt;�h����K�Ge����)Ϝ�3iLep���H&lt;P�R8��Q�(���u�*¯��y����VS�_�~j�7h��]hG�y�D[�*�&gt;\��[;��*��Ll�ղ늣fV&#39;&gt;��W!��&quot;�*�{p%��x��Y�0�̵���G1VS����+�Prژ�Tq��g$�e��������Iά�E�X�YOAĎ�l�S�Hq�h�&#39;��2�P����s���J%x���Z�m&#39;�Q�Z��jm�\h��)���O�&lt;��R;�x�7?jJFsf�x����6U�E���f4e�m��8A��P�[�o�9�A��ќ�@��wwT��]���+&#39;�MS&gt;�3��Q&quot;۪���jb��M̤I��%���&amp;����~�T:w��w�/�2��A�܀�z.�pnEhc���?�^�@�fk��8�81�0�#J�EI-�	�ק�4K��Jp�|o���ƠQ @C\�;��=����hF ���ߣ�?i�[��_��&#39;��:��n�dw��3ٛ���x�?��g���`z9�^������z1���t=ξ�f&amp;�WS�����b���No��h�Zt��&lt;��)�BѨ�V �!�ξ}���[��� )�С��i�}�t�Nng7���S��zۗ�������p������r�ٯ�|���l?ӡ���&quot;����
- ����~�̙���;����Q��Zr��nu��һ&gt;���&quot;ؿ.Ll5]_M��p��UB���0���Y;ջd0���@sf$������X��M�7�;�֨&quot;�߮$]Wg�ЪK�И�3 C-��&gt;q�i�h @t@�}�5���o�9ж���=�A&#39;v��;ԻH�V ��p��1���D�9��&#39;E�脊������G��˼W�u|߳����Д��.w{=�u@E�i�S��:&gt;��0����q�J�C��DT{���ľ�a�;�Ja�~�d/�3���DT!dܴ�h��e���[�y�*��{0����1[���:�)F%pmz}U,r�Y���أ9�gL�����s�1��^_�1G&quot;
-zMiUZw�&gt;�7��k���E���&lt;T��՞k�}�I��mǬ���&amp;=&#39;%��1��j����h����BU��~Z��OWʽ���f�;���:�����n5�@�`����3��0�)��O�Ϯջ�Q|�ദ&gt;a5a���d�&amp;�v�7��:�����[4�1�E#&gt;��o�S3X}�cNSt��&amp;�I5����!�9�&amp;?�����{��n���XW-+7u��TU-w7�R\dV�Y&#39;Mhd�IU���-/�����^�~���Q B# ���X�r0@�_Qi���Y�=��ݧq�0�I0�z���\h&#39;oZx��&gt;[G��^A��2���F��Ӗ�K}���  a�
-� ,}����o�;�Xe��PX����ֶ��U|ϻ�ROl����5�+E}5  ��� �#sc�0���x��
-�X|�˫q�Ŵ]��n������ aT� Xs�:�H�4.��x!s��(ʺ�|g�V �(2Q���{�=�� �mƋ�v��6PD����P�k`�H��?ݐ�UTP�l��yJd���¶�1����E7#�����p.�E����Ň���r�G�ޱ\
-����#�En3�+@@��=�����b�J&amp;�9��tħ�&#39;1��n*�X�|w��K�7⃦��n�7�J.����+��&#39;p�tpGt}��J/�ԯ�n�(��|ݻk��0���cG�Ǌ�3���k�R����0n&quot;b��J�0v�}5e�9�&gt;� [I��*3#]x��DC�hj�R���J�Y�R����Bm�RK=ow���F�R&lt;P� ��:���r� ��ba �� &amp;�̻��L�xc�7��u01�;�s8��\r`�`�eɿy��U�@�@�rxA�Ӗ�ȗP�Y�_�}F�ky����|��y�diG��e��G� H��b4i�m�w}���(���x��H�Y�EԒ���YH�^������&amp;��4P5�?G����R�64�gE0���ӭ2@�v������a�F.�P	_T�7:�|���D��g)�ݥ�Ɔud7����&lt;sQ�}��&#39;�b����6Q���[�YՁ��x �`�C;��:/�&#39;P���������5OxK�TD�/X�q`+���ع�&gt;�&gt;�jL������+��35��	wd�SW}�, lYv�;�&quot;r�\f��NM�)r3t����.���s0���U.��M������`����;-�ɼ|N��t�?[p �?TN�W��:�M��B�u��HGwÍ�yw�l0��)��V�Gk���&lt;�\0C�Q�~����ܝ�z�7��(_a?����3�՜����l�x���Ŗ���\)����d��.�N~Cem;��w�s�\� ����F����|w4�*2�MfPl�c�Qҷ�&gt;�D��H��裴OG(����� �Q�,0�}x�&gt;�uNBy%W��[�+��4�~b�|��/i�|�F�t�	��#!�g2�&gt;���w�2�=�1������d��d��e�r��FI����^N}r�%�wu�{?�0/FsI��#j��ԅS{Y8�w��7��xa_�L�P���WLOG	��5��3�9���[̈́Q2����Z�3�q=ݘ5BǾ�&amp;�m��9��K��20���R�ZP#��@�V�J�P^���&#39;�m	���;��R`h�L��]x���J-�q6��&quot;�q�m�RK=���R���Nm��,
-ۜ�V�]��Ұ��4e���Eg�eU��{Ő)V\�q�(j䢛��m֢�]c��q��ѽ\�Lz�P�*�&quot;ǃ�G]@u 9��U�Ծ��`��ѩ�ט70`R�����I&amp;�%a��j�S�zcU�`���}�V�L��B�{�x��T�?,p��0u�,r��Uէ���i�G����]�sz �*��J�X}�G�r(��&#39;�l�N�&gt;[�UU��;[{��J�0�0$Kћ{�&gt;/4@�Vkn�M�ތ�UUM٦ޕ���� @ �o����L��ʽ��a/��Ϧ��d()n�XR93��1�0�&quot;j~������+�7��ՃC�����\�&lt;��br_ cBb� �����=��m&quot;�I�_#}��#��*�����&amp;�����b����2  Bc�0� `~M^�ןkM�B�L�@��Wx;��W�+4�1ߪ�u�\�rw�C:���ۡ����
-d��#F2���c�)�]��n�����1XM�rUA�=WF���8�6k��({�t�[�I8ޛ�$˿�:kYM�&#39;��5��wh/7�1/�w��^��w��a��.�ܰ U�y2���o���,��]�:+e����4��
-��+x���ǀ
-_�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,��ub[L-Mi�&gt;�{���y c�v��&amp;J):��{�U�_$&amp;����-�5P���r�՘a9�颡�2�Qw��S��B�&quot;u�S��T��C:�K�DD)e u�~�����P���j�!V��
-�QQ���:�j�� �z����b�&amp;T���j�t�3�%���I�؍Î|��(����ͼ��f\j(j�p�G�Y�ʀ0�B1��gؘ/(�� ���l�=̻?�:��������\��e.��0��`w��2�5��Txf $����b��kq;�K�x�,5�컸�6��o��� �=�2K�`g�AC���X�8s������ь3_o�I8���&#39;����Y/�7��R �(b��b�	�u�5^2 4KT\�#��S����+��(F3�r��:O��(�) 0l��w8������a�~���  �(��&#39;�Y;�)�$o `ZD���\iW���q��W����cLnr��������k�k&amp;y$3(;_��~�  a�&quot;&lt;F:��|��qNE3�1B ��` ����`7��9�[;�S
-�����|��,0����Y%��D���̺i�G�s��+�|�T�v��5��ms7�/�t��;�M�h��&lt;���������7�)͙�����^_V2Ӎ�{��l~����\z��y*��\$_x��J%�h0�ot�J%F����]��#�8e�q��,�#�(�h��#Ă,�f�Q�Ԙ�2
-`�c���-hJCsc[}I
-�x�Uiԙk���:��:�������,�U�!����J�-��MX�O�q���݅�	Q
-!.�5|�h&amp;�)�Ą�O����ܙ2����b,�SH	�6,��	���X�Mx�~�������ƿRł�S0�H�F���\S�K,�D��&gt;�*�~~�X�%��)9gP&#39;�	����7܊�`��#��q#�X��X�����&quot;�B7\ek^ɱ���HV̤a���7p��HڬJ�U�״��Ĩl�y3i�Q^ٚ�1���� 1:�z��ρ˩kY�������ܗO&#39;��1j�H�^ߔK���t���qy�|��%�~��&amp;�����cc4/`��r��	3Fu�K:&#39;�/R�Dά�EF�쎵�����Xq�&amp;?S1�����r�\c	�����}�!�$dI�|;F�����&lt;�#����5X
-;�C&lt;h��a)��s����Q���#w#�f,��~�����j�A��K�ݘ7*��8��#�B䴯KmC&gt;;�k�9`��nKpB�z���R��ʉ�,��x$��(z��kGY��PbɮoA�J*~�-�kPG^��E-��w��k7K�Y7�$�eĒ&#39;�sC
-���\�׃�`ˮ��� G1L��b��ć^M�X&amp;V\r�ćg7K�9{އ��Ȗ^����z���w��w��K9�ܐXn&amp;�,�g&#39;wU�����/�,K�Sл���cA����uG�}²uO����
-/���^MS�(X�ֻ��@)�|�^_AO�W8���� ,�[~E$���q� ��ZJ�����ذ\n�e9tWR�ez}!܌sx%_6�������9�e���ά�}�!��&amp;&amp;�?����I��W���1o����crb�Z7��b0W�ׅ7��W,�7�c�@ڪ�����)�&amp;-S�HO���A�ظ�NX��?��&amp;Va�t������Af�q�QsP�/T3áV8�k���~֜V�m&lt;#�ŰŸ~�;Ju�E&#39;g6ʅ�����P�􊍹�%�~Rv��[�WR֤��K^mJO�K��~�Ln��R,� </td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/news/tags/developers/page/3/">https://cardano.org/news/tags/developers/page/3/</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">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</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">RIFFj  WEBPVP8L]  /�@&gt;Ua��m�7?�����n5IK�ffffffff��̌f�03u��/&lt;��n�p�R�S��d�^��)�aL�3ȥ2����d��iH�|fK��.lf/C�Ua�#,�UW�s����$���T=eX��*�r�T}�Je�f�.lf[f�*��2�J�WI)K�{�Sf0C81����I��f*�a��I�Ȩ2�rVaflS��X��q���̜!S8yaZ1��̰t��f�pm{�ڶm۶m۶m����i�6h���n�?wB$٦m���&lt;\}]?�3۶�1�m۶m۶m�6nM ��n/���Zf�&#39;,��膫�x&#39;g6ڙ-��u☝�fk�{;��N�2��:pDob=ʿ���?�U�sl9��}�k(9,�d~��b�ٹ͢���	\��Qt̤���� ���`m�C���h��]�M�ʩF-!G�����b���y����&amp;����)�c�@	.����ePtp��|����Q�j�&quot;G�K�ك���]�^;���p�`�m��M�%Z�&quot;4Wn�mX�ѼBc�8ɳ֝��ԍ��g��&gt;[���ћ�4*b-��]M�AK�w.��wW&amp;t쮤�AL��6泙&quot;�^ɗ���Gʦ�ߕ	\7WR^�^_��|9���xZpGʡ2�w�� ����������;���8c�2��ϔ8A�3�hPm�W��^șu���&lt;U�K}��Qv�t�[(�-˾ۜ?.O[�Xq#;��&quot;����|8}�-�%��~ά�A�����?�&gt;U��BN��8�A#�Pɴ�tԶ�B.�ꒈ:��:�g��j.������B�|����J��З&gt;��%��.��^�0SI6�鎓ԍ�V�ƕTԑ�ͿT���5p9�լ�2vk���1ߨ�ov&gt;�جR�:&#39;��^Pɷ5/6�j)j�&#39;7\hP�,TZ�.�ɩnڑT&amp;FN;��+-�}�4|���Q٨Mw�˖���Ց����2���V�h��Rꐅ�L�=Pr�/KI(��sf�m�K*C�VSFY&#39;q}�������A̋�#��fh�2�&lt;�kC[�^�������-+�ׄ�*��]�9�~�T�FV�N�Jd��*s����1!���X�쵌��TB#r�T?~��&quot;���De���p*r�qn1*��=Zz8T��r&lt;�2�Z�q�A�/ҊK��RY���k@F�NH��Ƽ�2�Jڴ�$*b&amp;�����Ɗ �W�2&lt;�}&quot;���)��w��&lt;�2=�����FT�T��&gt;B����oPǩ�O^r�/�U�g[����6�ZD�)���3/�&gt;�h����K�Ge����)Ϝ�3iLep���H&lt;P�R8��Q�(���u�*¯��y����VS�_�~j�7h��]hG�y�D[�*�&gt;\��[;��*��Ll�ղ늣fV&#39;&gt;��W!��&quot;�*�{p%��x��Y�0�̵���G1VS����+�Prژ�Tq��g$�e��������Iά�E�X�YOAĎ�l�S�Hq�h�&#39;��2�P����s���J%x���Z�m&#39;�Q�Z��jm�\h��)���O�&lt;��R;�x�7?jJFsf�x����6U�E���f4e�m��8A��P�[�o�9�A��ќ�@��wwT��]���+&#39;�MS&gt;�3��Q&quot;۪���jb��M̤I��%���&amp;����~�T:w��w�/�2��A�܀�z.�pnEhc���?�^�@�fk��8�81�0�#J�EI-�	�ק�4K��Jp�|o���ƠQ @C\�;��=����hF ���ߣ�?i�[��_��&#39;��:��n�dw��3ٛ���x�?��g���`z9�^������z1���t=ξ�f&amp;�WS�����b���No��h�Zt��&lt;��)�BѨ�V �!�ξ}���[��� )�С��i�}�t�Nng7���S��zۗ�������p������r�ٯ�|���l?ӡ���&quot;����
- ����~�̙���;����Q��Zr��nu��һ&gt;���&quot;ؿ.Ll5]_M��p��UB���0���Y;ջd0���@sf$������X��M�7�;�֨&quot;�߮$]Wg�ЪK�И�3 C-��&gt;q�i�h @t@�}�5���o�9ж���=�A&#39;v��;ԻH�V ��p��1���D�9��&#39;E�脊������G��˼W�u|߳����Д��.w{=�u@E�i�S��:&gt;��0����q�J�C��DT{���ľ�a�;�Ja�~�d/�3���DT!dܴ�h��e���[�y�*��{0����1[���:�)F%pmz}U,r�Y���أ9�gL�����s�1��^_�1G&quot;
-zMiUZw�&gt;�7��k���E���&lt;T��՞k�}�I��mǬ���&amp;=&#39;%��1��j����h����BU��~Z��OWʽ���f�;���:�����n5�@�`����3��0�)��O�Ϯջ�Q|�ദ&gt;a5a���d�&amp;�v�7��:�����[4�1�E#&gt;��o�S3X}�cNSt��&amp;�I5����!�9�&amp;?�����{��n���XW-+7u��TU-w7�R\dV�Y&#39;Mhd�IU���-/�����^�~���Q B# ���X�r0@�_Qi���Y�=��ݧq�0�I0�z���\h&#39;oZx��&gt;[G��^A��2���F��Ӗ�K}���  a�
-� ,}����o�;�Xe��PX����ֶ��U|ϻ�ROl����5�+E}5  ��� �#sc�0���x��
-�X|�˫q�Ŵ]��n������ aT� Xs�:�H�4.��x!s��(ʺ�|g�V �(2Q���{�=�� �mƋ�v��6PD����P�k`�H��?ݐ�UTP�l��yJd���¶�1����E7#�����p.�E����Ň���r�G�ޱ\
-����#�En3�+@@��=�����b�J&amp;�9��tħ�&#39;1��n*�X�|w��K�7⃦��n�7�J.����+��&#39;p�tpGt}��J/�ԯ�n�(��|ݻk��0���cG�Ǌ�3���k�R����0n&quot;b��J�0v�}5e�9�&gt;� [I��*3#]x��DC�hj�R���J�Y�R����Bm�RK=ow���F�R&lt;P� ��:���r� ��ba �� &amp;�̻��L�xc�7��u01�;�s8��\r`�`�eɿy��U�@�@�rxA�Ӗ�ȗP�Y�_�}F�ky����|��y�diG��e��G� H��b4i�m�w}���(���x��H�Y�EԒ���YH�^������&amp;��4P5�?G����R�64�gE0���ӭ2@�v������a�F.�P	_T�7:�|���D��g)�ݥ�Ɔud7����&lt;sQ�}��&#39;�b����6Q���[�YՁ��x �`�C;��:/�&#39;P���������5OxK�TD�/X�q`+���ع�&gt;�&gt;�jL������+��35��	wd�SW}�, lYv�;�&quot;r�\f��NM�)r3t����.���s0���U.��M������`����;-�ɼ|N��t�?[p �?TN�W��:�M��B�u��HGwÍ�yw�l0��)��V�Gk���&lt;�\0C�Q�~����ܝ�z�7��(_a?����3�՜����l�x���Ŗ���\)����d��.�N~Cem;��w�s�\� ����F����|w4�*2�MfPl�c�Qҷ�&gt;�D��H��裴OG(����� �Q�,0�}x�&gt;�uNBy%W��[�+��4�~b�|��/i�|�F�t�	��#!�g2�&gt;���w�2�=�1������d��d��e�r��FI����^N}r�%�wu�{?�0/FsI��#j��ԅS{Y8�w��7��xa_�L�P���WLOG	��5��3�9���[̈́Q2����Z�3�q=ݘ5BǾ�&amp;�m��9��K��20���R�ZP#��@�V�J�P^���&#39;�m	���;��R`h�L��]x���J-�q6��&quot;�q�m�RK=���R���Nm��,
-ۜ�V�]��Ұ��4e���Eg�eU��{Ő)V\�q�(j䢛��m֢�]c��q��ѽ\�Lz�P�*�&quot;ǃ�G]@u 9��U�Ծ��`��ѩ�ט70`R�����I&amp;�%a��j�S�zcU�`���}�V�L��B�{�x��T�?,p��0u�,r��Uէ���i�G����]�sz �*��J�X}�G�r(��&#39;�l�N�&gt;[�UU��;[{��J�0�0$Kћ{�&gt;/4@�Vkn�M�ތ�UUM٦ޕ���� @ �o����L��ʽ��a/��Ϧ��d()n�XR93��1�0�&quot;j~������+�7��ՃC�����\�&lt;��br_ cBb� �����=��m&quot;�I�_#}��#��*�����&amp;�����b����2  Bc�0� `~M^�ןkM�B�L�@��Wx;��W�+4�1ߪ�u�\�rw�C:���ۡ����
-d��#F2���c�)�]��n�����1XM�rUA�=WF���8�6k��({�t�[�I8ޛ�$˿�:kYM�&#39;��5��wh/7�1/�w��^��w��a��.�ܰ U�y2���o���,��]�:+e����4��
-��+x���ǀ
-_�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,��ub[L-Mi�&gt;�{���y c�v��&amp;J):��{�U�_$&amp;����-�5P���r�՘a9�颡�2�Qw��S��B�&quot;u�S��T��C:�K�DD)e u�~�����P���j�!V��
-�QQ���:�j�� �z����b�&amp;T���j�t�3�%���I�؍Î|��(����ͼ��f\j(j�p�G�Y�ʀ0�B1��gؘ/(�� ���l�=̻?�:��������\��e.��0��`w��2�5��Txf $����b��kq;�K�x�,5�컸�6��o��� �=�2K�`g�AC���X�8s������ь3_o�I8���&#39;����Y/�7��R �(b��b�	�u�5^2 4KT\�#��S����+��(F3�r��:O��(�) 0l��w8������a�~���  �(��&#39;�Y;�)�$o `ZD���\iW���q��W����cLnr��������k�k&amp;y$3(;_��~�  a�&quot;&lt;F:��|��qNE3�1B ��` ����`7��9�[;�S
-�����|��,0����Y%��D���̺i�G�s��+�|�T�v��5��ms7�/�t��;�M�h��&lt;���������7�)͙�����^_V2Ӎ�{��l~����\z��y*��\$_x��J%�h0�ot�J%F����]��#�8e�q��,�#�(�h��#Ă,�f�Q�Ԙ�2
-`�c���-hJCsc[}I
-�x�Uiԙk���:��:�������,�U�!����J�-��MX�O�q���݅�	Q
-!.�5|�h&amp;�)�Ą�O����ܙ2����b,�SH	�6,��	���X�Mx�~�������ƿRł�S0�H�F���\S�K,�D��&gt;�*�~~�X�%��)9gP&#39;�	����7܊�`��#��q#�X��X�����&quot;�B7\ek^ɱ���HV̤a���7p��HڬJ�U�״��Ĩl�y3i�Q^ٚ�1���� 1:�z��ρ˩kY�������ܗO&#39;��1j�H�^ߔK���t���qy�|��%�~��&amp;�����cc4/`��r��	3Fu�K:&#39;�/R�Dά�EF�쎵�����Xq�&amp;?S1�����r�\c	�����}�!�$dI�|;F�����&lt;�#����5X
-;�C&lt;h��a)��s����Q���#w#�f,��~�����j�A��K�ݘ7*��8��#�B䴯KmC&gt;;�k�9`��nKpB�z���R��ʉ�,��x$��(z��kGY��PbɮoA�J*~�-�kPG^��E-��w��k7K�Y7�$�eĒ&#39;�sC
-���\�׃�`ˮ��� G1L��b��ć^M�X&amp;V\r�ćg7K�9{އ��Ȗ^����z���w��w��K9�ܐXn&amp;�,�g&#39;wU�����/�,K�Sл���cA����uG�}²uO����
-/���^MS�(X�ֻ��@)�|�^_AO�W8���� ,�[~E$���q� ��ZJ�����ذ\n�e9tWR�ez}!܌sx%_6�������9�e���ά�}�!��&amp;&amp;�?����I��W���1o����crb�Z7��b0W�ׅ7��W,�7�c�@ڪ�����)�&amp;-S�HO���A�ظ�NX��?��&amp;Va�t������Af�q�QsP�/T3áV8�k���~֜V�m&lt;#�ŰŸ~�;Ju�E&#39;g6ʅ�����P�􊍹�%�~Rv��[�WR֤��K^mJO�K��~�Ln��R,� </td>
+						<td width="80%">��(��с�Zq�l5뭭�K�m�M</td>
 					</tr>
 				
 					<tr>
@@ -4116,6 +4617,38 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 						<td width="20%"
 							class="indent2">Other Info</td>
 						<td width="80%">r��q��jz&gt;~��u�b�� �?nZ�f������ׯx� �</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/where-to-get-ada/">https://cardano.org/where-to-get-ada/</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">�x~����k��~o�hzW�v��z�l</td>
 					</tr>
 				
 				<tr>
@@ -4177,7 +4710,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/assets/js/main.2f82edf1.js">https://cardano.org/assets/js/main.2f82edf1.js</a></td>
+						<td width="80%"><a href="https://cardano.org/assets/js/main.c826a0c0.js">https://cardano.org/assets/js/main.c826a0c0.js</a></td>
 					</tr>
 					
 					<tr>
@@ -4209,7 +4742,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/assets/js/runtime~main.9f500e59.js">https://cardano.org/assets/js/runtime~main.9f500e59.js</a></td>
+						<td width="80%"><a href="https://cardano.org/assets/js/runtime~main.019a1793.js">https://cardano.org/assets/js/runtime~main.019a1793.js</a></td>
 					</tr>
 					
 					<tr>
@@ -4270,331 +4803,11 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 						<td width="80%">The following pattern was used: \bBUG\b and was detected in likely comment: &quot;//schema.org&quot;,&quot;@type&quot;:&quot;Blog&quot;,&quot;@id&quot;:&quot;https://cardano.org/news&quot;,&quot;mainEntityOfPage&quot;:&quot;https://cardano.org/news&quot;,&quot;headline&quot;:&quot;Blog&quot;,&quot;d&quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/news/2021-12-20-december-developer-portal/">https://cardano.org/news/2021-12-20-december-developer-portal/</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">from</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bFROM\b and was detected in likely comment: &quot;//schema.org&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;@id&quot;:&quot;https://cardano.org/news/2021-12-20-december-developer-portal&quot;,&quot;mainEntityOfPage&quot;:&quot;ht&quot;, see evidence field for the suspicious comment/snippet.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/news/2022-01-24-january-developer-portal/">https://cardano.org/news/2022-01-24-january-developer-portal/</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">from</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bFROM\b and was detected in likely comment: &quot;//schema.org&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;@id&quot;:&quot;https://cardano.org/news/2022-01-24-january-developer-portal&quot;,&quot;mainEntityOfPage&quot;:&quot;htt&quot;, see evidence field for the suspicious comment/snippet.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/news/2022-09-23-september-developer-portal/">https://cardano.org/news/2022-09-23-september-developer-portal/</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">from</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bFROM\b and was detected in likely comment: &quot;//schema.org&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;@id&quot;:&quot;https://cardano.org/news/2022-09-23-september-developer-portal&quot;,&quot;mainEntityOfPage&quot;:&quot;h&quot;, see evidence field for the suspicious comment/snippet.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/news/2022-12-05-monthly-report-cardano-scaling/">https://cardano.org/news/2022-12-05-monthly-report-cardano-scaling/</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">user</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bUSER\b and was detected in likely comment: &quot;//schema.org&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;@id&quot;:&quot;https://cardano.org/news/2022-12-05-monthly-report-cardano-scaling&quot;,&quot;mainEntityOfPage&quot;, see evidence field for the suspicious comment/snippet.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/news/2023-01-09-monthly-report-cardano-scaling/">https://cardano.org/news/2023-01-09-monthly-report-cardano-scaling/</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">from</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bFROM\b and was detected in likely comment: &quot;//schema.org&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;@id&quot;:&quot;https://cardano.org/news/2023-01-09-monthly-report-cardano-scaling&quot;,&quot;mainEntityOfPage&quot;, see evidence field for the suspicious comment/snippet.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/news/2023-02-16-february-developer-portal/">https://cardano.org/news/2023-02-16-february-developer-portal/</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">user</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bUSER\b and was detected in likely comment: &quot;//schema.org&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;@id&quot;:&quot;https://cardano.org/news/2023-02-16-february-developer-portal&quot;,&quot;mainEntityOfPage&quot;:&quot;ht&quot;, see evidence field for the suspicious comment/snippet.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/news/2023-05-03-monthly-report-cardano-scaling/">https://cardano.org/news/2023-05-03-monthly-report-cardano-scaling/</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">bug</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bBUG\b and was detected in likely comment: &quot;//schema.org&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;@id&quot;:&quot;https://cardano.org/news/2023-05-03-monthly-report-cardano-scaling&quot;,&quot;mainEntityOfPage&quot;, see evidence field for the suspicious comment/snippet.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/news/2023-05-30-monthly-report-cardano-scaling/">https://cardano.org/news/2023-05-30-monthly-report-cardano-scaling/</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">user</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bUSER\b and was detected in likely comment: &quot;//schema.org&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;@id&quot;:&quot;https://cardano.org/news/2023-05-30-monthly-report-cardano-scaling&quot;,&quot;mainEntityOfPage&quot;, see evidence field for the suspicious comment/snippet.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/news/2023-06-27-monthly-report-cardano-scaling/">https://cardano.org/news/2023-06-27-monthly-report-cardano-scaling/</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">from</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bFROM\b and was detected in likely comment: &quot;//schema.org&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;@id&quot;:&quot;https://cardano.org/news/2023-06-27-monthly-report-cardano-scaling&quot;,&quot;mainEntityOfPage&quot;, see evidence field for the suspicious comment/snippet.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/news/2023-08-21-august-developer-portal/">https://cardano.org/news/2023-08-21-august-developer-portal/</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">user</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bUSER\b and was detected in likely comment: &quot;//schema.org&quot;,&quot;@type&quot;:&quot;BlogPosting&quot;,&quot;@id&quot;:&quot;https://cardano.org/news/2023-08-21-august-developer-portal&quot;,&quot;mainEntityOfPage&quot;:&quot;http&quot;, see evidence field for the suspicious comment/snippet.</td>
-					</tr>
-				
 				<tr>
 					<td width="20%">Instances</td>
 					
 					
-					<td width="80%">13</td>
+					<td width="80%">3</td>
 					
 				</tr>
 				<tr>
@@ -4678,38 +4891,6 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/apps/?operator=OR&amp;tags=dex&amp;tags=lending">https://cardano.org/apps/?operator=OR&amp;tags=dex&amp;tags=lending</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;noscript&gt;&lt;img style=&quot;width:100%;height:auto;max-width:100%;margin-bottom:-4px;position:absolute;top:0;left:0&quot; src=&quot;/assets/ideal-img/reeve.1ee296a.640.png&quot; srcset=&quot;/assets/ideal-img/reeve.1ee296a.640.png 640w,/assets/ideal-img/reeve.4e2b351.1030.png 1030w&quot; width=&quot;640&quot; height=&quot;334&quot;&gt;&lt;/noscript&gt;</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://cardano.org/apps/?tags=governance">https://cardano.org/apps/?tags=governance</a></td>
 					</tr>
 					
@@ -4742,7 +4923,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/apps/?tags=wallet">https://cardano.org/apps/?tags=wallet</a></td>
+						<td width="80%"><a href="https://cardano.org/apps?tags=dex">https://cardano.org/apps?tags=dex</a></td>
 					</tr>
 					
 					<tr>
@@ -4763,7 +4944,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;noscript&gt;&lt;img style=&quot;width:100%;height:auto;max-width:100%;margin-bottom:-4px;position:absolute;top:0;left:0&quot; src=&quot;/assets/ideal-img/reeve.1ee296a.640.png&quot; srcset=&quot;/assets/ideal-img/reeve.1ee296a.640.png 640w,/assets/ideal-img/reeve.4e2b351.1030.png 1030w&quot; width=&quot;640&quot; height=&quot;334&quot;&gt;&lt;/noscript&gt;</td>
+						<td width="80%">&lt;noscript&gt;&lt;p&gt;Please enable Javascript to allow the check to run.&lt;/p&gt;&lt;/noscript&gt;</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4774,7 +4955,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/archive/static.iohk.io/adasale/">https://cardano.org/archive/static.iohk.io/adasale/</a></td>
+						<td width="80%"><a href="https://cardano.org/img/eras/byron.avif">https://cardano.org/img/eras/byron.avif</a></td>
 					</tr>
 					
 					<tr>
@@ -4795,18 +4976,18 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;script src=&quot;../cdn-cgi/apps/head/OdEhsZOwKZ_TWTLS_B6UqmQNGis.js&quot;&gt;&lt;/script&gt;</td>
+						<td width="80%">&lt;noscript&gt;&lt;p&gt;Please enable Javascript to allow the check to run.&lt;/p&gt;&lt;/noscript&gt;</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">No links have been found while there are scripts, which is an indication that this is a modern web application.</td>
+						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/crewardcalculator/?lang=en">https://cardano.org/crewardcalculator/?lang=en</a></td>
+						<td width="80%"><a href="https://cardano.org/img/eras/goguen.avif">https://cardano.org/img/eras/goguen.avif</a></td>
 					</tr>
 					
 					<tr>
@@ -4827,7 +5008,231 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;noscript data-n-css=&quot;&quot;&gt;&lt;/noscript&gt;</td>
+						<td width="80%">&lt;noscript&gt;&lt;p&gt;Please enable Javascript to allow the check to run.&lt;/p&gt;&lt;/noscript&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/14">https://cardano.org/news/page/14</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;noscript&gt;&lt;p&gt;Please enable Javascript to allow the check to run.&lt;/p&gt;&lt;/noscript&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/15">https://cardano.org/news/page/15</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;noscript&gt;&lt;p&gt;Please enable Javascript to allow the check to run.&lt;/p&gt;&lt;/noscript&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/16">https://cardano.org/news/page/16</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;noscript&gt;&lt;p&gt;Please enable Javascript to allow the check to run.&lt;/p&gt;&lt;/noscript&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/17">https://cardano.org/news/page/17</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;noscript&gt;&lt;p&gt;Please enable Javascript to allow the check to run.&lt;/p&gt;&lt;/noscript&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/18">https://cardano.org/news/page/18</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;noscript&gt;&lt;p&gt;Please enable Javascript to allow the check to run.&lt;/p&gt;&lt;/noscript&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/2">https://cardano.org/news/page/2</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;noscript&gt;&lt;p&gt;Please enable Javascript to allow the check to run.&lt;/p&gt;&lt;/noscript&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/news/page/20">https://cardano.org/news/page/20</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;noscript&gt;&lt;p&gt;Please enable Javascript to allow the check to run.&lt;/p&gt;&lt;/noscript&gt;</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4839,7 +5244,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<td width="20%">Instances</td>
 					
 					
-					<td width="80%">6</td>
+					<td width="80%">12</td>
 					
 				</tr>
 				<tr>
@@ -4954,7 +5359,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/apps/">https://cardano.org/apps/</a></td>
+						<td width="80%"><a href="https://cardano.org/common-scams/">https://cardano.org/common-scams/</a></td>
 					</tr>
 					
 					<tr>
@@ -5018,7 +5423,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/docs/">https://cardano.org/docs/</a></td>
+						<td width="80%"><a href="https://cardano.org/docs/communities/">https://cardano.org/docs/communities/</a></td>
 					</tr>
 					
 					<tr>
@@ -5051,38 +5456,6 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://cardano.org/entities/">https://cardano.org/entities/</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">cache-control</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">public,max-age=0,must-revalidate</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/insights/governance-actions/">https://cardano.org/insights/governance-actions/</a></td>
 					</tr>
 					
 					<tr>
@@ -5179,6 +5552,38 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://cardano.org/sitemap.xml">https://cardano.org/sitemap.xml</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">cache-control</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">public,max-age=0,must-revalidate</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/stake-pool-delegation/">https://cardano.org/stake-pool-delegation/</a></td>
 					</tr>
 					
 					<tr>
@@ -5325,7 +5730,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">Age: 0</td>
+						<td width="80%">Age: 25962</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5357,7 +5762,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">Age: 0</td>
+						<td width="80%">Age: 25963</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5368,7 +5773,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/docs/">https://cardano.org/docs/</a></td>
+						<td width="80%"><a href="https://cardano.org/common-scams/">https://cardano.org/common-scams/</a></td>
 					</tr>
 					
 					<tr>
@@ -5389,7 +5794,71 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">Age: 731</td>
+						<td width="80%">Age: 539</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The presence of the &#39;Age&#39; header indicates that a HTTP/1.1 compliant caching server is in use.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/community-code-of-conduct/">https://cardano.org/community-code-of-conduct/</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Age: 539</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The presence of the &#39;Age&#39; header indicates that a HTTP/1.1 compliant caching server is in use.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/docs/communities/">https://cardano.org/docs/communities/</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Age: 538</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5421,71 +5890,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">Age: 725</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The presence of the &#39;Age&#39; header indicates that a HTTP/1.1 compliant caching server is in use.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/img/cardano-logo-blue.svg">https://cardano.org/img/cardano-logo-blue.svg</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Age: 737</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The presence of the &#39;Age&#39; header indicates that a HTTP/1.1 compliant caching server is in use.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/img/cardano-logo-white.svg">https://cardano.org/img/cardano-logo-white.svg</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Age: 737</td>
+						<td width="80%">Age: 536</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5517,7 +5922,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">Age: 739</td>
+						<td width="80%">Age: 540</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5528,7 +5933,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/img/icons/book-solid.svg">https://cardano.org/img/icons/book-solid.svg</a></td>
+						<td width="80%"><a href="https://cardano.org/news/rss.xml">https://cardano.org/news/rss.xml</a></td>
 					</tr>
 					
 					<tr>
@@ -5549,7 +5954,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">Age: 24590</td>
+						<td width="80%">Age: 540</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5581,39 +5986,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">Age: 55</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The presence of the &#39;Age&#39; header indicates that a HTTP/1.1 compliant caching server is in use.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/scripts/deactivateServiceWorker.js">https://cardano.org/scripts/deactivateServiceWorker.js</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Age: 24590</td>
+						<td width="80%">Age: 7285</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5645,7 +6018,39 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">Age: 0</td>
+						<td width="80%">Age: 1</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The presence of the &#39;Age&#39; header indicates that a HTTP/1.1 compliant caching server is in use.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/what-is-ada/">https://cardano.org/what-is-ada/</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Age: 540</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5762,7 +6167,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
+						<td width="80%"><a href="https://cardano.org/">https://cardano.org/</a></td>
 					</tr>
 					
 					<tr>
@@ -5794,7 +6199,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/what-is-ada">https://cardano.org/what-is-ada</a></td>
+						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
 					</tr>
 					
 					<tr>
@@ -5914,7 +6319,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
+						<td width="80%"><a href="https://cardano.org/">https://cardano.org/</a></td>
 					</tr>
 					
 					<tr>
@@ -5946,7 +6351,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/what-is-ada">https://cardano.org/what-is-ada</a></td>
+						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
 					</tr>
 					
 					<tr>
@@ -6066,7 +6471,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
+						<td width="80%"><a href="https://cardano.org/">https://cardano.org/</a></td>
 					</tr>
 					
 					<tr>
@@ -6098,7 +6503,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/what-is-ada">https://cardano.org/what-is-ada</a></td>
+						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
 					</tr>
 					
 					<tr>
@@ -6218,7 +6623,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
+						<td width="80%"><a href="https://cardano.org/">https://cardano.org/</a></td>
 					</tr>
 					
 					<tr>
@@ -6250,7 +6655,7 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/what-is-ada">https://cardano.org/what-is-ada</a></td>
+						<td width="80%"><a href="https://cardano.org/robots.txt">https://cardano.org/robots.txt</a></td>
 					</tr>
 					
 					<tr>
@@ -6498,38 +6903,6 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/events">https://cardano.org/events</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://cardano.org/hardforks">https://cardano.org/hardforks</a></td>
 					</tr>
 					
@@ -6562,7 +6935,39 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/newsletter">https://cardano.org/newsletter</a></td>
+						<td width="80%"><a href="https://cardano.org/insights">https://cardano.org/insights</a></td>
+					</tr>
+					
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://cardano.org/research">https://cardano.org/research</a></td>
 					</tr>
 					
 					<tr>
@@ -6687,43 +7092,11 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
 					</tr>
 				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/where-to-get-ada">https://cardano.org/where-to-get-ada</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
-					</tr>
-				
 				<tr>
 					<td width="20%">Instances</td>
 					
 					
-					<td width="80%">12</td>
+					<td width="80%">11</td>
 					
 				</tr>
 				<tr>
@@ -6771,148 +7144,6 @@ _�Ϯ�;� ��RJ`��:ߌ�)K�g]J�`T��l����R,�
 					<td width="20%">Plugin Id</td>
 					<td width="80%"><a
 						href="https://www.zaproxy.org/docs/alerts/10049/">10049</a></td>
-				</tr>
-			</table>
-			<div class="spacer"></div>
-		
-			<table class="results">
-				<tr height="24">
-					<th width="20%" class="risk-0"><a
-						id="10031"></a>
-						<div>Informational</div></th>
-					<th class="risk-0">User Controllable HTML Element Attribute (Potential XSS)</th>
-				</tr>
-				<tr>
-					<td width="20%">Description</td>
-					<td width="80%">
-							<div>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</div>
-							
-						</td>
-				</tr>
-				<TR vAlign="top">
-					<TD colspan="2"></TD>
-				</TR>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/apps/?operator=OR&amp;tags=dex&amp;tags=lending">https://cardano.org/apps/?operator=OR&amp;tags=dex&amp;tags=lending</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">operator</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:
-
-https://cardano.org/apps/?operator=OR&amp;tags=dex&amp;tags=lending
-
-appears to include user input in:
-a(n) [li] tag [title] attribute
-
-The user input found was:
-operator=OR
-
-The user-controlled value was:
-oracles provide smart contracts with external data.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://cardano.org/crewardcalculator/?lang=en">https://cardano.org/crewardcalculator/?lang=en</a></td>
-					</tr>
-					
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">lang</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:
-
-https://cardano.org/crewardcalculator/?lang=en
-
-appears to include user input in:
-a(n) [html] tag [lang] attribute
-
-The user input found was:
-lang=en
-
-The user-controlled value was:
-en</td>
-					</tr>
-				
-				<tr>
-					<td width="20%">Instances</td>
-					
-					
-					<td width="80%">2</td>
-					
-				</tr>
-				<tr>
-					<td width="20%">Solution</td>
-					<td width="80%">
-							<div>Validate all input and sanitize output it before writing to any HTML attributes.</div>
-							
-						</td>
-				</tr>
-				<tr>
-					<td width="20%">Reference</td>
-					<td width="80%">
-							<a href="https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html">https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html</a>
-							
-						</td>
-				</tr>
-				<tr>
-					<td width="20%">CWE Id</td>
-					<td width="80%"><a
-						href="https://cwe.mitre.org/data/definitions/20.html">20</a></td>
-				</tr>
-				<tr>
-					<td width="20%">WASC Id</td>
-					<td width="80%">20</td>
-				</tr>
-				<tr>
-					<td width="20%">Plugin Id</td>
-					<td width="80%"><a
-						href="https://www.zaproxy.org/docs/alerts/10031/">10031</a></td>
 				</tr>
 			</table>
 			<div class="spacer"></div>
