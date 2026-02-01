@@ -2,15 +2,7 @@
   "trackers": [
     {
       "type": "google tag manager",
-      "url": "https://www.googletagmanager.com/gtag/js?id=GTM-5BC4HH7",
-      "details": {
-        "id": "google tag manager",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google tag manager",
-      "url": "https://www.googletagmanager.com/gtag/js?id=G-LGRGXBVYMC&cx=c&gtm=4e61m1h2",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-LGRGXBVYMC",
       "details": {
         "id": "google tag manager",
         "message": "Use hosted Matomo instance"
@@ -18,15 +10,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LGRGXBVYMC&gtm=45je61m1h2v887638641z8848553843za20gzb848553843zd848553843&_p=1769304265106&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=426150159.1769304265&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Not(A%253ABrand%3B8.0.0.0%7CChromium%3B144.0.7559.96&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391253~115495939~115616986~115938466~115938468~116682876~116992598~117041588&sid=1769304265&sct=1&seg=0&dl=https%3A%2F%2Fcardano.org%2F&dt=Home%20%7C%20cardano.org%20%7C%20Cardano&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=288",
-      "details": {
-        "id": "google analytics",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LGRGXBVYMC&gtm=45je61m1h2v887638641za20gzb848553843zd848553843&_p=1769304265106&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=426150159.1769304265&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Not(A%253ABrand%3B8.0.0.0%7CChromium%3B144.0.7559.96&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AEAAAAQ&_s=2&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391253~115495939~115616986~115938466~115938468~116682876~116992598~117041588&sid=1769304265&sct=1&seg=0&dl=https%3A%2F%2Fcardano.org%2F&dt=Home%20%7C%20cardano.org%20%7C%20Cardano&en=scroll&epn.percent_scrolled=90&_et=12&tfd=5367",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LGRGXBVYMC&gtm=45je61r1v887638641za200zd887638641&_p=1769910715091&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=653020229.1769910715&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Not(A%253ABrand%3B8.0.0.0%7CChromium%3B144.0.7559.96&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~115938465~115938468~116185181~116185182~116988316~117041588&sid=1769910715&sct=1&seg=0&dl=https%3A%2F%2Fcardano.org%2F&dt=Home%20%7C%20cardano.org%20%7C%20Cardano&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.anonymize_ip=true&tfd=453",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -35,12 +19,12 @@
   ],
   "cookies": [
     {
-      "name": "_ga_LGRGXBVYMC",
-      "value": "GS2.1.s1769304265$o1$g0$t1769304265$j60$l0$h0",
+      "name": "_ga",
+      "value": "GA1.1.653020229.1769910715",
       "domain": ".cardano.org",
       "path": "/",
-      "expires": 1803864265.360285,
-      "size": 59,
+      "expires": 1804470715.466013,
+      "size": 29,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -49,12 +33,12 @@
       "sourceScheme": "Secure"
     },
     {
-      "name": "_ga",
-      "value": "GA1.1.426150159.1769304265",
+      "name": "_ga_LGRGXBVYMC",
+      "value": "GS2.1.s1769910715$o1$g0$t1769910715$j60$l0$h0",
       "domain": ".cardano.org",
       "path": "/",
-      "expires": 1803864265.34589,
-      "size": 29,
+      "expires": 1804470715.46565,
+      "size": 59,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -65,22 +49,22 @@
   ],
   "headers": {
     "accept-ranges": "bytes",
-    "age": "43312",
+    "age": "19662",
     "cache-control": "public,max-age=0,must-revalidate",
     "cache-status": "\"Netlify Edge\"; hit",
     "content-encoding": "br",
-    "content-length": "9928",
-    "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com https://img.youtube.com https://ipfs.io; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io;",
+    "content-length": "10213",
+    "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com https://img.youtube.com https://ipfs.io; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io https://*.algolianet.com https://*.algolia.net;",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 25 Jan 2026 01:24:25 GMT",
-    "etag": "\"d421b40462bdc85b70b4faf1cb3b00b1-ssl-df\"",
+    "date": "Sun, 01 Feb 2026 01:51:55 GMT",
+    "etag": "\"59d5bc826c34d34c39fee9d31016833a-ssl-df\"",
     "feature-policy": "geolocation 'none'; microphone 'none';",
     "referrer-policy": "no-referrer-when-downgrade",
     "server": "Netlify",
     "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
     "vary": "Accept-Encoding",
     "x-frame-options": "DENY",
-    "x-nf-request-id": "01KFSC14C42N5QMT3JFE3VG6YG",
+    "x-nf-request-id": "01KGBECGP1K42EVJC7V46YWE6R",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
@@ -140,7 +124,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.191.40",
+      "ip": "172.253.63.97",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -194,7 +178,7 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "216.239.36.178",
+      "ip": "142.251.167.101",
       "geoip": {
         "continent": {
           "code": "NA",
