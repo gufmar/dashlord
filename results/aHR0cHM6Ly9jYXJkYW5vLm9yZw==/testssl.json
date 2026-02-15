@@ -269,14 +269,14 @@
               "ip"           : "cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLS Web Server Authentication, TLS Web Client Authentication"
+              "finding"      : "TLS Web Server Authentication"
           }
 ,         {
               "id"           : "cert_serialNumber",
               "ip"           : "cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "06B787C068CDCDBB8AF4E645A58B28C29230"
+              "finding"      : "0656AEEF3F234903A6516429307D312AD6B3"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -290,21 +290,21 @@
               "ip"           : "cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "580A0D7E16313E1BD654D80FF7FCB0BAFEA8BFF2"
+              "finding"      : "E3AE11391E89F8DF1E1B786520A620E0BB990080"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "4800B0F8546A0CE56DF224C89F6FCE3B11FFA9E0F0025A99A58D2C9B649173BD"
+              "finding"      : "23B5D2E22D3140CAA9E0F478D2F316D96F61029D55AC10A89BABDBCA5A7B7EAD"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDmzCCAyKgAwIBAgISBreHwGjNzbuK9OZFpYsowpIwMAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFNzAeFw0yNTEyMTUxMTMzNDVaFw0yNjAzMTUxMTMzNDRaMBYxFDASBgNVBAMTC2NhcmRhbm8ub3JnMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEqtfyQMsuc3x+unQwJUrZWvH/Z671b0NE9Bpt231zsGHvTqiaYUHh7JoX3uuKvmuoEQCtKVkr+IGj8rY3zFA6A6OCAjIwggIuMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUKKbOOpOStOxmhHN9B/Ws1hC0AjQwHwYDVR0jBBgwFoAUrkie3IcdRKBv2qLlYHQEeMKcAIAwMgYIKwYBBQUHAQEEJjAkMCIGCCsGAQUFBzAChhZodHRwOi8vZTcuaS5sZW5jci5vcmcvMCcGA1UdEQQgMB6CC2NhcmRhbm8ub3Jngg93d3cuY2FyZGFuby5vcmcwEwYDVR0gBAwwCjAIBgZngQwBAgEwLQYDVR0fBCYwJDAioCCgHoYcaHR0cDovL2U3LmMubGVuY3Iub3JnLzQ5LmNybDCCAQwGCisGAQQB1nkCBAIEgf0EgfoA+AB+AHF+lfPCOIptseOEST0x4VqpYgh2LUIA4AUM0Ge1pmHiAAABmyH/RCQACAAABQAEN1UCBAMARzBFAiBwVrvmRTkAIrY+V7opfL32IRx4e+Akk+BR7MM9RGbubgIhANyo6OKPhm7pdDW4cumcjsO2v8OPcf0r4R4TSwJYX0i+AHYAlpdkv1VYl633Q4doNwhCd+nwOtX2pPM2bkakPw/KqcYAAAGbIf9LiQAABAMARzBFAiBsyXoWV7A3s/5Wh0QQ08yB/F2m+Jun11cYiXzSfLlJmAIhALSodCIG1J655aNlXMsm3WVk8B+/EK78OahXImDBzMWqMAoGCCqGSM49BAMDA2cAMGQCMH6AwIaN6lMmH/Hy5kJcvPBZqGd9CEy93yxr/kNpw6wAcE3QJQb2ECo6M0ivE2FJBQIwa/2aJp9ZFy789WFhT5jcxdL3IrK7WHgKZBxHT0LeAsLWR9qYRktU6syc6DzJTMGb\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDizCCAxGgAwIBAgISBlau7z8jSQOmUWQpMH0xKtazMAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFNzAeFw0yNjAyMTMxMDQzNTBaFw0yNjA1MTQxMDQzNDlaMBYxFDASBgNVBAMTC2NhcmRhbm8ub3JnMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEziivCbi+DsE81tHkOBnx2UWK9DUabLiFLwOgM5eNBrDFedZOcL0okTYhFt71d29DRKmKuHVoC0NQPZWEv2NIR6OCAiEwggIdMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQYCTaYiQCf10b8Jk2RNNUCukstVzAfBgNVHSMEGDAWgBSuSJ7chx1EoG/aouVgdAR4wpwAgDAyBggrBgEFBQcBAQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly9lNy5pLmxlbmNyLm9yZy8wJwYDVR0RBCAwHoILY2FyZGFuby5vcmeCD3d3dy5jYXJkYW5vLm9yZzATBgNVHSAEDDAKMAgGBmeBDAECATAtBgNVHR8EJjAkMCKgIKAehhxodHRwOi8vZTcuYy5sZW5jci5vcmcvNTIuY3JsMIIBBQYKKwYBBAHWeQIEAgSB9gSB8wDxAHcAFoMtq/CpJQ8P8DqlRf/Iv8gj0IdL9gQpJ/jnHzMT9foAAAGcVs8g9wAABAMASDBGAiEAxtNn2ID2ndNwrY56+KXel1o+hlN3SMzok/FmVBDM4a8CIQCLh0KQMR36+PyGSNsVfE49QaKcXV1x+Bcwc9eEZuDQbQB2AGQRxGykEuyniRyiAi4AvKtPKAfUHjUnq+r+1QPJfc3wAAABnFbPIOAAAAQDAEcwRQIhAKvl/eUv3YY0Xqk2P/+oU0veP/CJTkEQT5EP70yKXsLaAiApDgHJvGFMBAbFgLlt8cRTG0hD8OZddTWDHix6xXaifjAKBggqhkjOPQQDAwNoADBlAjEAuxcaHwZy8XxqKf34m/i/GZiMjPkfyF69bcErYU0BQfiwSlhcoLTKtrI1vaDx6RO/AjBvjoZBy+9kOk097dz6uSq/45pnsnc57fZ2v0/r5TYXvflL8x1SJE2bX7u/zwc2mjQ=\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -360,21 +360,21 @@
               "ip"           : "cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "35 >= 30 days"
+              "finding"      : "88 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2025-12-15 11:33"
+              "finding"      : "2026-02-13 10:43"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2026-03-15 11:33"
+              "finding"      : "2026-05-14 10:43"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -395,7 +395,7 @@
               "ip"           : "cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://e7.c.lencr.org/49.crl"
+              "finding"      : "http://e7.c.lencr.org/52.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
@@ -514,21 +514,21 @@
               "ip"           : "cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+659 seconds from localtime"
+              "finding"      : "+764 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1770516939"
+              "finding"      : "1771120992"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "659 seconds"
+              "finding"      : "764 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1119,6 +1119,6 @@
               "ip"           : "cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "41"
+              "finding"      : "51"
           }
 ]
