@@ -10,7 +10,7 @@
 <pre>
 <span style="font-weight:bold;">
 #####################################################################</span>
-  <span style="font-weight:bold;">testssl.sh</span> version <span style="font-weight:bold;">3.2.2</span> from <a href="https://testssl.sh/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/</a>
+  <span style="font-weight:bold;">testssl.sh</span> version <span style="font-weight:bold;">3.2.3</span> from <a href="https://testssl.sh/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/</a>
 <span style="font-weight:bold;">
   This program is free software. Distribution and modification under
   GPLv2 permitted. USAGE w/o ANY WARRANTY. USE IT AT YOUR OWN RISK!</span>
@@ -19,9 +19,9 @@
 <span style="font-weight:bold;">#####################################################################</span>
 
   Using <i>OpenSSL 1.0.2-bad (Mar 28 2025)</i>  [~183 ciphers]
-  on runnervmwffz4:/home/testssl/bin/openssl.Linux.x86_64
+  on runnervmjduv7:/home/testssl/bin/openssl.Linux.x86_64
 
-<span style="color:white;background-color:black;"> Start 2026-02-08 02:15:26        --&gt;&gt; 75.2.60.5:443 (cardano.org) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2026-02-15 02:02:55        --&gt;&gt; 75.2.60.5:443 (cardano.org) &lt;&lt;--</span>
 
  rDNS (75.2.60.5):       acd89244c803f7181.awsglobalaccelerator.com.
  Service detected:       HTTP
@@ -91,20 +91,20 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Signature Algorithm          </span><span style="color:#008817;">ECDSA with SHA384</span>
 <span style="font-weight:bold;"> Server key size              </span>EC <span style="color:#008817;">256</span> bits (curve P-256)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature
-<span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication, TLS Web Client Authentication
-<span style="font-weight:bold;"> Serial                       </span>06B787C068CDCDBB8AF4E645A58B28C29230 (OK: length 18)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 580A0D7E16313E1BD654D80FF7FCB0BAFEA8BFF2
-                              SHA256 4800B0F8546A0CE56DF224C89F6FCE3B11FFA9E0F0025A99A58D2C9B649173BD
+<span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication
+<span style="font-weight:bold;"> Serial                       </span>0656AEEF3F234903A6516429307D312AD6B3 (OK: length 18)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 E3AE11391E89F8DF1E1B786520A620E0BB990080
+                              SHA256 23B5D2E22D3140CAA9E0F478D2F316D96F61029D55AC10A89BABDBCA5A7B7EAD
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>cardano.org </i> (CN in response to request w/o SNI: <i>*.netlify.app </i>)
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>cardano.org www.cardano.org </i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
                               <span style="color:#a86437;">wildcard certificate</span> could be problematic, see other hosts at
-                              https://search.censys.io/search?resource=hosts&amp;virtual_hosts=INCLUDE&amp;q=4800B0F8546A0CE56DF224C89F6FCE3B11FFA9E0F0025A99A58D2C9B649173BD
+                              https://search.censys.io/search?resource=hosts&amp;virtual_hosts=INCLUDE&amp;q=23B5D2E22D3140CAA9E0F478D2F316D96F61029D55AC10A89BABDBCA5A7B7EAD
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">35 &gt;= 30 days</span> (2025-12-15 11:33 --&gt; 2026-03-15 11:33)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">88 &gt;= 30 days</span> (2026-02-13 10:43 --&gt; 2026-05-14 10:43)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
-<span style="font-weight:bold;"> Certificate Revocation List  </span>http://e7.c.lencr.org/49.crl
+<span style="font-weight:bold;"> Certificate Revocation List  </span>http://e7.c.lencr.org/52.crl
 <span style="font-weight:bold;"> OCSP URI                     </span>--
 <span style="font-weight:bold;"> OCSP stapling                </span>not offered
 <span style="font-weight:bold;"> OCSP must staple extension   </span>--
@@ -119,8 +119,8 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="text-decoration:underline;font-weight:bold;"> Testing HTTP header response @ &quot;/&quot; </span>
 
 <span style="font-weight:bold;"> HTTP Status Code           </span>  200 OK
-<span style="font-weight:bold;"> HTTP clock skew              </span>+659 sec from localtime
-<span style="font-weight:bold;"> HTTP Age</span> (RFC 7234)          659
+<span style="font-weight:bold;"> HTTP clock skew              </span>+764 sec from localtime
+<span style="font-weight:bold;"> HTTP Age</span> (RFC 7234)          764
 <span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#008817;">730 days</span>=63072000 s<span style="color:#008817;">, includeSubDomains</span><span style="color:#008817;">, preload</span>
 <span style="font-weight:bold;"> Public Key Pinning           </span>--
 <span style="font-weight:bold;"> Server banner                </span>Netlify&apos;
@@ -166,7 +166,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 
 <span style="font-weight:bold;"> Heartbleed</span> (CVE-2014-0160)                <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>, no heartbeat extension
 <span style="font-weight:bold;"> CCS</span> (CVE-2014-0224)                       <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
-<span style="font-weight:bold;"> Ticketbleed</span> (CVE-2016-9244), experiment.  <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
+<span style="font-weight:bold;"> Ticketbleed</span> (CVE-2016-9244), experiment.  <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>, reply empty
 <span style="font-weight:bold;"> ROBOT                                     </span><span style="color:#008817;font-weight:bold;">Server does not support any cipher suites that use RSA key transport</span>
 <span style="font-weight:bold;"> Secure Renegotiation (RFC 5746)           </span><span style="color:#008817;font-weight:bold;">supported (OK)</span>
 <span style="font-weight:bold;"> Secure Client-Initiated Renegotiation     </span><span style="color:#008817;">not vulnerable (OK)</span>
@@ -237,7 +237,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Final Score                  </span>84
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A+</span>
 
-<span style="color:white;background-color:black;"> Done 2026-02-08 02:16:05 [  41s] --&gt;&gt; 75.2.60.5:443 (cardano.org) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2026-02-15 02:03:44 [  51s] --&gt;&gt; 75.2.60.5:443 (cardano.org) &lt;&lt;--</span>
 
 
 </pre>
