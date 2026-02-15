@@ -360,7 +360,7 @@
               "ip"           : "cips.cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "74 >= 30 days"
+              "finding"      : "67 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -514,21 +514,21 @@
               "ip"           : "cips.cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+1580171 seconds from localtime"
+              "finding"      : "+78324 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "cips.cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1770516563"
+              "finding"      : "1771120470"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "cips.cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1580171 seconds"
+              "finding"      : "78324 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1098,6 +1098,6 @@
               "ip"           : "cips.cardano.org/75.2.60.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "42"
+              "finding"      : "43"
           }
 ]
