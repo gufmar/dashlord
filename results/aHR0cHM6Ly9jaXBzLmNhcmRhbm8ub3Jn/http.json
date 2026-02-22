@@ -3,30 +3,29 @@
     "algorithmVersion": 4,
     "grade": "C",
     "error": null,
-    "score": 55,
+    "score": 50,
     "statusCode": 200,
-    "testsFailed": 2,
-    "testsPassed": 8,
+    "testsFailed": 3,
+    "testsPassed": 7,
     "testsQuantity": 10,
     "responseHeaders": {
-      "age": "78303",
-      "cache-control": "public,max-age=0,must-revalidate",
-      "cache-status": "\"Netlify Edge\"; hit",
-      "content-length": "15003",
+      "access-control-allow-origin": "*",
+      "age": "220010",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-disposition": "inline",
       "content-type": "text/html; charset=utf-8",
-      "date": "Sun, 15 Feb 2026 01:54:10 GMT",
-      "etag": "\"uuajr0vszz4lfj-df\"",
-      "netlify-vary": "query=__nextDataReq|_rsc,header=x-nextjs-data|x-next-debug-logging|next-router-prefetch|next-router-segment-prefetch|next-router-state-tree|next-url|rsc|accept-encoding,cookie=__prerender_bypass|__next_preview_data",
-      "server": "Netlify",
-      "strict-transport-security": "max-age=31536000",
-      "vary": "rsc,next-router-state-tree,next-router-prefetch,next-router-segment-prefetch,Accept-Encoding",
-      "x-content-type-options": "nosniff",
-      "x-nextjs-date": "Sat, 14 Feb 2026 04:09:34 GMT",
-      "x-nextjs-prerender": "1, 1",
+      "date": "Sun, 22 Feb 2026 01:49:06 GMT",
+      "etag": "W/\"04e8e4b3df76adb8bc36a4686601c047\"",
+      "server": "Vercel",
+      "strict-transport-security": "max-age=63072000",
+      "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+      "x-matched-path": "/",
+      "x-nextjs-prerender": "1",
       "x-nextjs-stale-time": "300",
-      "x-nf-request-id": "01KHFG2PFP07PYZQDVTJ0TC8M8",
-      "x-powered-by": "Next.js",
-      "connection": "close"
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "iad1::spm7v-1771724946081-b9adf882d847",
+      "connection": "close",
+      "transfer-encoding": "chunked"
     }
   },
   "tests": {
@@ -52,9 +51,9 @@
     "cross-origin-resource-sharing": {
       "expectation": "cross-origin-resource-sharing-not-implemented",
       "pass": true,
-      "result": "cross-origin-resource-sharing-not-implemented",
+      "result": "cross-origin-resource-sharing-implemented-with-public-access",
       "scoreModifier": 0,
-      "data": null
+      "data": "*"
     },
     "redirection": {
       "expectation": "redirection-to-https",
@@ -83,9 +82,9 @@
       "pass": true,
       "result": "hsts-implemented-max-age-at-least-six-months",
       "scoreModifier": 0,
-      "data": "max-age=31536000",
+      "data": "max-age=63072000",
       "includeSubDomains": false,
-      "maxAge": 31536000,
+      "maxAge": 63072000,
       "preload": false,
       "preloaded": false
     },
@@ -98,10 +97,10 @@
     },
     "x-content-type-options": {
       "expectation": "x-content-type-options-nosniff",
-      "pass": true,
-      "result": "x-content-type-options-nosniff",
-      "scoreModifier": 0,
-      "data": "nosniff"
+      "pass": false,
+      "result": "x-content-type-options-not-implemented",
+      "scoreModifier": -5,
+      "data": null
     },
     "x-frame-options": {
       "expectation": "x-frame-options-sameorigin-or-deny",
