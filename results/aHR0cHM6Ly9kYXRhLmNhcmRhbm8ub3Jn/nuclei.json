@@ -33,173 +33,9 @@
       "type": "dns",
       "host": "data.cardano.org.",
       "matched-at": "data.cardano.org",
-      "request": ";; opcode: QUERY, status: NOERROR, id: 16650\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;data.cardano.org.\tIN\t CAA\n",
-      "response": ";; opcode: QUERY, status: NOERROR, id: 16650\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;data.cardano.org.\tIN\t CAA\n\n;; AUTHORITY SECTION:\ncardano.org.\t900\tIN\tSOA\tns-1438.awsdns-51.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400\n",
-      "timestamp": "2026-02-15T02:10:21.831358966Z",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs",
-          "userdehghani"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic",
-          "vuln"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "strict-transport-security",
-      "type": "http",
-      "host": "https://data.cardano.org",
-      "matched-at": "https://data.cardano.org",
-      "request": "GET / HTTP/1.1\r\nHost: data.cardano.org\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 106\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Exceeded Burst Limit\",\"client_requests\":76,\"limit\":75}",
-      "ip": "52.211.238.28",
-      "timestamp": "2026-02-15T02:10:43.92363565Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs",
-          "userdehghani"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic",
-          "vuln"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "content-security-policy",
-      "type": "http",
-      "host": "https://data.cardano.org",
-      "matched-at": "https://data.cardano.org",
-      "request": "GET / HTTP/1.1\r\nHost: data.cardano.org\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 106\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Exceeded Burst Limit\",\"client_requests\":76,\"limit\":75}",
-      "ip": "52.211.238.28",
-      "timestamp": "2026-02-15T02:10:43.923679662Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs",
-          "userdehghani"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic",
-          "vuln"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "x-frame-options",
-      "type": "http",
-      "host": "https://data.cardano.org",
-      "matched-at": "https://data.cardano.org",
-      "request": "GET / HTTP/1.1\r\nHost: data.cardano.org\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 106\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Exceeded Burst Limit\",\"client_requests\":76,\"limit\":75}",
-      "ip": "52.211.238.28",
-      "timestamp": "2026-02-15T02:10:43.923697956Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs",
-          "userdehghani"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic",
-          "vuln"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "x-content-type-options",
-      "type": "http",
-      "host": "https://data.cardano.org",
-      "matched-at": "https://data.cardano.org",
-      "request": "GET / HTTP/1.1\r\nHost: data.cardano.org\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 106\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Exceeded Burst Limit\",\"client_requests\":76,\"limit\":75}",
-      "ip": "52.211.238.28",
-      "timestamp": "2026-02-15T02:10:43.923709357Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
+      "request": ";; opcode: QUERY, status: NOERROR, id: 29502\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;data.cardano.org.\tIN\t CAA\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 29502\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;data.cardano.org.\tIN\t CAA\n\n;; AUTHORITY SECTION:\ncardano.org.\t900\tIN\tSOA\tns-1438.awsdns-51.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400\n",
+      "timestamp": "2026-02-22T02:04:54.841374841Z",
       "matcher-status": true
     },
     {
@@ -237,9 +73,9 @@
       "host": "https://data.cardano.org",
       "matched-at": "https://data.cardano.org",
       "request": "GET / HTTP/1.1\r\nHost: data.cardano.org\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 106\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Exceeded Burst Limit\",\"client_requests\":76,\"limit\":75}",
+      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 111\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Hourly limit exceeded\",\"client_requests\":1699,\"limit\":1000}",
       "ip": "52.211.238.28",
-      "timestamp": "2026-02-15T02:10:43.923722592Z",
+      "timestamp": "2026-02-22T02:05:17.546310175Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
       "matcher-status": true
     },
@@ -278,132 +114,9 @@
       "host": "https://data.cardano.org",
       "matched-at": "https://data.cardano.org",
       "request": "GET / HTTP/1.1\r\nHost: data.cardano.org\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 106\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Exceeded Burst Limit\",\"client_requests\":76,\"limit\":75}",
+      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 111\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Hourly limit exceeded\",\"client_requests\":1699,\"limit\":1000}",
       "ip": "52.211.238.28",
-      "timestamp": "2026-02-15T02:10:43.923735466Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs",
-          "userdehghani"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic",
-          "vuln"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "permissions-policy",
-      "type": "http",
-      "host": "https://data.cardano.org",
-      "matched-at": "https://data.cardano.org",
-      "request": "GET / HTTP/1.1\r\nHost: data.cardano.org\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 106\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Exceeded Burst Limit\",\"client_requests\":76,\"limit\":75}",
-      "ip": "52.211.238.28",
-      "timestamp": "2026-02-15T02:10:43.9237486Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs",
-          "userdehghani"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic",
-          "vuln"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "x-permitted-cross-domain-policies",
-      "type": "http",
-      "host": "https://data.cardano.org",
-      "matched-at": "https://data.cardano.org",
-      "request": "GET / HTTP/1.1\r\nHost: data.cardano.org\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 106\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Exceeded Burst Limit\",\"client_requests\":76,\"limit\":75}",
-      "ip": "52.211.238.28",
-      "timestamp": "2026-02-15T02:10:43.923777945Z",
-      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
-      "matcher-status": true
-    },
-    {
-      "template": "http/misconfiguration/http-missing-security-headers.yaml",
-      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-      "template-id": "http-missing-security-headers",
-      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-      "info": {
-        "name": "HTTP Missing Security Headers",
-        "author": [
-          "socketz",
-          "geeknik",
-          "g4l1t0",
-          "convisoappsec",
-          "kurohost",
-          "dawid-czarnecki",
-          "forgedhallpass",
-          "jub0bs",
-          "userdehghani"
-        ],
-        "tags": [
-          "misconfig",
-          "headers",
-          "generic",
-          "vuln"
-        ],
-        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-        "severity": "info",
-        "metadata": {
-          "max-request": 1
-        }
-      },
-      "matcher-name": "clear-site-data",
-      "type": "http",
-      "host": "https://data.cardano.org",
-      "matched-at": "https://data.cardano.org",
-      "request": "GET / HTTP/1.1\r\nHost: data.cardano.org\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 106\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Exceeded Burst Limit\",\"client_requests\":76,\"limit\":75}",
-      "ip": "52.211.238.28",
-      "timestamp": "2026-02-15T02:10:43.923792182Z",
+      "timestamp": "2026-02-22T02:05:17.546358972Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
       "matcher-status": true
     },
@@ -442,9 +155,9 @@
       "host": "https://data.cardano.org",
       "matched-at": "https://data.cardano.org",
       "request": "GET / HTTP/1.1\r\nHost: data.cardano.org\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 106\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Exceeded Burst Limit\",\"client_requests\":76,\"limit\":75}",
+      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 111\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Hourly limit exceeded\",\"client_requests\":1699,\"limit\":1000}",
       "ip": "52.211.238.28",
-      "timestamp": "2026-02-15T02:10:43.923808191Z",
+      "timestamp": "2026-02-22T02:05:17.546371672Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
       "matcher-status": true
     },
@@ -483,9 +196,296 @@
       "host": "https://data.cardano.org",
       "matched-at": "https://data.cardano.org",
       "request": "GET / HTTP/1.1\r\nHost: data.cardano.org\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
-      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 106\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Exceeded Burst Limit\",\"client_requests\":76,\"limit\":75}",
+      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 111\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Hourly limit exceeded\",\"client_requests\":1699,\"limit\":1000}",
       "ip": "52.211.238.28",
-      "timestamp": "2026-02-15T02:10:43.923824181Z",
+      "timestamp": "2026-02-22T02:05:17.546379666Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs",
+          "userdehghani"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic",
+          "vuln"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "x-frame-options",
+      "type": "http",
+      "host": "https://data.cardano.org",
+      "matched-at": "https://data.cardano.org",
+      "request": "GET / HTTP/1.1\r\nHost: data.cardano.org\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 111\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Hourly limit exceeded\",\"client_requests\":1699,\"limit\":1000}",
+      "ip": "52.211.238.28",
+      "timestamp": "2026-02-22T02:05:17.546386721Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs",
+          "userdehghani"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic",
+          "vuln"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "x-permitted-cross-domain-policies",
+      "type": "http",
+      "host": "https://data.cardano.org",
+      "matched-at": "https://data.cardano.org",
+      "request": "GET / HTTP/1.1\r\nHost: data.cardano.org\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 111\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Hourly limit exceeded\",\"client_requests\":1699,\"limit\":1000}",
+      "ip": "52.211.238.28",
+      "timestamp": "2026-02-22T02:05:17.546395577Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs",
+          "userdehghani"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic",
+          "vuln"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "permissions-policy",
+      "type": "http",
+      "host": "https://data.cardano.org",
+      "matched-at": "https://data.cardano.org",
+      "request": "GET / HTTP/1.1\r\nHost: data.cardano.org\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 111\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Hourly limit exceeded\",\"client_requests\":1699,\"limit\":1000}",
+      "ip": "52.211.238.28",
+      "timestamp": "2026-02-22T02:05:17.546403881Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs",
+          "userdehghani"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic",
+          "vuln"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "x-content-type-options",
+      "type": "http",
+      "host": "https://data.cardano.org",
+      "matched-at": "https://data.cardano.org",
+      "request": "GET / HTTP/1.1\r\nHost: data.cardano.org\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 111\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Hourly limit exceeded\",\"client_requests\":1699,\"limit\":1000}",
+      "ip": "52.211.238.28",
+      "timestamp": "2026-02-22T02:05:17.546411216Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs",
+          "userdehghani"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic",
+          "vuln"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "clear-site-data",
+      "type": "http",
+      "host": "https://data.cardano.org",
+      "matched-at": "https://data.cardano.org",
+      "request": "GET / HTTP/1.1\r\nHost: data.cardano.org\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 111\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Hourly limit exceeded\",\"client_requests\":1699,\"limit\":1000}",
+      "ip": "52.211.238.28",
+      "timestamp": "2026-02-22T02:05:17.546420755Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs",
+          "userdehghani"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic",
+          "vuln"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "strict-transport-security",
+      "type": "http",
+      "host": "https://data.cardano.org",
+      "matched-at": "https://data.cardano.org",
+      "request": "GET / HTTP/1.1\r\nHost: data.cardano.org\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 111\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Hourly limit exceeded\",\"client_requests\":1699,\"limit\":1000}",
+      "ip": "52.211.238.28",
+      "timestamp": "2026-02-22T02:05:17.546428838Z",
+      "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/misconfiguration/http-missing-security-headers.yaml",
+      "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+      "template-id": "http-missing-security-headers",
+      "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+      "info": {
+        "name": "HTTP Missing Security Headers",
+        "author": [
+          "socketz",
+          "geeknik",
+          "g4l1t0",
+          "convisoappsec",
+          "kurohost",
+          "dawid-czarnecki",
+          "forgedhallpass",
+          "jub0bs",
+          "userdehghani"
+        ],
+        "tags": [
+          "misconfig",
+          "headers",
+          "generic",
+          "vuln"
+        ],
+        "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "matcher-name": "content-security-policy",
+      "type": "http",
+      "host": "https://data.cardano.org",
+      "matched-at": "https://data.cardano.org",
+      "request": "GET / HTTP/1.1\r\nHost: data.cardano.org\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nConnection: close\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 429 Too Many Requests\r\nConnection: close\r\nContent-Length: 111\r\nContent-Type: application/json\r\nDeny-Reason: Too many requests\r\n\r\n{\"status\":429,\"error\":\"Too Many Requests\",\"reason\":\"Hourly limit exceeded\",\"client_requests\":1699,\"limit\":1000}",
+      "ip": "52.211.238.28",
+      "timestamp": "2026-02-22T02:05:17.546437275Z",
       "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
       "matcher-status": true
     },
@@ -539,7 +539,7 @@
       ],
       "response": "SSH-2.0-OpenSSH_9.2p1\r\n",
       "ip": "52.211.238.28",
-      "timestamp": "2026-02-15T02:14:52.180787308Z",
+      "timestamp": "2026-02-22T02:09:30.115174782Z",
       "matcher-status": true
     },
     {
@@ -570,7 +570,7 @@
         "Let's Encrypt"
       ],
       "ip": "52.211.238.28",
-      "timestamp": "2026-02-15T02:15:44.385459025Z",
+      "timestamp": "2026-02-22T02:10:29.640037445Z",
       "matcher-status": true
     },
     {
@@ -598,11 +598,11 @@
       "host": "data.cardano.org",
       "matched-at": "data.cardano.org:443",
       "extracted-results": [
-        "data.cardano.org",
-        "hey.cardano.org"
+        "hey.cardano.org",
+        "data.cardano.org"
       ],
       "ip": "52.211.238.28",
-      "timestamp": "2026-02-15T02:15:44.385615787Z",
+      "timestamp": "2026-02-22T02:10:29.640196938Z",
       "matcher-status": true
     },
     {
@@ -634,7 +634,7 @@
         "tls12"
       ],
       "ip": "52.211.238.28",
-      "timestamp": "2026-02-15T02:15:48.888970114Z",
+      "timestamp": "2026-02-22T02:10:31.919209271Z",
       "matcher-status": true
     },
     {
@@ -666,7 +666,7 @@
         "tls13"
       ],
       "ip": "52.211.238.28",
-      "timestamp": "2026-02-15T02:15:49.142863063Z",
+      "timestamp": "2026-02-22T02:10:32.163531044Z",
       "matcher-status": true
     }
   ]
