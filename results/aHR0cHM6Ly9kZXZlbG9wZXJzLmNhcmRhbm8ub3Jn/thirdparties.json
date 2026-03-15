@@ -10,7 +10,7 @@
     },
     {
       "type": "google tag manager",
-      "url": "https://www.googletagmanager.com/gtag/js?id=G-V21Z77TQ3Q&cx=c&gtm=4e62p1",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-V21Z77TQ3Q&cx=c&gtm=4e63b1",
       "details": {
         "id": "google tag manager",
         "message": "Use hosted Matomo instance"
@@ -18,7 +18,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V21Z77TQ3Q&gtm=45je62p1v886082997z8848106172za20gzb848106172zd848106172&_p=1772329820706&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1753013106.1772329821&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.77%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=102015666~103116026~103200004~104527907~104528500~104684208~104684211~115938466~115938468~117625640&sid=1772329821&sct=1&seg=0&dl=https%3A%2F%2Fdevelopers.cardano.org%2F&dt=Cardano%20Developer%20Portal&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=774",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V21Z77TQ3Q&gtm=45je63b1v886082997z8848106172za20gzb848106172zd848106172&_p=1773539590316&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1109366969.1773539591&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Not-A.Brand%3B24.0.0.0%7CChromium%3B146.0.7680.76&uamb=0&uam=&uap=Linux&uapv=&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=103116026~103200004~115616985~115938466~115938469~116024733~117484252&sid=1773539590&sct=1&seg=0&dl=https%3A%2F%2Fdevelopers.cardano.org%2F&dt=Cardano%20Developer%20Portal&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=619",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -27,32 +27,32 @@
   ],
   "cookies": [
     {
-      "name": "_ga_V21Z77TQ3Q",
-      "value": "GS2.1.s1772329821$o1$g0$t1772329821$j60$l0$h0",
-      "domain": ".cardano.org",
-      "path": "/",
-      "expires": 1806889821.080905,
-      "size": 59,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
-    },
-    {
       "name": "_ga",
-      "value": "GA1.1.1753013106.1772329821",
+      "value": "GA1.1.1109366969.1773539591",
       "domain": ".cardano.org",
       "path": "/",
-      "expires": 1806889821.081289,
+      "expires": 1808099590.678399,
       "size": 30,
       "httpOnly": false,
       "secure": false,
       "session": false,
       "priority": "Medium",
-      "sameParty": false,
-      "sourceScheme": "Secure"
+      "sourceScheme": "Secure",
+      "sameParty": false
+    },
+    {
+      "name": "_ga_V21Z77TQ3Q",
+      "value": "GS2.1.s1773539590$o1$g0$t1773539590$j60$l0$h0",
+      "domain": ".cardano.org",
+      "path": "/",
+      "expires": 1808099590.678085,
+      "size": 59,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "priority": "Medium",
+      "sourceScheme": "Secure",
+      "sameParty": false
     }
   ],
   "headers": {
@@ -63,7 +63,7 @@
     "content-encoding": "br",
     "content-security-policy": "default-src 'self'; script-src 'self' blob: 'unsafe-inline' https://cardano.org https://developers.cardano.org https://www.googletagmanager.com https://js.hsforms.net https://js-eu1.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://developers.cardano.org https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com; style-src 'self' 'unsafe-inline'; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.net; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://*.algolianet.com https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com;",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 01 Mar 2026 01:50:20 GMT",
+    "date": "Sun, 15 Mar 2026 01:53:10 GMT",
     "etag": "\"2b6fd6e488b08f9abd7e905ebecfe0f2-ssl-df\"",
     "feature-policy": "geolocation 'none'; microphone 'none';",
     "referrer-policy": "no-referrer-when-downgrade",
@@ -71,7 +71,7 @@
     "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
     "vary": "Accept-Encoding",
     "x-frame-options": "DENY",
-    "x-nf-request-id": "01KJKHDRBSE56RDGN5WD0TRE0B",
+    "x-nf-request-id": "01KKQK502GWV29641EB524ZYC7",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
@@ -131,7 +131,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "173.194.193.97",
+      "ip": "142.251.41.8",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -185,7 +185,7 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "216.239.36.178",
+      "ip": "172.217.14.110",
       "geoip": {
         "continent": {
           "code": "NA",
