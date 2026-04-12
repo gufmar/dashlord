@@ -3,7 +3,7 @@
     "algorithmVersion": 4,
     "grade": "A+",
     "error": null,
-    "score": 110,
+    "score": 115,
     "statusCode": 200,
     "testsFailed": 0,
     "testsPassed": 10,
@@ -66,7 +66,7 @@
     "redirection": {
       "expectation": "redirection-to-https",
       "pass": true,
-      "result": "redirection-to-https",
+      "result": "redirection-all-redirects-preloaded",
       "scoreModifier": 0,
       "destination": "https://data.cardano.org/",
       "redirects": true,
@@ -88,13 +88,13 @@
     "strict-transport-security": {
       "expectation": "hsts-implemented-max-age-at-least-six-months",
       "pass": true,
-      "result": "hsts-implemented-max-age-at-least-six-months",
-      "scoreModifier": 0,
+      "result": "hsts-preloaded",
+      "scoreModifier": 5,
       "data": "max-age=31536000; includeSubDomains",
       "includeSubDomains": true,
       "maxAge": 31536000,
       "preload": false,
-      "preloaded": false
+      "preloaded": true
     },
     "subresource-integrity": {
       "expectation": "sri-implemented-and-external-scripts-loaded-securely",
