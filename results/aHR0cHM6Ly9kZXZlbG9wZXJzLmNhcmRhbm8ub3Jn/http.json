@@ -10,21 +10,21 @@
     "testsQuantity": 10,
     "responseHeaders": {
       "accept-ranges": "bytes",
-      "age": "11398",
+      "age": "11082",
       "cache-control": "public,max-age=0,must-revalidate",
       "cache-status": "\"Netlify Edge\"; hit",
-      "content-length": "8681",
+      "content-length": "8521",
       "content-security-policy": "default-src 'self'; script-src 'self' blob: 'unsafe-inline' https://cardano.org https://developers.cardano.org https://www.googletagmanager.com https://js.hsforms.net https://js-eu1.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://developers.cardano.org https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com; style-src 'self' 'unsafe-inline'; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.net; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://*.algolianet.com https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com;",
       "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 05 Apr 2026 02:03:02 GMT",
-      "etag": "\"0a55138598d9e80b3ce1d0042cfd9549-ssl-df\"",
+      "date": "Sun, 12 Apr 2026 02:08:34 GMT",
+      "etag": "\"22f893939f5f291688efaa2211ba5146-ssl-df\"",
       "feature-policy": "geolocation 'none'; microphone 'none';",
       "referrer-policy": "no-referrer-when-downgrade",
       "server": "Netlify",
       "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
       "vary": "Accept-Encoding",
       "x-frame-options": "DENY",
-      "x-nf-request-id": "01KNDP25HQVBJ9HMRAXAKAWVYQ",
+      "x-nf-request-id": "01KNZQ5AXWW2QBME2318NS34VW",
       "x-xss-protection": "1; mode=block",
       "connection": "close"
     }
@@ -120,7 +120,7 @@
     "redirection": {
       "expectation": "redirection-to-https",
       "pass": true,
-      "result": "redirection-to-https",
+      "result": "redirection-all-redirects-preloaded",
       "scoreModifier": 0,
       "destination": "https://developers.cardano.org/",
       "redirects": true,
@@ -142,13 +142,13 @@
     "strict-transport-security": {
       "expectation": "hsts-implemented-max-age-at-least-six-months",
       "pass": true,
-      "result": "hsts-implemented-max-age-at-least-six-months",
-      "scoreModifier": 0,
+      "result": "hsts-preloaded",
+      "scoreModifier": 5,
       "data": "max-age=63072000; includeSubDomains; preload",
       "includeSubDomains": true,
       "maxAge": 63072000,
       "preload": true,
-      "preloaded": false
+      "preloaded": true
     },
     "subresource-integrity": {
       "expectation": "sri-implemented-and-external-scripts-loaded-securely",
