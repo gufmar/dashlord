@@ -10,7 +10,7 @@
     },
     {
       "type": "google tag manager",
-      "url": "https://www.googletagmanager.com/gtag/js?id=G-V21Z77TQ3Q&cx=c&gtm=4e64f1",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-V21Z77TQ3Q&cx=c&gtm=4e64m2",
       "details": {
         "id": "google tag manager",
         "message": "Use hosted Matomo instance"
@@ -18,7 +18,7 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V21Z77TQ3Q&gtm=45je64f1v886082997z8848106172za20gzb848106172zd848106172&_p=1776564398813&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=2079248027.1776564399&frm=0&pscdl=noapi&rcb=0&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.56%7CNot.A%252FBrand%3B8.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938465~115938468~117266400&sid=1776564399&sct=1&seg=0&dl=https%3A%2F%2Fdevelopers.cardano.org%2F&dt=Cardano%20Developer%20Portal&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=827",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V21Z77TQ3Q&gtm=45je64m2v886082997z8848106172za20gzb848106172zd848106172&_p=1777169367367&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1167184293.1777169368&frm=0&pscdl=noapi&rcb=19&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.57%7CNot.A%252FBrand%3B8.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115616986~115938466~115938468~116363097~117266401~117512542~118167058&sid=1777169367&sct=1&seg=0&dl=https%3A%2F%2Fdevelopers.cardano.org%2F&dt=Cardano%20Developer%20Portal&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=835",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -28,21 +28,22 @@
   "cookies": [],
   "headers": {
     "accept-ranges": "bytes",
-    "age": "0",
+    "age": "74605",
     "cache-control": "public,max-age=0,must-revalidate",
-    "cache-status": "\"Netlify Edge\"; fwd=miss",
+    "cache-status": "\"Netlify Edge\"; hit",
     "content-encoding": "br",
+    "content-length": "8821",
     "content-security-policy": "default-src 'self'; script-src 'self' blob: 'unsafe-inline' https://cardano.org https://developers.cardano.org https://www.googletagmanager.com https://js.hsforms.net https://js-eu1.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://developers.cardano.org https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com; style-src 'self' 'unsafe-inline'; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.net; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://*.algolianet.com https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com;",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 19 Apr 2026 02:06:38 GMT",
-    "etag": "\"22f893939f5f291688efaa2211ba5146-ssl-df\"",
+    "date": "Sun, 26 Apr 2026 02:09:27 GMT",
+    "etag": "\"ef0f13248f4604b8fa754a3511d72a73-ssl-df\"",
     "feature-policy": "geolocation 'none'; microphone 'none';",
     "referrer-policy": "no-referrer-when-downgrade",
     "server": "Netlify",
     "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
     "vary": "Accept-Encoding",
     "x-frame-options": "DENY",
-    "x-nf-request-id": "01KPHQTTJ621NEPC1TZQYEKG6S",
+    "x-nf-request-id": "01KQ3RS09691ZYRDATYDTMNGDR",
     "x-xss-protection": "1; mode=block"
   },
   "endpoints": [
@@ -102,7 +103,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.189.104",
+      "ip": "142.251.108.97",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -156,7 +157,7 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "142.250.189.110",
+      "ip": "216.239.36.178",
       "geoip": {
         "continent": {
           "code": "NA",
