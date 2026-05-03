@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 26 Apr 2026 02:28:36",
-	"created": "2026-04-26T02:28:36.219274030Z",
+	"@generated": "Sun, 3 May 2026 02:45:07",
+	"created": "2026-05-03T02:45:07.880667524Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -101,7 +101,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "21",
 							"uri": "https://data.cardano.org/robots.txt",
 							"nodeName": "https:\/\/data.cardano.org\/robots.txt",
 							"method": "GET",
@@ -111,7 +111,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "21",
+							"id": "20",
 							"uri": "https://data.cardano.org/sitemap.xml",
 							"nodeName": "https:\/\/data.cardano.org\/sitemap.xml",
 							"method": "GET",
@@ -141,7 +141,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "16",
+							"id": "10",
 							"uri": "https://data.cardano.org",
 							"nodeName": "https:\/\/data.cardano.org",
 							"method": "GET",
@@ -158,7 +158,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90004",
@@ -171,7 +171,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "19",
+							"id": "11",
 							"uri": "https://data.cardano.org",
 							"nodeName": "https:\/\/data.cardano.org",
 							"method": "GET",
@@ -201,7 +201,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "15",
+							"id": "9",
 							"uri": "https://data.cardano.org",
 							"nodeName": "https:\/\/data.cardano.org",
 							"method": "GET",
@@ -218,7 +218,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10063",
@@ -231,7 +231,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "33",
+							"id": "35",
 							"uri": "https://data.cardano.org/robots.txt",
 							"nodeName": "https:\/\/data.cardano.org\/robots.txt",
 							"method": "GET",
@@ -241,7 +241,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "35",
+							"id": "34",
 							"uri": "https://data.cardano.org/sitemap.xml",
 							"nodeName": "https:\/\/data.cardano.org\/sitemap.xml",
 							"method": "GET",
@@ -341,7 +341,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "8",
+							"id": "6",
 							"uri": "https://data.cardano.org",
 							"nodeName": "https:\/\/data.cardano.org",
 							"method": "GET",
@@ -351,7 +351,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "26",
 							"uri": "https://data.cardano.org/robots.txt",
 							"nodeName": "https:\/\/data.cardano.org\/robots.txt",
 							"method": "GET",
@@ -378,7 +378,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -391,7 +391,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "6",
+							"id": "5",
 							"uri": "https://data.cardano.org",
 							"nodeName": "https:\/\/data.cardano.org",
 							"method": "GET",
@@ -428,7 +428,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -461,7 +461,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "26",
+							"id": "27",
 							"uri": "https://data.cardano.org/sitemap.xml",
 							"nodeName": "https:\/\/data.cardano.org\/sitemap.xml",
 							"method": "GET",
@@ -478,7 +478,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90005",
@@ -491,7 +491,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "11",
+							"id": "7",
 							"uri": "https://data.cardano.org",
 							"nodeName": "https:\/\/data.cardano.org",
 							"method": "GET",
@@ -511,7 +511,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "32",
+							"id": "31",
 							"uri": "https://data.cardano.org/sitemap.xml",
 							"nodeName": "https:\/\/data.cardano.org\/sitemap.xml",
 							"method": "GET",
@@ -541,7 +541,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "12",
+							"id": "8",
 							"uri": "https://data.cardano.org",
 							"nodeName": "https:\/\/data.cardano.org",
 							"method": "GET",
@@ -551,7 +551,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "31",
+							"id": "33",
 							"uri": "https://data.cardano.org/robots.txt",
 							"nodeName": "https:\/\/data.cardano.org\/robots.txt",
 							"method": "GET",
@@ -561,7 +561,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "34",
+							"id": "32",
 							"uri": "https://data.cardano.org/sitemap.xml",
 							"nodeName": "https:\/\/data.cardano.org\/sitemap.xml",
 							"method": "GET",
