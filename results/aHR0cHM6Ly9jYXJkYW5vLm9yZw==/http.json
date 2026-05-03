@@ -10,21 +10,21 @@
     "testsQuantity": 10,
     "responseHeaders": {
       "accept-ranges": "bytes",
-      "age": "16685",
+      "age": "17069",
       "cache-control": "public,max-age=0,must-revalidate",
       "cache-status": "\"Netlify Edge\"; hit",
-      "content-length": "12386",
+      "content-length": "12396",
       "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com https://img.youtube.com https://ipfs.io https://crowdin-static.cf-downloads.crowdin.com; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io https://*.algolianet.com https://*.algolia.net;",
       "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 29 Mar 2026 02:16:44 GMT",
-      "etag": "\"2858dde4b89ef06fb308f8b6dfddf5f6-ssl-df\"",
+      "date": "Sun, 03 May 2026 02:44:48 GMT",
+      "etag": "\"9888fa501f7e300264a83d3eef9c3122-ssl-df\"",
       "feature-policy": "geolocation 'none'; microphone 'none';",
       "referrer-policy": "no-referrer-when-downgrade",
       "server": "Netlify",
       "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
       "vary": "Accept-Encoding",
       "x-frame-options": "DENY",
-      "x-nf-request-id": "01KMVP27D5CN1JP2R5RT5D3WNR",
+      "x-nf-request-id": "01KQNVJR7JQYN19K76DHSP9P2F",
       "x-xss-protection": "1; mode=block",
       "connection": "close"
     }
@@ -130,7 +130,7 @@
     "redirection": {
       "expectation": "redirection-to-https",
       "pass": true,
-      "result": "redirection-to-https",
+      "result": "redirection-all-redirects-preloaded",
       "scoreModifier": 0,
       "destination": "https://cardano.org/",
       "redirects": true,
@@ -152,13 +152,13 @@
     "strict-transport-security": {
       "expectation": "hsts-implemented-max-age-at-least-six-months",
       "pass": true,
-      "result": "hsts-implemented-max-age-at-least-six-months",
-      "scoreModifier": 0,
+      "result": "hsts-preloaded",
+      "scoreModifier": 5,
       "data": "max-age=63072000; includeSubDomains; preload",
       "includeSubDomains": true,
       "maxAge": 63072000,
       "preload": true,
-      "preloaded": false
+      "preloaded": true
     },
     "subresource-integrity": {
       "expectation": "sri-implemented-and-external-scripts-loaded-securely",
