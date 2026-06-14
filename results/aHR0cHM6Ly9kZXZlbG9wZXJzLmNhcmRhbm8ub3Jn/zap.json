@@ -1,122 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 7 Jun 2026 03:01:24",
-	"created": "2026-06-07T03:01:24.542012655Z",
-	"insights":[
-		{
-			"level": "Low",
-			"reason": "Warning",
-			"site": "",
-			"key": "insight.log.warn",
-			"description": "ZAP warnings logged - see the zap.log file for details",
-			"statistic": "4"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://developers.cardano.org",
-			"key": "insight.code.2xx",
-			"description": "Percentage of responses with status code 2xx",
-			"statistic": "89"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://developers.cardano.org",
-			"key": "insight.code.3xx",
-			"description": "Percentage of responses with status code 3xx",
-			"statistic": "1"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://developers.cardano.org",
-			"key": "insight.code.4xx",
-			"description": "Percentage of responses with status code 4xx",
-			"statistic": "9"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://developers.cardano.org",
-			"key": "insight.endpoint.ctype.application/javascript",
-			"description": "Percentage of endpoints with content type application/javascript",
-			"statistic": "1"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://developers.cardano.org",
-			"key": "insight.endpoint.ctype.application/xml",
-			"description": "Percentage of endpoints with content type application/xml",
-			"statistic": "1"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://developers.cardano.org",
-			"key": "insight.endpoint.ctype.image/jpeg",
-			"description": "Percentage of endpoints with content type image/jpeg",
-			"statistic": "3"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://developers.cardano.org",
-			"key": "insight.endpoint.ctype.image/png",
-			"description": "Percentage of endpoints with content type image/png",
-			"statistic": "16"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://developers.cardano.org",
-			"key": "insight.endpoint.ctype.image/svg+xml",
-			"description": "Percentage of endpoints with content type image/svg+xml",
-			"statistic": "5"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://developers.cardano.org",
-			"key": "insight.endpoint.ctype.image/webp",
-			"description": "Percentage of endpoints with content type image/webp",
-			"statistic": "1"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://developers.cardano.org",
-			"key": "insight.endpoint.ctype.text/html",
-			"description": "Percentage of endpoints with content type text/html",
-			"statistic": "71"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://developers.cardano.org",
-			"key": "insight.endpoint.method.GET",
-			"description": "Percentage of endpoints with method GET",
-			"statistic": "100"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://developers.cardano.org",
-			"key": "insight.endpoint.total",
-			"description": "Count of total endpoints",
-			"statistic": "840"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://developers.cardano.org",
-			"key": "insight.response.slow",
-			"description": "Percentage of slow responses",
-			"statistic": "4"
-		}
-	],
+	"@generated": "Sun, 14 Jun 2026 03:32:41",
+	"created": "2026-06-14T03:32:41.863952722Z",
 	"site":[ 
 		{
 			"@name": "https://developers.cardano.org",
@@ -135,7 +21,7 @@
 					"desc": "<p>The response contains Personally Identifiable Information, such as CC number, SSN and similar sensitive data.</p>",
 					"instances":[ 
 						{
-							"id": "149",
+							"id": "147",
 							"uri": "https://developers.cardano.org/docs/build/smart-contracts/advanced/debug-cbor/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/smart-contracts\/advanced\/debug-cbor\/",
 							"method": "GET",
@@ -145,7 +31,7 @@
 							"otherinfo": "Credit Card Type detected: Maestro\nBank Identification Number: 500230\nBrand: MAESTRO\nCategory: \nIssuer: "
 						},
 						{
-							"id": "150",
+							"id": "148",
 							"uri": "https://developers.cardano.org/docs/build/smart-contracts/advanced/debug-cbor/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/smart-contracts\/advanced\/debug-cbor\/",
 							"method": "GET",
@@ -162,7 +48,7 @@
 					"reference": "",
 					"cweid": "359",
 					"wascid": "13",
-					"sourceid": "1487"
+					"sourceid": "1886"
 				},
 				{
 					"pluginid": "90022",
@@ -175,7 +61,7 @@
 					"desc": "<p>This page contains an error/warning message that may disclose sensitive information like the location of the file that produced the unhandled exception. This information can be used to launch further attacks against the web application. The alert could be a false positive if the error message is found inside a documentation page.</p>",
 					"instances":[ 
 						{
-							"id": "138",
+							"id": "136",
 							"uri": "https://developers.cardano.org/docs/build/smart-contracts/advanced/uplc/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/smart-contracts\/advanced\/uplc\/",
 							"method": "GET",
@@ -192,7 +78,7 @@
 					"reference": "",
 					"cweid": "550",
 					"wascid": "13",
-					"sourceid": "770"
+					"sourceid": "914"
 				},
 				{
 					"pluginid": "10055",
@@ -205,7 +91,7 @@
 					"desc": "<p>The Content Security Policy fails to define one of the directives that has no fallback. Missing/excluding them is the same as allowing anything.</p>",
 					"instances":[ 
 						{
-							"id": "13",
+							"id": "1",
 							"uri": "https://developers.cardano.org",
 							"nodeName": "https:\/\/developers.cardano.org",
 							"method": "GET",
@@ -215,9 +101,9 @@
 							"otherinfo": "The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src."
 						},
 						{
-							"id": "50",
-							"uri": "https://developers.cardano.org/",
-							"nodeName": "https:\/\/developers.cardano.org\/",
+							"id": "49",
+							"uri": "https://developers.cardano.org/docs/get-started/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/",
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
@@ -225,7 +111,7 @@
 							"otherinfo": "The directive(s): frame-ancestors, form-action is/are among the directives that do not fallback to default-src."
 						},
 						{
-							"id": "4",
+							"id": "20",
 							"uri": "https://developers.cardano.org/hackathons/",
 							"nodeName": "https:\/\/developers.cardano.org\/hackathons\/",
 							"method": "GET",
@@ -242,7 +128,7 @@
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://web.dev/articles/csp#resource-options</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10055",
@@ -255,7 +141,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "14",
+							"id": "2",
 							"uri": "https://developers.cardano.org",
 							"nodeName": "https:\/\/developers.cardano.org",
 							"method": "GET",
@@ -265,9 +151,9 @@
 							"otherinfo": "script-src includes unsafe-inline."
 						},
 						{
-							"id": "54",
-							"uri": "https://developers.cardano.org/",
-							"nodeName": "https:\/\/developers.cardano.org\/",
+							"id": "50",
+							"uri": "https://developers.cardano.org/docs/get-started/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/",
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
@@ -275,7 +161,7 @@
 							"otherinfo": "script-src includes unsafe-inline."
 						},
 						{
-							"id": "5",
+							"id": "22",
 							"uri": "https://developers.cardano.org/hackathons/",
 							"nodeName": "https:\/\/developers.cardano.org\/hackathons\/",
 							"method": "GET",
@@ -292,7 +178,7 @@
 					"reference": "<p>https://www.w3.org/TR/CSP/</p><p>https://caniuse.com/#search=content+security+policy</p><p>https://content-security-policy.com/</p><p>https://github.com/HtmlUnit/htmlunit-csp</p><p>https://web.dev/articles/csp#resource-options</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10055",
@@ -305,7 +191,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks. Including (but not limited to) Cross Site Scripting (XSS), and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "16",
+							"id": "3",
 							"uri": "https://developers.cardano.org",
 							"nodeName": "https:\/\/developers.cardano.org",
 							"method": "GET",
@@ -315,9 +201,9 @@
 							"otherinfo": "style-src includes unsafe-inline."
 						},
 						{
-							"id": "55",
-							"uri": "https://developers.cardano.org/",
-							"nodeName": "https:\/\/developers.cardano.org\/",
+							"id": "51",
+							"uri": "https://developers.cardano.org/docs/get-started/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/",
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
@@ -325,7 +211,7 @@
 							"otherinfo": "style-src includes unsafe-inline."
 						},
 						{
-							"id": "6",
+							"id": "23",
 							"uri": "https://developers.cardano.org/hackathons/",
 							"nodeName": "https:\/\/developers.cardano.org\/hackathons\/",
 							"method": "GET",
@@ -355,7 +241,7 @@
 					"desc": "<p>Application Source Code was disclosed by the web server. - Python</p>",
 					"instances":[ 
 						{
-							"id": "137",
+							"id": "135",
 							"uri": "https://developers.cardano.org/docs/contribute/portal-style-guide/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/contribute\/portal-style-guide\/",
 							"method": "GET",
@@ -372,7 +258,7 @@
 					"reference": "<p>https://nhimg.org/twitter-breach</p>",
 					"cweid": "540",
 					"wascid": "13",
-					"sourceid": "702"
+					"sourceid": "770"
 				},
 				{
 					"pluginid": "10099",
@@ -385,7 +271,7 @@
 					"desc": "<p>Application Source Code was disclosed by the web server. - SQL</p>",
 					"instances":[ 
 						{
-							"id": "144",
+							"id": "143",
 							"uri": "https://developers.cardano.org/docs/build/iot-on-cardano/input-and-write/02-build-your-own-api/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/iot-on-cardano\/input-and-write\/02-build-your-own-api\/",
 							"method": "GET",
@@ -395,7 +281,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "140",
+							"id": "154",
+							"uri": "https://developers.cardano.org/docs/build/smart-contracts/lessons/theory/utxo-model/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/smart-contracts\/lessons\/theory\/utxo-model\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "UPDATE accounts SET ",
+							"otherinfo": ""
+						},
+						{
+							"id": "138",
 							"uri": "https://developers.cardano.org/docs/operate-a-stake-pool/monitoring/monitoring-prometheus-grafana/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/operate-a-stake-pool\/monitoring\/monitoring-prometheus-grafana\/",
 							"method": "GET",
@@ -405,14 +301,14 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that application Source Code is not available with alternative extensions, and ensure that source code is not present within other files or data deployed to the web server, or served by the web server.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://nhimg.org/twitter-breach</p>",
 					"cweid": "540",
 					"wascid": "13",
-					"sourceid": "1374"
+					"sourceid": "1790"
 				},
 				{
 					"pluginid": "90003",
@@ -425,7 +321,7 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "23",
+							"id": "6",
 							"uri": "https://developers.cardano.org",
 							"nodeName": "https:\/\/developers.cardano.org",
 							"method": "GET",
@@ -435,7 +331,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "66",
+							"id": "94",
 							"uri": "https://developers.cardano.org/",
 							"nodeName": "https:\/\/developers.cardano.org\/",
 							"method": "GET",
@@ -445,7 +341,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "77",
+							"id": "75",
 							"uri": "https://developers.cardano.org/docs/build/smart-contracts/overview/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/smart-contracts\/overview\/",
 							"method": "GET",
@@ -455,9 +351,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "82",
-							"uri": "https://developers.cardano.org/docs/get-started/infrastructure/overview/",
-							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/infrastructure\/overview\/",
+							"id": "63",
+							"uri": "https://developers.cardano.org/docs/get-started/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -465,9 +361,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "79",
-							"uri": "https://developers.cardano.org/docs/learn/core-concepts/",
-							"nodeName": "https:\/\/developers.cardano.org\/docs\/learn\/core-concepts\/",
+							"id": "84",
+							"uri": "https://developers.cardano.org/docs/get-started/infrastructure/overview/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/infrastructure\/overview\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -482,7 +378,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10017",
@@ -495,7 +391,7 @@
 					"desc": "<p>The page includes one or more script files from a third-party domain.</p>",
 					"instances":[ 
 						{
-							"id": "19",
+							"id": "4",
 							"uri": "https://developers.cardano.org",
 							"nodeName": "https:\/\/developers.cardano.org",
 							"method": "GET",
@@ -505,7 +401,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "56",
+							"id": "86",
 							"uri": "https://developers.cardano.org/",
 							"nodeName": "https:\/\/developers.cardano.org\/",
 							"method": "GET",
@@ -515,7 +411,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "58",
+							"id": "65",
 							"uri": "https://developers.cardano.org/docs/build/smart-contracts/overview/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/smart-contracts\/overview\/",
 							"method": "GET",
@@ -525,9 +421,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "71",
-							"uri": "https://developers.cardano.org/docs/get-started/infrastructure/overview/",
-							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/infrastructure\/overview\/",
+							"id": "52",
+							"uri": "https://developers.cardano.org/docs/get-started/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/",
 							"method": "GET",
 							"param": "https://www.googletagmanager.com/gtag/js?id=GTM-5NM3NX4",
 							"attack": "",
@@ -535,9 +431,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
-							"uri": "https://developers.cardano.org/docs/learn/core-concepts/",
-							"nodeName": "https:\/\/developers.cardano.org\/docs\/learn\/core-concepts\/",
+							"id": "81",
+							"uri": "https://developers.cardano.org/docs/get-started/infrastructure/overview/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/infrastructure\/overview\/",
 							"method": "GET",
 							"param": "https://www.googletagmanager.com/gtag/js?id=GTM-5NM3NX4",
 							"attack": "",
@@ -552,7 +448,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90004",
@@ -565,7 +461,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "29",
+							"id": "16",
 							"uri": "https://developers.cardano.org",
 							"nodeName": "https:\/\/developers.cardano.org",
 							"method": "GET",
@@ -575,9 +471,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "74",
-							"uri": "https://developers.cardano.org/",
-							"nodeName": "https:\/\/developers.cardano.org\/",
+							"id": "71",
+							"uri": "https://developers.cardano.org/docs/get-started/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -585,7 +481,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "62",
+							"id": "42",
 							"uri": "https://developers.cardano.org/hackathons/",
 							"nodeName": "https:\/\/developers.cardano.org\/hackathons\/",
 							"method": "GET",
@@ -602,7 +498,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90004",
@@ -615,7 +511,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "30",
+							"id": "17",
 							"uri": "https://developers.cardano.org",
 							"nodeName": "https:\/\/developers.cardano.org",
 							"method": "GET",
@@ -625,9 +521,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "75",
-							"uri": "https://developers.cardano.org/",
-							"nodeName": "https:\/\/developers.cardano.org\/",
+							"id": "72",
+							"uri": "https://developers.cardano.org/docs/get-started/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -635,7 +531,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "63",
+							"id": "44",
 							"uri": "https://developers.cardano.org/hackathons/",
 							"nodeName": "https:\/\/developers.cardano.org\/hackathons\/",
 							"method": "GET",
@@ -652,7 +548,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Opener-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90004",
@@ -665,7 +561,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "27",
+							"id": "15",
 							"uri": "https://developers.cardano.org",
 							"nodeName": "https:\/\/developers.cardano.org",
 							"method": "GET",
@@ -675,9 +571,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "73",
-							"uri": "https://developers.cardano.org/",
-							"nodeName": "https:\/\/developers.cardano.org\/",
+							"id": "70",
+							"uri": "https://developers.cardano.org/docs/get-started/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -685,7 +581,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "61",
+							"id": "41",
 							"uri": "https://developers.cardano.org/hackathons/",
 							"nodeName": "https:\/\/developers.cardano.org\/hackathons\/",
 							"method": "GET",
@@ -695,7 +591,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "47",
+							"id": "32",
 							"uri": "https://developers.cardano.org/robots.txt",
 							"nodeName": "https:\/\/developers.cardano.org\/robots.txt",
 							"method": "GET",
@@ -712,7 +608,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10063",
@@ -725,7 +621,7 @@
 					"desc": "<p>The header has now been renamed to Permissions-Policy.</p>",
 					"instances":[ 
 						{
-							"id": "26",
+							"id": "14",
 							"uri": "https://developers.cardano.org",
 							"nodeName": "https:\/\/developers.cardano.org",
 							"method": "GET",
@@ -735,17 +631,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "72",
-							"uri": "https://developers.cardano.org/",
-							"nodeName": "https:\/\/developers.cardano.org\/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "Feature-Policy",
-							"otherinfo": ""
-						},
-						{
-							"id": "87",
+							"id": "79",
 							"uri": "https://developers.cardano.org/docs/build/smart-contracts/overview/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/smart-contracts\/overview\/",
 							"method": "GET",
@@ -755,9 +641,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "84",
-							"uri": "https://developers.cardano.org/docs/learn/core-concepts/",
-							"nodeName": "https:\/\/developers.cardano.org\/docs\/learn\/core-concepts\/",
+							"id": "69",
+							"uri": "https://developers.cardano.org/docs/get-started/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -765,7 +651,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "60",
+							"id": "91",
+							"uri": "https://developers.cardano.org/docs/get-started/infrastructure/overview/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/infrastructure\/overview\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "Feature-Policy",
+							"otherinfo": ""
+						},
+						{
+							"id": "40",
 							"uri": "https://developers.cardano.org/hackathons/",
 							"nodeName": "https:\/\/developers.cardano.org\/hackathons\/",
 							"method": "GET",
@@ -782,7 +678,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy</p><p>https://scotthelme.co.uk/goodbye-feature-policy-and-hello-permissions-policy/</p>",
 					"cweid": "16",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10023",
@@ -795,7 +691,7 @@
 					"desc": "<p>The response appeared to contain common error messages returned by platforms such as ASP.NET, and Web-servers such as IIS and Apache. You can configure the list of common debug messages.</p>",
 					"instances":[ 
 						{
-							"id": "143",
+							"id": "141",
 							"uri": "https://developers.cardano.org/docs/build/integrate/payments/x402-standard/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/integrate\/payments\/x402-standard\/",
 							"method": "GET",
@@ -812,7 +708,7 @@
 					"reference": "",
 					"cweid": "1295",
 					"wascid": "13",
-					"sourceid": "1294"
+					"sourceid": "1717"
 				},
 				{
 					"pluginid": "2",
@@ -825,7 +721,7 @@
 					"desc": "<p>A private IP (such as 10.x.x.x, 172.x.x.x, 192.168.x.x) or an Amazon EC2 private hostname (for example, ip-10-0-56-78) has been found in the HTTP response body. This information might be helpful for further attacks targeting internal systems.</p>",
 					"instances":[ 
 						{
-							"id": "145",
+							"id": "142",
 							"uri": "https://developers.cardano.org/docs/build/iot-on-cardano/cardano-ticker/02-building-the-ticker/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/iot-on-cardano\/cardano-ticker\/02-building-the-ticker\/",
 							"method": "GET",
@@ -835,7 +731,7 @@
 							"otherinfo": "192.168.1.100\n"
 						},
 						{
-							"id": "146",
+							"id": "144",
 							"uri": "https://developers.cardano.org/docs/build/iot-on-cardano/qr-code-payments/01-getting-started/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/iot-on-cardano\/qr-code-payments\/01-getting-started\/",
 							"method": "GET",
@@ -845,7 +741,7 @@
 							"otherinfo": "192.168.1.100\n"
 						},
 						{
-							"id": "141",
+							"id": "139",
 							"uri": "https://developers.cardano.org/docs/get-started/infrastructure/node/new-tracing-system/new-tracing-system/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/infrastructure\/node\/new-tracing-system\/new-tracing-system\/",
 							"method": "GET",
@@ -855,7 +751,7 @@
 							"otherinfo": "10.0.0.2:34567\n10.0.0.2\n"
 						},
 						{
-							"id": "157",
+							"id": "162",
 							"uri": "https://developers.cardano.org/docs/operate-a-stake-pool/block-producer/mithril-signer-configuration/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/operate-a-stake-pool\/block-producer\/mithril-signer-configuration\/",
 							"method": "GET",
@@ -865,7 +761,7 @@
 							"otherinfo": "192.168.1.50:3132\n"
 						},
 						{
-							"id": "136",
+							"id": "134",
 							"uri": "https://developers.cardano.org/docs/operate-a-stake-pool/deployment-scenarios/hardening-server/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/operate-a-stake-pool\/deployment-scenarios\/hardening-server\/",
 							"method": "GET",
@@ -882,7 +778,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc1918</p>",
 					"cweid": "497",
 					"wascid": "13",
-					"sourceid": "1367"
+					"sourceid": "1766"
 				},
 				{
 					"pluginid": "10096",
@@ -895,7 +791,7 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "147",
+							"id": "145",
 							"uri": "https://developers.cardano.org/docs/build/iot-on-cardano/qr-code-payments/05-building-the-backend/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/iot-on-cardano\/qr-code-payments\/05-building-the-backend\/",
 							"method": "GET",
@@ -905,7 +801,7 @@
 							"otherinfo": "1765568200, which evaluates to: 2025-12-12 19:36:40."
 						},
 						{
-							"id": "148",
+							"id": "146",
 							"uri": "https://developers.cardano.org/docs/build/iot-on-cardano/the-basics/03-api-setup/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/iot-on-cardano\/the-basics\/03-api-setup\/",
 							"method": "GET",
@@ -915,17 +811,27 @@
 							"otherinfo": "1763143297, which evaluates to: 2025-11-14 18:01:37."
 						},
 						{
-							"id": "153",
-							"uri": "https://developers.cardano.org/docs/build/transaction-metadata/how-to-create-a-metadata-transaction-cli/",
-							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/transaction-metadata\/how-to-create-a-metadata-transaction-cli\/",
+							"id": "149",
+							"uri": "https://developers.cardano.org/docs/build/smart-contracts/lessons/theory/datum-redeemer-context/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/smart-contracts\/lessons\/theory\/datum-redeemer-context\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1749480133",
-							"otherinfo": "1749480133, which evaluates to: 2025-06-09 14:42:13."
+							"evidence": "1735689600",
+							"otherinfo": "1735689600, which evaluates to: 2025-01-01 00:00:00."
 						},
 						{
 							"id": "151",
+							"uri": "https://developers.cardano.org/docs/build/smart-contracts/lessons/theory/utxo-model/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/smart-contracts\/lessons\/theory\/utxo-model\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1740000000",
+							"otherinfo": "1740000000, which evaluates to: 2025-02-19 21:20:00."
+						},
+						{
+							"id": "155",
 							"uri": "https://developers.cardano.org/docs/build/transaction-metadata/how-to-create-a-metadata-transaction-cli/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/transaction-metadata\/how-to-create-a-metadata-transaction-cli\/",
 							"method": "GET",
@@ -933,16 +839,6 @@
 							"attack": "",
 							"evidence": "1749651926",
 							"otherinfo": "1749651926, which evaluates to: 2025-06-11 14:25:26."
-						},
-						{
-							"id": "155",
-							"uri": "https://developers.cardano.org/docs/get-started/client-sdks/typescript/evolution-sdk/advanced/error-handling/",
-							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/client-sdks\/typescript\/evolution-sdk\/advanced\/error-handling\/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1735600000",
-							"otherinfo": "1735600000, which evaluates to: 2024-12-30 23:06:40."
 						}
 					],
 					"count": "5",
@@ -952,7 +848,7 @@
 					"reference": "<p>https://cwe.mitre.org/data/definitions/200.html</p>",
 					"cweid": "497",
 					"wascid": "13",
-					"sourceid": "1422"
+					"sourceid": "1832"
 				},
 				{
 					"pluginid": "10021",
@@ -965,7 +861,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "24",
+							"id": "7",
 							"uri": "https://developers.cardano.org",
 							"nodeName": "https:\/\/developers.cardano.org",
 							"method": "GET",
@@ -975,9 +871,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "68",
-							"uri": "https://developers.cardano.org/",
-							"nodeName": "https:\/\/developers.cardano.org\/",
+							"id": "76",
+							"uri": "https://developers.cardano.org/docs/build/smart-contracts/overview/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/smart-contracts\/overview\/",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -985,9 +881,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "81",
-							"uri": "https://developers.cardano.org/docs/learn/core-concepts/",
-							"nodeName": "https:\/\/developers.cardano.org\/docs\/learn\/core-concepts\/",
+							"id": "66",
+							"uri": "https://developers.cardano.org/docs/get-started/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -995,7 +891,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "11",
+							"id": "33",
 							"uri": "https://developers.cardano.org/hackathons/",
 							"nodeName": "https:\/\/developers.cardano.org\/hackathons\/",
 							"method": "GET",
@@ -1005,7 +901,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "3",
+							"id": "24",
 							"uri": "https://developers.cardano.org/robots.txt",
 							"nodeName": "https:\/\/developers.cardano.org\/robots.txt",
 							"method": "GET",
@@ -1022,7 +918,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10094",
@@ -1035,7 +931,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "36",
+							"id": "8",
 							"uri": "https://developers.cardano.org",
 							"nodeName": "https:\/\/developers.cardano.org",
 							"method": "GET",
@@ -1045,7 +941,7 @@
 							"otherinfo": "jy\uFFFDw\\x001e\uFFFD\uFFFD\uFFFD\\x0005\uFFFD\u03D5\uFFFD\\x001e\uFFFD\uFFFD]z\uFFFD\uFFFD\u02BE"
 						},
 						{
-							"id": "91",
+							"id": "96",
 							"uri": "https://developers.cardano.org/",
 							"nodeName": "https:\/\/developers.cardano.org\/",
 							"method": "GET",
@@ -1055,7 +951,7 @@
 							"otherinfo": "jy\uFFFDw\\x001e\uFFFD\uFFFD\uFFFD\\x0005\uFFFD\u03D5\uFFFD\\x001e\uFFFD\uFFFD]z\uFFFD\uFFFD\u02BE"
 						},
 						{
-							"id": "130",
+							"id": "125",
 							"uri": "https://developers.cardano.org/docs/build/integrate/overview/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/integrate\/overview\/",
 							"method": "GET",
@@ -1065,7 +961,7 @@
 							"otherinfo": "jy\uFFFDw\\x001e\uFFFD\uFFFD\uFFFD\\x0005\uFFFD\u03D5\uFFFD\\x001e\uFFFD\uFFFD]z\uFFFD\uFFFD\u02BE"
 						},
 						{
-							"id": "127",
+							"id": "122",
 							"uri": "https://developers.cardano.org/docs/build/native-tokens/overview/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/native-tokens\/overview\/",
 							"method": "GET",
@@ -1075,7 +971,7 @@
 							"otherinfo": "jy\uFFFDw\\x001e\uFFFD\uFFFD\uFFFD\\x0005\uFFFD\u03D5\uFFFD\\x001e\uFFFD\uFFFD]z\uFFFD\uFFFD\u02BE"
 						},
 						{
-							"id": "101",
+							"id": "77",
 							"uri": "https://developers.cardano.org/docs/build/smart-contracts/overview/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/smart-contracts\/overview\/",
 							"method": "GET",
@@ -1085,7 +981,7 @@
 							"otherinfo": "jy\uFFFDw\\x001e\uFFFD\uFFFD\uFFFD\\x0005\uFFFD\u03D5\uFFFD\\x001e\uFFFD\uFFFD]z\uFFFD\uFFFD\u02BE"
 						},
 						{
-							"id": "132",
+							"id": "133",
 							"uri": "https://developers.cardano.org/docs/build/transaction-metadata/overview/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/transaction-metadata\/overview\/",
 							"method": "GET",
@@ -1095,27 +991,7 @@
 							"otherinfo": "jy\uFFFDw\\x001e\uFFFD\uFFFD\uFFFD\\x0005\uFFFD\u03D5\uFFFD\\x001e\uFFFD\uFFFD]z\uFFFD\uFFFD\u02BE"
 						},
 						{
-							"id": "134",
-							"uri": "https://developers.cardano.org/docs/community/cardano-developer-community/",
-							"nodeName": "https:\/\/developers.cardano.org\/docs\/community\/cardano-developer-community\/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "announcementBarPlaceholder_vyr4",
-							"otherinfo": "jy\uFFFDw\\x001e\uFFFD\uFFFD\uFFFD\\x0005\uFFFD\u03D5\uFFFD\\x001e\uFFFD\uFFFD]z\uFFFD\uFFFD\u02BE"
-						},
-						{
-							"id": "133",
-							"uri": "https://developers.cardano.org/docs/community/funding/",
-							"nodeName": "https:\/\/developers.cardano.org\/docs\/community\/funding\/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "announcementBarPlaceholder_vyr4",
-							"otherinfo": "jy\uFFFDw\\x001e\uFFFD\uFFFD\uFFFD\\x0005\uFFFD\u03D5\uFFFD\\x001e\uFFFD\uFFFD]z\uFFFD\uFFFD\u02BE"
-						},
-						{
-							"id": "116",
+							"id": "67",
 							"uri": "https://developers.cardano.org/docs/get-started/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/",
 							"method": "GET",
@@ -1125,7 +1001,7 @@
 							"otherinfo": "jy\uFFFDw\\x001e\uFFFD\uFFFD\uFFFD\\x0005\uFFFD\u03D5\uFFFD\\x001e\uFFFD\uFFFD]z\uFFFD\uFFFD\u02BE"
 						},
 						{
-							"id": "113",
+							"id": "111",
 							"uri": "https://developers.cardano.org/docs/get-started/client-sdks/overview/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/client-sdks\/overview\/",
 							"method": "GET",
@@ -1135,7 +1011,7 @@
 							"otherinfo": "jy\uFFFDw\\x001e\uFFFD\uFFFD\uFFFD\\x0005\uFFFD\u03D5\uFFFD\\x001e\uFFFD\uFFFD]z\uFFFD\uFFFD\u02BE"
 						},
 						{
-							"id": "93",
+							"id": "89",
 							"uri": "https://developers.cardano.org/docs/get-started/infrastructure/overview/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/infrastructure\/overview\/",
 							"method": "GET",
@@ -1145,7 +1021,7 @@
 							"otherinfo": "jy\uFFFDw\\x001e\uFFFD\uFFFD\uFFFD\\x0005\uFFFD\u03D5\uFFFD\\x001e\uFFFD\uFFFD]z\uFFFD\uFFFD\u02BE"
 						},
 						{
-							"id": "92",
+							"id": "114",
 							"uri": "https://developers.cardano.org/docs/learn/core-concepts/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/learn\/core-concepts\/",
 							"method": "GET",
@@ -1153,16 +1029,26 @@
 							"attack": "",
 							"evidence": "announcementBarPlaceholder_vyr4",
 							"otherinfo": "jy\uFFFDw\\x001e\uFFFD\uFFFD\uFFFD\\x0005\uFFFD\u03D5\uFFFD\\x001e\uFFFD\uFFFD]z\uFFFD\uFFFD\u02BE"
+						},
+						{
+							"id": "131",
+							"uri": "https://developers.cardano.org/tools/",
+							"nodeName": "https:\/\/developers.cardano.org\/tools\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "announcementBarPlaceholder_vyr4",
+							"otherinfo": "jy\uFFFDw\\x001e\uFFFD\uFFFD\uFFFD\\x0005\uFFFD\u03D5\uFFFD\\x001e\uFFFD\uFFFD]z\uFFFD\uFFFD\u02BE"
 						}
 					],
-					"count": "12",
+					"count": "11",
 					"systemic": false,
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
 					"otherinfo": "<p>jy\uFFFDw\\x001e\uFFFD\uFFFD\uFFFD\\x0005\uFFFD\u03D5\uFFFD\\x001e\uFFFD\uFFFD]z\uFFFD\uFFFD\u02BE</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "319",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10027",
@@ -1175,7 +1061,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "162",
+							"id": "165",
 							"uri": "https://developers.cardano.org/app.js",
 							"nodeName": "https:\/\/developers.cardano.org\/app.js",
 							"method": "GET",
@@ -1185,7 +1071,7 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"//cardanoupdates.com/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"megaMenuItemLink\"><div class=\"megaMenuItemContent\"><span\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "159",
+							"id": "161",
 							"uri": "https://developers.cardano.org/sidebars.js",
 							"nodeName": "https:\/\/developers.cardano.org\/sidebars.js",
 							"method": "GET",
@@ -1195,7 +1081,7 @@
 							"otherinfo": "The following pattern was used: \\bUSER\\b and was detected in likely comment: \"//cardanoupdates.com/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"megaMenuItemLink\"><div class=\"megaMenuItemContent\"><span\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "158",
+							"id": "160",
 							"uri": "https://developers.cardano.org/src/data/builder-tools/tools.js",
 							"nodeName": "https:\/\/developers.cardano.org\/src\/data\/builder-tools\/tools.js",
 							"method": "GET",
@@ -1212,7 +1098,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "2213"
+					"sourceid": "2718"
 				},
 				{
 					"pluginid": "10109",
@@ -1225,7 +1111,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "160",
+							"id": "163",
 							"uri": "https://developers.cardano.org/docs/get-started/cli-operations/basic-operations/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/cli-operations\/basic-operations\/",
 							"method": "GET",
@@ -1235,7 +1121,17 @@
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "139",
+							"id": "164",
+							"uri": "https://developers.cardano.org/docs/native-tokens/cardano-token-registry/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/native-tokens\/cardano-token-registry\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script>\n    window.location.href = '/docs/build/native-tokens/cardano-token-registry/' + window.location.search + window.location.hash;\n  </script>",
+							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
+						},
+						{
+							"id": "137",
 							"uri": "https://developers.cardano.org/docs/operate-a-stake-pool/monitoring/monitoring-openblockperf/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/operate-a-stake-pool\/monitoring\/monitoring-openblockperf\/",
 							"method": "GET",
@@ -1245,7 +1141,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"id": "7",
+							"id": "26",
 							"uri": "https://developers.cardano.org/hackathons/",
 							"nodeName": "https:\/\/developers.cardano.org\/hackathons\/",
 							"method": "GET",
@@ -1255,7 +1151,7 @@
 							"otherinfo": "No links have been found while there are scripts, which is an indication that this is a modern web application."
 						},
 						{
-							"id": "142",
+							"id": "140",
 							"uri": "https://developers.cardano.org/portalhero/",
 							"nodeName": "https:\/\/developers.cardano.org\/portalhero\/",
 							"method": "GET",
@@ -1263,16 +1159,6 @@
 							"attack": "",
 							"evidence": "<a class=\"button button--outline button--warn button--lg getStarted_Sjon\"></a>",
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"id": "135",
-							"uri": "https://developers.cardano.org/tools/",
-							"nodeName": "https:\/\/developers.cardano.org\/tools\/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<noscript><img style=\"width:100%;height:auto;max-width:100%;margin-bottom:-4px;position:absolute;top:0;left:0\" src=\"/assets/ideal-img/cardano-peer-connect.3c4fa7a.640.png\" srcset=\"/assets/ideal-img/cardano-peer-connect.3c4fa7a.640.png 640w,/assets/ideal-img/cardano-peer-connect.82d2e92.1030.png 1030w\" alt=\"Cardano Peer Connect\" width=\"640\" height=\"401\"></noscript>",
-							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						}
 					],
 					"count": "5",
@@ -1282,7 +1168,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "2040"
+					"sourceid": "2494"
 				},
 				{
 					"pluginid": "10015",
@@ -1295,7 +1181,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "9",
+							"id": "0",
 							"uri": "https://developers.cardano.org",
 							"nodeName": "https:\/\/developers.cardano.org",
 							"method": "GET",
@@ -1305,17 +1191,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "48",
-							"uri": "https://developers.cardano.org/",
-							"nodeName": "https:\/\/developers.cardano.org\/",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "public,max-age=0,must-revalidate",
-							"otherinfo": ""
-						},
-						{
-							"id": "57",
+							"id": "64",
 							"uri": "https://developers.cardano.org/docs/build/smart-contracts/overview/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/smart-contracts\/overview\/",
 							"method": "GET",
@@ -1325,7 +1201,27 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "0",
+							"id": "48",
+							"uri": "https://developers.cardano.org/docs/get-started/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "public,max-age=0,must-revalidate",
+							"otherinfo": ""
+						},
+						{
+							"id": "19",
+							"uri": "https://developers.cardano.org/hackathons/",
+							"nodeName": "https:\/\/developers.cardano.org\/hackathons\/",
+							"method": "GET",
+							"param": "cache-control",
+							"attack": "",
+							"evidence": "public,max-age=0,must-revalidate",
+							"otherinfo": ""
+						},
+						{
+							"id": "18",
 							"uri": "https://developers.cardano.org/robots.txt",
 							"nodeName": "https:\/\/developers.cardano.org\/robots.txt",
 							"method": "GET",
@@ -1335,14 +1231,14 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "5",
 					"systemic": true,
 					"solution": "<p>For secure content, ensure the cache-control HTTP header is set with \"no-cache, no-store, must-revalidate\". If an asset should be cached consider setting the directives \"public, max-age, immutable\".</p>",
 					"otherinfo": "",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
 					"cweid": "525",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10050",
@@ -1355,53 +1251,53 @@
 					"desc": "<p>The content was retrieved from a shared cache. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "20",
+							"id": "5",
 							"uri": "https://developers.cardano.org",
 							"nodeName": "https:\/\/developers.cardano.org",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 206",
+							"evidence": "Age: 315",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "64",
-							"uri": "https://developers.cardano.org/",
-							"nodeName": "https:\/\/developers.cardano.org\/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "Age: 207",
-							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
-						},
-						{
-							"id": "76",
+							"id": "74",
 							"uri": "https://developers.cardano.org/docs/build/smart-contracts/overview/",
 							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/smart-contracts\/overview\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 205",
+							"evidence": "Age: 312",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "8",
+							"id": "62",
+							"uri": "https://developers.cardano.org/docs/get-started/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "Age: 313",
+							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
+						},
+						{
+							"id": "29",
 							"uri": "https://developers.cardano.org/hackathons/",
 							"nodeName": "https:\/\/developers.cardano.org\/hackathons\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 206",
+							"evidence": "Age: 313",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "2",
+							"id": "21",
 							"uri": "https://developers.cardano.org/robots.txt",
 							"nodeName": "https:\/\/developers.cardano.org\/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Age: 9887",
+							"evidence": "Age: 24537",
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						}
 					],
@@ -1425,7 +1321,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "39",
+							"id": "11",
 							"uri": "https://developers.cardano.org",
 							"nodeName": "https:\/\/developers.cardano.org",
 							"method": "GET",
@@ -1435,7 +1331,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "52",
+							"id": "36",
+							"uri": "https://developers.cardano.org/hackathons/",
+							"nodeName": "https:\/\/developers.cardano.org\/hackathons\/",
+							"method": "GET",
+							"param": "Sec-Fetch-Dest",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "28",
 							"uri": "https://developers.cardano.org/robots.txt",
 							"nodeName": "https:\/\/developers.cardano.org\/robots.txt",
 							"method": "GET",
@@ -1445,14 +1351,14 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -1465,7 +1371,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "38",
+							"id": "10",
 							"uri": "https://developers.cardano.org",
 							"nodeName": "https:\/\/developers.cardano.org",
 							"method": "GET",
@@ -1475,7 +1381,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "51",
+							"id": "35",
+							"uri": "https://developers.cardano.org/hackathons/",
+							"nodeName": "https:\/\/developers.cardano.org\/hackathons\/",
+							"method": "GET",
+							"param": "Sec-Fetch-Mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "27",
 							"uri": "https://developers.cardano.org/robots.txt",
 							"nodeName": "https:\/\/developers.cardano.org\/robots.txt",
 							"method": "GET",
@@ -1485,14 +1401,14 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -1505,7 +1421,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "37",
+							"id": "9",
 							"uri": "https://developers.cardano.org",
 							"nodeName": "https:\/\/developers.cardano.org",
 							"method": "GET",
@@ -1515,7 +1431,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "49",
+							"id": "34",
+							"uri": "https://developers.cardano.org/hackathons/",
+							"nodeName": "https:\/\/developers.cardano.org\/hackathons\/",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "25",
 							"uri": "https://developers.cardano.org/robots.txt",
 							"nodeName": "https:\/\/developers.cardano.org\/robots.txt",
 							"method": "GET",
@@ -1525,14 +1451,14 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90005",
@@ -1545,7 +1471,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "40",
+							"id": "12",
 							"uri": "https://developers.cardano.org",
 							"nodeName": "https:\/\/developers.cardano.org",
 							"method": "GET",
@@ -1555,7 +1481,17 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "53",
+							"id": "38",
+							"uri": "https://developers.cardano.org/hackathons/",
+							"nodeName": "https:\/\/developers.cardano.org\/hackathons\/",
+							"method": "GET",
+							"param": "Sec-Fetch-User",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"id": "30",
 							"uri": "https://developers.cardano.org/robots.txt",
 							"nodeName": "https:\/\/developers.cardano.org\/robots.txt",
 							"method": "GET",
@@ -1565,14 +1501,14 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"systemic": false,
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10049",
@@ -1585,7 +1521,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "25",
+							"id": "13",
 							"uri": "https://developers.cardano.org",
 							"nodeName": "https:\/\/developers.cardano.org",
 							"method": "GET",
@@ -1595,9 +1531,9 @@
 							"otherinfo": "The response is stale, and stale responses are not configured to be re-validated or blocked, using the 'must-revalidate', 'proxy-revalidate', 's-maxage', or 'max-age' response 'Cache-Control' directives."
 						},
 						{
-							"id": "69",
-							"uri": "https://developers.cardano.org/",
-							"nodeName": "https:\/\/developers.cardano.org\/",
+							"id": "78",
+							"uri": "https://developers.cardano.org/docs/build/smart-contracts/overview/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/build\/smart-contracts\/overview\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1605,9 +1541,9 @@
 							"otherinfo": "The response is stale, and stale responses are not configured to be re-validated or blocked, using the 'must-revalidate', 'proxy-revalidate', 's-maxage', or 'max-age' response 'Cache-Control' directives."
 						},
 						{
-							"id": "83",
-							"uri": "https://developers.cardano.org/docs/learn/core-concepts/",
-							"nodeName": "https:\/\/developers.cardano.org\/docs\/learn\/core-concepts\/",
+							"id": "68",
+							"uri": "https://developers.cardano.org/docs/get-started/",
+							"nodeName": "https:\/\/developers.cardano.org\/docs\/get-started\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1615,7 +1551,7 @@
 							"otherinfo": "The response is stale, and stale responses are not configured to be re-validated or blocked, using the 'must-revalidate', 'proxy-revalidate', 's-maxage', or 'max-age' response 'Cache-Control' directives."
 						},
 						{
-							"id": "59",
+							"id": "39",
 							"uri": "https://developers.cardano.org/hackathons/",
 							"nodeName": "https:\/\/developers.cardano.org\/hackathons\/",
 							"method": "GET",
@@ -1625,7 +1561,7 @@
 							"otherinfo": "The response is stale, and stale responses are not configured to be re-validated or blocked, using the 'must-revalidate', 'proxy-revalidate', 's-maxage', or 'max-age' response 'Cache-Control' directives."
 						},
 						{
-							"id": "46",
+							"id": "31",
 							"uri": "https://developers.cardano.org/robots.txt",
 							"nodeName": "https:\/\/developers.cardano.org\/robots.txt",
 							"method": "GET",
@@ -1642,7 +1578,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "1"
 				}
 			]
 		}
