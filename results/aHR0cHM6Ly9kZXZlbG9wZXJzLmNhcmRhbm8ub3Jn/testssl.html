@@ -19,9 +19,9 @@
 <span style="font-weight:bold;">#####################################################################</span>
 
   Using <i>OpenSSL 1.0.2-bad (Mar 28 2025)</i>  [~183 ciphers]
-  on runnervm3jd5f:/home/testssl/bin/openssl.Linux.x86_64
+  on runnervmvrwv9:/home/testssl/bin/openssl.Linux.x86_64
 
-<span style="color:white;background-color:black;"> Start 2026-07-19 02:11:45        --&gt;&gt; 75.2.60.5:443 (developers.cardano.org) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2026-07-26 02:15:39        --&gt;&gt; 75.2.60.5:443 (developers.cardano.org) &lt;&lt;--</span>
 
  rDNS (75.2.60.5):       acd89244c803f7181.awsglobalaccelerator.com.
  Service detected:       HTTP
@@ -92,35 +92,37 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Server key size              </span>EC <span style="color:#008817;">256</span> bits (curve P-256)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication
-<span style="font-weight:bold;"> Serial                       </span>056D16FF22548443DCB40809B11E42817FF0 (OK: length 18)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 5B70DC42ED1051C1A3DBB25BFF9140203178F8A5
-                              SHA256 96FFB3DB2B6F3370041F731B23DAC6CB41F7BB60AAC09D65FAF87A69B9222CBA
+<span style="font-weight:bold;"> Serial                       </span>06951ABF2AAE956BFAE48EA3C581DBDD79C8 (OK: length 18)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 9F3A68644FD985E807453BE99F253B2CA3F2FA3D
+                              SHA256 F5A3D6E6AF8C2CA5221E71D1308E680A9809CC60DBE28D4992370C15B854E7FF
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>developers.cardano.org </i> (CN in response to request w/o SNI: <i>*.netlify.app </i>)
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>developer.cardano.org developers.cardano.org </i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
                               <span style="color:#a86437;">wildcard certificate</span> could be problematic, see other hosts at
-                              https://search.censys.io/search?resource=hosts&amp;virtual_hosts=INCLUDE&amp;q=96FFB3DB2B6F3370041F731B23DAC6CB41F7BB60AAC09D65FAF87A69B9222CBA
+                              https://search.censys.io/search?resource=hosts&amp;virtual_hosts=INCLUDE&amp;q=F5A3D6E6AF8C2CA5221E71D1308E680A9809CC60DBE28D4992370C15B854E7FF
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">36 &gt;= 30 days</span> (2026-05-26 12:43 --&gt; 2026-08-24 12:43)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">89 &gt;= 30 days</span> (2026-07-25 11:53 --&gt; 2026-10-23 11:53)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
-<span style="font-weight:bold;"> Certificate Revocation List  </span>http://e7.c.lencr.org/113.crl
+<span style="font-weight:bold;"> Certificate Revocation List  </span>http://ye2.c.lencr.org/73.crl
 <span style="font-weight:bold;"> OCSP URI                     </span>--
 <span style="font-weight:bold;"> OCSP stapling                </span>not offered
 <span style="font-weight:bold;"> OCSP must staple extension   </span>--
 <span style="font-weight:bold;"> DNS CAA RR</span> (experimental)    <span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> Certificate Transparency     </span><span style="color:#008817;">yes</span> (certificate extension)
-<span style="font-weight:bold;"> Certificates provided</span>        2
-<span style="font-weight:bold;"> Issuer                       </span><i>E7</i> (<i>Let&apos;s Encrypt</i> from <i>US</i>)
-<span style="font-weight:bold;"> Intermediate cert validity   </span>#1: <span style="color:#008817;">ok &gt; 40 days</span> (2027-03-12 23:59). <i>E7</i> &lt;-- <i>ISRG Root X1</i>
+<span style="font-weight:bold;"> Certificates provided</span>        4
+<span style="font-weight:bold;"> Issuer                       </span><i>YE2</i> (<i>Let&apos;s Encrypt</i> from <i>US</i>)
+<span style="font-weight:bold;"> Intermediate cert validity   </span>#1: <span style="color:#008817;">ok &gt; 40 days</span> (2028-09-02 23:59). <i>YE2</i> &lt;-- <i>Root YE</i>
+                              #2: <span style="color:#008817;">ok &gt; 40 days</span> (2032-09-02 23:59). <i>Root YE</i> &lt;-- <i>ISRG Root X2</i>
+                              #3: <span style="color:#008817;">ok &gt; 40 days</span> (2032-09-02 23:59). <i>ISRG Root X2</i> &lt;-- <i>ISRG Root X1</i>
 <span style="font-weight:bold;"> Intermediate Bad OCSP</span> (exp.) <span style="color:#008817;">Ok</span>
 
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing HTTP header response @ &quot;/&quot; </span>
 
 <span style="font-weight:bold;"> HTTP Status Code           </span>  200 OK
-<span style="font-weight:bold;"> HTTP clock skew              </span>+295 sec from localtime
-<span style="font-weight:bold;"> HTTP Age</span> (RFC 7234)          295
+<span style="font-weight:bold;"> HTTP clock skew              </span>+275 sec from localtime
+<span style="font-weight:bold;"> HTTP Age</span> (RFC 7234)          275
 <span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#008817;">730 days</span>=63072000 s<span style="color:#008817;">, includeSubDomains</span><span style="color:#008817;">, preload</span>
 <span style="font-weight:bold;"> Public Key Pinning           </span>--
 <span style="font-weight:bold;"> Server banner                </span>Netlify&apos;
@@ -234,7 +236,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Final Score                  </span>84
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A+</span>
 
-<span style="color:white;background-color:black;"> Done 2026-07-19 02:12:25 [  42s] --&gt;&gt; 75.2.60.5:443 (developers.cardano.org) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2026-07-26 02:16:18 [  41s] --&gt;&gt; 75.2.60.5:443 (developers.cardano.org) &lt;&lt;--</span>
 
 
 </pre>
