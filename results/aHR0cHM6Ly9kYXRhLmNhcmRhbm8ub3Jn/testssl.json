@@ -352,8 +352,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "data.cardano.org/52.211.238.28",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 30 days (20)"
+              "severity"     : "HIGH",
+              "finding"      : "expires < 15 days (13)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -366,7 +366,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "data.cardano.org/52.211.238.28",
               "port"         : "443",
-              "severity"     : "MEDIUM",
+              "severity"     : "HIGH",
               "finding"      : "2026-08-22 07:23"
           }
 ,         {
@@ -1098,6 +1098,6 @@
               "ip"           : "data.cardano.org/52.211.238.28",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "96"
+              "finding"      : "52"
           }
 ]
