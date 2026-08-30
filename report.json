@@ -2965,21 +2965,21 @@
         "testsQuantity": 10,
         "responseHeaders": {
           "accept-ranges": "bytes",
-          "age": "339",
+          "age": "351",
           "cache-control": "public,max-age=0,must-revalidate",
-          "cache-status": "\"Netlify Edge\"; hit; ttl=31535661",
-          "content-length": "11755",
+          "cache-status": "\"Netlify Edge\"; hit; ttl=31535649",
+          "content-length": "11810",
           "content-security-policy": "default-src 'self'; script-src 'self' blob: 'unsafe-inline' https://cardano.org https://developers.cardano.org https://www.googletagmanager.com https://js.hsforms.net https://js-eu1.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://developers.cardano.org https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com; style-src 'self' 'unsafe-inline'; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.net; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://*.algolia.net https://*.algolianet.com https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com; frame-ancestors 'none';",
           "content-type": "text/html; charset=UTF-8",
-          "date": "Sun, 23 Aug 2026 01:03:15 GMT",
-          "etag": "\"9ad95fd4e1357a961373dd35ec535d68-ssl-df\"",
+          "date": "Sun, 30 Aug 2026 03:09:44 GMT",
+          "etag": "\"dc4ec5ff02a457c7fcf714cf1a6a7611-ssl-df\"",
           "feature-policy": "geolocation 'none'; microphone 'none';",
           "referrer-policy": "strict-origin-when-cross-origin",
           "server": "Netlify",
           "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
           "vary": "Accept-Encoding",
           "x-frame-options": "DENY",
-          "x-nf-request-id": "01M0P29AQWKWSD036E91BT34S8",
+          "x-nf-request-id": "01M18A9Y9KJVCTY1692JX142E4",
           "x-xss-protection": "0",
           "connection": "close"
         }
@@ -3512,7 +3512,7 @@
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "OK",
-        "finding": "61 >= 30 days"
+        "finding": "54 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -3750,21 +3750,21 @@
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "+312 seconds from localtime"
+        "finding": "+327 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "1787447017"
+        "finding": "1788059402"
       },
       {
         "id": "HTTP_headerAge",
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "312 seconds"
+        "finding": "327 seconds"
       },
       {
         "id": "HSTS_time",
@@ -4355,7 +4355,7 @@
         "ip": "developers.cardano.org/75.2.60.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "42"
+        "finding": "39"
       }
     ],
     "thirdparties": {
@@ -4367,9 +4367,62 @@
             "id": "google tag manager",
             "message": "Use hosted Matomo instance"
           }
+        },
+        {
+          "type": "google tag manager",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-V21Z77TQ3Q&cx=c&gtm=4e68q1",
+          "details": {
+            "id": "google tag manager",
+            "message": "Use hosted Matomo instance"
+          }
+        },
+        {
+          "type": "google analytics",
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V21Z77TQ3Q&gtm=45je68q1v886082997z8848106172za20gzb848106172zd848106172&_p=1788059033556&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=924160405.1788059034&frm=0&ngs=1&pscdl=noapi&rcb=9&sr=800x600&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.97&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119791748~120385423&sid=1788059033&sct=1&seg=0&dl=https%3A%2F%2Fdevelopers.cardano.org%2F&dt=Cardano%20Developer%20Portal&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=715",
+          "details": {
+            "id": "google analytics",
+            "message": "Use hosted Matomo instance"
+          }
+        },
+        {
+          "type": "google analytics",
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-V21Z77TQ3Q&gtm=45je68q1v886082997za20gzb848106172zd848106172&_p=1788059033556&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=924160405.1788059034&frm=0&ngs=1&pscdl=noapi&rcb=9&sr=800x600&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.97&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=115938466~115938468~118897920~118897930~119791748~120385423&sid=1788059033&sct=1&seg=0&dl=https%3A%2F%2Fdevelopers.cardano.org%2F&dt=Cardano%20Developer%20Portal&en=scroll&epn.percent_scrolled=90&_et=7&tfd=5725",
+          "details": {
+            "id": "google analytics",
+            "message": "Use hosted Matomo instance"
+          }
         }
       ],
-      "cookies": [],
+      "cookies": [
+        {
+          "name": "_ga_V21Z77TQ3Q",
+          "value": "GS2.1.s1788059033$o1$g0$t1788059033$j60$l0$h0",
+          "domain": ".cardano.org",
+          "path": "/",
+          "expires": 1822619033.90309,
+          "size": 59,
+          "httpOnly": false,
+          "secure": false,
+          "session": false,
+          "priority": "Medium",
+          "sourceScheme": "Secure",
+          "sameParty": false
+        },
+        {
+          "name": "_ga",
+          "value": "GA1.1.924160405.1788059034",
+          "domain": ".cardano.org",
+          "path": "/",
+          "expires": 1822619033.891851,
+          "size": 29,
+          "httpOnly": false,
+          "secure": false,
+          "session": false,
+          "priority": "Medium",
+          "sourceScheme": "Secure",
+          "sameParty": false
+        }
+      ],
       "headers": {
         "accept-ranges": "bytes",
         "age": "0",
@@ -4378,15 +4431,15 @@
         "content-encoding": "br",
         "content-security-policy": "default-src 'self'; script-src 'self' blob: 'unsafe-inline' https://cardano.org https://developers.cardano.org https://www.googletagmanager.com https://js.hsforms.net https://js-eu1.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://developers.cardano.org https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com; style-src 'self' 'unsafe-inline'; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.net; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://*.algolia.net https://*.algolianet.com https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com; frame-ancestors 'none';",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 23 Aug 2026 00:57:36 GMT",
-        "etag": "\"9ad95fd4e1357a961373dd35ec535d68-ssl-df\"",
+        "date": "Sun, 30 Aug 2026 03:03:53 GMT",
+        "etag": "\"dc4ec5ff02a457c7fcf714cf1a6a7611-ssl-df\"",
         "feature-policy": "geolocation 'none'; microphone 'none';",
         "referrer-policy": "strict-origin-when-cross-origin",
         "server": "Netlify",
         "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
         "vary": "Accept-Encoding",
         "x-frame-options": "DENY",
-        "x-nf-request-id": "01M0P1YZ42EBYZBV2PRHSH44E5",
+        "x-nf-request-id": "01M189Z7R6WJK4DBNK9FDZQ1FZ",
         "x-xss-protection": "0"
       },
       "endpoints": [
@@ -4446,7 +4499,61 @@
         },
         {
           "hostname": "www.googletagmanager.com",
-          "ip": "173.194.195.97",
+          "ip": "142.251.219.40",
+          "geoip": {
+            "continent": {
+              "code": "NA",
+              "geoname_id": 6255149,
+              "names": {
+                "de": "Nordamerika",
+                "en": "North America",
+                "es": "Norteamérica",
+                "fr": "Amérique du Nord",
+                "ja": "北アメリカ",
+                "pt-BR": "América do Norte",
+                "ru": "Северная Америка",
+                "zh-CN": "北美洲"
+              }
+            },
+            "country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États-Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            },
+            "location": {
+              "accuracy_radius": 1000,
+              "latitude": 37.751,
+              "longitude": -97.822,
+              "time_zone": "America/Chicago"
+            },
+            "registered_country": {
+              "geoname_id": 6252001,
+              "iso_code": "US",
+              "names": {
+                "de": "USA",
+                "en": "United States",
+                "es": "Estados Unidos",
+                "fr": "États-Unis",
+                "ja": "アメリカ",
+                "pt-BR": "EUA",
+                "ru": "США",
+                "zh-CN": "美国"
+              }
+            }
+          }
+        },
+        {
+          "hostname": "www.google-analytics.com",
+          "ip": "142.251.219.14",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -4734,8 +4841,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 23 Aug 2026 01:02:28",
-      "created": "2026-08-23T01:02:28.708863391Z",
+      "@generated": "Sun, 30 Aug 2026 03:08:56",
+      "created": "2026-08-30T03:08:56.370578516Z",
       "insights": [
         {
           "level": "Low",
@@ -4775,7 +4882,7 @@
           "site": "https://developers.cardano.org",
           "key": "insight.endpoint.ctype.application/xml",
           "description": "Percentage of endpoints with content type application/xml",
-          "statistic": "2"
+          "statistic": "1"
         },
         {
           "level": "Info",
@@ -4791,7 +4898,7 @@
           "site": "https://developers.cardano.org",
           "key": "insight.endpoint.ctype.image/png",
           "description": "Percentage of endpoints with content type image/png",
-          "statistic": "18"
+          "statistic": "17"
         },
         {
           "level": "Info",
@@ -4799,7 +4906,7 @@
           "site": "https://developers.cardano.org",
           "key": "insight.endpoint.ctype.image/svg+xml",
           "description": "Percentage of endpoints with content type image/svg+xml",
-          "statistic": "5"
+          "statistic": "6"
         },
         {
           "level": "Info",
@@ -4815,7 +4922,7 @@
           "site": "https://developers.cardano.org",
           "key": "insight.endpoint.ctype.text/html",
           "description": "Percentage of endpoints with content type text/html",
-          "statistic": "66"
+          "statistic": "65"
         },
         {
           "level": "Info",
@@ -4831,7 +4938,7 @@
           "site": "https://developers.cardano.org",
           "key": "insight.endpoint.total",
           "description": "Count of total endpoints",
-          "statistic": "719"
+          "statistic": "735"
         },
         {
           "level": "Info",
@@ -4839,7 +4946,7 @@
           "site": "https://developers.cardano.org",
           "key": "insight.response.slow",
           "description": "Percentage of slow responses",
-          "statistic": "12"
+          "statistic": "7"
         }
       ],
       "site": [
@@ -5048,7 +5155,7 @@
       {
         "requestedUrl": "https://developers.cardano.org/",
         "finalUrl": "https://developers.cardano.org/",
-        "fetchTime": "2026-08-23T01:02:46.491Z",
+        "fetchTime": "2026-08-30T03:09:16.924Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -5059,7 +5166,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.7
+            "score": 0.69
           },
           "accessibility": {
             "title": "Accessibility",
@@ -5111,53 +5218,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 6226,
+            "numericValue": 6261,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 1716,
-                  "firstMeaningfulPaint": 1716,
-                  "largestContentfulPaint": 6560,
-                  "interactive": 6226,
-                  "speedIndex": 1716,
-                  "totalBlockingTime": 178,
-                  "maxPotentialFID": 238,
+                  "firstContentfulPaint": 1662,
+                  "firstMeaningfulPaint": 1662,
+                  "largestContentfulPaint": 5793,
+                  "interactive": 6261,
+                  "speedIndex": 1662,
+                  "totalBlockingTime": 271,
+                  "maxPotentialFID": 309,
                   "cumulativeLayoutShift": 0.004585673014322916,
                   "cumulativeLayoutShiftMainFrame": 0.004585673014322916,
                   "totalCumulativeLayoutShift": 0.004585673014322916,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 375848767,
+                  "observedTimeOriginTs": 391831272,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 375848767,
-                  "observedFirstPaint": 323,
-                  "observedFirstPaintTs": 376171444,
-                  "observedFirstContentfulPaint": 433,
-                  "observedFirstContentfulPaintTs": 376281793,
-                  "observedFirstContentfulPaintAllFrames": 433,
-                  "observedFirstContentfulPaintAllFramesTs": 376281793,
-                  "observedFirstMeaningfulPaint": 433,
-                  "observedFirstMeaningfulPaintTs": 376281793,
-                  "observedLargestContentfulPaint": 433,
-                  "observedLargestContentfulPaintTs": 376281793,
-                  "observedLargestContentfulPaintAllFrames": 433,
-                  "observedLargestContentfulPaintAllFramesTs": 376281793,
-                  "observedTraceEnd": 3040,
-                  "observedTraceEndTs": 378888958,
-                  "observedLoad": 559,
-                  "observedLoadTs": 376407842,
+                  "observedNavigationStartTs": 391831272,
+                  "observedFirstPaint": 140,
+                  "observedFirstPaintTs": 391971424,
+                  "observedFirstContentfulPaint": 250,
+                  "observedFirstContentfulPaintTs": 392081168,
+                  "observedFirstContentfulPaintAllFrames": 250,
+                  "observedFirstContentfulPaintAllFramesTs": 392081168,
+                  "observedFirstMeaningfulPaint": 250,
+                  "observedFirstMeaningfulPaintTs": 392081168,
+                  "observedLargestContentfulPaint": 250,
+                  "observedLargestContentfulPaintTs": 392081168,
+                  "observedLargestContentfulPaintAllFrames": 250,
+                  "observedLargestContentfulPaintAllFramesTs": 392081168,
+                  "observedTraceEnd": 2824,
+                  "observedTraceEndTs": 394655159,
+                  "observedLoad": 496,
+                  "observedLoadTs": 392327197,
                   "observedDomContentLoaded": 1,
-                  "observedDomContentLoadedTs": 375849548,
+                  "observedDomContentLoadedTs": 391832182,
                   "observedCumulativeLayoutShift": 0.004585673014322916,
                   "observedCumulativeLayoutShiftMainFrame": 0.004585673014322916,
                   "observedTotalCumulativeLayoutShift": 0.004585673014322916,
-                  "observedFirstVisualChange": 322,
-                  "observedFirstVisualChangeTs": 376170767,
-                  "observedLastVisualChange": 905,
-                  "observedLastVisualChangeTs": 376753767,
-                  "observedSpeedIndex": 498,
-                  "observedSpeedIndexTs": 376347204
+                  "observedFirstVisualChange": 140,
+                  "observedFirstVisualChangeTs": 391971272,
+                  "observedLastVisualChange": 739,
+                  "observedLastVisualChangeTs": 392570272,
+                  "observedSpeedIndex": 260,
+                  "observedSpeedIndexTs": 392091710
                 },
                 {
                   "lcpInvalidated": false
@@ -5175,23 +5282,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 48,
+                  "numRequests": 51,
                   "numScripts": 6,
                   "numStylesheets": 1,
                   "numFonts": 2,
-                  "numTasks": 1378,
-                  "numTasksOver10ms": 8,
-                  "numTasksOver25ms": 3,
+                  "numTasks": 1285,
+                  "numTasksOver10ms": 9,
+                  "numTasksOver25ms": 4,
                   "numTasksOver50ms": 1,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 28.504000000000005,
-                  "throughput": 53706721.27690807,
-                  "maxRtt": 28.504000000000005,
-                  "maxServerLatency": 65.89699999999999,
-                  "totalByteWeight": 1370834,
-                  "totalTaskTime": 336.3109999999997,
-                  "mainDocumentTransferSize": 12792
+                  "rtt": 1.1389999999999993,
+                  "throughput": 101694583.34067783,
+                  "maxRtt": 1.2300000000000004,
+                  "maxServerLatency": 18.959,
+                  "totalByteWeight": 1459795,
+                  "totalTaskTime": 393.7589999999982,
+                  "mainDocumentTransferSize": 12846
                 }
               ]
             }
@@ -5213,15 +5320,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://developers.cardano.org",
-        "size": 1642.247,
-        "nodes": 1055,
-        "requests": 71,
+        "size": 1733.799,
+        "nodes": 1056,
+        "requests": 74,
         "grade": "E",
-        "score": 39,
-        "ges": 2.22,
-        "water": 3.33,
+        "score": 38,
+        "ges": 2.24,
+        "water": 3.36,
         "ecoindex_version": "5.4.2",
-        "date": "2026-08-23 00:58:24.510525",
+        "date": "2026-08-30 03:04:34.213724",
         "page_type": null
       }
     ],
@@ -5235,13 +5342,13 @@
       "testsslExpireSoon": false,
       "testsslExpireDate": "2026-10-23T11:53:00.000Z",
       "testsslGrade": "A+",
-      "cookiesGrade": "A",
-      "cookiesCount": 0,
-      "trackersGrade": "B",
-      "trackersCount": 1,
+      "cookiesGrade": "B",
+      "cookiesCount": 2,
+      "trackersGrade": "C",
+      "trackersCount": 4,
       "zapCount": 17,
       "zapGrade": "F",
-      "lighthouse_performance": 0.7,
+      "lighthouse_performance": 0.69,
       "lighthouse_performanceGrade": "B",
       "lighthouse_accessibility": 1,
       "lighthouse_accessibilityGrade": "A",
@@ -6130,12 +6237,12 @@
         "testsQuantity": 10,
         "responseHeaders": {
           "access-control-allow-origin": "*",
-          "age": "290831",
+          "age": "291334",
           "cache-control": "public, max-age=0, must-revalidate",
           "content-disposition": "inline",
           "content-type": "text/html; charset=utf-8",
-          "date": "Sun, 23 Aug 2026 01:03:07 GMT",
-          "etag": "W/\"4fed0cd8f08d6223bfe1aaac9f937dcd\"",
+          "date": "Sun, 30 Aug 2026 03:09:07 GMT",
+          "etag": "W/\"bab73dfcc3c6091700adf09786960867\"",
           "server": "Vercel",
           "strict-transport-security": "max-age=63072000",
           "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
@@ -6143,7 +6250,7 @@
           "x-nextjs-prerender": "1",
           "x-nextjs-stale-time": "300",
           "x-vercel-cache": "HIT",
-          "x-vercel-id": "sfo1::f888j-1787446987181-439b09bb2ebc",
+          "x-vercel-id": "cle1::kjrr6-1788059347334-8e4491f43bf0",
           "connection": "close",
           "transfer-encoding": "chunked"
         }
@@ -6247,77 +6354,77 @@
     "testssl": [
       {
         "id": "service",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "HTTP"
       },
       {
         "id": "pre_128cipher",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "No 128 cipher limit bug"
       },
       {
         "id": "SSLv2",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "not offered"
       },
       {
         "id": "SSLv3",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "not offered"
       },
       {
         "id": "TLS1",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "not offered"
       },
       {
         "id": "TLS1_1",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "not offered"
       },
       {
         "id": "TLS1_2",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "offered"
       },
       {
         "id": "TLS1_3",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "offered with final"
       },
       {
         "id": "ALPN_HTTP2",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "h2"
       },
       {
         "id": "ALPN",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "http/1.1"
       },
       {
         "id": "cipherlist_NULL",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -6325,7 +6432,7 @@
       },
       {
         "id": "cipherlist_aNULL",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -6333,7 +6440,7 @@
       },
       {
         "id": "cipherlist_EXPORT",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -6341,7 +6448,7 @@
       },
       {
         "id": "cipherlist_LOW",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -6349,7 +6456,7 @@
       },
       {
         "id": "cipherlist_3DES_IDEA",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "cwe": "CWE-310",
@@ -6357,7 +6464,7 @@
       },
       {
         "id": "cipherlist_OBSOLETED",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "cwe": "CWE-310",
@@ -6365,518 +6472,518 @@
       },
       {
         "id": "cipherlist_STRONG_NOFS",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "not offered"
       },
       {
         "id": "cipherlist_STRONG_FS",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "offered"
       },
       {
         "id": "cipher_order-tls1_2",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "server"
       },
       {
         "id": "cipherorder_TLSv1_2",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "cipher_order",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "server -- TLS 1.3 client determined"
       },
       {
         "id": "FS",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "offered"
       },
       {
         "id": "FS_ciphers",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "FS_KEMs",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "LOW",
         "finding": "No KEMs offered"
       },
       {
         "id": "FS_ECDHE_curves",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "prime256v1 secp384r1 secp521r1"
       },
       {
         "id": "TLS_extensions",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "'server name/#0' 'EC point formats/#11' 'application layer protocol negotiation/#16' 'extended master secret/#23' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
       },
       {
         "id": "TLS_session_ticket",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "no -- no lifetime advertised"
       },
       {
         "id": "SSL_sessionID_support",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "yes"
       },
       {
         "id": "sessionresumption_ticket",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "not supported"
       },
       {
         "id": "sessionresumption_ID",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "not supported"
       },
       {
         "id": "TLS_timestamp",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "random"
       },
       {
         "id": "certificate_compression",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "none"
       },
       {
         "id": "clientAuth",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "none"
       },
       {
         "id": "cert_numbers",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "1"
       },
       {
         "id": "cert_signatureAlgorithm",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "SHA256 with RSA"
       },
       {
         "id": "cert_keySize",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "RSA 2048 bits (exponent is 65537)"
       },
       {
         "id": "cert_keyUsage",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "Digital Signature, Key Encipherment"
       },
       {
         "id": "cert_extKeyUsage",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLS Web Server Authentication"
       },
       {
         "id": "cert_serialNumber",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "05367C790768D3FD758001D864B248056601"
+        "finding": "063B6B098B13947CF368BD1BE0BFE1FEA4A0"
       },
       {
         "id": "cert_serialNumberLen",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "18"
       },
       {
         "id": "cert_fingerprintSHA1",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "808CB9EA5A85A52AE8BBE77D32E1E50186EC05F4"
+        "finding": "48DCD3F972E9E719736AB84173FFC0CE25CC0829"
       },
       {
         "id": "cert_fingerprintSHA256",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "8DF69196247CB775363EA4181A553EFA0DDB965ECA3D6DB7B85280869BB731C6"
+        "finding": "047AF3378359A2D5624904E6EFCC07F976416B80E6CE8FBEC3C4112E2378EC43"
       },
       {
         "id": "cert",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\nMIIE+TCCA+GgAwIBAgISBTZ8eQdo0/11gAHYZLJIBWYBMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNZUjEwHhcNMjYwNjIzMTE0ODU0WhcNMjYwOTIxMTE0ODUzWjAbMRkwFwYDVQQDExBjaXBzLmNhcmRhbm8ub3JnMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtRUZLK084mYCv4tmEMeDn32jFZ+wBitsnQ9bzKAuQRf9wzNgIMLRCcT3uStsziO4/+Y0wIGnH5oEigmVo68xAohMtWC0WOv8damFoH+UBdVBVns7axOqKH9sbRDlTVTJ/TAQiuxB7+WZc0D32Fk8VYQMh8rfOKHHiExE5z8kMBkl7Bd8ORRY+HxvChTI6XGaFYdSe+ythz4vuxSykZfgTIOsaBTqzDtdtcLzKANFWrEx23uVyHWPIndKID7S//3pWbVxtEtFAVbi5LP9yMIYCrPE4LHMMO7/tkzA63CJDPhqD28x85eJpnreE8ADpQ/HQ6n2uaDX9DdUD36M8oY5XQIDAQABo4ICHTCCAhkwDgYDVR0PAQH/BAQDAgWgMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFMGRwhbhV7pBhF59jkI0tncHlXiQMB8GA1UdIwQYMBaAFB8vNb5GFILNQLGueSxVePr31Gj7MDMGCCsGAQUFBwEBBCcwJTAjBggrBgEFBQcwAoYXaHR0cDovL3lyMS5pLmxlbmNyLm9yZy8wGwYDVR0RBBQwEoIQY2lwcy5jYXJkYW5vLm9yZzATBgNVHSAEDDAKMAgGBmeBDAECATAtBgNVHR8EJjAkMCKgIKAehhxodHRwOi8veXIxLmMubGVuY3Iub3JnLzIuY3JsMIIBDAYKKwYBBAHWeQIEAgSB/QSB+gD4AHYAyKPEf8ezrbk1awE/anoSbeM6TkOlxkb5l605dZkdz5oAAAGe9IVozQAABAMARzBFAiEA1uo5AZBJ+P9uTolZZwQtkcoxHvfMgQRGy9ohgxpYwjcCIHHXqTfKHxPb8ppOHMnSd+p/yXbcETlwyA9nw9mCkWupAH4AqCbL4wrGNRJGUz/gZfFPGdluGQgTxB3ZbXkAsxI8VScAAAGe9IVqbQAIAAAFABC83FYEAwBHMEUCIQD+vDBCOjAZ0KshJbfA/1BBYke/G+dcIjq3vbn9sRqQeAIgKOiasbLHPgle+WEZxy3wDRycBDIUU1rLmEyznnash90wDQYJKoZIhvcNAQELBQADggEBADWR0WdF48w49ZDm5bM7Pf/0ghm4MX370TeltLnspUGBChqD3MPeIfWb4DwfTAkRqNMaJggyuqCcu3/u2BlnQWaPyb1I8YpDH/Fdfyv6FJossevO33x+fsQbUwU3VAVddPsEnp3y7X7ZucPDLMqX6OCR2DoEeFk0wlZM7rYALSgmbgjztAynIu0JA2+U0y0yxvqH56eJuVpJqtaLjwFyhg4l4fjz6td5bSvin5pYtMEB7ugFf0gPluWYT71kjmUW9+1ueYTBAMy7InkUOx1XHsbcpPVlz0wG8YWiArQJ1ESWQp73sevwJqejdE0Va+c+5jVtaSry7VrWMP0TR3cHSks=\n-----END CERTIFICATE-----"
+        "finding": "-----BEGIN CERTIFICATE-----\nMIIE+jCCA+KgAwIBAgISBjtrCYsTlHzzaL0b4L/h/qSgMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNZUjEwHhcNMjYwODI1MDg0MzM5WhcNMjYxMTIzMDg0MzM4WjAbMRkwFwYDVQQDExBjaXBzLmNhcmRhbm8ub3JnMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA01hvpVBVsbDfClgWnwBVLRwEMXyJE6GEpP/UD2vISibHMoTkRJ8Dr4F9Y/r1f0WNLYUc6MYRn9EbokBfcKm4oyT/Wp5Oy9LDBP4olcjUAIwCEIn348buV5AaAq+gfEJKcNpG7lJikozFPyA2qBqvN2Sq5CV3D1cMb8Bi0TxpYW6LPJgvy6w0JSK3Bsbp2fVRHddf+PXn4E+301HKnn12ZYkAnmBryegaUv764//lIrmSulAkCmbAzUOaOYCXFji86H6XYFOb8j7TmjdVSmVsGQmpo5LsFR8o4KodQpYDdnnwquJPEWlcnU/SH2xlW9NrCJcfHi1kqTOkqgqBoMFOxQIDAQABo4ICHjCCAhowDgYDVR0PAQH/BAQDAgWgMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFFkbY4Ti5fZW21EaxZgeFS9CGQd3MB8GA1UdIwQYMBaAFB8vNb5GFILNQLGueSxVePr31Gj7MDMGCCsGAQUFBwEBBCcwJTAjBggrBgEFBQcwAoYXaHR0cDovL3lyMS5pLmxlbmNyLm9yZy8wGwYDVR0RBBQwEoIQY2lwcy5jYXJkYW5vLm9yZzATBgNVHSAEDDAKMAgGBmeBDAECATAuBgNVHR8EJzAlMCOgIaAfhh1odHRwOi8veXIxLmMubGVuY3Iub3JnLzMzLmNybDCCAQwGCisGAQQB1nkCBAIEgf0EgfoA+AB2ANdtfRDRp/V3wsfpX9cAv/mCyTNaZeHQswFzF8DIxWl3AAABoDhMdCoAAAQDAEcwRQIgNMDU+YPnD/wxXyWt2yXrT0UXP+TT026CdV3FWsxrVXQCIQCXQAPVzDEN8wVbwPzlz3bRX0dD2VzWd54InJu8WFS7NQB+AGz+UBlDqF6pFrxS0TPk3Mke8UEcfSWEINFzgJ4YGOs6AAABoDhMdUkACAAABQAmPwTyBAMARzBFAiEAjEcO/yiXWE3mN5p5xSh5l6SMh9wy8G+GXARHz6ZSawACIHztYhmPQIp1sqgRjgC0u8KH6O69RySFIOIOdT1bnnHFMA0GCSqGSIb3DQEBCwUAA4IBAQAGriO0+2EWBpB9WrdXaPQj8j4XJgKO1BnRarbubX1YHifrvf/xHt1Gx9RtGhp5fb7M7HoQ9dizjGJAIjFxlqcC6lzaa6GFU5XendOVsKo1TVOYbwoF5LmZ5xSI0SvqsirlIan8wIz2ByDuQ/OWZGwUyj8tzDYaLWplTIlLpTwH29BDxCVhNzYfBQnrHD1IYkYnvePHwxp5Wp7jcAY99eAOw95PpmX9SfF2Ay324mmTdk+khd3/PT+ZePUI4xNQgB4jAC63FmbKdPK3uwdAawzHRvyGVJcRhMw1PDLV+Rs8jjbZm3LDPFdR/kw9/9cEC2n3DNz1btPD+4U2zpjDENyg\n-----END CERTIFICATE-----"
       },
       {
         "id": "cert_commonName",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "cips.cardano.org"
       },
       {
         "id": "cert_commonName_wo_SNI",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "no-sni.vercel-infra.com"
       },
       {
         "id": "cert_subjectAltName",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "cips.cardano.org"
       },
       {
         "id": "cert_trust",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "Ok via SAN and CN (SNI mandatory)"
       },
       {
         "id": "cert_chain_of_trust",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "passed."
       },
       {
         "id": "cert_certificatePolicies_EV",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "no"
       },
       {
         "id": "cert_expirationStatus",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
-        "severity": "MEDIUM",
-        "finding": "expires < 30 days (29)"
+        "severity": "OK",
+        "finding": "85 >= 30 days"
       },
       {
         "id": "cert_notBefore",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "2026-06-23 11:48"
+        "finding": "2026-08-25 08:43"
       },
       {
         "id": "cert_notAfter",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
-        "severity": "MEDIUM",
-        "finding": "2026-09-21 11:48"
+        "severity": "OK",
+        "finding": "2026-11-23 08:43"
       },
       {
         "id": "cert_extlifeSpan",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "certificate has no extended life time according to browser forum"
       },
       {
         "id": "cert_eTLS",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "not present"
       },
       {
         "id": "cert_crlDistributionPoints",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "http://yr1.c.lencr.org/2.crl"
+        "finding": "http://yr1.c.lencr.org/33.crl"
       },
       {
         "id": "cert_ocspURL",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "--"
       },
       {
         "id": "OCSP_stapling",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "not offered"
       },
       {
         "id": "cert_mustStapleExtension",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "--"
       },
       {
         "id": "DNS_CAArecord",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "LOW",
         "finding": "--"
       },
       {
         "id": "certificate_transparency",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "yes (certificate extension)"
       },
       {
         "id": "certs_countServer",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "3"
       },
       {
         "id": "certs_list_ordering_problem",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "no"
       },
       {
         "id": "cert_caIssuers",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "YR1 (Let's Encrypt from US)"
       },
       {
         "id": "intermediate_cert <#1>",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "-----BEGIN CERTIFICATE-----\nMIIE2zCCAsOgAwIBAgIRAKICU/FfJpHAXcHOE7m8yk4wDQYJKoZIhvcNAQELBQAwLjELMAkGA1UEBhMCVVMxDTALBgNVBAoTBElTUkcxEDAOBgNVBAMTB1Jvb3QgWVIwHhcNMjUwOTAzMDAwMDAwWhcNMjgwOTAyMjM1OTU5WjAzMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5jcnlwdDEMMAoGA1UEAxMDWVIxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoVi8X2xCYgMXvJxNPKp/oF13UMgmPABB07VCLNDtoXmt9luEZNJSBV10VyT1Pz6LD8Zq1d2gc43WNl1AdRrj4sEnazbOiz0nPpmGBp2hui49oZtDIY6wdKeZAi5BbNU20CH6RSBBMLSQ9cXrH8dxdv4PAJ45ssGML68USE3BsjC2a6cAN9L5CgXVIQi5tfNiTPoFZZ3S0OlXqLmmtdV95udWAb5b6e/F49DiCsH0Y00Ag72BVIb1hzynmKe+X0mERBTtsb3BwmpV9ipeBjMLoR/D9cHxHQCWoi5lTmXwY015J5rGelz1nZjJuxc2kioaX29XJBnhMkP531rSdG5uMwIDAQABo4HuMIHrMA4GA1UdDwEB/wQEAwIBhjATBgNVHSUEDDAKBggrBgEFBQcDATASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBQfLzW+RhSCzUCxrnksVXj699Ro+zAfBgNVHSMEGDAWgBTe51tg0CJtQCh9Pw0B/qS1UrRRlDAyBggrBgEFBQcBAQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly95ci5pLmxlbmNyLm9yZy8wEwYDVR0gBAwwCjAIBgZngQwBAgEwJwYDVR0fBCAwHjAcoBqgGIYWaHR0cDovL3lyLmMubGVuY3Iub3JnLzANBgkqhkiG9w0BAQsFAAOCAgEA0+zvMq3kHig1ddTmmm+RibTr9/RpX7k4buanMMRqbV/yIvP82zAHN3mvaw+cASuVsdpd0ikjhr4hnhJQLQOzOp2ccKrsdGOAgo0vddeISFAqEWEV4lmUM3vFF796up+bSgmJ1u6RupDCMxDgF8M3eLvGuj6L0lu3zkQ0KuQLnKxLtB0oQqn1Idg5CuuGpMvQzk29Pa3D/qHurc0EIM9SxukQuJqq63lxsYyRQFU8yMBOhq1w5LbfaWNRrz1uklOfI/pYkAb2E2MTZrAMQkBIE2S8Jt1F8gRc96o/xOsrgvSka84AisX6xq1lz1Z7jGvrnXc4TMcjxZTjiTaihcYI1JIXZiLtEMSCa5l3cu8YWd6zdLRQlqRdclVjuQfNHawRJ6GWlkK0QJosivTKwdBw3KxEtzGo8yMHERbsy57gP1UXHOMcmZYQC0gtyR3SxfenIM/MxC3Ia2Ypab/kQ/CTnlIn2KQ5JUC6NYrGCbhFN9bp5lKJStEwCUnLpntcrXk5XVDCNv/5RyWpRThkGOV7GetKkQ0qAY8hCzWK6oqnAhDZcjlYVdWfqOw3DIOX6EDNBgAqHarRVxyF9QZdOaXSyPJ0ueD2BYJEBgaCGQ8rAaU/Qc123V5LTXDZW4CcsPBDyhy4v+c8hClAyw/IkJlfBqxB9D+/wvIMHgECZ4ptP6o=\n-----END CERTIFICATE-----"
       },
       {
         "id": "intermediate_cert_fingerprintSHA256 <#1>",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "13949634D99CD6FD6AA80BC034FEFACCEB1969FEEF986586713ECDBB05758D3F"
       },
       {
         "id": "intermediate_cert_notBefore <#1>",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "2025-09-03 00:00"
       },
       {
         "id": "intermediate_cert_notAfter <#1>",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "2028-09-02 23:59"
       },
       {
         "id": "intermediate_cert_expiration <#1>",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "ok > 40 days"
       },
       {
         "id": "intermediate_cert_chain <#1>",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "YR1 <-- Root YR"
       },
       {
         "id": "intermediate_cert <#2>",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "-----BEGIN CERTIFICATE-----\nMIIF9DCCA9ygAwIBAgIRAPJLbRf52a18scn+p4eCaZ8wDQYJKoZIhvcNAQELBQAwTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjYwNTEzMDAwMDAwWhcNMzIwOTAyMjM1OTU5WjAuMQswCQYDVQQGEwJVUzENMAsGA1UEChMESVNSRzEQMA4GA1UEAxMHUm9vdCBZUjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBANvGJnN78CTJdWL3+eGfsLN5TrNBJs+VH9hRXqRbwxu9sGNiB0BD1fcOxbSUQCJIM1xE13Db+5Cw1w0s0EBYsvuIP/6joF0w8cuImbgR1OGgYbSQ4OpzI+DG8SGuTlcE873OCS+kh3srlo6vl43M5OJg4Aeo1sfHp6kTJDoIiFBNJAY+OKfX/FUvYKuhjT+no49lmqmupSBI5PkBQiqrEGtWU5uxU/cQWHGu8jSjFBznZqvbNPLMXMLFxCb3WTfrJBXXjqvWG+v4bjzxjjeAtOlU7qarRDvNOyAuQYLln904M+faKx8hnLCpJ15ZqaEgcNlY+9MMWcC5yvL2A2j3l9+2buggZX+dOE91zYmIdawTvSZuVvlbRrAlLxIB6pwMBjneXCjYQ8+3BCCjssbSNpZU3hTcBDdhfAlEDlYr6pEatnMdmDT5BqnKC92bd0EhM1fbLHioLccLCuievT8ZkPhZrq7Mii7gNXAcUEAR8+lzYal+9zTg7C5DALyVOeG/CqfRAMn1KSHCR0NSA6P8tn/mGRlnCct5rtVCLnVySVpU6H1qGg3DgTOuskf8eahTMiYbI5ezPJmO5ertalskQ1utp74+eDy92PI4ftHKTbq9IWhH4YZKh3WnJEIt+oQvlYZbY8tpEroKrFB6PFGzrJIDRyts4HqvuH52RFj2zv/BAgMBAAGjgeswgegwDgYDVR0PAQH/BAQDAgEGMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFN7nW2DQIm1AKH0/DQH+pLVStFGUMB8GA1UdIwQYMBaAFHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcwAoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzATBgNVHSAEDDAKMAgGBmeBDAECATAnBgNVHR8EIDAeMBygGqAYhhZodHRwOi8veDEuYy5sZW5jci5vcmcvMA0GCSqGSIb3DQEBCwUAA4ICAQA8spSI95KKfn2W6GMmDpHBJSPaLbsS3W93cijJCRCYAc1fsJgL1FIL7C0C9ecPOdcwB2fi0Dk2p94j9iTJCxmt5CFSKLRWwnXT2MMSXexVxqoVB79BdWPxVXETkVme/qYSAuKVHh5Ps+5BixgmwS1JkjSAc+MfrUbNssVEEnH0aEiAh+rotXAVJSP/Ye7LJPEwD9DWG72vVWbhAcuOf5OLjz57Ctk7MgQHynZ7+PlHJtajroCaIbtCr6tcZZaAwUQm+jQyeWdV+2hv9deOYFmKeQyjjcSrN5Nadrw+L9DZJLbA1HqeNvLhBgqpP0fvJq2N6EtD574N6eMI7uMsJTnji2UDz9el5XLSv9fqJMuDQtYVb2oTNoKpoUqhxPVC0aq4eG5MESaIdn8b5ZGSSeAJLMHXljEdlNza+ncfkviXk1POLnnFdvx8/gk6M374WbLWFXw8N141B/Rl/tINGfl1TxOIiqtiMYkL02RSGb1kq34BL9NPP27zRGMuHGnzS3hFIrRTfKxrzUZ9RzQWzEG3K6fJ3r2nqSltkeytis9DIBoFY9VmVyjLM71DMi+y1+TRSJVClEMwvA4yL++7q9XZx5r5wBRWB4kQTKH5qyoZnDw7iiuh1lIDyDFx8r7i9vIJU5HS3moZLkYWAOilMaV9N56A9Bgb6dNcHkvg3NoaYA==\n-----END CERTIFICATE-----"
       },
       {
         "id": "intermediate_cert_fingerprintSHA256 <#2>",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "072639D0B140D5BFFAE16AD9C3F6CC6086040621F51EE61A6D46A8915C07CF76"
       },
       {
         "id": "intermediate_cert_notBefore <#2>",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "2026-05-13 00:00"
       },
       {
         "id": "intermediate_cert_notAfter <#2>",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "2032-09-02 23:59"
       },
       {
         "id": "intermediate_cert_expiration <#2>",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "ok > 40 days"
       },
       {
         "id": "intermediate_cert_chain <#2>",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "Root YR <-- ISRG Root X1"
       },
       {
         "id": "intermediate_cert_badOCSP",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "intermediate certificate(s) is/are ok"
       },
       {
         "id": "HTTP_status_code",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "200 OK ('/')"
       },
       {
         "id": "HTTP_clock_skew",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "+290850 seconds from localtime"
+        "finding": "+291356 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "1787447006"
+        "finding": "1788059369"
       },
       {
         "id": "HTTP_headerAge",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "290850 seconds"
+        "finding": "291356 seconds"
       },
       {
         "id": "HSTS_time",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "730 days (=63072000 seconds) > 15552000 seconds"
       },
       {
         "id": "HSTS_subdomains",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "only for this domain"
       },
       {
         "id": "HSTS_preload",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "domain is NOT marked for preloading"
       },
       {
         "id": "HPKP",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "No support for HTTP Public Key Pinning"
       },
       {
         "id": "banner_server",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "Vercel"
       },
       {
         "id": "banner_application",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "No application banner found"
       },
       {
         "id": "cookie_count",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "0 at '/'"
       },
       {
         "id": "Access-Control-Allow-Origin",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "*"
       },
       {
         "id": "Cache-Control",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "public, max-age=0, must-revalidate"
       },
       {
         "id": "banner_reverseproxy",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "cwe": "CWE-200",
@@ -6884,7 +6991,7 @@
       },
       {
         "id": "heartbleed",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-0160",
@@ -6893,7 +7000,7 @@
       },
       {
         "id": "CCS",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-0224",
@@ -6902,7 +7009,7 @@
       },
       {
         "id": "ticketbleed",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2016-9244",
@@ -6911,7 +7018,7 @@
       },
       {
         "id": "ROBOT",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
@@ -6920,7 +7027,7 @@
       },
       {
         "id": "secure_renego",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-310",
@@ -6928,7 +7035,7 @@
       },
       {
         "id": "secure_client_renego",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2011-1473",
@@ -6937,7 +7044,7 @@
       },
       {
         "id": "CRIME_TLS",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2012-4929",
@@ -6946,7 +7053,7 @@
       },
       {
         "id": "BREACH",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "MEDIUM",
         "cve": "CVE-2013-3587",
@@ -6955,7 +7062,7 @@
       },
       {
         "id": "POODLE_SSL",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-3566",
@@ -6964,14 +7071,14 @@
       },
       {
         "id": "fallback_SCSV",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "no protocol below TLS 1.2 offered"
       },
       {
         "id": "SWEET32",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2016-2183 CVE-2016-6329",
@@ -6980,7 +7087,7 @@
       },
       {
         "id": "FREAK",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2015-0204",
@@ -6989,7 +7096,7 @@
       },
       {
         "id": "DROWN",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2016-0800 CVE-2016-0703",
@@ -6998,16 +7105,16 @@
       },
       {
         "id": "DROWN_hint",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "cve": "CVE-2016-0800 CVE-2016-0703",
         "cwe": "CWE-310",
-        "finding": "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=8DF69196247CB775363EA4181A553EFA0DDB965ECA3D6DB7B85280869BB731C6"
+        "finding": "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=047AF3378359A2D5624904E6EFCC07F976416B80E6CE8FBEC3C4112E2378EC43"
       },
       {
         "id": "LOGJAM",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2015-4000",
@@ -7016,7 +7123,7 @@
       },
       {
         "id": "LOGJAM-common_primes",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2015-4000",
@@ -7025,7 +7132,7 @@
       },
       {
         "id": "BEAST",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2011-3389",
@@ -7034,7 +7141,7 @@
       },
       {
         "id": "LUCKY13",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2013-0169",
@@ -7043,7 +7150,7 @@
       },
       {
         "id": "winshock",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-6321",
@@ -7052,7 +7159,7 @@
       },
       {
         "id": "RC4",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2013-2566 CVE-2015-2808",
@@ -7061,392 +7168,392 @@
       },
       {
         "id": "clientsimulation-android_70",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-android_81",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-android_90",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-android_X",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-android_11_12",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-android_13_14",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-android_15",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-chrome_101_win10",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-chromium_137_win11",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-firefox_100_win10",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-firefox_137_win11",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-ie_8_win7",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_11_win7",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_11_win81",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_11_winphone81",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_11_win10",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-edge_15_win10",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-edge_101_win10_21h2",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-edge_133_win11_23h2",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-safari_184_ios_184",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-safari_154_osx_1231",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-safari_184_osx_154",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-java_7u25",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-java_80442",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-java_1102",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-java_1703",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-java_2106",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-go_1178",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-libressl_336",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
       },
       {
         "id": "clientsimulation-openssl_102e",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-openssl_111d",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-openssl_315",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-openssl_350",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-apple_mail_16_0",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-thunderbird_91_9",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "rating_spec",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "SSL Labs's 'SSL Server Rating Guide' (version 2009r from 2025-05-16)"
       },
       {
         "id": "rating_doc",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
       },
       {
         "id": "protocol_support_score",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "100"
       },
       {
         "id": "protocol_support_score_weighted",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "30"
       },
       {
         "id": "key_exchange_score",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "90"
       },
       {
         "id": "key_exchange_score_weighted",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "27"
       },
       {
         "id": "cipher_strength_score",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "60"
       },
       {
         "id": "cipher_strength_score_weighted",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "24"
       },
       {
         "id": "final_score",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "INFO",
         "finding": "81"
       },
       {
         "id": "overall_grade",
-        "ip": "cips.cardano.org/216.150.1.129",
+        "ip": "cips.cardano.org/216.150.1.193",
         "port": "443",
         "severity": "OK",
         "finding": "A+"
       },
       {
         "id": "service",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "HTTP"
       },
       {
         "id": "pre_128cipher",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "No 128 cipher limit bug"
       },
       {
         "id": "SSLv2",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "not offered"
       },
       {
         "id": "SSLv3",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "not offered"
       },
       {
         "id": "TLS1",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "not offered"
       },
       {
         "id": "TLS1_1",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "not offered"
       },
       {
         "id": "TLS1_2",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "offered"
       },
       {
         "id": "TLS1_3",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "offered with final"
       },
       {
         "id": "ALPN_HTTP2",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "h2"
       },
       {
         "id": "ALPN",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "http/1.1"
       },
       {
         "id": "cipherlist_NULL",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -7454,7 +7561,7 @@
       },
       {
         "id": "cipherlist_aNULL",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -7462,7 +7569,7 @@
       },
       {
         "id": "cipherlist_EXPORT",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -7470,7 +7577,7 @@
       },
       {
         "id": "cipherlist_LOW",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-327",
@@ -7478,7 +7585,7 @@
       },
       {
         "id": "cipherlist_3DES_IDEA",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "cwe": "CWE-310",
@@ -7486,7 +7593,7 @@
       },
       {
         "id": "cipherlist_OBSOLETED",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "cwe": "CWE-310",
@@ -7494,518 +7601,518 @@
       },
       {
         "id": "cipherlist_STRONG_NOFS",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "not offered"
       },
       {
         "id": "cipherlist_STRONG_FS",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "offered"
       },
       {
         "id": "cipher_order-tls1_2",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "server"
       },
       {
         "id": "cipherorder_TLSv1_2",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "cipher_order",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "server -- TLS 1.3 client determined"
       },
       {
         "id": "FS",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "offered"
       },
       {
         "id": "FS_ciphers",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES256-GCM-SHA384"
       },
       {
         "id": "FS_KEMs",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "LOW",
         "finding": "No KEMs offered"
       },
       {
         "id": "FS_ECDHE_curves",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "prime256v1 secp384r1 secp521r1"
       },
       {
         "id": "TLS_extensions",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "'server name/#0' 'EC point formats/#11' 'application layer protocol negotiation/#16' 'extended master secret/#23' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
       },
       {
         "id": "TLS_session_ticket",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "no -- no lifetime advertised"
       },
       {
         "id": "SSL_sessionID_support",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "yes"
       },
       {
         "id": "sessionresumption_ticket",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "not supported"
       },
       {
         "id": "sessionresumption_ID",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "not supported"
       },
       {
         "id": "TLS_timestamp",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "random"
       },
       {
         "id": "certificate_compression",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "none"
       },
       {
         "id": "clientAuth",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "none"
       },
       {
         "id": "cert_numbers",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "1"
       },
       {
         "id": "cert_signatureAlgorithm",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "SHA256 with RSA"
       },
       {
         "id": "cert_keySize",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "RSA 2048 bits (exponent is 65537)"
       },
       {
         "id": "cert_keyUsage",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "Digital Signature, Key Encipherment"
       },
       {
         "id": "cert_extKeyUsage",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLS Web Server Authentication"
       },
       {
         "id": "cert_serialNumber",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "05367C790768D3FD758001D864B248056601"
+        "finding": "063B6B098B13947CF368BD1BE0BFE1FEA4A0"
       },
       {
         "id": "cert_serialNumberLen",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "18"
       },
       {
         "id": "cert_fingerprintSHA1",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "808CB9EA5A85A52AE8BBE77D32E1E50186EC05F4"
+        "finding": "48DCD3F972E9E719736AB84173FFC0CE25CC0829"
       },
       {
         "id": "cert_fingerprintSHA256",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "8DF69196247CB775363EA4181A553EFA0DDB965ECA3D6DB7B85280869BB731C6"
+        "finding": "047AF3378359A2D5624904E6EFCC07F976416B80E6CE8FBEC3C4112E2378EC43"
       },
       {
         "id": "cert",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\nMIIE+TCCA+GgAwIBAgISBTZ8eQdo0/11gAHYZLJIBWYBMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNZUjEwHhcNMjYwNjIzMTE0ODU0WhcNMjYwOTIxMTE0ODUzWjAbMRkwFwYDVQQDExBjaXBzLmNhcmRhbm8ub3JnMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtRUZLK084mYCv4tmEMeDn32jFZ+wBitsnQ9bzKAuQRf9wzNgIMLRCcT3uStsziO4/+Y0wIGnH5oEigmVo68xAohMtWC0WOv8damFoH+UBdVBVns7axOqKH9sbRDlTVTJ/TAQiuxB7+WZc0D32Fk8VYQMh8rfOKHHiExE5z8kMBkl7Bd8ORRY+HxvChTI6XGaFYdSe+ythz4vuxSykZfgTIOsaBTqzDtdtcLzKANFWrEx23uVyHWPIndKID7S//3pWbVxtEtFAVbi5LP9yMIYCrPE4LHMMO7/tkzA63CJDPhqD28x85eJpnreE8ADpQ/HQ6n2uaDX9DdUD36M8oY5XQIDAQABo4ICHTCCAhkwDgYDVR0PAQH/BAQDAgWgMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFMGRwhbhV7pBhF59jkI0tncHlXiQMB8GA1UdIwQYMBaAFB8vNb5GFILNQLGueSxVePr31Gj7MDMGCCsGAQUFBwEBBCcwJTAjBggrBgEFBQcwAoYXaHR0cDovL3lyMS5pLmxlbmNyLm9yZy8wGwYDVR0RBBQwEoIQY2lwcy5jYXJkYW5vLm9yZzATBgNVHSAEDDAKMAgGBmeBDAECATAtBgNVHR8EJjAkMCKgIKAehhxodHRwOi8veXIxLmMubGVuY3Iub3JnLzIuY3JsMIIBDAYKKwYBBAHWeQIEAgSB/QSB+gD4AHYAyKPEf8ezrbk1awE/anoSbeM6TkOlxkb5l605dZkdz5oAAAGe9IVozQAABAMARzBFAiEA1uo5AZBJ+P9uTolZZwQtkcoxHvfMgQRGy9ohgxpYwjcCIHHXqTfKHxPb8ppOHMnSd+p/yXbcETlwyA9nw9mCkWupAH4AqCbL4wrGNRJGUz/gZfFPGdluGQgTxB3ZbXkAsxI8VScAAAGe9IVqbQAIAAAFABC83FYEAwBHMEUCIQD+vDBCOjAZ0KshJbfA/1BBYke/G+dcIjq3vbn9sRqQeAIgKOiasbLHPgle+WEZxy3wDRycBDIUU1rLmEyznnash90wDQYJKoZIhvcNAQELBQADggEBADWR0WdF48w49ZDm5bM7Pf/0ghm4MX370TeltLnspUGBChqD3MPeIfWb4DwfTAkRqNMaJggyuqCcu3/u2BlnQWaPyb1I8YpDH/Fdfyv6FJossevO33x+fsQbUwU3VAVddPsEnp3y7X7ZucPDLMqX6OCR2DoEeFk0wlZM7rYALSgmbgjztAynIu0JA2+U0y0yxvqH56eJuVpJqtaLjwFyhg4l4fjz6td5bSvin5pYtMEB7ugFf0gPluWYT71kjmUW9+1ueYTBAMy7InkUOx1XHsbcpPVlz0wG8YWiArQJ1ESWQp73sevwJqejdE0Va+c+5jVtaSry7VrWMP0TR3cHSks=\n-----END CERTIFICATE-----"
+        "finding": "-----BEGIN CERTIFICATE-----\nMIIE+jCCA+KgAwIBAgISBjtrCYsTlHzzaL0b4L/h/qSgMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNZUjEwHhcNMjYwODI1MDg0MzM5WhcNMjYxMTIzMDg0MzM4WjAbMRkwFwYDVQQDExBjaXBzLmNhcmRhbm8ub3JnMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA01hvpVBVsbDfClgWnwBVLRwEMXyJE6GEpP/UD2vISibHMoTkRJ8Dr4F9Y/r1f0WNLYUc6MYRn9EbokBfcKm4oyT/Wp5Oy9LDBP4olcjUAIwCEIn348buV5AaAq+gfEJKcNpG7lJikozFPyA2qBqvN2Sq5CV3D1cMb8Bi0TxpYW6LPJgvy6w0JSK3Bsbp2fVRHddf+PXn4E+301HKnn12ZYkAnmBryegaUv764//lIrmSulAkCmbAzUOaOYCXFji86H6XYFOb8j7TmjdVSmVsGQmpo5LsFR8o4KodQpYDdnnwquJPEWlcnU/SH2xlW9NrCJcfHi1kqTOkqgqBoMFOxQIDAQABo4ICHjCCAhowDgYDVR0PAQH/BAQDAgWgMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFFkbY4Ti5fZW21EaxZgeFS9CGQd3MB8GA1UdIwQYMBaAFB8vNb5GFILNQLGueSxVePr31Gj7MDMGCCsGAQUFBwEBBCcwJTAjBggrBgEFBQcwAoYXaHR0cDovL3lyMS5pLmxlbmNyLm9yZy8wGwYDVR0RBBQwEoIQY2lwcy5jYXJkYW5vLm9yZzATBgNVHSAEDDAKMAgGBmeBDAECATAuBgNVHR8EJzAlMCOgIaAfhh1odHRwOi8veXIxLmMubGVuY3Iub3JnLzMzLmNybDCCAQwGCisGAQQB1nkCBAIEgf0EgfoA+AB2ANdtfRDRp/V3wsfpX9cAv/mCyTNaZeHQswFzF8DIxWl3AAABoDhMdCoAAAQDAEcwRQIgNMDU+YPnD/wxXyWt2yXrT0UXP+TT026CdV3FWsxrVXQCIQCXQAPVzDEN8wVbwPzlz3bRX0dD2VzWd54InJu8WFS7NQB+AGz+UBlDqF6pFrxS0TPk3Mke8UEcfSWEINFzgJ4YGOs6AAABoDhMdUkACAAABQAmPwTyBAMARzBFAiEAjEcO/yiXWE3mN5p5xSh5l6SMh9wy8G+GXARHz6ZSawACIHztYhmPQIp1sqgRjgC0u8KH6O69RySFIOIOdT1bnnHFMA0GCSqGSIb3DQEBCwUAA4IBAQAGriO0+2EWBpB9WrdXaPQj8j4XJgKO1BnRarbubX1YHifrvf/xHt1Gx9RtGhp5fb7M7HoQ9dizjGJAIjFxlqcC6lzaa6GFU5XendOVsKo1TVOYbwoF5LmZ5xSI0SvqsirlIan8wIz2ByDuQ/OWZGwUyj8tzDYaLWplTIlLpTwH29BDxCVhNzYfBQnrHD1IYkYnvePHwxp5Wp7jcAY99eAOw95PpmX9SfF2Ay324mmTdk+khd3/PT+ZePUI4xNQgB4jAC63FmbKdPK3uwdAawzHRvyGVJcRhMw1PDLV+Rs8jjbZm3LDPFdR/kw9/9cEC2n3DNz1btPD+4U2zpjDENyg\n-----END CERTIFICATE-----"
       },
       {
         "id": "cert_commonName",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "cips.cardano.org"
       },
       {
         "id": "cert_commonName_wo_SNI",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "no-sni.vercel-infra.com"
       },
       {
         "id": "cert_subjectAltName",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "cips.cardano.org"
       },
       {
         "id": "cert_trust",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "Ok via SAN and CN (SNI mandatory)"
       },
       {
         "id": "cert_chain_of_trust",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "passed."
       },
       {
         "id": "cert_certificatePolicies_EV",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "no"
       },
       {
         "id": "cert_expirationStatus",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
-        "severity": "MEDIUM",
-        "finding": "expires < 30 days (29)"
+        "severity": "OK",
+        "finding": "85 >= 30 days"
       },
       {
         "id": "cert_notBefore",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "2026-06-23 11:48"
+        "finding": "2026-08-25 08:43"
       },
       {
         "id": "cert_notAfter",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
-        "severity": "MEDIUM",
-        "finding": "2026-09-21 11:48"
+        "severity": "OK",
+        "finding": "2026-11-23 08:43"
       },
       {
         "id": "cert_extlifeSpan",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "certificate has no extended life time according to browser forum"
       },
       {
         "id": "cert_eTLS",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "not present"
       },
       {
         "id": "cert_crlDistributionPoints",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "http://yr1.c.lencr.org/2.crl"
+        "finding": "http://yr1.c.lencr.org/33.crl"
       },
       {
         "id": "cert_ocspURL",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "--"
       },
       {
         "id": "OCSP_stapling",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "not offered"
       },
       {
         "id": "cert_mustStapleExtension",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "--"
       },
       {
         "id": "DNS_CAArecord",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "LOW",
         "finding": "--"
       },
       {
         "id": "certificate_transparency",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "yes (certificate extension)"
       },
       {
         "id": "certs_countServer",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "3"
       },
       {
         "id": "certs_list_ordering_problem",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "no"
       },
       {
         "id": "cert_caIssuers",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "YR1 (Let's Encrypt from US)"
       },
       {
         "id": "intermediate_cert <#1>",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "-----BEGIN CERTIFICATE-----\nMIIE2zCCAsOgAwIBAgIRAKICU/FfJpHAXcHOE7m8yk4wDQYJKoZIhvcNAQELBQAwLjELMAkGA1UEBhMCVVMxDTALBgNVBAoTBElTUkcxEDAOBgNVBAMTB1Jvb3QgWVIwHhcNMjUwOTAzMDAwMDAwWhcNMjgwOTAyMjM1OTU5WjAzMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5jcnlwdDEMMAoGA1UEAxMDWVIxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoVi8X2xCYgMXvJxNPKp/oF13UMgmPABB07VCLNDtoXmt9luEZNJSBV10VyT1Pz6LD8Zq1d2gc43WNl1AdRrj4sEnazbOiz0nPpmGBp2hui49oZtDIY6wdKeZAi5BbNU20CH6RSBBMLSQ9cXrH8dxdv4PAJ45ssGML68USE3BsjC2a6cAN9L5CgXVIQi5tfNiTPoFZZ3S0OlXqLmmtdV95udWAb5b6e/F49DiCsH0Y00Ag72BVIb1hzynmKe+X0mERBTtsb3BwmpV9ipeBjMLoR/D9cHxHQCWoi5lTmXwY015J5rGelz1nZjJuxc2kioaX29XJBnhMkP531rSdG5uMwIDAQABo4HuMIHrMA4GA1UdDwEB/wQEAwIBhjATBgNVHSUEDDAKBggrBgEFBQcDATASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBQfLzW+RhSCzUCxrnksVXj699Ro+zAfBgNVHSMEGDAWgBTe51tg0CJtQCh9Pw0B/qS1UrRRlDAyBggrBgEFBQcBAQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly95ci5pLmxlbmNyLm9yZy8wEwYDVR0gBAwwCjAIBgZngQwBAgEwJwYDVR0fBCAwHjAcoBqgGIYWaHR0cDovL3lyLmMubGVuY3Iub3JnLzANBgkqhkiG9w0BAQsFAAOCAgEA0+zvMq3kHig1ddTmmm+RibTr9/RpX7k4buanMMRqbV/yIvP82zAHN3mvaw+cASuVsdpd0ikjhr4hnhJQLQOzOp2ccKrsdGOAgo0vddeISFAqEWEV4lmUM3vFF796up+bSgmJ1u6RupDCMxDgF8M3eLvGuj6L0lu3zkQ0KuQLnKxLtB0oQqn1Idg5CuuGpMvQzk29Pa3D/qHurc0EIM9SxukQuJqq63lxsYyRQFU8yMBOhq1w5LbfaWNRrz1uklOfI/pYkAb2E2MTZrAMQkBIE2S8Jt1F8gRc96o/xOsrgvSka84AisX6xq1lz1Z7jGvrnXc4TMcjxZTjiTaihcYI1JIXZiLtEMSCa5l3cu8YWd6zdLRQlqRdclVjuQfNHawRJ6GWlkK0QJosivTKwdBw3KxEtzGo8yMHERbsy57gP1UXHOMcmZYQC0gtyR3SxfenIM/MxC3Ia2Ypab/kQ/CTnlIn2KQ5JUC6NYrGCbhFN9bp5lKJStEwCUnLpntcrXk5XVDCNv/5RyWpRThkGOV7GetKkQ0qAY8hCzWK6oqnAhDZcjlYVdWfqOw3DIOX6EDNBgAqHarRVxyF9QZdOaXSyPJ0ueD2BYJEBgaCGQ8rAaU/Qc123V5LTXDZW4CcsPBDyhy4v+c8hClAyw/IkJlfBqxB9D+/wvIMHgECZ4ptP6o=\n-----END CERTIFICATE-----"
       },
       {
         "id": "intermediate_cert_fingerprintSHA256 <#1>",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "13949634D99CD6FD6AA80BC034FEFACCEB1969FEEF986586713ECDBB05758D3F"
       },
       {
         "id": "intermediate_cert_notBefore <#1>",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "2025-09-03 00:00"
       },
       {
         "id": "intermediate_cert_notAfter <#1>",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "2028-09-02 23:59"
       },
       {
         "id": "intermediate_cert_expiration <#1>",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "ok > 40 days"
       },
       {
         "id": "intermediate_cert_chain <#1>",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "YR1 <-- Root YR"
       },
       {
         "id": "intermediate_cert <#2>",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "-----BEGIN CERTIFICATE-----\nMIIF9DCCA9ygAwIBAgIRAPJLbRf52a18scn+p4eCaZ8wDQYJKoZIhvcNAQELBQAwTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjYwNTEzMDAwMDAwWhcNMzIwOTAyMjM1OTU5WjAuMQswCQYDVQQGEwJVUzENMAsGA1UEChMESVNSRzEQMA4GA1UEAxMHUm9vdCBZUjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBANvGJnN78CTJdWL3+eGfsLN5TrNBJs+VH9hRXqRbwxu9sGNiB0BD1fcOxbSUQCJIM1xE13Db+5Cw1w0s0EBYsvuIP/6joF0w8cuImbgR1OGgYbSQ4OpzI+DG8SGuTlcE873OCS+kh3srlo6vl43M5OJg4Aeo1sfHp6kTJDoIiFBNJAY+OKfX/FUvYKuhjT+no49lmqmupSBI5PkBQiqrEGtWU5uxU/cQWHGu8jSjFBznZqvbNPLMXMLFxCb3WTfrJBXXjqvWG+v4bjzxjjeAtOlU7qarRDvNOyAuQYLln904M+faKx8hnLCpJ15ZqaEgcNlY+9MMWcC5yvL2A2j3l9+2buggZX+dOE91zYmIdawTvSZuVvlbRrAlLxIB6pwMBjneXCjYQ8+3BCCjssbSNpZU3hTcBDdhfAlEDlYr6pEatnMdmDT5BqnKC92bd0EhM1fbLHioLccLCuievT8ZkPhZrq7Mii7gNXAcUEAR8+lzYal+9zTg7C5DALyVOeG/CqfRAMn1KSHCR0NSA6P8tn/mGRlnCct5rtVCLnVySVpU6H1qGg3DgTOuskf8eahTMiYbI5ezPJmO5ertalskQ1utp74+eDy92PI4ftHKTbq9IWhH4YZKh3WnJEIt+oQvlYZbY8tpEroKrFB6PFGzrJIDRyts4HqvuH52RFj2zv/BAgMBAAGjgeswgegwDgYDVR0PAQH/BAQDAgEGMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFN7nW2DQIm1AKH0/DQH+pLVStFGUMB8GA1UdIwQYMBaAFHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcwAoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzATBgNVHSAEDDAKMAgGBmeBDAECATAnBgNVHR8EIDAeMBygGqAYhhZodHRwOi8veDEuYy5sZW5jci5vcmcvMA0GCSqGSIb3DQEBCwUAA4ICAQA8spSI95KKfn2W6GMmDpHBJSPaLbsS3W93cijJCRCYAc1fsJgL1FIL7C0C9ecPOdcwB2fi0Dk2p94j9iTJCxmt5CFSKLRWwnXT2MMSXexVxqoVB79BdWPxVXETkVme/qYSAuKVHh5Ps+5BixgmwS1JkjSAc+MfrUbNssVEEnH0aEiAh+rotXAVJSP/Ye7LJPEwD9DWG72vVWbhAcuOf5OLjz57Ctk7MgQHynZ7+PlHJtajroCaIbtCr6tcZZaAwUQm+jQyeWdV+2hv9deOYFmKeQyjjcSrN5Nadrw+L9DZJLbA1HqeNvLhBgqpP0fvJq2N6EtD574N6eMI7uMsJTnji2UDz9el5XLSv9fqJMuDQtYVb2oTNoKpoUqhxPVC0aq4eG5MESaIdn8b5ZGSSeAJLMHXljEdlNza+ncfkviXk1POLnnFdvx8/gk6M374WbLWFXw8N141B/Rl/tINGfl1TxOIiqtiMYkL02RSGb1kq34BL9NPP27zRGMuHGnzS3hFIrRTfKxrzUZ9RzQWzEG3K6fJ3r2nqSltkeytis9DIBoFY9VmVyjLM71DMi+y1+TRSJVClEMwvA4yL++7q9XZx5r5wBRWB4kQTKH5qyoZnDw7iiuh1lIDyDFx8r7i9vIJU5HS3moZLkYWAOilMaV9N56A9Bgb6dNcHkvg3NoaYA==\n-----END CERTIFICATE-----"
       },
       {
         "id": "intermediate_cert_fingerprintSHA256 <#2>",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "072639D0B140D5BFFAE16AD9C3F6CC6086040621F51EE61A6D46A8915C07CF76"
       },
       {
         "id": "intermediate_cert_notBefore <#2>",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "2026-05-13 00:00"
       },
       {
         "id": "intermediate_cert_notAfter <#2>",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "2032-09-02 23:59"
       },
       {
         "id": "intermediate_cert_expiration <#2>",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "ok > 40 days"
       },
       {
         "id": "intermediate_cert_chain <#2>",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "Root YR <-- ISRG Root X1"
       },
       {
         "id": "intermediate_cert_badOCSP",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "intermediate certificate(s) is/are ok"
       },
       {
         "id": "HTTP_status_code",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "200 OK ('/')"
       },
       {
         "id": "HTTP_clock_skew",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "+290889 seconds from localtime"
+        "finding": "+291397 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "1787447045"
+        "finding": "1788059410"
       },
       {
         "id": "HTTP_headerAge",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "290889 seconds"
+        "finding": "291397 seconds"
       },
       {
         "id": "HSTS_time",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "730 days (=63072000 seconds) > 15552000 seconds"
       },
       {
         "id": "HSTS_subdomains",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "only for this domain"
       },
       {
         "id": "HSTS_preload",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "domain is NOT marked for preloading"
       },
       {
         "id": "HPKP",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "No support for HTTP Public Key Pinning"
       },
       {
         "id": "banner_server",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "Vercel"
       },
       {
         "id": "banner_application",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "No application banner found"
       },
       {
         "id": "cookie_count",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "0 at '/'"
       },
       {
         "id": "Access-Control-Allow-Origin",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "*"
       },
       {
         "id": "Cache-Control",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "public, max-age=0, must-revalidate"
       },
       {
         "id": "banner_reverseproxy",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "cwe": "CWE-200",
@@ -8013,7 +8120,7 @@
       },
       {
         "id": "heartbleed",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-0160",
@@ -8022,7 +8129,7 @@
       },
       {
         "id": "CCS",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-0224",
@@ -8031,7 +8138,7 @@
       },
       {
         "id": "ticketbleed",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2016-9244",
@@ -8040,7 +8147,7 @@
       },
       {
         "id": "ROBOT",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
@@ -8049,7 +8156,7 @@
       },
       {
         "id": "secure_renego",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cwe": "CWE-310",
@@ -8057,7 +8164,7 @@
       },
       {
         "id": "secure_client_renego",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2011-1473",
@@ -8066,7 +8173,7 @@
       },
       {
         "id": "CRIME_TLS",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2012-4929",
@@ -8075,7 +8182,7 @@
       },
       {
         "id": "BREACH",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "MEDIUM",
         "cve": "CVE-2013-3587",
@@ -8084,7 +8191,7 @@
       },
       {
         "id": "POODLE_SSL",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-3566",
@@ -8093,14 +8200,14 @@
       },
       {
         "id": "fallback_SCSV",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "no protocol below TLS 1.2 offered"
       },
       {
         "id": "SWEET32",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2016-2183 CVE-2016-6329",
@@ -8109,7 +8216,7 @@
       },
       {
         "id": "FREAK",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2015-0204",
@@ -8118,7 +8225,7 @@
       },
       {
         "id": "DROWN",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2016-0800 CVE-2016-0703",
@@ -8127,16 +8234,16 @@
       },
       {
         "id": "DROWN_hint",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "cve": "CVE-2016-0800 CVE-2016-0703",
         "cwe": "CWE-310",
-        "finding": "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=8DF69196247CB775363EA4181A553EFA0DDB965ECA3D6DB7B85280869BB731C6"
+        "finding": "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=047AF3378359A2D5624904E6EFCC07F976416B80E6CE8FBEC3C4112E2378EC43"
       },
       {
         "id": "LOGJAM",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2015-4000",
@@ -8145,7 +8252,7 @@
       },
       {
         "id": "LOGJAM-common_primes",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2015-4000",
@@ -8154,7 +8261,7 @@
       },
       {
         "id": "BEAST",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2011-3389",
@@ -8163,7 +8270,7 @@
       },
       {
         "id": "LUCKY13",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2013-0169",
@@ -8172,7 +8279,7 @@
       },
       {
         "id": "winshock",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2014-6321",
@@ -8181,7 +8288,7 @@
       },
       {
         "id": "RC4",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "cve": "CVE-2013-2566 CVE-2015-2808",
@@ -8190,325 +8297,325 @@
       },
       {
         "id": "clientsimulation-android_70",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-android_81",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-android_90",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-android_X",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-android_11_12",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-android_13_14",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-android_15",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-chrome_101_win10",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-chromium_137_win11",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-firefox_100_win10",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-firefox_137_win11",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-ie_8_win7",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_11_win7",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_11_win81",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_11_winphone81",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-ie_11_win10",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-edge_15_win10",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-edge_101_win10_21h2",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-edge_133_win11_23h2",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-safari_184_ios_184",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-safari_154_osx_1231",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-safari_184_osx_154",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-java_7u25",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "No connection"
       },
       {
         "id": "clientsimulation-java_80442",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-java_1102",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-java_1703",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-java_2106",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-go_1178",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-libressl_336",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
       },
       {
         "id": "clientsimulation-openssl_102e",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-openssl_111d",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-openssl_315",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-openssl_350",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "clientsimulation-apple_mail_16_0",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
       },
       {
         "id": "clientsimulation-thunderbird_91_9",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "TLSv1.3 TLS_AES_128_GCM_SHA256"
       },
       {
         "id": "rating_spec",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "SSL Labs's 'SSL Server Rating Guide' (version 2009r from 2025-05-16)"
       },
       {
         "id": "rating_doc",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
       },
       {
         "id": "protocol_support_score",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "100"
       },
       {
         "id": "protocol_support_score_weighted",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "30"
       },
       {
         "id": "key_exchange_score",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "90"
       },
       {
         "id": "key_exchange_score_weighted",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "27"
       },
       {
         "id": "cipher_strength_score",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "60"
       },
       {
         "id": "cipher_strength_score_weighted",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "24"
       },
       {
         "id": "final_score",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
         "finding": "81"
       },
       {
         "id": "overall_grade",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "OK",
         "finding": "A+"
       },
       {
         "id": "scanTime",
-        "ip": "cips.cardano.org/216.150.16.129",
+        "ip": "cips.cardano.org/216.150.16.193",
         "port": "443",
         "severity": "INFO",
-        "finding": "80"
+        "finding": "84"
       }
     ],
     "thirdparties": {
@@ -8516,13 +8623,13 @@
       "cookies": [],
       "headers": {
         "access-control-allow-origin": "*",
-        "age": "290499",
+        "age": "291025",
         "cache-control": "public, max-age=0, must-revalidate",
         "content-disposition": "inline",
         "content-encoding": "br",
         "content-type": "text/html; charset=utf-8",
-        "date": "Sun, 23 Aug 2026 00:57:35 GMT",
-        "etag": "W/\"4fed0cd8f08d6223bfe1aaac9f937dcd\"",
+        "date": "Sun, 30 Aug 2026 03:03:58 GMT",
+        "etag": "W/\"bab73dfcc3c6091700adf09786960867\"",
         "server": "Vercel",
         "strict-transport-security": "max-age=63072000",
         "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
@@ -8530,12 +8637,12 @@
         "x-nextjs-prerender": "1",
         "x-nextjs-stale-time": "300",
         "x-vercel-cache": "HIT",
-        "x-vercel-id": "sfo1::lgnpf-1787446655517-b39fcd6ca41f"
+        "x-vercel-id": "cle1::2bqv5-1788059038701-bc8f173ee38c"
       },
       "endpoints": [
         {
           "hostname": "cips.cardano.org",
-          "ip": "216.150.1.193",
+          "ip": "216.150.1.1",
           "geoip": {
             "continent": {
               "code": "NA",
@@ -8774,8 +8881,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 23 Aug 2026 01:02:17",
-      "created": "2026-08-23T01:02:17.178450519Z",
+      "@generated": "Sun, 30 Aug 2026 03:08:22",
+      "created": "2026-08-30T03:08:22.143721091Z",
       "insights": [
         {
           "level": "Low",
@@ -8783,7 +8890,7 @@
           "site": "",
           "key": "insight.log.warn",
           "description": "ZAP warnings logged - see the zap.log file for details",
-          "statistic": "24"
+          "statistic": "22"
         },
         {
           "level": "Info",
@@ -8791,7 +8898,7 @@
           "site": "https://cips.cardano.org",
           "key": "insight.code.2xx",
           "description": "Percentage of responses with status code 2xx",
-          "statistic": "60"
+          "statistic": "59"
         },
         {
           "level": "Info",
@@ -8823,23 +8930,7 @@
           "site": "https://cips.cardano.org",
           "key": "insight.endpoint.ctype.application/javascript",
           "description": "Percentage of endpoints with content type application/javascript",
-          "statistic": "6"
-        },
-        {
-          "level": "Info",
-          "reason": "Informational",
-          "site": "https://cips.cardano.org",
-          "key": "insight.endpoint.ctype.font/woff2",
-          "description": "Percentage of endpoints with content type font/woff2",
-          "statistic": "1"
-        },
-        {
-          "level": "Info",
-          "reason": "Informational",
-          "site": "https://cips.cardano.org",
-          "key": "insight.endpoint.ctype.text/css",
-          "description": "Percentage of endpoints with content type text/css",
-          "statistic": "1"
+          "statistic": "5"
         },
         {
           "level": "Info",
@@ -8847,7 +8938,7 @@
           "site": "https://cips.cardano.org",
           "key": "insight.endpoint.ctype.text/html",
           "description": "Percentage of endpoints with content type text/html",
-          "statistic": "87"
+          "statistic": "88"
         },
         {
           "level": "Info",
@@ -8871,7 +8962,7 @@
           "site": "https://cips.cardano.org",
           "key": "insight.endpoint.total",
           "description": "Count of total endpoints",
-          "statistic": "383"
+          "statistic": "379"
         },
         {
           "level": "Info",
@@ -8879,7 +8970,7 @@
           "site": "https://cips.cardano.org",
           "key": "insight.response.slow",
           "description": "Percentage of slow responses",
-          "statistic": "7"
+          "statistic": "11"
         }
       ],
       "site": [
@@ -8889,13 +8980,6 @@
           "@port": "443",
           "@ssl": "true",
           "alerts": [
-            {
-              "name": "Vulnerable JS Library",
-              "riskcode": "3",
-              "confidence": "2",
-              "riskdesc": "High (Medium)",
-              "desc": "<p>The identified library appears to be vulnerable.</p>"
-            },
             {
               "name": "Application Error Disclosure",
               "riskcode": "2",
@@ -8965,13 +9049,6 @@
               "confidence": "1",
               "riskdesc": "Low (Low)",
               "desc": "<p>A dangerous JS function seems to be in use that would leave the site vulnerable.</p>"
-            },
-            {
-              "name": "Information Disclosure - Debug Error Messages",
-              "riskcode": "1",
-              "confidence": "2",
-              "riskdesc": "Low (Medium)",
-              "desc": "<p>The response appeared to contain common error messages returned by platforms such as ASP.NET, and Web-servers such as IIS and Apache. You can configure the list of common debug messages.</p>"
             },
             {
               "name": "Permissions Policy Header Not Set",
@@ -9074,7 +9151,7 @@
       {
         "requestedUrl": "https://cips.cardano.org/",
         "finalUrl": "https://cips.cardano.org/",
-        "fetchTime": "2026-08-23T01:02:38.335Z",
+        "fetchTime": "2026-08-30T03:08:40.934Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -9085,7 +9162,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.67
+            "score": 0.7
           },
           "accessibility": {
             "title": "Accessibility",
@@ -9137,53 +9214,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 12882,
+            "numericValue": 12518,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 937,
-                  "firstMeaningfulPaint": 937,
-                  "largestContentfulPaint": 2717,
-                  "interactive": 12882,
-                  "speedIndex": 937,
-                  "totalBlockingTime": 926,
-                  "maxPotentialFID": 790,
+                  "firstContentfulPaint": 994,
+                  "firstMeaningfulPaint": 994,
+                  "largestContentfulPaint": 2739,
+                  "interactive": 12518,
+                  "speedIndex": 1266,
+                  "totalBlockingTime": 705,
+                  "maxPotentialFID": 336,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 547190131,
+                  "observedTimeOriginTs": 428273301,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 547190131,
-                  "observedFirstPaint": 197,
-                  "observedFirstPaintTs": 547387555,
-                  "observedFirstContentfulPaint": 197,
-                  "observedFirstContentfulPaintTs": 547387555,
-                  "observedFirstContentfulPaintAllFrames": 197,
-                  "observedFirstContentfulPaintAllFramesTs": 547387555,
-                  "observedFirstMeaningfulPaint": 197,
-                  "observedFirstMeaningfulPaintTs": 547387555,
-                  "observedLargestContentfulPaint": 197,
-                  "observedLargestContentfulPaintTs": 547387555,
-                  "observedLargestContentfulPaintAllFrames": 197,
-                  "observedLargestContentfulPaintAllFramesTs": 547387555,
-                  "observedTraceEnd": 2892,
-                  "observedTraceEndTs": 550081938,
-                  "observedLoad": 556,
-                  "observedLoadTs": 547746401,
+                  "observedNavigationStartTs": 428273301,
+                  "observedFirstPaint": 359,
+                  "observedFirstPaintTs": 428632673,
+                  "observedFirstContentfulPaint": 359,
+                  "observedFirstContentfulPaintTs": 428632673,
+                  "observedFirstContentfulPaintAllFrames": 359,
+                  "observedFirstContentfulPaintAllFramesTs": 428632673,
+                  "observedFirstMeaningfulPaint": 359,
+                  "observedFirstMeaningfulPaintTs": 428632673,
+                  "observedLargestContentfulPaint": 359,
+                  "observedLargestContentfulPaintTs": 428632673,
+                  "observedLargestContentfulPaintAllFrames": 359,
+                  "observedLargestContentfulPaintAllFramesTs": 428632673,
+                  "observedTraceEnd": 3050,
+                  "observedTraceEndTs": 431322801,
+                  "observedLoad": 479,
+                  "observedLoadTs": 428752515,
                   "observedDomContentLoaded": 1,
-                  "observedDomContentLoadedTs": 547191018,
+                  "observedDomContentLoadedTs": 428273908,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 197,
-                  "observedFirstVisualChangeTs": 547387131,
-                  "observedLastVisualChange": 790,
-                  "observedLastVisualChangeTs": 547980131,
-                  "observedSpeedIndex": 225,
-                  "observedSpeedIndexTs": 547414942
+                  "observedFirstVisualChange": 508,
+                  "observedFirstVisualChangeTs": 428781301,
+                  "observedLastVisualChange": 597,
+                  "observedLastVisualChangeTs": 428870301,
+                  "observedSpeedIndex": 513,
+                  "observedSpeedIndexTs": 428786181
                 },
                 {
                   "lcpInvalidated": false
@@ -9201,23 +9278,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 17,
-                  "numScripts": 12,
+                  "numRequests": 16,
+                  "numScripts": 11,
                   "numStylesheets": 1,
                   "numFonts": 2,
-                  "numTasks": 586,
-                  "numTasksOver10ms": 5,
-                  "numTasksOver25ms": 3,
+                  "numTasks": 606,
+                  "numTasksOver10ms": 8,
+                  "numTasksOver25ms": 5,
                   "numTasksOver50ms": 1,
-                  "numTasksOver100ms": 1,
+                  "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 1.5749999999999957,
-                  "throughput": 92166497.9306104,
-                  "maxRtt": 1.5749999999999957,
-                  "maxServerLatency": 17.211000000000006,
-                  "totalByteWeight": 2196247,
-                  "totalTaskTime": 551.6959999999997,
-                  "mainDocumentTransferSize": 16543
+                  "rtt": 11.766999999999996,
+                  "throughput": 164461750.07166794,
+                  "maxRtt": 11.766999999999996,
+                  "maxServerLatency": 38.855000000000004,
+                  "totalByteWeight": 2226956,
+                  "totalTaskTime": 372.76899999999716,
+                  "mainDocumentTransferSize": 16537
                 }
               ]
             }
@@ -9239,15 +9316,15 @@
         "width": 1920,
         "height": 1080,
         "url": "https://cips.cardano.org",
-        "size": 2866.567,
-        "nodes": 741,
-        "requests": 43,
+        "size": 2895.595,
+        "nodes": 740,
+        "requests": 51,
         "grade": "D",
-        "score": 49,
-        "ges": 2.02,
-        "water": 3.03,
+        "score": 47,
+        "ges": 2.06,
+        "water": 3.09,
         "ecoindex_version": "5.4.2",
-        "date": "2026-08-23 00:58:14.877849",
+        "date": "2026-08-30 03:04:49.237118",
         "page_type": null
       }
     ],
@@ -9258,16 +9335,16 @@
     "summary": {
       "404": 45,
       "httpGrade": "C",
-      "testsslExpireSoon": true,
-      "testsslExpireDate": "2026-09-21T11:48:00.000Z",
+      "testsslExpireSoon": false,
+      "testsslExpireDate": "2026-11-23T08:43:00.000Z",
       "testsslGrade": "A+",
       "cookiesGrade": "A",
       "cookiesCount": 0,
       "trackersGrade": "A",
       "trackersCount": 0,
-      "zapCount": 16,
-      "zapGrade": "F",
-      "lighthouse_performance": 0.67,
+      "zapCount": 14,
+      "zapGrade": "D",
+      "lighthouse_performance": 0.7,
       "lighthouse_performanceGrade": "B",
       "lighthouse_accessibility": null,
       "lighthouse_accessibilityGrade": "F",
@@ -9774,7 +9851,7 @@
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "OK",
-        "finding": "59 >= 30 days"
+        "finding": "52 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -10603,7 +10680,7 @@
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "INFO",
-        "finding": "94"
+        "finding": "95"
       }
     ],
     "thirdparties": {
@@ -10738,8 +10815,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 23 Aug 2026 01:16:57",
-      "created": "2026-08-23T01:16:57.374301807Z",
+      "@generated": "Sun, 30 Aug 2026 03:23:25",
+      "created": "2026-08-30T03:23:25.628396215Z",
       "insights": [
         {
           "level": "Info",
@@ -10847,13 +10924,6 @@
               "desc": "<p>HTTP Strict Transport Security (HSTS) is a web security policy mechanism whereby a web server declares that complying user agents (such as a web browser) are to interact with it using only secure HTTPS connections (i.e. HTTP layered over TLS/SSL). HSTS is an IETF standards track protocol and is specified in RFC 6797.</p>"
             },
             {
-              "name": "Re-examine Cache-control Directives",
-              "riskcode": "0",
-              "confidence": "1",
-              "riskdesc": "Informational (Low)",
-              "desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>"
-            },
-            {
               "name": "Sec-Fetch-Dest Header is Missing",
               "riskcode": "0",
               "confidence": "3",
@@ -10932,153 +11002,12 @@
             ]
           }
         },
-        "matcher-name": "strict-transport-security",
-        "type": "http",
-        "host": "https://data.cardano.org",
-        "matched-at": "https://data.cardano.org",
-        "ip": "52.211.238.28",
-        "timestamp": "2026-08-23T01:20:21.825721677Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs",
-            "userdehghani",
-            "celbahraoui",
-            "safejulian"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic",
-            "vuln"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          },
-          "classification": {
-            "cve-id": null,
-            "cwe-id": [
-              "cwe-693"
-            ]
-          }
-        },
-        "matcher-name": "cross-origin-embedder-policy",
-        "type": "http",
-        "host": "https://data.cardano.org",
-        "matched-at": "https://data.cardano.org",
-        "ip": "52.211.238.28",
-        "timestamp": "2026-08-23T01:20:21.825793041Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs",
-            "userdehghani",
-            "celbahraoui",
-            "safejulian"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic",
-            "vuln"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          },
-          "classification": {
-            "cve-id": null,
-            "cwe-id": [
-              "cwe-693"
-            ]
-          }
-        },
-        "matcher-name": "cross-origin-resource-policy",
-        "type": "http",
-        "host": "https://data.cardano.org",
-        "matched-at": "https://data.cardano.org",
-        "ip": "52.211.238.28",
-        "timestamp": "2026-08-23T01:20:21.82580872Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs",
-            "userdehghani",
-            "celbahraoui",
-            "safejulian"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic",
-            "vuln"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          },
-          "classification": {
-            "cve-id": null,
-            "cwe-id": [
-              "cwe-693"
-            ]
-          }
-        },
         "matcher-name": "content-security-policy",
         "type": "http",
         "host": "https://data.cardano.org",
         "matched-at": "https://data.cardano.org",
         "ip": "52.211.238.28",
-        "timestamp": "2026-08-23T01:20:21.825821494Z",
+        "timestamp": "2026-08-30T03:26:48.360429526Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
         "matcher-status": true
       },
@@ -11125,7 +11054,7 @@
         "host": "https://data.cardano.org",
         "matched-at": "https://data.cardano.org",
         "ip": "52.211.238.28",
-        "timestamp": "2026-08-23T01:20:21.825833436Z",
+        "timestamp": "2026-08-30T03:26:48.360501855Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
         "matcher-status": true
       },
@@ -11172,7 +11101,7 @@
         "host": "https://data.cardano.org",
         "matched-at": "https://data.cardano.org",
         "ip": "52.211.238.28",
-        "timestamp": "2026-08-23T01:20:21.825847102Z",
+        "timestamp": "2026-08-30T03:26:48.360516537Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
         "matcher-status": true
       },
@@ -11219,7 +11148,7 @@
         "host": "https://data.cardano.org",
         "matched-at": "https://data.cardano.org",
         "ip": "52.211.238.28",
-        "timestamp": "2026-08-23T01:20:21.825859185Z",
+        "timestamp": "2026-08-30T03:26:48.360529066Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
         "matcher-status": true
       },
@@ -11266,7 +11195,101 @@
         "host": "https://data.cardano.org",
         "matched-at": "https://data.cardano.org",
         "ip": "52.211.238.28",
-        "timestamp": "2026-08-23T01:20:21.825869774Z",
+        "timestamp": "2026-08-30T03:26:48.360540383Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "cross-origin-embedder-policy",
+        "type": "http",
+        "host": "https://data.cardano.org",
+        "matched-at": "https://data.cardano.org",
+        "ip": "52.211.238.28",
+        "timestamp": "2026-08-30T03:26:48.360553373Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "strict-transport-security",
+        "type": "http",
+        "host": "https://data.cardano.org",
+        "matched-at": "https://data.cardano.org",
+        "ip": "52.211.238.28",
+        "timestamp": "2026-08-30T03:26:48.360563328Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
         "matcher-status": true
       },
@@ -11313,7 +11336,7 @@
         "host": "https://data.cardano.org",
         "matched-at": "https://data.cardano.org",
         "ip": "52.211.238.28",
-        "timestamp": "2026-08-23T01:20:21.825881557Z",
+        "timestamp": "2026-08-30T03:26:48.360573874Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
         "matcher-status": true
       },
@@ -11360,7 +11383,54 @@
         "host": "https://data.cardano.org",
         "matched-at": "https://data.cardano.org",
         "ip": "52.211.238.28",
-        "timestamp": "2026-08-23T01:20:21.825896785Z",
+        "timestamp": "2026-08-30T03:26:48.360588105Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs",
+            "userdehghani",
+            "celbahraoui",
+            "safejulian"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic",
+            "vuln"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": [
+              "cwe-693"
+            ]
+          }
+        },
+        "matcher-name": "cross-origin-resource-policy",
+        "type": "http",
+        "host": "https://data.cardano.org",
+        "matched-at": "https://data.cardano.org",
+        "ip": "52.211.238.28",
+        "timestamp": "2026-08-30T03:26:48.36062435Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://data.cardano.org'",
         "matcher-status": true
       },
@@ -11413,7 +11483,7 @@
           "SSH-2.0-OpenSSH_9.2p1"
         ],
         "ip": "52.211.238.28",
-        "timestamp": "2026-08-23T01:24:57.673428173Z",
+        "timestamp": "2026-08-30T03:31:20.969999318Z",
         "matcher-status": true
       },
       {
@@ -11444,7 +11514,7 @@
           "Let's Encrypt"
         ],
         "ip": "52.211.238.28",
-        "timestamp": "2026-08-23T01:25:52.817037061Z",
+        "timestamp": "2026-08-30T03:32:14.957911947Z",
         "matcher-status": true
       },
       {
@@ -11472,11 +11542,11 @@
         "host": "data.cardano.org",
         "matched-at": "data.cardano.org:443",
         "extracted-results": [
-          "hey.cardano.org",
-          "data.cardano.org"
+          "data.cardano.org",
+          "hey.cardano.org"
         ],
         "ip": "52.211.238.28",
-        "timestamp": "2026-08-23T01:25:52.817215566Z",
+        "timestamp": "2026-08-30T03:32:14.95807958Z",
         "matcher-status": true
       },
       {
@@ -11508,7 +11578,7 @@
           "tls12"
         ],
         "ip": "52.211.238.28",
-        "timestamp": "2026-08-23T01:25:59.30505435Z",
+        "timestamp": "2026-08-30T03:32:20.669302179Z",
         "matcher-status": true
       },
       {
@@ -11540,7 +11610,7 @@
           "tls13"
         ],
         "ip": "52.211.238.28",
-        "timestamp": "2026-08-23T01:25:59.560254206Z",
+        "timestamp": "2026-08-30T03:32:20.924938048Z",
         "matcher-status": true
       }
     ],
@@ -11548,7 +11618,7 @@
       {
         "requestedUrl": "https://data.cardano.org/",
         "finalUrl": "https://data.cardano.org/",
-        "fetchTime": "2026-08-23T01:17:19.177Z",
+        "fetchTime": "2026-08-30T03:23:45.785Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -11611,53 +11681,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 789,
+            "numericValue": 814,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 755,
-                  "firstMeaningfulPaint": 755,
-                  "largestContentfulPaint": 755,
-                  "interactive": 789,
-                  "speedIndex": 910,
-                  "totalBlockingTime": 9,
-                  "maxPotentialFID": 72,
+                  "firstContentfulPaint": 789,
+                  "firstMeaningfulPaint": 789,
+                  "largestContentfulPaint": 789,
+                  "interactive": 814,
+                  "speedIndex": 939,
+                  "totalBlockingTime": 0,
+                  "maxPotentialFID": 58,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 263937350,
+                  "observedTimeOriginTs": 394327593,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 263937350,
-                  "observedFirstPaint": 424,
-                  "observedFirstPaintTs": 264361842,
-                  "observedFirstContentfulPaint": 424,
-                  "observedFirstContentfulPaintTs": 264361842,
-                  "observedFirstContentfulPaintAllFrames": 424,
-                  "observedFirstContentfulPaintAllFramesTs": 264361842,
-                  "observedFirstMeaningfulPaint": 424,
-                  "observedFirstMeaningfulPaintTs": 264361842,
-                  "observedLargestContentfulPaint": 424,
-                  "observedLargestContentfulPaintTs": 264361842,
-                  "observedLargestContentfulPaintAllFrames": 424,
-                  "observedLargestContentfulPaintAllFramesTs": 264361842,
-                  "observedTraceEnd": 2851,
-                  "observedTraceEndTs": 266787998,
-                  "observedLoad": 416,
-                  "observedLoadTs": 264352970,
-                  "observedDomContentLoaded": 5,
-                  "observedDomContentLoadedTs": 263942642,
+                  "observedNavigationStartTs": 394327593,
+                  "observedFirstPaint": 437,
+                  "observedFirstPaintTs": 394764099,
+                  "observedFirstContentfulPaint": 437,
+                  "observedFirstContentfulPaintTs": 394764099,
+                  "observedFirstContentfulPaintAllFrames": 437,
+                  "observedFirstContentfulPaintAllFramesTs": 394764099,
+                  "observedFirstMeaningfulPaint": 437,
+                  "observedFirstMeaningfulPaintTs": 394764099,
+                  "observedLargestContentfulPaint": 437,
+                  "observedLargestContentfulPaintTs": 394764099,
+                  "observedLargestContentfulPaintAllFrames": 437,
+                  "observedLargestContentfulPaintAllFramesTs": 394764099,
+                  "observedTraceEnd": 2876,
+                  "observedTraceEndTs": 397203765,
+                  "observedLoad": 428,
+                  "observedLoadTs": 394755446,
+                  "observedDomContentLoaded": 9,
+                  "observedDomContentLoadedTs": 394336107,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 424,
-                  "observedFirstVisualChangeTs": 264361350,
-                  "observedLastVisualChange": 424,
-                  "observedLastVisualChangeTs": 264361350,
-                  "observedSpeedIndex": 425,
-                  "observedSpeedIndexTs": 264362209
+                  "observedFirstVisualChange": 436,
+                  "observedFirstVisualChangeTs": 394763593,
+                  "observedLastVisualChange": 436,
+                  "observedLastVisualChangeTs": 394763593,
+                  "observedSpeedIndex": 437,
+                  "observedSpeedIndexTs": 394764498
                 },
                 {
                   "lcpInvalidated": false
@@ -11679,18 +11749,18 @@
                   "numScripts": 0,
                   "numStylesheets": 0,
                   "numFonts": 0,
-                  "numTasks": 174,
-                  "numTasksOver10ms": 2,
+                  "numTasks": 170,
+                  "numTasksOver10ms": 3,
                   "numTasksOver25ms": 0,
                   "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 121.003,
-                  "throughput": 3697574.893050648,
-                  "maxRtt": 121.003,
-                  "maxServerLatency": 0.022999999999996135,
+                  "rtt": 115.699,
+                  "throughput": 3199999.999994826,
+                  "maxRtt": 115.699,
+                  "maxServerLatency": 0,
                   "totalByteWeight": 438,
-                  "totalTaskTime": 55.77900000000004,
+                  "totalTaskTime": 71.091,
                   "mainDocumentTransferSize": 324
                 }
               ]
@@ -11721,7 +11791,7 @@
         "ges": 1.04,
         "water": 1.56,
         "ecoindex_version": "5.4.2",
-        "date": "2026-08-23 01:15:40.155353",
+        "date": "2026-08-30 03:22:05.574456",
         "page_type": null
       }
     ],
