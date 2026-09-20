@@ -1,31 +1,32 @@
 {
   "scan": {
     "algorithmVersion": 4,
-    "grade": "B-",
+    "grade": "B",
     "error": null,
-    "score": 65,
+    "score": 75,
     "statusCode": 200,
-    "testsFailed": 4,
-    "testsPassed": 6,
+    "testsFailed": 2,
+    "testsPassed": 8,
     "testsQuantity": 10,
     "responseHeaders": {
       "accept-ranges": "bytes",
-      "age": "3763",
+      "age": "31443",
       "cache-control": "public,max-age=0,must-revalidate",
-      "cache-status": "\"Netlify Edge\"; hit",
-      "content-length": "11936",
-      "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: https://*.ytimg.com https://img.youtube.com https://ipfs.io https://crowdin-static.cf-downloads.crowdin.com; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io https://*.algolianet.com https://*.algolia.net;",
+      "cache-status": "\"Netlify Edge\"; hit; ttl=31504557",
+      "content-length": "11872",
+      "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: blob: https://*.ytimg.com https://img.youtube.com https://ipfs.io https://crowdin-static.cf-downloads.crowdin.com https://*.lumacdn.com; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io https://*.algolianet.com https://*.algolia.net; base-uri 'self'; object-src 'none';",
       "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 31 May 2026 03:11:45 GMT",
-      "etag": "\"d9f3e8a3fedc77f6b19f3c5a47943848-ssl-df\"",
-      "feature-policy": "geolocation 'none'; microphone 'none';",
-      "referrer-policy": "no-referrer-when-downgrade",
+      "date": "Sun, 20 Sep 2026 03:13:39 GMT",
+      "etag": "\"ab42f331f9777b57bf9427ff76001870-ssl-df\"",
+      "permissions-policy": "geolocation=(), microphone=(), camera=()",
+      "referrer-policy": "strict-origin-when-cross-origin",
       "server": "Netlify",
       "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
       "vary": "Accept-Encoding",
+      "x-content-type-options": "nosniff",
       "x-frame-options": "DENY",
-      "x-nf-request-id": "01KSY087W17B6WYAQ2DK4T4XGC",
-      "x-xss-protection": "1; mode=block",
+      "x-nf-request-id": "01M2YCW7132DZ8JR747RWDZY0E",
+      "x-xss-protection": "0",
       "connection": "close"
     }
   },
@@ -54,7 +55,9 @@
         ],
         "img-src": [
           "'self'",
+          "blob:",
           "data:",
+          "https://*.lumacdn.com",
           "https://*.ytimg.com",
           "https://cardano.org",
           "https://crowdin-static.cf-downloads.crowdin.com",
@@ -93,6 +96,12 @@
           "https://data.cardano.org",
           "https://hubspot-forms-static-embed.s3.amazonaws.com",
           "https://ipfs.io"
+        ],
+        "base-uri": [
+          "'self'"
+        ],
+        "object-src": [
+          "'none'"
         ]
       },
       "http": true,
@@ -100,7 +109,7 @@
       "policy": {
         "antiClickjacking": false,
         "defaultNone": false,
-        "insecureBaseUri": true,
+        "insecureBaseUri": false,
         "insecureFormAction": true,
         "insecureSchemeActive": false,
         "insecureSchemePassive": false,
@@ -142,10 +151,10 @@
     },
     "referrer-policy": {
       "expectation": "referrer-policy-private",
-      "pass": false,
-      "result": "referrer-policy-unsafe",
-      "scoreModifier": -5,
-      "data": "no-referrer-when-downgrade",
+      "pass": true,
+      "result": "referrer-policy-private",
+      "scoreModifier": 5,
+      "data": "strict-origin-when-cross-origin",
       "http": true,
       "meta": false
     },
@@ -174,10 +183,10 @@
     },
     "x-content-type-options": {
       "expectation": "x-content-type-options-nosniff",
-      "pass": false,
-      "result": "x-content-type-options-not-implemented",
-      "scoreModifier": -5,
-      "data": null
+      "pass": true,
+      "result": "x-content-type-options-nosniff",
+      "scoreModifier": 0,
+      "data": "nosniff"
     },
     "x-frame-options": {
       "expectation": "x-frame-options-sameorigin-or-deny",
