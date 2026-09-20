@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 13 Sept 2026 02:57:23",
-	"created": "2026-09-13T02:57:23.245843185Z",
+	"@generated": "Sun, 20 Sept 2026 03:04:25",
+	"created": "2026-09-20T03:04:25.693866313Z",
 	"insights":[
 		{
 			"level": "Info",
@@ -50,7 +50,7 @@
 			"site": "https://data.cardano.org",
 			"key": "insight.response.slow",
 			"description": "Percentage of slow responses",
-			"statistic": "75"
+			"statistic": "100"
 		}
 	],
 	"site":[ 
@@ -128,7 +128,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "90004",
@@ -231,7 +231,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "25",
+							"id": "32",
 							"uri": "https://data.cardano.org/robots.txt",
 							"nodeName": "https:\/\/data.cardano.org\/robots.txt",
 							"method": "GET",
@@ -241,7 +241,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "30",
+							"id": "31",
 							"uri": "https://data.cardano.org/sitemap.xml",
 							"nodeName": "https:\/\/data.cardano.org\/sitemap.xml",
 							"method": "GET",
@@ -258,7 +258,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10035",
@@ -281,7 +281,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "15",
+							"id": "13",
 							"uri": "https://data.cardano.org/sitemap.xml",
 							"nodeName": "https:\/\/data.cardano.org\/sitemap.xml",
 							"method": "GET",
@@ -298,7 +298,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>https://caniuse.com/stricttransportsecurity</p><p>https://datatracker.ietf.org/doc/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10015",
@@ -351,7 +351,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "17",
+							"id": "20",
 							"uri": "https://data.cardano.org/robots.txt",
 							"nodeName": "https:\/\/data.cardano.org\/robots.txt",
 							"method": "GET",
@@ -361,7 +361,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "24",
+							"id": "22",
 							"uri": "https://data.cardano.org/sitemap.xml",
 							"nodeName": "https:\/\/data.cardano.org\/sitemap.xml",
 							"method": "GET",
@@ -401,7 +401,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "16",
+							"id": "15",
 							"uri": "https://data.cardano.org/robots.txt",
 							"nodeName": "https:\/\/data.cardano.org\/robots.txt",
 							"method": "GET",
@@ -411,7 +411,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "18",
 							"uri": "https://data.cardano.org/sitemap.xml",
 							"nodeName": "https:\/\/data.cardano.org\/sitemap.xml",
 							"method": "GET",
@@ -451,7 +451,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "13",
+							"id": "14",
 							"uri": "https://data.cardano.org/robots.txt",
 							"nodeName": "https:\/\/data.cardano.org\/robots.txt",
 							"method": "GET",
@@ -461,7 +461,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "20",
+							"id": "17",
 							"uri": "https://data.cardano.org/sitemap.xml",
 							"nodeName": "https:\/\/data.cardano.org\/sitemap.xml",
 							"method": "GET",
@@ -501,7 +501,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "18",
+							"id": "21",
 							"uri": "https://data.cardano.org/robots.txt",
 							"nodeName": "https:\/\/data.cardano.org\/robots.txt",
 							"method": "GET",
@@ -511,7 +511,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "23",
 							"uri": "https://data.cardano.org/sitemap.xml",
 							"nodeName": "https:\/\/data.cardano.org\/sitemap.xml",
 							"method": "GET",
@@ -551,7 +551,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "21",
+							"id": "27",
 							"uri": "https://data.cardano.org/robots.txt",
 							"nodeName": "https:\/\/data.cardano.org\/robots.txt",
 							"method": "GET",
@@ -561,7 +561,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "29",
+							"id": "28",
 							"uri": "https://data.cardano.org/sitemap.xml",
 							"nodeName": "https:\/\/data.cardano.org\/sitemap.xml",
 							"method": "GET",
