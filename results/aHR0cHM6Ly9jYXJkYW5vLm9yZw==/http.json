@@ -10,14 +10,14 @@
     "testsQuantity": 10,
     "responseHeaders": {
       "accept-ranges": "bytes",
-      "age": "31443",
+      "age": "408",
       "cache-control": "public,max-age=0,must-revalidate",
-      "cache-status": "\"Netlify Edge\"; hit; ttl=31504557",
-      "content-length": "11872",
+      "cache-status": "\"Netlify Edge\"; hit; ttl=31535592",
+      "content-length": "11831",
       "content-security-policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cardano.org https://hey.cardano.org https://new-cardano-org-staging.netlify.app https://www.googletagmanager.com https://js.hsforms.net https://forms.hsforms.com https://www.google.com https://www.gstatic.com; img-src 'self' https://cardano.org https://new-cardano-org-staging.netlify.app https://forms.hsforms.com https://forms-eu1.hsforms.com data: blob: https://*.ytimg.com https://img.youtube.com https://ipfs.io https://crowdin-static.cf-downloads.crowdin.com https://*.lumacdn.com; style-src 'self' 'unsafe-inline' https://hey.cardano.org; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://*.hsforms.com https://new-cardano-org-staging.netlify.app/reward-calculator/ https://cardano.org/reward-calculator/ https://hey.cardano.org; media-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; connect-src 'self' https://hubspot-forms-static-embed.s3.amazonaws.com https://*.hsforms.com https://*.google-analytics.com https://data.cardano.org https://ipfs.io https://*.algolianet.com https://*.algolia.net; base-uri 'self'; object-src 'none';",
       "content-type": "text/html; charset=UTF-8",
-      "date": "Sun, 20 Sep 2026 03:13:39 GMT",
-      "etag": "\"ab42f331f9777b57bf9427ff76001870-ssl-df\"",
+      "date": "Sun, 27 Sep 2026 03:28:08 GMT",
+      "etag": "\"b612d45691ef20cae0c13cdc22958031-ssl-df\"",
       "permissions-policy": "geolocation=(), microphone=(), camera=()",
       "referrer-policy": "strict-origin-when-cross-origin",
       "server": "Netlify",
@@ -25,7 +25,7 @@
       "vary": "Accept-Encoding",
       "x-content-type-options": "nosniff",
       "x-frame-options": "DENY",
-      "x-nf-request-id": "01M2YCW7132DZ8JR747RWDZY0E",
+      "x-nf-request-id": "01M3GEFRYKQATSE5Z0FEFZ5QP1",
       "x-xss-protection": "0",
       "connection": "close"
     }
@@ -139,15 +139,12 @@
     "redirection": {
       "expectation": "redirection-to-https",
       "pass": true,
-      "result": "redirection-all-redirects-preloaded",
+      "result": "redirection-not-needed-no-http",
       "scoreModifier": 0,
-      "destination": "https://cardano.org/",
+      "destination": null,
       "redirects": true,
-      "route": [
-        "http://cardano.org/",
-        "https://cardano.org/"
-      ],
-      "statusCode": 200
+      "route": [],
+      "statusCode": null
     },
     "referrer-policy": {
       "expectation": "referrer-policy-private",
