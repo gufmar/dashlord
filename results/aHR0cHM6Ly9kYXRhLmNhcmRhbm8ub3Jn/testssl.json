@@ -1,5 +1,12 @@
 [
          {
+              "id"           : "engine_problem",
+              "ip"           : "data.cardano.org/",
+              "port"         : "443",
+              "severity"     : "WARN",
+              "finding"      : "No engine or GOST support via engine with your /home/testssl/bin/openssl.Linux.x86_64"
+          }
+,         {
               "id"           : "cmdline_fast_depreciation",
               "ip"           : "data.cardano.org/",
               "port"         : "443",
@@ -360,7 +367,7 @@
               "ip"           : "data.cardano.org/52.211.238.28",
               "port"         : "443",
               "severity"     : "MEDIUM",
-              "finding"      : "expires < 30 days (24)"
+              "finding"      : "expires < 30 days (17)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1189,6 +1196,6 @@
               "ip"           : "data.cardano.org/52.211.238.28",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "52"
+              "finding"      : "49"
           }
 ]
