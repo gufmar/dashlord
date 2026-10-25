@@ -366,8 +366,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "cips.cardano.org/216.150.1.1",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "36 >= 30 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 30 days (29)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -380,7 +380,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "cips.cardano.org/216.150.1.1",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2026-11-23 08:43"
           }
 ,         {
@@ -563,21 +563,21 @@
               "ip"           : "cips.cardano.org/216.150.1.1",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+119320 seconds from localtime"
+              "finding"      : "+209914 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "cips.cardano.org/216.150.1.1",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1792291351"
+              "finding"      : "1792896881"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "cips.cardano.org/216.150.1.1",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "119320 seconds"
+              "finding"      : "209914 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1495,8 +1495,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "cips.cardano.org/216.150.16.1",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "36 >= 30 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 30 days (29)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1509,7 +1509,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "cips.cardano.org/216.150.16.1",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2026-11-23 08:43"
           }
 ,         {
@@ -1692,21 +1692,21 @@
               "ip"           : "cips.cardano.org/216.150.16.1",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+119359 seconds from localtime"
+              "finding"      : "+209959 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "cips.cardano.org/216.150.16.1",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1792291390"
+              "finding"      : "1792896926"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "cips.cardano.org/216.150.16.1",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "119359 seconds"
+              "finding"      : "209959 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -2276,6 +2276,6 @@
               "ip"           : "cips.cardano.org/216.150.16.1",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "81"
+              "finding"      : "228"
           }
 ]
