@@ -1,3 +1,69 @@
 [
-  []
+  [
+    {
+      "template": "ssl/detect-ssl-issuer.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/ssl-issuer",
+      "template-id": "ssl-issuer",
+      "template-path": "/home/runner/nuclei-templates/ssl/detect-ssl-issuer.yaml",
+      "info": {
+        "name": "Detect SSL Certificate Issuer",
+        "author": [
+          "lingtren"
+        ],
+        "tags": [
+          "ssl",
+          "tls",
+          "discovery"
+        ],
+        "description": "Extract the issuer's organization from the target's certificate. Issuers are entities which sign and distribute certificates.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "type": "ssl",
+      "host": "data.cardano.org",
+      "port": "443",
+      "matched-at": "data.cardano.org:443",
+      "extracted-results": [
+        "Let's Encrypt"
+      ],
+      "ip": "52.211.238.28",
+      "timestamp": "2026-11-08T04:08:05.021864408Z",
+      "matcher-status": true
+    },
+    {
+      "template": "ssl/ssl-dns-names.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/ssl-dns-names",
+      "template-id": "ssl-dns-names",
+      "template-path": "/home/runner/nuclei-templates/ssl/ssl-dns-names.yaml",
+      "info": {
+        "name": "SSL DNS Names",
+        "author": [
+          "pdteam"
+        ],
+        "tags": [
+          "ssl",
+          "tls",
+          "vuln"
+        ],
+        "description": "Extract the Subject Alternative Name (SAN) from the target's certificate. SAN facilitates the usage of additional hostnames with the same certificate.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "type": "ssl",
+      "host": "data.cardano.org",
+      "port": "443",
+      "matched-at": "data.cardano.org:443",
+      "extracted-results": [
+        "data.cardano.org",
+        "hey.cardano.org"
+      ],
+      "ip": "52.211.238.28",
+      "timestamp": "2026-11-08T04:08:05.022131106Z",
+      "matcher-status": true
+    }
+  ]
 ]
