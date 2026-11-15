@@ -8503,7 +8503,7 @@
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "OK",
-        "finding": "42 >= 30 days"
+        "finding": "35 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -9332,7 +9332,7 @@
         "ip": "data.cardano.org/52.211.238.28",
         "port": "443",
         "severity": "INFO",
-        "finding": "100"
+        "finding": "46"
       }
     ],
     "thirdparties": {
@@ -9468,8 +9468,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 8 Nov 2026 04:03:56",
-      "created": "2026-11-08T04:03:56.005540583Z",
+      "@generated": "Sun, 15 Nov 2026 04:29:44",
+      "created": "2026-11-15T04:29:44.792789404Z",
       "insights": [
         {
           "level": "Info",
@@ -9517,7 +9517,7 @@
           "site": "https://data.cardano.org",
           "key": "insight.response.slow",
           "description": "Percentage of slow responses",
-          "statistic": "100"
+          "statistic": "75"
         }
       ],
       "site": [
@@ -9694,7 +9694,7 @@
       {
         "requestedUrl": "https://data.cardano.org/",
         "finalUrl": "https://data.cardano.org/",
-        "fetchTime": "2026-11-08T04:04:15.537Z",
+        "fetchTime": "2026-11-15T04:30:00.027Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -9757,53 +9757,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 826,
+            "numericValue": 935,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 791,
-                  "firstMeaningfulPaint": 791,
-                  "largestContentfulPaint": 791,
-                  "interactive": 826,
-                  "speedIndex": 919,
-                  "totalBlockingTime": 10,
-                  "maxPotentialFID": 69,
+                  "firstContentfulPaint": 767,
+                  "firstMeaningfulPaint": 767,
+                  "largestContentfulPaint": 767,
+                  "interactive": 935,
+                  "speedIndex": 770,
+                  "totalBlockingTime": 88,
+                  "maxPotentialFID": 161,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 200041550,
+                  "observedTimeOriginTs": 182109915,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 200041550,
-                  "observedFirstPaint": 468,
-                  "observedFirstPaintTs": 200509290,
-                  "observedFirstContentfulPaint": 468,
-                  "observedFirstContentfulPaintTs": 200509290,
-                  "observedFirstContentfulPaintAllFrames": 468,
-                  "observedFirstContentfulPaintAllFramesTs": 200509290,
-                  "observedFirstMeaningfulPaint": 468,
-                  "observedFirstMeaningfulPaintTs": 200509290,
-                  "observedLargestContentfulPaint": 468,
-                  "observedLargestContentfulPaintTs": 200509290,
-                  "observedLargestContentfulPaintAllFrames": 468,
-                  "observedLargestContentfulPaintAllFramesTs": 200509290,
-                  "observedTraceEnd": 2906,
-                  "observedTraceEndTs": 202947185,
-                  "observedLoad": 459,
-                  "observedLoadTs": 200500709,
+                  "observedNavigationStartTs": 182109915,
+                  "observedFirstPaint": 278,
+                  "observedFirstPaintTs": 182388258,
+                  "observedFirstContentfulPaint": 278,
+                  "observedFirstContentfulPaintTs": 182388258,
+                  "observedFirstContentfulPaintAllFrames": 278,
+                  "observedFirstContentfulPaintAllFramesTs": 182388258,
+                  "observedFirstMeaningfulPaint": 278,
+                  "observedFirstMeaningfulPaintTs": 182388258,
+                  "observedLargestContentfulPaint": 278,
+                  "observedLargestContentfulPaintTs": 182388258,
+                  "observedLargestContentfulPaintAllFrames": 278,
+                  "observedLargestContentfulPaintAllFramesTs": 182388258,
+                  "observedTraceEnd": 2657,
+                  "observedTraceEndTs": 184767237,
+                  "observedLoad": 269,
+                  "observedLoadTs": 182378713,
                   "observedDomContentLoaded": 1,
-                  "observedDomContentLoadedTs": 200042168,
+                  "observedDomContentLoadedTs": 182111374,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 467,
-                  "observedFirstVisualChangeTs": 200508550,
-                  "observedLastVisualChange": 467,
-                  "observedLastVisualChangeTs": 200508550,
-                  "observedSpeedIndex": 468,
-                  "observedSpeedIndexTs": 200509475
+                  "observedFirstVisualChange": 278,
+                  "observedFirstVisualChangeTs": 182387915,
+                  "observedLastVisualChange": 278,
+                  "observedLastVisualChangeTs": 182387915,
+                  "observedSpeedIndex": 279,
+                  "observedSpeedIndexTs": 182388539
                 },
                 {
                   "lcpInvalidated": false
@@ -9825,18 +9825,18 @@
                   "numScripts": 0,
                   "numStylesheets": 0,
                   "numFonts": 0,
-                  "numTasks": 155,
-                  "numTasksOver10ms": 1,
-                  "numTasksOver25ms": 0,
+                  "numTasks": 150,
+                  "numTasksOver10ms": 2,
+                  "numTasksOver25ms": 1,
                   "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 130.88,
-                  "throughput": 6479999.999784886,
-                  "maxRtt": 130.88,
-                  "maxServerLatency": 0,
+                  "rtt": 67.219,
+                  "throughput": 6528967.254532536,
+                  "maxRtt": 67.219,
+                  "maxServerLatency": 0.8729999999999905,
                   "totalByteWeight": 438,
-                  "totalTaskTime": 46.36900000000001,
+                  "totalTaskTime": 76.41699999999999,
                   "mainDocumentTransferSize": 324
                 }
               ]
@@ -9867,7 +9867,7 @@
         "ges": 1.04,
         "water": 1.56,
         "ecoindex_version": "5.4.2",
-        "date": "2026-11-08 04:02:41.386468",
+        "date": "2026-11-15 04:28:47.714560",
         "page_type": null
       }
     ],
